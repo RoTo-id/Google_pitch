@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxine Platform | The Cognitive OS</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Mermaid for Diagrams -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+
+    <style>
+        :root {
+            --bg-color: #0b0d17;
+            --card-bg: rgba(255, 255, 255, 0.05);
+            --card-border: rgba(255, 255, 255, 0.1);
+            --primary: #4285F4; /* Google Blue */
+            --accent: #0F9D58;  /* Google Green */
+            --text-main: #ffffff;
+            --text-muted: #a0a0a0;
+            --font-ui: 'Inter', sans-serif;
+            --font-code: 'JetBrains Mono', monospace;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: var(--font-ui);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* --- Typography --- */
+        h1, h2, h3 {
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        h1 {
+            font-size: 4rem;
+            background: linear-gradient(120deg, #ffffff, #4285F4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1.1;
+            margin-bottom: 1rem;
+        }
+
+        h2 { font-size: 2.5rem; margin-bottom: 1.5rem; }
+        h3 { font-size: 1.5rem; margin-bottom: 1rem; color: var(--primary); }
+        p { color: var(--text-muted); font-size: 1.1rem; margin-bottom: 1.5rem; max-width: 60ch; }
+
+        /* --- Layout --- */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            padding: 6rem 0;
+            position: relative;
+        }
+
+        /* --- Hero Section --- */
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            background: radial-gradient(circle at 50% 50%, rgba(66, 133, 244, 0.15) 0%, transparent 50%);
+        }
+
+        .hero-content {
+            z-index: 2;
+            animation: fadeUp 1s ease-out;
+        }
+
+        .hero-tag {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: rgba(15, 157, 88, 0.1);
+            border: 1px solid var(--accent);
+            color: var(--accent);
+            border-radius: 50px;
+            font-family: var(--font-code);
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .cta-group {
+            margin-top: 2rem;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            border: none;
+        }
+
+        .btn-primary:hover { background: #3367d6; transform: translateY(-2px); }
+
+        .btn-outline {
+            background: transparent;
+            border: 1px solid rgba(255,255,255,0.2);
+            color: white;
+        }
+
+        .btn-outline:hover { border-color: white; }
+
+        /* --- Terminal Section --- */
+        .terminal-wrapper {
+            background: #000;
+            border: 1px solid #333;
+            border-radius: 12px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            font-family: var(--font-code);
+            font-size: 0.9rem;
+            overflow: hidden;
+            margin: 4rem auto;
+            max-width: 900px;
+        }
+
+        .terminal-header {
+            background: #1a1a1a;
+            padding: 0.8rem 1.2rem;
+            display: flex;
+            gap: 8px;
+            border-bottom: 1px solid #333;
+        }
+
+        .dot { width: 12px; height: 12px; border-radius: 50%; }
+        .red { background: #ff5f56; }
+        .yellow { background: #ffbd2e; }
+        .green { background: #27c93f; }
+
+        .terminal-body {
+            padding: 1.5rem;
+            color: #d4d4d4;
+            min-height: 300px;
+        }
+
+        .log-line {
+            margin-bottom: 4px;
+            opacity: 0; /* Hidden initially */
+            display: flex;
+        }
+        
+        .log-line.visible {
+            opacity: 1;
+        }
+
+        .timestamp { color: #569cd6; margin-right: 10px; }
+        .level-info { color: var(--accent); }
+        .level-warn { color: #ffbd2e; }
+
+        /* --- Grid Layouts --- */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        /* --- Cards --- */
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            padding: 2rem;
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
+
+        .card-icon {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+
+        /* --- Architecture Diagram --- */
+        .diagram-container {
+            background: rgba(255,255,255,0.02);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        /* --- Animations --- */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* --- Footer --- */
+        footer {
+            border-top: 1px solid var(--card-border);
+            padding: 4rem 0;
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        /* --- Utility --- */
+        .text-center { text-align: center; }
+        .highlight { color: var(--primary); font-weight: bold; }
+        .neon-text { color: var(--accent); }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            .grid-2 { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="container hero-content">
+            <span class="hero-tag">Status: Operational • 26 Agents Online</span>
+            <h1>The Cognitive Operating System<br>for the Autonomous Enterprise</h1>
+            <p style="margin: 0 auto 2rem auto;">
+                Beyond static automation. A self-healing, event-driven ecosystem where AI agents collaborate, code, and govern your business infrastructure.
+            </p>
+            <div class="cta-group">
+                <a href="#tech-stack" class="btn btn-primary">View Architecture</a>
+                <a href="#meta" class="btn btn-outline">The Origin Story</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- LIVE TERMINAL PROOF -->
+    <section id="live-demo">
+        <div class="container">
+            <div class="text-center">
+                <h2>Visual Proof of Life</h2>
+                <p style="margin: 0 auto;">Real-time initialization sequence of the Maxine Platform.</p>
+            </div>
+            <div class="terminal-wrapper">
+                <div class="terminal-header">
+                    <div class="dot red"></div>
+                    <div class="dot yellow"></div>
+                    <div class="dot green"></div>
+                    <span style="margin-left: 10px; color: #666;">admin@maxine-server:~/platform</span>
+                </div>
+                <div class="terminal-body" id="terminal-logs">
+                    <!-- Logs injected by JS -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROBLEM & SOLUTION -->
+    <section id="problem-solution">
+        <div class="container">
+            <div class="grid-2">
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+                    <h3>The Zombie Automation Trap</h3>
+                    <p>Modern enterprises rely on brittle scripts and disjointed tools. When an API changes, the business stops. We call this "Zombie Automation": it moves, but it doesn't think.</p>
+                </div>
+                <div class="card" style="border-color: var(--accent);">
+                    <div class="card-icon" style="color: var(--accent);"><i class="fa-solid fa-brain"></i></div>
+                    <h3>The Maxine Solution</h3>
+                    <p>Maxine is an <strong>Autonomous Hive Mind</strong>. At her core is the Mothership Controller, orchestrating 26+ agents. If a system fails, she doesn't just alert; she diagnoses, recodes, and fixes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TECH STACK (GOOGLE CLOUD) -->
+    <section id="tech-stack">
+        <div class="container">
+            <div class="text-center" style="margin-bottom: 4rem;">
+                <h2>Destined for Google Cloud</h2>
+                <p style="margin: 0 auto;">Migrating from hybrid-monolith to hyperscale Cloud Native.</p>
+            </div>
+            
+            <div class="grid-4">
+                <div class="card">
+                    <div class="card-icon"><i class="fa-brands fa-docker"></i></div>
+                    <h3>Cloud Run</h3>
+                    <p>Transitioning 26+ Python agents into serverless containers for granular, infinite scaling.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-microchip"></i></div>
+                    <h3>Vertex AI</h3>
+                    <p>Migrating inference to Vertex AI for enterprise-grade Gemini models and low latency.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-network-wired"></i></div>
+                    <h3>Cloud Pub/Sub</h3>
+                    <p>Replacing local Redis streams to handle massive, asynchronous event streaming globally.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fa-solid fa-database"></i></div>
+                    <h3>Vector Search</h3>
+                    <p>Upgrading RAG context from local Qdrant to Vertex AI Vector Search.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ARCHITECTURE -->
+    <section id="architecture">
+        <div class="container">
+            <div class="text-center">
+                <h2>System Architecture</h2>
+                <p style="margin: 0 auto;">The symbiotic relationship between the Core and the Cloud.</p>
+            </div>
+            <div class="diagram-container">
+                <div class="mermaid">
+                    graph TD
+                        subgraph Google_Cloud [Google Cloud Infrastructure]
+                            vertex[Vertex AI<br>Brain & Memory]
+                            pubsub[Cloud Pub/Sub<br>Nervous System]
+                            run[Cloud Run<br>Agent Containers]
+                        end
+
+                        subgraph Maxine_Core [Maxine Platform Core]
+                            Mothership((Mothership<br>Controller))
+                            
+                            subgraph Agents [Agent Hive Mind]
+                                Dev[Development<br>Agent]
+                                Sec[Cybersecurity<br>Agent]
+                                Fin[Financial<br>Agent]
+                                Ops[Manufacturing<br>Agent]
+                            end
+                        end
+
+                        %% Connections
+                        Mothership -->|Orchestrates| pubsub
+                        pubsub <-->|Event Stream| Agents
+                        
+                        Agents -->|Inference| vertex
+                        Agents -->|Scales On| run
+                        
+                        %% Styles
+                        style Google_Cloud fill:#4285F4,opacity:0.1,stroke:#4285F4,color:#fff
+                        style Maxine_Core fill:#0F9D58,opacity:0.1,stroke:#0F9D58,color:#fff
+                        style Mothership fill:#0F9D58,stroke:#fff,stroke-width:2px
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- META ARGUMENT -->
+    <section id="meta">
+        <div class="container">
+            <div class="card text-center" style="background: linear-gradient(45deg, rgba(66, 133, 244, 0.1), rgba(15, 157, 88, 0.1)); border: 1px solid rgba(255,255,255,0.2);">
+                <h2>Built <em>by</em> AI.</h2>
+                <p style="margin: 2rem auto;">
+                    Maxine is the ultimate proof of concept for the AI era. 
+                    This entire platform—architecture, code, documentation, and even this website—was 
+                    co-created in a symbiotic feedback loop between a Human Architect and Google's Gemini models.
+                </p>
+                <p class="highlight">We are the AI-Native Organization.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Maxine Platform. Proudly architected with Google Gemini.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script>
+        // Initialize Mermaid
+        mermaid.initialize({ 
+            startOnLoad: true, 
+            theme: 'dark',
+            themeVariables: {
+                primaryColor: '#4285F4',
+                edgeLabelBackground: '#0b0d17',
+                tertiaryColor: '#0b0d17'
+            }
+        });
+
+        // Terminal Typing Effect
+        const logData = [
+            { time: "INIT", level: "[INFO]", msg: "Initializing Maxine Platform v2.0..." },
+            { time: "CONF", level: "[INFO]", msg: "[Mothership] Loading configuration from env..." },
+            { time: "NETW", level: "[INFO]", msg: "[RedisBus] Connected to message broker (Latency: 2ms)" },
+            { time: "MODS", level: "[INFO]", msg: "[ModuleHub] Loaded 6 core modules (Memory, Health, Codex...)" },
+            { time: "CORE", level: "[AGENTS]", msg: "Spawning Autonomous Workforce..." },
+            { time: "0.1s", level: "✅", msg: "orchestrator-01 ........ [ONLINE] (Strategy Layer)" },
+            { time: "0.2s", level: "✅", msg: "human-interface-01 ..... [ONLINE] (Listening)" },
+            { time: "0.3s", level: "✅", msg: "communication-01 ....... [ONLINE] (SLA Tracking Active)" },
+            { time: "OPS", level: "[AGENTS]", msg: "Cluster: OPS initialized" },
+            { time: "0.4s", level: "✅", msg: "manufacturing-01 ....... [ONLINE] (CI/CD Pipeline Ready)" },
+            { time: "0.5s", level: "✅", msg: "cybersecurity-01 ....... [ONLINE] (NIST Monitoring Active)" },
+            { time: "0.6s", level: "✅", msg: "development-01 ......... [ONLINE] (Codex Integration OK)" },
+            { time: "DATA", level: "[AGENTS]", msg: "Cluster: ANALYTICS initialized" },
+            { time: "0.7s", level: "✅", msg: "market-analysis-01 ..... [ONLINE] (Trends Stream)" },
+            { time: "0.8s", level: "✅", msg: "financial-ops-01 ....... [ONLINE] (Revenue Optimization)" },
+            { time: "DONE", level: "[SYSTEM]", msg: "✅ SYSTEM READY! Found 26 active agents operating in OODA-loops." }
+        ];
+
+        const terminalBody = document.getElementById('terminal-logs');
+        let delay = 0;
+
+        // Intersection Observer to trigger animation when scrolled into view
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    startTerminal();
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        observer.observe(document.getElementById('live-demo'));
+
+        function startTerminal() {
+            logData.forEach((log, index) => {
+                setTimeout(() => {
+                    const line = document.createElement('div');
+                    line.className = 'log-line';
+                    line.innerHTML = `
+                        <span class="timestamp">[${log.time}]</span>
+                        <span class="${log.level.includes('✅') ? 'level-info' : 'timestamp'}">${log.level}</span>
+                        <span style="margin-left: 10px;">${log.msg}</span>
+                    `;
+                    terminalBody.appendChild(line);
+                    
+                    // Trigger reflow
+                    void line.offsetWidth;
+                    line.classList.add('visible');
+                    
+                    // Auto scroll
+                    terminalBody.scrollTop = terminalBody.scrollHeight;
+                }, delay);
+                delay += 300; // 300ms delay between lines
+            });
+        }
+    </script>
+</body>
+</html>
