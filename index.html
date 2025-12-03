@@ -259,7 +259,7 @@
     <!-- HERO -->
     <header class="hero">
         <div class="container hero-content">
-            <span class="hero-tag">Status: Operational • 26 Agents Online</span>
+            <span class="hero-tag">SYSTEM STATUS: 39 AGENTS ONLINE / 6 DEPARTMENTS ACTIVE</span>
             <h1>The Cognitive Operating System<br>for the Autonomous Enterprise</h1>
             <p style="margin: 0 auto 2rem auto;">
                 Beyond static automation. A self-healing, event-driven ecosystem where AI agents collaborate, code, and govern your business infrastructure.
@@ -422,10 +422,12 @@
 
         // Terminal Typing Effect
         const logData = [
+            { time: "LOGIN", level: "[SYSTEM]", msg: "Last login: 2025-12-03" },
             { time: "INIT", level: "[INFO]", msg: "Initializing Maxine Platform v2.0..." },
             { time: "CONF", level: "[INFO]", msg: "[Mothership] Loading configuration from env..." },
             { time: "NETW", level: "[INFO]", msg: "[RedisBus] Connected to message broker (Latency: 2ms)" },
             { time: "MODS", level: "[INFO]", msg: "[ModuleHub] Loaded 6 core modules (Memory, Health, Codex...)" },
+            { time: "MODS", level: "[INFO]", msg: "MODULE LOADED: Universal Factory (Apps, Books, Assets)" },
             { time: "CORE", level: "[AGENTS]", msg: "Spawning Autonomous Workforce..." },
             { time: "0.1s", level: "✅", msg: "orchestrator-01 ........ [ONLINE] (Strategy Layer)" },
             { time: "0.2s", level: "✅", msg: "human-interface-01 ..... [ONLINE] (Listening)" },
@@ -437,7 +439,8 @@
             { time: "DATA", level: "[AGENTS]", msg: "Cluster: ANALYTICS initialized" },
             { time: "0.7s", level: "✅", msg: "market-analysis-01 ..... [ONLINE] (Trends Stream)" },
             { time: "0.8s", level: "✅", msg: "financial-ops-01 ....... [ONLINE] (Revenue Optimization)" },
-            { time: "DONE", level: "[SYSTEM]", msg: "✅ SYSTEM READY! Found 26 active agents operating in OODA-loops." }
+            { time: "DONE", level: "[SYSTEM]", msg: "✅ SYSTEM READY! Found 39 active agents operating in OODA-loops." },
+            { time: "AUTH", level: "[USER_AUTH]", msg: "Verified Identity: Michael Munoz (Founder) [LINKEDIN] Connect: https://www.linkedin.com/in/michael-munoz-rozas/" }
         ];
 
         const terminalBody = document.getElementById('terminal-logs');
