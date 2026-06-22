@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-15T05:53:36.613007+00:00",
+    "generated": "2026-06-22T18:41:52.577039+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västerbotten",
     "city": "skelleftea",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_skelleftea.geojson",
       "zones_imported": 406,
-      "bootstrap_date": "2026-06-15"
+      "bootstrap_date": "2026-06-22"
     },
     "operator_identification": {
       "before_unknown": 67,
@@ -27,7 +27,7 @@
       "aimo_matched": 0,
       "lulebo_matched": 0,
       "kommun_matched": 0,
-      "run_date": "2026-06-15"
+      "run_date": "2026-06-22"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -46,7 +46,7 @@
       "after": 67,
       "total": 406,
       "coverage_pct": 83.5,
-      "run_date": "2026-06-15"
+      "run_date": "2026-06-22"
     }
   },
   "features": [
@@ -700,7 +700,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "servicegatan-1",
-        "aimopark_distance_m": 170.2,
+        "aimopark_distance_m": 193.0,
         "payment_apps": [
           "aimo"
         ]
@@ -2851,14 +2851,14 @@
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": "1061",
+        "zone_code": "1251",
         "spots": null,
         "price_per_hour": 12,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 12 SEK",
+        "hours": "Every day 00-24: Free parking",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/skelleftea/annastigen-23-garage/",
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/annastigen-6-53/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -2872,7 +2872,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "annastigen-23-garage",
+        "aimopark_name": "annastigen-6-53",
         "aimopark_distance_m": 123.8,
         "payment_apps": [
           "aimo"
@@ -3343,14 +3343,14 @@
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": "1150",
+        "zone_code": "1223",
         "spots": null,
-        "price_per_hour": 17,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 17 SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/skelleftea/sodra-jarnvagsgatan-31-39-47/",
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/norra-jarnvagsgatan-9-11/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -3364,8 +3364,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sodra-jarnvagsgatan-31-39-47",
-        "aimopark_distance_m": 97.2,
+        "aimopark_name": "norra-jarnvagsgatan-9-11",
+        "aimopark_distance_m": 109.3,
         "payment_apps": [
           "aimo"
         ]
@@ -20198,22 +20198,22 @@
       "properties": {
         "id": "skelleftea-osm-1018320531",
         "name": "OSM-1018320531",
-        "operator": "skelleftea_parkering",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1228",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/vretgatan-20/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1018320531,
@@ -20223,10 +20223,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "skelleftea_parkering_district": "Centrum",
+        "aimopark_name": "vretgatan-20",
+        "aimopark_distance_m": 181.0,
         "payment_apps": [
-          "epark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -26052,22 +26052,22 @@
       "properties": {
         "id": "skelleftea-osm-1429718118",
         "name": "OSM-1429718118",
-        "operator": "skelleftea_parkering",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1242",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/anderstorpsleden-1-5/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1429718118,
@@ -26077,10 +26077,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "skelleftea_parkering_district": "Centrum",
+        "aimopark_name": "anderstorpsleden-1-5",
+        "aimopark_distance_m": 189.8,
         "payment_apps": [
-          "epark",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {

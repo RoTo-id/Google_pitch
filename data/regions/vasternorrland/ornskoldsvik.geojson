@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-15T05:53:37.739013+00:00",
+    "generated": "2026-06-22T18:41:53.616847+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "ornskoldsvik",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_ornskoldsvik.geojson",
       "zones_imported": 207,
-      "bootstrap_date": "2026-06-08"
+      "bootstrap_date": "2026-06-22"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -32,7 +32,7 @@
       "after": 114,
       "total": 207,
       "coverage_pct": 44.9,
-      "run_date": "2026-06-15"
+      "run_date": "2026-06-22"
     }
   },
   "features": [

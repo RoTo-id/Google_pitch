@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-15T05:53:36.767708+00:00",
+    "generated": "2026-06-22T18:41:52.753759+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "haparanda",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_haparanda.geojson",
       "zones_imported": 56,
-      "bootstrap_date": "2026-06-15"
+      "bootstrap_date": "2026-06-22"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -32,7 +32,7 @@
       "after": 35,
       "total": 56,
       "coverage_pct": 37.5,
-      "run_date": "2026-06-15"
+      "run_date": "2026-06-22"
     }
   },
   "features": [

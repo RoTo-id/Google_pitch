@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-15T05:53:36.930418+00:00",
+    "generated": "2026-06-22T18:41:52.927385+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "gallivare",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_gallivare.geojson",
       "zones_imported": 255,
-      "bootstrap_date": "2026-06-15"
+      "bootstrap_date": "2026-06-22"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -32,7 +32,7 @@
       "after": 71,
       "total": 255,
       "coverage_pct": 72.2,
-      "run_date": "2026-06-15"
+      "run_date": "2026-06-22"
     }
   },
   "features": [

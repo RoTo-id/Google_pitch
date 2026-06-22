@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-15T05:53:37.661901+00:00",
+    "generated": "2026-06-22T18:41:53.555874+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "harnosand",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_harnosand.geojson",
       "zones_imported": 239,
-      "bootstrap_date": "2026-06-15"
+      "bootstrap_date": "2026-06-22"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -32,7 +32,7 @@
       "after": 95,
       "total": 239,
       "coverage_pct": 60.3,
-      "run_date": "2026-06-15"
+      "run_date": "2026-06-22"
     }
   },
   "features": [

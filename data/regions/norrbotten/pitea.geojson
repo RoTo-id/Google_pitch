@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-15T05:52:44.686051+00:00",
+    "generated": "2026-06-22T18:40:59.510113+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "pitea",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_pitea.geojson",
       "zones_imported": 208,
-      "bootstrap_date": "2026-06-15"
+      "bootstrap_date": "2026-06-22"
     },
     "operator_identification": {
       "before_unknown": 108,
@@ -26,7 +26,7 @@
       "aimo_matched": 0,
       "lulebo_matched": 0,
       "kommun_matched": 0,
-      "run_date": "2026-06-15"
+      "run_date": "2026-06-22"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -45,7 +45,7 @@
       "after": 108,
       "total": 208,
       "coverage_pct": 48.1,
-      "run_date": "2026-06-15"
+      "run_date": "2026-06-22"
     }
   },
   "features": [

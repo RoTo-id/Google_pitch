@@ -2,18 +2,18 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-15T05:53:37.564648+00:00",
+    "generated": "2026-06-22T18:41:53.455081+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Jämtland",
     "city": "ostersund",
     "municipality": "Östersunds kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "ostersund-osm-bootstrap",
-    "zone_count": 688,
+    "zone_count": 689,
     "bootstrap": {
       "osm_source": "output\\osm_parking_ostersund.geojson",
-      "zones_imported": 688,
-      "bootstrap_date": "2026-06-15"
+      "zones_imported": 689,
+      "bootstrap_date": "2026-06-22"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -27,12 +27,12 @@
       "note_matched": 0,
       "access_yes_free": 0,
       "fee_confirmed_unknown": 11,
-      "genuinely_unknown": 388,
-      "before": 401,
-      "after": 400,
-      "total": 688,
-      "coverage_pct": 41.9,
-      "run_date": "2026-06-15"
+      "genuinely_unknown": 387,
+      "before": 400,
+      "after": 399,
+      "total": 689,
+      "coverage_pct": 42.1,
+      "run_date": "2026-06-22"
     }
   },
   "features": [
@@ -47161,28 +47161,27 @@
       "properties": {
         "id": "ostersund-osm-1524141203",
         "name": "OSM-1524141203",
-        "operator": "unknown",
+        "operator": "private_property",
         "municipality": "Östersund",
         "region": "Jämtland",
         "type": "outdoor",
         "zone_code": null,
-        "spots": null,
-        "price_per_hour": null,
+        "spots": "3",
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "osm_reclassified"
         ],
         "last_verified": null,
         "osm_id": 1524141203,
         "osm_distance_m": null,
-        "osm_access": "no",
+        "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
@@ -47193,24 +47192,28 @@
         "coordinates": [
           [
             [
-              14.659518,
-              63.1613421
+              14.6595166,
+              63.161342
             ],
             [
-              14.6596224,
-              63.161397
+              14.659645,
+              63.161413
             ],
             [
-              14.6597336,
-              63.1613539
+              14.6597573,
+              63.1613716
             ],
             [
-              14.6596292,
-              63.161299
+              14.6597059,
+              63.1613432
             ],
             [
-              14.659518,
-              63.1613421
+              14.6596289,
+              63.1613006
+            ],
+            [
+              14.6595166,
+              63.161342
             ]
           ]
         ]
@@ -48043,6 +48046,65 @@
             [
               14.6377757,
               63.1755822
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ostersund-osm-1530619675",
+        "name": "OSM-1530619675",
+        "operator": "free_parking",
+        "municipality": "Östersund",
+        "region": "Jämtland",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.85,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 1530619675,
+        "osm_distance_m": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.5257906,
+              63.1937097
+            ],
+            [
+              14.5261315,
+              63.1936663
+            ],
+            [
+              14.5260426,
+              63.1935243
+            ],
+            [
+              14.5257016,
+              63.1935678
+            ],
+            [
+              14.5257906,
+              63.1937097
             ]
           ]
         ]

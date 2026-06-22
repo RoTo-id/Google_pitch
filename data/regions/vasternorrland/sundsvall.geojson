@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-15T05:53:37.367991+00:00",
+    "generated": "2026-06-22T18:41:53.285669+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "sundsvall",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_sundsvall.geojson",
       "zones_imported": 1375,
-      "bootstrap_date": "2026-06-15"
+      "bootstrap_date": "2026-06-22"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -32,7 +32,7 @@
       "after": 928,
       "total": 1375,
       "coverage_pct": 32.5,
-      "run_date": "2026-06-15"
+      "run_date": "2026-06-22"
     }
   },
   "features": [
@@ -4863,17 +4863,16 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.55,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified",
-          "access_yes_free"
+          "osm_reclassified"
         ],
         "last_verified": null,
         "osm_id": 73351620,
         "osm_distance_m": null,
         "osm_access": "yes",
-        "osm_fee": null,
+        "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null
@@ -83849,78 +83848,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "sundsvall-osm-795133281",
-        "name": "OSM-795133281",
-        "operator": "free_parking",
-        "municipality": "Sundsvall",
-        "region": "Västernorrland",
-        "type": "outdoor",
-        "zone_code": null,
-        "spots": null,
-        "price_per_hour": 0,
-        "currency": "SEK",
-        "hours": null,
-        "restrictions": null,
-        "contact": null,
-        "source_url": null,
-        "confidence": 0.45,
-        "flags": [
-          "osm_bootstrap",
-          "rural_free_heuristic"
-        ],
-        "last_verified": null,
-        "osm_id": 795133281,
-        "osm_distance_m": null,
-        "osm_access": "unknown",
-        "osm_fee": null,
-        "osm_parking": "surface",
-        "osm_operator": null,
-        "osm_note": null,
-        "source_note": "16.2 km från centrum, ingen avgiftstagg"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              17.0067615,
-              62.348669
-            ],
-            [
-              17.007057,
-              62.348571
-            ],
-            [
-              17.0066019,
-              62.3482205
-            ],
-            [
-              17.0065388,
-              62.3482377
-            ],
-            [
-              17.0062595,
-              62.3483141
-            ],
-            [
-              17.0062219,
-              62.3483424
-            ],
-            [
-              17.0066535,
-              62.3486364
-            ],
-            [
-              17.0067615,
-              62.348669
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "sundsvall-osm-795719520",
         "name": "OSM-795719520",
         "operator": "free_parking",
@@ -98225,6 +98152,90 @@
             [
               17.2844344,
               62.3764403
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-osm-1530360869",
+        "name": "OSM-1530360869",
+        "operator": "free_parking",
+        "municipality": "Sundsvall",
+        "region": "Västernorrland",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 1530360869,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "15.8 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.0151067,
+              62.3448926
+            ],
+            [
+              17.0151318,
+              62.3446988
+            ],
+            [
+              17.0156549,
+              62.344703
+            ],
+            [
+              17.015672,
+              62.3446219
+            ],
+            [
+              17.0161388,
+              62.3446685
+            ],
+            [
+              17.0160987,
+              62.3447318
+            ],
+            [
+              17.0160937,
+              62.3448199
+            ],
+            [
+              17.0159662,
+              62.3448847
+            ],
+            [
+              17.0157844,
+              62.3449453
+            ],
+            [
+              17.0152152,
+              62.3449015
+            ],
+            [
+              17.0151067,
+              62.3448926
             ]
           ]
         ]
