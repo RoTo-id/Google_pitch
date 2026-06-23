@@ -2,14 +2,14 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T10:05:40.031611+00:00",
+    "generated": "2026-06-23T17:05:27.669559+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Jämtland",
     "city": "ostersund",
     "municipality": "Östersunds kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "ostersund-osm-bootstrap",
-    "zone_count": 689,
+    "zone_count": 695,
     "bootstrap": {
       "osm_source": "output\\osm_parking_ostersund.geojson",
       "zones_imported": 689,
@@ -33,6 +33,14 @@
       "total": 689,
       "coverage_pct": 42.1,
       "run_date": "2026-06-23"
+    },
+    "parkster_review_markers": {
+      "source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260623T120129.json",
+      "status": "needs_review",
+      "removed_previous": 0,
+      "added": 6,
+      "meters_per_px": 1.0,
+      "updated_at": "2026-06-23T17:05:27.669568+00:00"
     }
   },
   "features": [
@@ -48107,6 +48115,246 @@
               63.1937097
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ostersund-parkster-review-grid_r0_c0-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Östersunds kommun",
+        "region": "Jämtland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260623T120129.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260623T120129\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1048,
+        "screen_y": 1836,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6461132,
+          63.1704783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ostersund-parkster-review-grid_r0_c0-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Östersunds kommun",
+        "region": "Jämtland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260623T120129.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260623T120129\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 609,
+        "screen_y": 1809,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6373736,
+          63.1707208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ostersund-parkster-review-grid_r0_c0-m3",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Östersunds kommun",
+        "region": "Jämtland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260623T120129.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260623T120129\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 825,
+        "screen_y": 1727,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6416737,
+          63.1714574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ostersund-parkster-review-grid_r0_c0-m4",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Östersunds kommun",
+        "region": "Jämtland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260623T120129.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260623T120129\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 862,
+        "screen_y": 1507,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6424103,
+          63.1734337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ostersund-parkster-review-grid_r0_c0-m5",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Östersunds kommun",
+        "region": "Jämtland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260623T120129.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260623T120129\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 806,
+        "screen_y": 1442,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6412955,
+          63.1740176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ostersund-parkster-review-grid_r0_c0-m6",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Östersunds kommun",
+        "region": "Jämtland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260623T120129.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260623T120129\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 796,
+        "screen_y": 1372,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.6410964,
+          63.1746464
         ]
       }
     }

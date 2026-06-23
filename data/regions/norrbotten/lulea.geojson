@@ -2,14 +2,14 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T10:03:53.793753+00:00",
+    "generated": "2026-06-23T17:05:27.253253+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "lulea",
     "municipality": "Luleå kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "lulea-osm-bootstrap",
-    "zone_count": 663,
+    "zone_count": 687,
     "bootstrap": {
       "osm_source": "output\\osm_parking_lulea.geojson",
       "zones_imported": 663,
@@ -65,6 +65,14 @@
       "before_unknown": 8,
       "after_unknown": 8,
       "run_date": "2026-06-23"
+    },
+    "parkster_review_markers": {
+      "source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+      "status": "needs_review",
+      "removed_previous": 0,
+      "added": 24,
+      "meters_per_px": 1.0,
+      "updated_at": "2026-06-23T17:05:27.253260+00:00"
     }
   },
   "features": [
@@ -51514,6 +51522,966 @@
               65.5998602
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1047,
+        "screen_y": 1847,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.151038,
+          65.5763794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 944,
+        "screen_y": 1809,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1487997,
+          65.5767208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m3",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 758,
+        "screen_y": 1800,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1447577,
+          65.5768017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m4",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1039,
+        "screen_y": 1377,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1508642,
+          65.5806015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m5",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1068,
+        "screen_y": 1253,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1514944,
+          65.5817154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m7",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 714,
+        "screen_y": 1245,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1438015,
+          65.5817873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m8",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1047,
+        "screen_y": 1195,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.151038,
+          65.5822364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m9",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 447,
+        "screen_y": 1061,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1379993,
+          65.5834402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m10",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 278,
+        "screen_y": 1020,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1343268,
+          65.5838085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m11",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 307,
+        "screen_y": 1013,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.134957,
+          65.5838714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m12",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 313,
+        "screen_y": 975,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1350873,
+          65.5842127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m13",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 830,
+        "screen_y": 680,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1463224,
+          65.5868627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m14",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 662,
+        "screen_y": 626,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1426715,
+          65.5873478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m15",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1009,
+        "screen_y": 609,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1502122,
+          65.5875005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m16",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 729,
+        "screen_y": 605,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1441275,
+          65.5875365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m17",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1042,
+        "screen_y": 503,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1509294,
+          65.5884527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m18",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1066,
+        "screen_y": 485,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1514509,
+          65.5886144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m19",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1004,
+        "screen_y": 419,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1501036,
+          65.5892073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c1-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 173,
+        "screen_y": 1624,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1480043,
+          65.5783827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c1-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 240,
+        "screen_y": 1604,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1494603,
+          65.5785623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c1-m3",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 1039,
+        "screen_y": 1580,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1668235,
+          65.5787779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c1-m4",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 563,
+        "screen_y": 1501,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1564795,
+          65.5794876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c1-m5",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 611,
+        "screen_y": 1484,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1575226,
+          65.5796403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c1-m6",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 515,
+        "screen_y": 1418,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1554364,
+          65.5802332
         ]
       }
     }

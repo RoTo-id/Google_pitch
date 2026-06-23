@@ -2,14 +2,14 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T10:05:40.182570+00:00",
+    "generated": "2026-06-23T17:05:27.755536+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "kramfors",
     "municipality": "Kramfors kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "kramfors-osm-bootstrap",
-    "zone_count": 174,
+    "zone_count": 178,
     "bootstrap": {
       "osm_source": "output\\osm_parking_kramfors.geojson",
       "zones_imported": 174,
@@ -33,6 +33,14 @@
       "total": 174,
       "coverage_pct": 67.8,
       "run_date": "2026-06-23"
+    },
+    "parkster_review_markers": {
+      "source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260623T115535.json",
+      "status": "needs_review",
+      "removed_previous": 0,
+      "added": 4,
+      "meters_per_px": 1.0,
+      "updated_at": "2026-06-23T17:05:27.755548+00:00"
     }
   },
   "features": [
@@ -12112,6 +12120,166 @@
               63.0777154
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kramfors-parkster-review-grid_r0_c0-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Kramfors kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260623T115535.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260623T115535\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 896,
+        "screen_y": 1764,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7927789,
+          62.9329055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kramfors-parkster-review-grid_r0_c0-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Kramfors kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260623T115535.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260623T115535\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1049,
+        "screen_y": 1610,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7957993,
+          62.9342889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kramfors-parkster-review-grid_r0_c0-m3",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Kramfors kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260623T115535.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260623T115535\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1033,
+        "screen_y": 1456,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7954834,
+          62.9356723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kramfors-parkster-review-grid_r1_c1-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Kramfors kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260623T115535.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260623T115535\\grid_r1_c1.png",
+        "capture_label": "grid_r1_c1",
+        "screen_x": 149,
+        "screen_y": 296,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7925302,
+          62.9325318
         ]
       }
     }

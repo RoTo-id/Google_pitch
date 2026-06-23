@@ -2,14 +2,14 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T10:05:40.144256+00:00",
+    "generated": "2026-06-23T17:05:27.718391+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "ornskoldsvik",
     "municipality": "Örnsköldsviks kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "ornskoldsvik-osm-bootstrap",
-    "zone_count": 207,
+    "zone_count": 211,
     "bootstrap": {
       "osm_source": "output\\osm_parking_ornskoldsvik.geojson",
       "zones_imported": 207,
@@ -33,6 +33,14 @@
       "total": 207,
       "coverage_pct": 44.9,
       "run_date": "2026-06-23"
+    },
+    "parkster_review_markers": {
+      "source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260623T115319.json",
+      "status": "needs_review",
+      "removed_previous": 0,
+      "added": 4,
+      "meters_per_px": 1.0,
+      "updated_at": "2026-06-23T17:05:27.718398+00:00"
     }
   },
   "features": [
@@ -15115,6 +15123,166 @@
               63.4270353
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ornskoldsvik-parkster-review-grid_r0_c0-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Örnsköldsviks kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260623T115319.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ornskoldsvik_parkster_map_20260623T115319\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 596,
+        "screen_y": 1682,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7171192,
+          63.2858617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ornskoldsvik-parkster-review-grid_r0_c0-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Örnsköldsviks kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260623T115319.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ornskoldsvik_parkster_map_20260623T115319\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 703,
+        "screen_y": 1670,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7192578,
+          63.2859695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ornskoldsvik-parkster-review-grid_r0_c0-m4",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Örnsköldsviks kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260623T115319.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ornskoldsvik_parkster_map_20260623T115319\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 35,
+        "screen_y": 1564,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7059068,
+          63.2869217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ornskoldsvik-parkster-review-grid_r0_c0-m7",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Örnsköldsviks kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260623T115319.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ornskoldsvik_parkster_map_20260623T115319\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 855,
+        "screen_y": 1040,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7222957,
+          63.2916288
         ]
       }
     }

@@ -2,14 +2,14 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T10:05:40.209217+00:00",
+    "generated": "2026-06-23T17:05:27.789943+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västerbotten",
     "city": "lycksele",
     "municipality": "Lycksele kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "lycksele-osm-bootstrap",
-    "zone_count": 53,
+    "zone_count": 63,
     "bootstrap": {
       "osm_source": "output\\osm_parking_lycksele.geojson",
       "zones_imported": 53,
@@ -33,6 +33,14 @@
       "total": 53,
       "coverage_pct": 34.0,
       "run_date": "2026-06-23"
+    },
+    "parkster_review_markers": {
+      "source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
+      "status": "needs_review",
+      "removed_previous": 0,
+      "added": 10,
+      "meters_per_px": 1.0,
+      "updated_at": "2026-06-23T17:05:27.789950+00:00"
     }
   },
   "features": [
@@ -3716,6 +3724,406 @@
               64.5391404
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 326,
+        "screen_y": 1840,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6695192,
+          64.5874423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 542,
+        "screen_y": 1844,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6740419,
+          64.5874064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m3",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1029,
+        "screen_y": 1836,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6842388,
+          64.5874783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m4",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 729,
+        "screen_y": 1795,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6779573,
+          64.5878466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m5",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 530,
+        "screen_y": 1689,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6737906,
+          64.5887988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m6",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 674,
+        "screen_y": 1658,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6768057,
+          64.5890773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m7",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 679,
+        "screen_y": 1459,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6769104,
+          64.5908649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m8",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 537,
+        "screen_y": 1265,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6739372,
+          64.5926076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m9",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 380,
+        "screen_y": 1098,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6706499,
+          64.5941078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lycksele-parkster-review-grid_r0_c0-m10",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Lycksele kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 291,
+        "screen_y": 1018,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6687864,
+          64.5948264
         ]
       }
     }

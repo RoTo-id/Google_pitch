@@ -2,14 +2,14 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T10:04:46.058531+00:00",
+    "generated": "2026-06-23T17:05:27.297403+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "pitea",
     "municipality": "Piteå kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "pitea-osm-bootstrap",
-    "zone_count": 208,
+    "zone_count": 238,
     "bootstrap": {
       "osm_source": "output\\osm_parking_pitea.geojson",
       "zones_imported": 208,
@@ -46,6 +46,14 @@
       "total": 208,
       "coverage_pct": 48.1,
       "run_date": "2026-06-23"
+    },
+    "parkster_review_markers": {
+      "source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+      "status": "needs_review",
+      "removed_previous": 0,
+      "added": 30,
+      "meters_per_px": 1.0,
+      "updated_at": "2026-06-23T17:05:27.297410+00:00"
     }
   },
   "features": [
@@ -14005,6 +14013,1206 @@
               65.3064278
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1025,
+        "screen_y": 1835,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.502534,
+          65.3172677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1043,
+        "screen_y": 1593,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5029212,
+          65.3194416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m3",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 840,
+        "screen_y": 1571,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4985544,
+          65.3196392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m4",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 511,
+        "screen_y": 1397,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4914772,
+          65.3212023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m5",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1024,
+        "screen_y": 1390,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5025125,
+          65.3212652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m6",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 723,
+        "screen_y": 1366,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4960376,
+          65.3214808
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m7",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 592,
+        "screen_y": 1134,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4932196,
+          65.3235649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m8",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 348,
+        "screen_y": 1107,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4879708,
+          65.3238074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m9",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 444,
+        "screen_y": 1048,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4900359,
+          65.3243374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m10",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 520,
+        "screen_y": 963,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4916708,
+          65.325101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m11",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 62,
+        "screen_y": 879,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4818186,
+          65.3258556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m12",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 413,
+        "screen_y": 877,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4893691,
+          65.3258735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m13",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 647,
+        "screen_y": 841,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4944027,
+          65.3261969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m14",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 397,
+        "screen_y": 835,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4890249,
+          65.3262508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m15",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 668,
+        "screen_y": 708,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4948545,
+          65.3273917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m16",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 567,
+        "screen_y": 693,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4926818,
+          65.3275264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m17",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 399,
+        "screen_y": 683,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4890679,
+          65.3276162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m18",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 655,
+        "screen_y": 593,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4945748,
+          65.3284247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c0-m19",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 988,
+        "screen_y": 455,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5017381,
+          65.3296644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c1-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 163,
+        "screen_y": 1830,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4997892,
+          65.3173126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c1-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 171,
+        "screen_y": 1602,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4999613,
+          65.3193608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c1-m3",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 504,
+        "screen_y": 1456,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5071246,
+          65.3206723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c1-m4",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 190,
+        "screen_y": 727,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.50037,
+          65.327221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c1-m5",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 341,
+        "screen_y": 533,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5036182,
+          65.3289637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r0_c1-m6",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 185,
+        "screen_y": 532,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5002624,
+          65.3289727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r1_c0-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 685,
+        "screen_y": 1297,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4952202,
+          65.3085397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r1_c0-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 680,
+        "screen_y": 1103,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4951126,
+          65.3102824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r1_c0-m3",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 836,
+        "screen_y": 1103,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4984684,
+          65.3102824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r1_c0-m4",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 327,
+        "screen_y": 1066,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4875191,
+          65.3106148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "pitea-parkster-review-grid_r1_c0-m6",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Piteå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 479,
+        "screen_y": 596,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4907888,
+          65.3148369
         ]
       }
     }

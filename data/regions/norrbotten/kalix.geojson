@@ -2,14 +2,14 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T10:05:39.406109+00:00",
+    "generated": "2026-06-23T17:05:27.378426+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "kalix",
     "municipality": "Kalix kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "kalix-osm-bootstrap",
-    "zone_count": 350,
+    "zone_count": 352,
     "bootstrap": {
       "osm_source": "output\\osm_parking_kalix.geojson",
       "zones_imported": 350,
@@ -33,6 +33,14 @@
       "total": 350,
       "coverage_pct": 58.0,
       "run_date": "2026-06-23"
+    },
+    "parkster_review_markers": {
+      "source": "output\\phone_scans\\kalix_parkster_marker_evidence_20260623T113823.json",
+      "status": "needs_review",
+      "removed_previous": 0,
+      "added": 2,
+      "meters_per_px": 1.0,
+      "updated_at": "2026-06-23T17:05:27.378433+00:00"
     }
   },
   "features": [
@@ -22965,6 +22973,86 @@
               66.0063624
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kalix-parkster-review-grid_r0_c0-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Kalix kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\kalix_parkster_marker_evidence_20260623T113823.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kalix_parkster_map_20260623T113823\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 712,
+        "screen_y": 1696,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.166777,
+          65.8477359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kalix-parkster-review-grid_r0_c0-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Kalix kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\kalix_parkster_marker_evidence_20260623T113823.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kalix_parkster_map_20260623T113823\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 679,
+        "screen_y": 1686,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1660523,
+          65.8478257
         ]
       }
     }

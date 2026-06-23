@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T10:05:39.509122+00:00",
+    "generated": "2026-06-23T17:05:27.421893+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "kiruna",
@@ -33,6 +33,14 @@
       "total": 302,
       "coverage_pct": 62.6,
       "run_date": "2026-06-23"
+    },
+    "parkster_review_markers": {
+      "source": "output\\phone_scans\\kiruna_parkster_marker_evidence_20260623T115104.json",
+      "status": "needs_review",
+      "removed_previous": 0,
+      "added": 0,
+      "meters_per_px": 1.0,
+      "updated_at": "2026-06-23T17:05:27.421935+00:00"
     }
   },
   "features": [

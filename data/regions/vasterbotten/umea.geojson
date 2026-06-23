@@ -2,14 +2,14 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T10:05:39.665975+00:00",
+    "generated": "2026-06-23T17:05:27.518134+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västerbotten",
     "city": "umea",
     "municipality": "Umeå kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "umea-osm-bootstrap",
-    "zone_count": 1262,
+    "zone_count": 1326,
     "bootstrap": {
       "osm_source": "output\\osm_parking_umea.geojson",
       "zones_imported": 1262,
@@ -33,6 +33,14 @@
       "total": 1262,
       "coverage_pct": 44.0,
       "run_date": "2026-06-23"
+    },
+    "parkster_review_markers": {
+      "source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+      "status": "needs_review",
+      "removed_previous": 0,
+      "added": 64,
+      "meters_per_px": 1.0,
+      "updated_at": "2026-06-23T17:05:27.518142+00:00"
     }
   },
   "features": [
@@ -89261,6 +89269,2566 @@
               64.0851405
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 153,
+        "screen_y": 1833,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.247641,
+          63.8252857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 823,
+        "screen_y": 1780,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2612853,
+          63.8257618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m3",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 206,
+        "screen_y": 1637,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2487203,
+          63.8270464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m4",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 442,
+        "screen_y": 1610,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2535264,
+          63.8272889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m5",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 652,
+        "screen_y": 1578,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.257803,
+          63.8275764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m6",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 156,
+        "screen_y": 1549,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2477021,
+          63.8278369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m7",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 177,
+        "screen_y": 1473,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2481298,
+          63.8285196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m8",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 787,
+        "screen_y": 1347,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2605522,
+          63.8296515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m9",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1017,
+        "screen_y": 1260,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.265236,
+          63.830433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m10",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 611,
+        "screen_y": 1106,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.256968,
+          63.8318164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m11",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 820,
+        "screen_y": 1099,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2612242,
+          63.8318793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m12",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 703,
+        "screen_y": 1059,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2588416,
+          63.8322386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m13",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 642,
+        "screen_y": 1037,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2575993,
+          63.8324362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m14",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 267,
+        "screen_y": 1035,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2499626,
+          63.8324542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m15",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1045,
+        "screen_y": 901,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2658062,
+          63.8336579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m16",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 651,
+        "screen_y": 891,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2577826,
+          63.8337478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m17",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 455,
+        "screen_y": 885,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2537911,
+          63.8338017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m18",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 871,
+        "screen_y": 880,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2622628,
+          63.8338466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m19",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 188,
+        "screen_y": 861,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2483538,
+          63.8340172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m20",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 47,
+        "screen_y": 726,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2454824,
+          63.83523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m21",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 954,
+        "screen_y": 721,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2639531,
+          63.8352749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m22",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 977,
+        "screen_y": 691,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2644214,
+          63.8355444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m23",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 867,
+        "screen_y": 664,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2621813,
+          63.8357869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m24",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 289,
+        "screen_y": 651,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2504106,
+          63.8359037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m25",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 662,
+        "screen_y": 479,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2580066,
+          63.8374488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m26",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1058,
+        "screen_y": 438,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.266071,
+          63.8378171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m27",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 620,
+        "screen_y": 407,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2571513,
+          63.8380956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m28",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 403,
+        "screen_y": 406,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2527322,
+          63.8381046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m29",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 40,
+        "screen_y": 343,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2453398,
+          63.8386705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m30",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1046,
+        "screen_y": 316,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2658266,
+          63.838913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m31",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 891,
+        "screen_y": 217,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2626701,
+          63.8398024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m32",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 254,
+        "screen_y": 184,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2496979,
+          63.8400988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m33",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 754,
+        "screen_y": 162,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2598801,
+          63.8402964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m34",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 907,
+        "screen_y": 117,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2629959,
+          63.8407007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m35",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 110,
+        "screen_y": 107,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2467653,
+          63.8407905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m37",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 963,
+        "screen_y": 81,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2641363,
+          63.8410241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 468,
+        "screen_y": 1716,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2690116,
+          63.8263367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 492,
+        "screen_y": 1686,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2695004,
+          63.8266062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m3",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 649,
+        "screen_y": 1683,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2726976,
+          63.8266331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m4",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 381,
+        "screen_y": 1658,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2672399,
+          63.8268577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m5",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 1032,
+        "screen_y": 1533,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2804973,
+          63.8279806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m6",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 774,
+        "screen_y": 1496,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2752432,
+          63.828313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m7",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 176,
+        "screen_y": 1473,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2630652,
+          63.8285196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m8",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 597,
+        "screen_y": 1433,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2716387,
+          63.8288789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m9",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 134,
+        "screen_y": 1402,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2622099,
+          63.8291574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m10",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 5,
+        "screen_y": 1369,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2595828,
+          63.8294538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m11",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 695,
+        "screen_y": 1351,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2736344,
+          63.8296155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m12",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 973,
+        "screen_y": 1341,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2792957,
+          63.8297054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m13",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 573,
+        "screen_y": 1311,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2711499,
+          63.8299748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m14",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 405,
+        "screen_y": 1211,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2677287,
+          63.8308732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m15",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 268,
+        "screen_y": 1157,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2649387,
+          63.8313582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m16",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 421,
+        "screen_y": 1111,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2680545,
+          63.8317715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m18",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 477,
+        "screen_y": 1075,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2691949,
+          63.8320949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m19",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 708,
+        "screen_y": 961,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2738991,
+          63.8331189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c1-m20",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 999,
+        "screen_y": 898,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2798252,
+          63.8336849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r1_c0-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 44,
+        "screen_y": 1855,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2454213,
+          63.8115271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r1_c0-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 1050,
+        "screen_y": 1837,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2659081,
+          63.8116888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r1_c0-m3",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 405,
+        "screen_y": 1807,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2527729,
+          63.8119583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r1_c0-m4",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 899,
+        "screen_y": 1754,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.262833,
+          63.8124344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r1_c0-m5",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 763,
+        "screen_y": 1699,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2600634,
+          63.8129285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r1_c0-m6",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 916,
+        "screen_y": 1653,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2631792,
+          63.8133417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r1_c0-m7",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 119,
+        "screen_y": 1644,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2469486,
+          63.8134226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r1_c0-m9",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 13,
+        "screen_y": 1635,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.24479,
+          63.8135034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r1_c0-m10",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260623T114848\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 972,
+        "screen_y": 1618,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2643196,
+          63.8136561
         ]
       }
     }

@@ -2,14 +2,14 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T10:05:39.865542+00:00",
+    "generated": "2026-06-23T17:05:27.596151+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "sundsvall",
     "municipality": "Sundsvalls kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "sundsvall-osm-bootstrap",
-    "zone_count": 1375,
+    "zone_count": 1477,
     "bootstrap": {
       "osm_source": "output\\osm_parking_sundsvall.geojson",
       "zones_imported": 1375,
@@ -33,6 +33,14 @@
       "total": 1375,
       "coverage_pct": 32.5,
       "run_date": "2026-06-23"
+    },
+    "parkster_review_markers": {
+      "source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+      "status": "needs_review",
+      "removed_previous": 0,
+      "added": 102,
+      "meters_per_px": 1.0,
+      "updated_at": "2026-06-23T17:05:27.596159+00:00"
     }
   },
   "features": [
@@ -98238,6 +98246,4086 @@
               62.3448926
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1027,
+        "screen_y": 1834,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3093221,
+          62.3902767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 998,
+        "screen_y": 1714,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.30876,
+          62.3913547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m3",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 459,
+        "screen_y": 1556,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2983125,
+          62.392774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m4",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1033,
+        "screen_y": 1525,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3094384,
+          62.3930525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m5",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 795,
+        "screen_y": 1446,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3048252,
+          62.3937621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m6",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 630,
+        "screen_y": 1412,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.301627,
+          62.3940676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m7",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 372,
+        "screen_y": 1351,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2966262,
+          62.3946155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m8",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 862,
+        "screen_y": 1339,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3061239,
+          62.3947233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m9",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 739,
+        "screen_y": 1312,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3037398,
+          62.3949659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m10",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 783,
+        "screen_y": 1308,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3045926,
+          62.3950018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m11",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 526,
+        "screen_y": 1261,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2996112,
+          62.395424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m12",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 926,
+        "screen_y": 1240,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3073644,
+          62.3956126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m13",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 845,
+        "screen_y": 1227,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3057944,
+          62.3957294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m14",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 207,
+        "screen_y": 1185,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.293428,
+          62.3961067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m15",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 686,
+        "screen_y": 1181,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3027125,
+          62.3961427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m16",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 786,
+        "screen_y": 1149,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3046508,
+          62.3964301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m17",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 425,
+        "screen_y": 1114,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2976535,
+          62.3967445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m18",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 829,
+        "screen_y": 1087,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3054842,
+          62.3969871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m19",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 802,
+        "screen_y": 1019,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3049609,
+          62.3975979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m20",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 589,
+        "screen_y": 971,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3008323,
+          62.3980291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m21",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 990,
+        "screen_y": 976,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3086049,
+          62.3979842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m22",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 296,
+        "screen_y": 899,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.295153,
+          62.3986759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m23",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 811,
+        "screen_y": 888,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3051353,
+          62.3987747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m24",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 702,
+        "screen_y": 859,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3030226,
+          62.3990352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m25",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 485,
+        "screen_y": 849,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2988165,
+          62.399125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m26",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 249,
+        "screen_y": 838,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.294242,
+          62.3992239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m27",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 869,
+        "screen_y": 772,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3062596,
+          62.3998167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m28",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 528,
+        "screen_y": 761,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2996499,
+          62.3999156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m29",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1038,
+        "screen_y": 731,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3095353,
+          62.4001851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m30",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 707,
+        "screen_y": 728,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3031195,
+          62.400212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m31",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 973,
+        "screen_y": 656,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3082754,
+          62.4008588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m32",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 634,
+        "screen_y": 637,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3017045,
+          62.4010295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m33",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 298,
+        "screen_y": 637,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2951918,
+          62.4010295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m34",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 920,
+        "screen_y": 575,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3072481,
+          62.4015864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m35",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 666,
+        "screen_y": 509,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3023248,
+          62.4021793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m36",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 70,
+        "screen_y": 468,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2907725,
+          62.4025476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m37",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 460,
+        "screen_y": 456,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2983319,
+          62.4026554
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m38",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 268,
+        "screen_y": 416,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2946103,
+          62.4030147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m39",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 693,
+        "screen_y": 384,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3028481,
+          62.4033022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c0-m40",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 487,
+        "screen_y": 333,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2988552,
+          62.4037603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 456,
+        "screen_y": 1867,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3124893,
+          62.3899802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 327,
+        "screen_y": 1855,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3099889,
+          62.390088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m3",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 865,
+        "screen_y": 1854,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.320417,
+          62.390097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m4",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 217,
+        "screen_y": 1841,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3078567,
+          62.3902138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m5",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 24,
+        "screen_y": 1836,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3041158,
+          62.3902587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m6",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 385,
+        "screen_y": 1772,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3111131,
+          62.3908336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m7",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 45,
+        "screen_y": 1761,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3045228,
+          62.3909324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m8",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 559,
+        "screen_y": 1731,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3144858,
+          62.3912019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m9",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 223,
+        "screen_y": 1728,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.307973,
+          62.3912289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m10",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 740,
+        "screen_y": 1696,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3179941,
+          62.3915163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m11",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 1054,
+        "screen_y": 1666,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3240804,
+          62.3917858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m12",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 488,
+        "screen_y": 1656,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3131096,
+          62.3918757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m13",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 149,
+        "screen_y": 1637,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3065387,
+          62.3920464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m14",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 926,
+        "screen_y": 1624,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3215994,
+          62.3921631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m15",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 436,
+        "screen_y": 1575,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3121016,
+          62.3926033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m16",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 602,
+        "screen_y": 1548,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3153192,
+          62.3928458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m17",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 182,
+        "screen_y": 1509,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3071783,
+          62.3931962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m18",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 705,
+        "screen_y": 1507,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3173157,
+          62.3932142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m19",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 959,
+        "screen_y": 1472,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.322239,
+          62.3935286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m20",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 11,
+        "screen_y": 1457,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3038638,
+          62.3936633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m21",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 208,
+        "screen_y": 1385,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3076823,
+          62.3943101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m22",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 25,
+        "screen_y": 1333,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3041352,
+          62.3947772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m23",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 984,
+        "screen_y": 1189,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3227236,
+          62.3960708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m24",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 804,
+        "screen_y": 1036,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3192346,
+          62.3974452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m25",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 1034,
+        "screen_y": 975,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3236927,
+          62.3979932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m26",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 609,
+        "screen_y": 961,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3154549,
+          62.3981189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m27",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 535,
+        "screen_y": 952,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3140206,
+          62.3981998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m28",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 1031,
+        "screen_y": 897,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3236346,
+          62.3986939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m29",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 238,
+        "screen_y": 691,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3082638,
+          62.4005444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m30",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 309,
+        "screen_y": 685,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.30964,
+          62.4005983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m31",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 538,
+        "screen_y": 624,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3140787,
+          62.4011462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m32",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 47,
+        "screen_y": 501,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3045616,
+          62.4022512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m33",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 81,
+        "screen_y": 453,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3052206,
+          62.4026824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m34",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 446,
+        "screen_y": 418,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3122955,
+          62.4029968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m35",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 347,
+        "screen_y": 327,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3103765,
+          62.4038142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m36",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 195,
+        "screen_y": 299,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3074303,
+          62.4040658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m37",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 431,
+        "screen_y": 199,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3120047,
+          62.4049641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m39",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 767,
+        "screen_y": 188,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3185174,
+          62.4050629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m40",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 973,
+        "screen_y": 27,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3225104,
+          62.4065092
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 366,
+        "screen_y": 1864,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2965099,
+          62.3764463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 492,
+        "screen_y": 1848,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2989521,
+          62.37659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m3",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 310,
+        "screen_y": 1826,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2954244,
+          62.3767876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m4",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 1065,
+        "screen_y": 1503,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3100587,
+          62.3796892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m5",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 1023,
+        "screen_y": 1494,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3092446,
+          62.37977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m6",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 453,
+        "screen_y": 1309,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2981962,
+          62.3814319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m7",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 727,
+        "screen_y": 1232,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3035072,
+          62.3821236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m8",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 797,
+        "screen_y": 1227,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.304864,
+          62.3821685
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m9",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 1027,
+        "screen_y": 1165,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3093221,
+          62.3827255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m10",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 526,
+        "screen_y": 1042,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2996112,
+          62.3838304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m11",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 569,
+        "screen_y": 995,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3004446,
+          62.3842526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m12",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 935,
+        "screen_y": 960,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3075389,
+          62.384567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m13",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 835,
+        "screen_y": 868,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3056005,
+          62.3853935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m14",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 684,
+        "screen_y": 840,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3026737,
+          62.385645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m15",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 920,
+        "screen_y": 741,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3072481,
+          62.3865343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m17",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 1043,
+        "screen_y": 487,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3096322,
+          62.388816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c1-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c1.png",
+        "capture_label": "grid_r1_c1",
+        "screen_x": 340,
+        "screen_y": 1852,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3102409,
+          62.3765541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c1-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c1.png",
+        "capture_label": "grid_r1_c1",
+        "screen_x": 189,
+        "screen_y": 1837,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.307314,
+          62.3766888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c1-m3",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c1.png",
+        "capture_label": "grid_r1_c1",
+        "screen_x": 425,
+        "screen_y": 1754,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3118884,
+          62.3774344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c1-m5",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c1.png",
+        "capture_label": "grid_r1_c1",
+        "screen_x": 761,
+        "screen_y": 1742,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3184011,
+          62.3775422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c1-m6",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c1.png",
+        "capture_label": "grid_r1_c1",
+        "screen_x": 1055,
+        "screen_y": 1706,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3240998,
+          62.3778656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c1-m7",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c1.png",
+        "capture_label": "grid_r1_c1",
+        "screen_x": 967,
+        "screen_y": 1551,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3223941,
+          62.379258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c1-m8",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-06-23",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260623T115910\\grid_r1_c1.png",
+        "capture_label": "grid_r1_c1",
+        "screen_x": 559,
+        "screen_y": 1501,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3144858,
+          62.3797072
         ]
       }
     }
