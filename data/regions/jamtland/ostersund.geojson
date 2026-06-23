@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-22T18:41:53.455081+00:00",
+    "generated": "2026-06-23T06:10:37.233332+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Jämtland",
     "city": "ostersund",
@@ -22,17 +22,17 @@
       "needs_identification": 1,
       "osm_operator_mapped": 0,
       "lulebo_district": 0,
-      "near_aimo": 1,
+      "near_aimo": 0,
       "rural_free": 0,
       "note_matched": 0,
       "access_yes_free": 0,
       "fee_confirmed_unknown": 11,
       "genuinely_unknown": 387,
-      "before": 400,
+      "before": 399,
       "after": 399,
       "total": 689,
       "coverage_pct": 42.1,
-      "run_date": "2026-06-22"
+      "run_date": "2026-06-23"
     }
   },
   "features": [

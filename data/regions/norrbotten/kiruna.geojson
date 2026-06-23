@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-22T18:41:52.862726+00:00",
+    "generated": "2026-06-23T06:10:36.580986+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "kiruna",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_kiruna.geojson",
       "zones_imported": 302,
-      "bootstrap_date": "2026-06-22"
+      "bootstrap_date": "2026-06-23"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -32,7 +32,7 @@
       "after": 113,
       "total": 302,
       "coverage_pct": 62.6,
-      "run_date": "2026-06-22"
+      "run_date": "2026-06-23"
     }
   },
   "features": [
@@ -1829,20 +1829,19 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "osm_reclassified"
         ],
         "last_verified": null,
         "osm_id": 138205392,
         "osm_distance_m": null,
-        "osm_access": "unknown",
-        "osm_fee": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "source_note": "46.1 km från centrum, ingen avgiftstagg"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",

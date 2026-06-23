@@ -2,18 +2,18 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-22T18:40:05.037800+00:00",
+    "generated": "2026-06-23T06:11:28.487886+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "lulea",
     "municipality": "Luleå kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "lulea-osm-bootstrap",
-    "zone_count": 661,
+    "zone_count": 663,
     "bootstrap": {
       "osm_source": "output\\osm_parking_lulea.geojson",
-      "zones_imported": 661,
-      "bootstrap_date": "2026-06-22"
+      "zones_imported": 663,
+      "bootstrap_date": "2026-06-23"
     },
     "operator_identification": {
       "before_unknown": 8,
@@ -29,7 +29,7 @@
       "aimo_matched": 0,
       "lulebo_matched": 0,
       "kommun_matched": 0,
-      "run_date": "2026-06-22"
+      "run_date": "2026-06-23"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -46,9 +46,25 @@
       "genuinely_unknown": 8,
       "before": 8,
       "after": 8,
-      "total": 661,
+      "total": 663,
       "coverage_pct": 98.8,
-      "run_date": "2026-06-22"
+      "run_date": "2026-06-23"
+    },
+    "easypark_lookup": {
+      "matched": 0,
+      "failed": 0,
+      "no_response": 8,
+      "before_unknown": 8,
+      "after_unknown": 8,
+      "run_date": "2026-06-23"
+    },
+    "parkster_coordinate_scan": {
+      "api_matched": 0,
+      "adb_pending": 8,
+      "api_failed": 0,
+      "before_unknown": 8,
+      "after_unknown": 8,
+      "run_date": "2026-06-23"
     }
   },
   "features": [
@@ -84,8 +100,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -450,8 +466,8 @@
         "osm_note": null,
         "lulebo_district": "Bergnäset",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -586,8 +602,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -686,8 +702,8 @@
         "osm_note": null,
         "lulebo_district": "Bergnäset",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -890,8 +906,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -970,8 +986,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -1038,8 +1054,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -1190,8 +1206,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -1306,8 +1322,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -1378,8 +1394,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -1450,8 +1466,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -1554,8 +1570,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -1626,8 +1642,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -1690,8 +1706,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -2026,8 +2042,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -2110,8 +2126,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -2306,8 +2322,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -2462,8 +2478,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -2530,8 +2546,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -2598,8 +2614,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -2762,8 +2778,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -2942,8 +2958,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -3026,8 +3042,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -3098,8 +3114,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -3123,8 +3139,8 @@
               65.6186439
             ],
             [
-              22.1492302,
-              65.6188042
+              22.1492278,
+              65.6188128
             ],
             [
               22.1493681,
@@ -3166,8 +3182,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -3238,8 +3254,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -3299,22 +3315,22 @@
       "properties": {
         "id": "lulea-osm-47793436",
         "name": "OSM-47793436",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1162",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Alla dagar 00-24: 1 h - 10 kr",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/midgardsvagen-19/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 47793436,
@@ -3324,9 +3340,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "midgardsvagen-19",
-        "aimopark_distance_m": 198.1,
+        "lulebo_district": "Porsön",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -3402,8 +3418,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -3570,8 +3586,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -3634,8 +3650,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -3706,8 +3722,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -3767,7 +3783,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "easypark_lookup_failed",
+          "parkster_adb_pending"
         ],
         "last_verified": null,
         "osm_id": 47957546,
@@ -3776,7 +3794,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.685303&lng=22.094825\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -3838,8 +3857,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -4010,8 +4029,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -4214,8 +4233,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -4294,8 +4313,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -4362,8 +4381,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -4514,8 +4533,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -4778,8 +4797,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -5019,14 +5038,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1134",
+        "zone_code": "1174",
         "spots": null,
-        "price_per_hour": 6,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 6 SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/krongardsringen-6-32/",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/vinkelgrand-1-7--krongardsringen-2/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -5040,8 +5059,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "krongardsringen-6-32",
-        "aimopark_distance_m": 69.5,
+        "aimopark_name": "vinkelgrand-1-7--krongardsringen-2",
+        "aimopark_distance_m": 122.4,
         "payment_apps": [
           "aimo"
         ]
@@ -5083,14 +5102,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1134",
+        "zone_code": "1174",
         "spots": null,
-        "price_per_hour": 6,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 6 SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/krongardsringen-6-32/",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/rodkallens-vag-11-15/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -5104,8 +5123,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "krongardsringen-6-32",
-        "aimopark_distance_m": 99.7,
+        "aimopark_name": "rodkallens-vag-11-15",
+        "aimopark_distance_m": 127.2,
         "payment_apps": [
           "aimo"
         ]
@@ -5170,8 +5189,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -5254,8 +5273,8 @@
         "osm_note": null,
         "lulebo_district": "Bergnäset",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -5311,7 +5330,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "easypark_lookup_failed",
+          "parkster_adb_pending"
         ],
         "last_verified": null,
         "osm_id": 48626336,
@@ -5320,7 +5341,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.544821&lng=22.154999\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -5454,8 +5476,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -5522,8 +5544,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -5586,8 +5608,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -5694,8 +5716,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -5762,8 +5784,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -6442,8 +6464,8 @@
         "osm_note": null,
         "lulebo_district": "Bjorkskatan",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -6510,8 +6532,8 @@
         "osm_note": null,
         "lulebo_district": "Bjorkskatan",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -6578,8 +6600,8 @@
         "osm_note": null,
         "lulebo_district": "Bjorkskatan",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -6650,8 +6672,8 @@
         "osm_note": null,
         "lulebo_district": "Bjorkskatan",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -6718,8 +6740,8 @@
         "osm_note": null,
         "lulebo_district": "Bjorkskatan",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -6786,8 +6808,8 @@
         "osm_note": null,
         "lulebo_district": "Bjorkskatan",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -6854,8 +6876,8 @@
         "osm_note": null,
         "lulebo_district": "Bjorkskatan",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -6930,8 +6952,8 @@
         "osm_note": null,
         "lulebo_district": "Bjorkskatan",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -6998,8 +7020,8 @@
         "osm_note": null,
         "lulebo_district": "Bjorkskatan",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -7070,8 +7092,8 @@
         "osm_note": null,
         "lulebo_district": "Bjorkskatan",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -7134,8 +7156,8 @@
         "osm_note": null,
         "lulebo_district": "Bjorkskatan",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -7202,8 +7224,8 @@
         "osm_note": null,
         "lulebo_district": "Bjorkskatan",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -7266,8 +7288,8 @@
         "osm_note": "Only for hotel customers",
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -7454,8 +7476,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -7518,8 +7540,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -7586,8 +7608,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -7650,8 +7672,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -7718,8 +7740,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -7898,8 +7920,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -7966,8 +7988,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -8198,8 +8220,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -8278,8 +8300,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -8410,8 +8432,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -8645,8 +8667,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -8713,8 +8735,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -9065,8 +9087,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -9233,8 +9255,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -9309,8 +9331,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -9373,8 +9395,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -9445,8 +9467,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -9525,8 +9547,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -9941,8 +9963,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -10021,8 +10043,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -10110,7 +10132,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "easypark_lookup_failed",
+          "parkster_adb_pending"
         ],
         "last_verified": null,
         "osm_id": 119235808,
@@ -10119,7 +10143,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.521411&lng=22.065942\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -10233,8 +10258,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -10305,8 +10330,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -10405,8 +10430,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -10473,8 +10498,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -10577,8 +10602,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -10614,22 +10639,22 @@
       "properties": {
         "id": "lulea-osm-155814856",
         "name": "OSM-155814856",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1162",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Alla dagar 00-24: 1 h - 10 kr",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/midgardsvagen-19/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 155814856,
@@ -10639,9 +10664,9 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "midgardsvagen-19",
-        "aimopark_distance_m": 63.6,
+        "lulebo_district": "Porsön",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -10742,22 +10767,22 @@
       "properties": {
         "id": "lulea-osm-155814857",
         "name": "OSM-155814857",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1162",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Alla dagar 00-24: 1 h - 10 kr",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/midgardsvagen-19/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 155814857,
@@ -10767,9 +10792,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "midgardsvagen-19",
-        "aimopark_distance_m": 168.9,
+        "lulebo_district": "Porsön",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -11081,8 +11106,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -11149,8 +11174,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -11217,8 +11242,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -11313,8 +11338,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -11556,8 +11581,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -11664,8 +11689,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -11764,8 +11789,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -11864,8 +11889,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -11952,8 +11977,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -12136,8 +12161,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -12280,8 +12305,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -12432,8 +12457,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -12572,8 +12597,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -12720,8 +12745,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -12781,22 +12806,22 @@
       "properties": {
         "id": "lulea-osm-215310976",
         "name": "OSM-215310976",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 215310976,
@@ -12806,9 +12831,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 81.2,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -12845,22 +12870,22 @@
       "properties": {
         "id": "lulea-osm-215310977",
         "name": "OSM-215310977",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 215310977,
@@ -12870,9 +12895,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 146.8,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -13202,8 +13227,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -13267,7 +13292,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "easypark_lookup_failed",
+          "parkster_adb_pending"
         ],
         "last_verified": null,
         "osm_id": 224643063,
@@ -13276,7 +13303,8 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.856321&lng=22.292428\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -13338,8 +13366,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -13418,8 +13446,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -13526,8 +13554,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -13642,8 +13670,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -13722,8 +13750,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -13786,8 +13814,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -13950,8 +13978,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -14038,8 +14066,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -14118,8 +14146,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -14127,28 +14155,28 @@
         "coordinates": [
           [
             [
-              22.2491417,
-              65.6002434
+              22.2491203,
+              65.6001596
             ],
             [
-              22.2489361,
-              65.600088
+              22.248877,
+              65.6000546
             ],
             [
-              22.2495245,
-              65.5999552
+              22.2493738,
+              65.5999074
             ],
             [
-              22.2498548,
-              65.5998807
+              22.2498598,
+              65.5998833
             ],
             [
-              22.2500604,
-              65.6000361
+              22.2499717,
+              65.5999711
             ],
             [
-              22.2491417,
-              65.6002434
+              22.2491203,
+              65.6001596
             ]
           ]
         ]
@@ -14186,8 +14214,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -14250,8 +14278,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -14318,8 +14346,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -14386,8 +14414,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -14462,8 +14490,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -14570,8 +14598,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -14774,8 +14802,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -14850,8 +14878,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -14946,8 +14974,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -15018,8 +15046,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -15094,8 +15122,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -15198,8 +15226,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -15462,8 +15490,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -15526,8 +15554,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -15659,7 +15687,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "easypark_lookup_failed",
+          "parkster_adb_pending"
         ],
         "last_verified": null,
         "osm_id": 253097106,
@@ -15668,7 +15698,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.635482&lng=22.110707\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -15738,8 +15769,8 @@
         "osm_note": null,
         "lulebo_district": "Bergnäset",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -15802,8 +15833,8 @@
         "osm_note": null,
         "lulebo_district": "Bergnäset",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -15922,8 +15953,8 @@
         "osm_note": null,
         "lulebo_district": "Bergnäset",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -15986,8 +16017,8 @@
         "osm_note": null,
         "lulebo_district": "Mjolkudden",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -16062,8 +16093,8 @@
         "osm_note": null,
         "lulebo_district": "Bergnäset",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -16158,8 +16189,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -16222,8 +16253,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -16374,8 +16405,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -16454,8 +16485,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -16538,8 +16569,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -16610,8 +16641,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -16714,8 +16745,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -16850,8 +16881,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -17126,8 +17157,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -17398,8 +17429,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -17478,8 +17509,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -17570,8 +17601,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -17650,8 +17681,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -17695,22 +17726,22 @@
       "properties": {
         "id": "lulea-osm-294780178",
         "name": "OSM-294780178",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 294780178,
@@ -17720,9 +17751,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 167.5,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -17806,8 +17837,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -17870,8 +17901,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -17934,8 +17965,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -18150,8 +18181,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -18214,8 +18245,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -18278,8 +18309,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -18342,8 +18373,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -18602,8 +18633,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -18710,8 +18741,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -18778,8 +18809,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -18850,8 +18881,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -18914,8 +18945,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -18994,8 +19025,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -19066,8 +19097,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -19138,8 +19169,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -19175,22 +19206,22 @@
       "properties": {
         "id": "lulea-osm-308210349",
         "name": "OSM-308210349",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 308210349,
@@ -19200,9 +19231,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 181.6,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -19374,8 +19405,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -19415,14 +19446,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1174",
+        "zone_code": "1134",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 6,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "hours": "Every day 00-24: 1 h - 6 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/vinkelgrand-1-7--krongardsringen-2/",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/krongardsringen-6-32/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -19436,8 +19467,8 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "vinkelgrand-1-7--krongardsringen-2",
-        "aimopark_distance_m": 142.4,
+        "aimopark_name": "krongardsringen-6-32",
+        "aimopark_distance_m": 70.1,
         "payment_apps": [
           "aimo"
         ]
@@ -19479,14 +19510,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1174",
+        "zone_code": "1134",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 6,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "hours": "Every day 00-24: 1 h - 6 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/vinkelgrand-1-7--krongardsringen-2/",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/krongardsringen-6-32/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -19500,8 +19531,8 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "vinkelgrand-1-7--krongardsringen-2",
-        "aimopark_distance_m": 141.2,
+        "aimopark_name": "krongardsringen-6-32",
+        "aimopark_distance_m": 55.2,
         "payment_apps": [
           "aimo"
         ]
@@ -19543,14 +19574,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1174",
+        "zone_code": "1134",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 6,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "hours": "Every day 00-24: 1 h - 6 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/vinkelgrand-1-7--krongardsringen-2/",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/krongardsringen-6-32/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -19564,8 +19595,8 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "vinkelgrand-1-7--krongardsringen-2",
-        "aimopark_distance_m": 102.8,
+        "aimopark_name": "krongardsringen-6-32",
+        "aimopark_distance_m": 24.8,
         "payment_apps": [
           "aimo"
         ]
@@ -19630,8 +19661,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -19710,8 +19741,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -19842,8 +19873,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -19906,8 +19937,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -19974,8 +20005,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -20102,8 +20133,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -20230,8 +20261,8 @@
         "osm_note": null,
         "lulebo_district": "Bergnäset",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -20342,8 +20373,8 @@
         "osm_note": null,
         "lulebo_district": "Bergnäset",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -20498,8 +20529,8 @@
         "osm_note": null,
         "lulebo_district": "Bergnäset",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -20562,8 +20593,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -20626,8 +20657,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -20663,22 +20694,22 @@
       "properties": {
         "id": "lulea-osm-311940850",
         "name": "OSM-311940850",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1118",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tunastigen-1-61-2-52-73-77-87-91/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 311940850,
@@ -20688,10 +20719,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Porsön",
+        "aimopark_name": "tunastigen-1-61-2-52-73-77-87-91",
+        "aimopark_distance_m": 122.3,
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -20754,8 +20785,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -20791,22 +20822,22 @@
       "properties": {
         "id": "lulea-osm-311945567",
         "name": "OSM-311945567",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1118",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tunastigen-1-61-2-52-73-77-87-91/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 311945567,
@@ -20816,10 +20847,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Porsön",
+        "aimopark_name": "tunastigen-1-61-2-52-73-77-87-91",
+        "aimopark_distance_m": 183.2,
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -20855,22 +20886,22 @@
       "properties": {
         "id": "lulea-osm-311945571",
         "name": "OSM-311945571",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1118",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tunastigen-1-61-2-52-73-77-87-91/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 311945571,
@@ -20880,10 +20911,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Porsön",
+        "aimopark_name": "tunastigen-1-61-2-52-73-77-87-91",
+        "aimopark_distance_m": 156.0,
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -20927,22 +20958,22 @@
       "properties": {
         "id": "lulea-osm-311945586",
         "name": "OSM-311945586",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1246",
+        "zone_code": "1118",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tunastigen-1-61-2-52-73-77-87-91/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 311945586,
@@ -20952,10 +20983,10 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Porsön",
+        "aimopark_name": "tunastigen-1-61-2-52-73-77-87-91",
+        "aimopark_distance_m": 195.4,
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -21018,8 +21049,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -21082,8 +21113,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -21146,8 +21177,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -21210,8 +21241,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -21350,8 +21381,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -21414,8 +21445,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -21478,8 +21509,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -21542,8 +21573,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -21606,8 +21637,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -21670,8 +21701,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -21734,8 +21765,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -21798,8 +21829,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -21862,8 +21893,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -21938,8 +21969,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -22002,8 +22033,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -22066,8 +22097,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -22130,8 +22161,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -22194,8 +22225,8 @@
         "osm_note": "avgift 9-18 vardag;9-15 helgdag",
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -22258,8 +22289,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -22322,8 +22353,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -22386,8 +22417,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -22450,8 +22481,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -22514,8 +22545,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -22650,8 +22681,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -22687,22 +22718,22 @@
       "properties": {
         "id": "lulea-osm-314612512",
         "name": "OSM-314612512",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 314612512,
@@ -22712,9 +22743,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 150.3,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -22782,8 +22813,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -22862,8 +22893,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -22926,8 +22957,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -23038,8 +23069,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -23122,8 +23153,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -23186,8 +23217,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -23250,8 +23281,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -23326,8 +23357,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -23398,8 +23429,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -23478,8 +23509,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -23570,8 +23601,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -23642,8 +23673,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -23714,8 +23745,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -23786,8 +23817,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -24066,8 +24097,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -24214,8 +24245,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -24278,8 +24309,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -24347,14 +24378,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1174",
+        "zone_code": "1134",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 6,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "hours": "Every day 00-24: 1 h - 6 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/vinkelgrand-1-7--krongardsringen-2/",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/krongardsringen-6-32/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -24368,8 +24399,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "vinkelgrand-1-7--krongardsringen-2",
-        "aimopark_distance_m": 172.9,
+        "aimopark_name": "krongardsringen-6-32",
+        "aimopark_distance_m": 79.5,
         "payment_apps": [
           "aimo"
         ]
@@ -24433,7 +24464,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "krongardsringen-6-32",
-        "aimopark_distance_m": 192.5,
+        "aimopark_distance_m": 103.9,
         "payment_apps": [
           "aimo"
         ]
@@ -24497,7 +24528,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "krongardsringen-6-32",
-        "aimopark_distance_m": 62.6,
+        "aimopark_distance_m": 100.2,
         "payment_apps": [
           "aimo"
         ]
@@ -24562,8 +24593,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -24626,8 +24657,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -24690,8 +24721,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -24766,8 +24797,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -24902,8 +24933,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -25033,8 +25064,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -25449,8 +25480,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -25513,8 +25544,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -25589,8 +25620,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -25661,8 +25692,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -25725,8 +25756,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -25789,8 +25820,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -25853,8 +25884,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -25925,8 +25956,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -25989,8 +26020,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -26053,8 +26084,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -26117,8 +26148,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -26181,8 +26212,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -26245,8 +26276,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -27009,8 +27040,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -27081,8 +27112,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -27153,8 +27184,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -27221,8 +27252,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -27301,8 +27332,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -27373,8 +27404,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -27445,8 +27476,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -27585,8 +27616,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -27677,8 +27708,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -27797,8 +27828,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -27873,8 +27904,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -27945,8 +27976,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -28013,8 +28044,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -28081,8 +28112,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -28149,8 +28180,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -28225,8 +28256,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -28289,8 +28320,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -28417,8 +28448,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -28481,8 +28512,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -28557,8 +28588,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -28610,7 +28641,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "easypark_lookup_failed",
+          "parkster_adb_pending"
         ],
         "last_verified": null,
         "osm_id": 342968535,
@@ -28619,7 +28652,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.646801&lng=21.986727\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -28681,8 +28715,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -28753,8 +28787,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -28817,8 +28851,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -28885,8 +28919,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -28953,8 +28987,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -29141,8 +29175,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -29245,8 +29279,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -29313,8 +29347,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -29529,8 +29563,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -29733,8 +29767,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -29797,8 +29831,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -29861,8 +29895,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -29902,22 +29936,22 @@
       "properties": {
         "id": "lulea-osm-381126706",
         "name": "OSM-381126706",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": "6",
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 381126706,
@@ -29927,9 +29961,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 107.5,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -29993,8 +30027,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -30057,8 +30091,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -30121,8 +30155,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -30174,22 +30208,22 @@
       "properties": {
         "id": "lulea-osm-382322381",
         "name": "OSM-382322381",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 382322381,
@@ -30199,9 +30233,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 154.3,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -30238,22 +30272,22 @@
       "properties": {
         "id": "lulea-osm-382322390",
         "name": "OSM-382322390",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 382322390,
@@ -30263,9 +30297,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 184.8,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -30306,22 +30340,22 @@
       "properties": {
         "id": "lulea-osm-382362255",
         "name": "OSM-382362255",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": "13",
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 382362255,
@@ -30331,9 +30365,9 @@
         "osm_parking": "surface",
         "osm_operator": "Q-Park AB",
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 129.2,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -30370,22 +30404,22 @@
       "properties": {
         "id": "lulea-osm-382362264",
         "name": "OSM-382362264",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": "10",
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 382362264,
@@ -30395,9 +30429,9 @@
         "osm_parking": "surface",
         "osm_operator": "Q-Park AB",
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 115.3,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -30461,8 +30495,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -30498,22 +30532,22 @@
       "properties": {
         "id": "lulea-osm-382495515",
         "name": "OSM-382495515",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 382495515,
@@ -30523,9 +30557,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 161.1,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -30574,22 +30608,22 @@
       "properties": {
         "id": "lulea-osm-382499816",
         "name": "OSM-382499816",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 382499816,
@@ -30599,9 +30633,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 90.9,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -30673,8 +30707,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -30741,8 +30775,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -30805,8 +30839,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -30869,8 +30903,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -30933,8 +30967,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -31077,8 +31111,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -31221,8 +31255,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -31285,8 +31319,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -31641,8 +31675,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -31678,22 +31712,22 @@
       "properties": {
         "id": "lulea-osm-383898128",
         "name": "OSM-383898128",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 383898128,
@@ -31703,9 +31737,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 111.6,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -31742,22 +31776,22 @@
       "properties": {
         "id": "lulea-osm-383898129",
         "name": "OSM-383898129",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 383898129,
@@ -31767,9 +31801,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 92.6,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -31806,22 +31840,22 @@
       "properties": {
         "id": "lulea-osm-383898130",
         "name": "OSM-383898130",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 383898130,
@@ -31831,9 +31865,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 70.2,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -31870,22 +31904,22 @@
       "properties": {
         "id": "lulea-osm-383898131",
         "name": "OSM-383898131",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 383898131,
@@ -31895,9 +31929,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 56.1,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -31961,8 +31995,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -32073,8 +32107,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -32137,8 +32171,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -32257,8 +32291,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -32321,8 +32355,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -32385,8 +32419,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -32453,8 +32487,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -32604,8 +32638,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -32688,8 +32722,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -32768,8 +32802,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -32839,7 +32873,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "munkebergsgatan-36-922",
-        "aimopark_distance_m": 25.7,
+        "aimopark_distance_m": 38.5,
         "payment_apps": [
           "aimo"
         ]
@@ -32927,7 +32961,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "munkebergsgatan-36-922",
-        "aimopark_distance_m": 164.6,
+        "aimopark_distance_m": 177.4,
         "payment_apps": [
           "aimo"
         ]
@@ -33024,8 +33058,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -33168,8 +33202,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -33232,8 +33266,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -33296,8 +33330,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -33620,8 +33654,8 @@
         "osm_note": null,
         "lulebo_district": "Bergnäset",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -33696,8 +33730,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -33705,84 +33739,96 @@
         "coordinates": [
           [
             [
-              22.1499422,
-              65.6190065
+              22.1498948,
+              65.6189942
             ],
             [
-              22.1501434,
-              65.6188041
+              22.1500919,
+              65.6187769
             ],
             [
-              22.1506122,
-              65.6188789
+              22.1501111,
+              65.6187769
             ],
             [
-              22.1506532,
-              65.6188351
+              22.1505497,
+              65.6188468
             ],
             [
-              22.1513855,
-              65.6189519
+              22.1505955,
+              65.6187974
             ],
             [
-              22.1513445,
-              65.6189957
+              22.1513191,
+              65.6189117
             ],
             [
-              22.1517929,
-              65.6190682
+              22.1512733,
+              65.6189612
             ],
             [
-              22.1518385,
-              65.6190222
+              22.1514224,
+              65.6189839
             ],
             [
-              22.1523533,
-              65.6190986
+              22.1515009,
+              65.6189932
             ],
             [
-              22.1529006,
-              65.6191831
+              22.1517805,
+              65.6190363
             ],
             [
-              22.1528596,
-              65.619229
+              22.1518233,
+              65.6189961
             ],
             [
-              22.1532656,
-              65.6192904
+              22.1523362,
+              65.6190733
             ],
             [
-              22.1530616,
-              65.6195011
+              22.1528614,
+              65.6191552
             ],
             [
-              22.1519887,
-              65.6193347
+              22.1528212,
+              65.6191992
             ],
             [
-              22.151771,
-              65.619301
+              22.1532816,
+              65.6192739
             ],
             [
-              22.1513026,
-              65.6192277
+              22.153076,
+              65.6194928
             ],
             [
-              22.1510823,
-              65.6191928
+              22.1520456,
+              65.6193291
             ],
             [
-              22.1503429,
-              65.6190681
+              22.1518279,
+              65.6192954
             ],
             [
-              22.1501025,
-              65.6190317
+              22.1513426,
+              65.6192201
             ],
             [
-              22.1499422,
-              65.6190065
+              22.1511224,
+              65.6191852
+            ],
+            [
+              22.1503721,
+              65.6190697
+            ],
+            [
+              22.1501328,
+              65.6190321
+            ],
+            [
+              22.1498948,
+              65.6189942
             ]
           ]
         ]
@@ -33896,8 +33942,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -33960,8 +34006,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -34024,8 +34070,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -34092,8 +34138,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -34160,8 +34206,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -34364,8 +34410,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -34580,8 +34626,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -34644,8 +34690,8 @@
         "osm_note": null,
         "lulebo_district": "Bjorkskatan",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -34689,22 +34735,22 @@
       "properties": {
         "id": "lulea-osm-659058147",
         "name": "OSM-659058147",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1118",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tunastigen-1-61-2-52-73-77-87-91/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 659058147,
@@ -34714,10 +34760,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Porsön",
+        "aimopark_name": "tunastigen-1-61-2-52-73-77-87-91",
+        "aimopark_distance_m": 122.6,
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -34812,8 +34858,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -34963,7 +35009,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "tunastigen-1-61-2-52-73-77-87-91",
-        "aimopark_distance_m": 14.3,
+        "aimopark_distance_m": 193.0,
         "payment_apps": [
           "aimo"
         ]
@@ -35028,8 +35074,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -35108,8 +35154,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -35204,8 +35250,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -35267,7 +35313,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "munkebergsgatan-36-922",
-        "aimopark_distance_m": 129.1,
+        "aimopark_distance_m": 116.5,
         "payment_apps": [
           "aimo"
         ]
@@ -35332,8 +35378,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -35405,22 +35451,22 @@
       "properties": {
         "id": "lulea-osm-662020703",
         "name": "OSM-662020703",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 662020703,
@@ -35430,9 +35476,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 98.3,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -35489,22 +35535,22 @@
       "properties": {
         "id": "lulea-osm-662020709",
         "name": "OSM-662020709",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 662020709,
@@ -35514,9 +35560,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 102.7,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -35557,22 +35603,22 @@
       "properties": {
         "id": "lulea-osm-662020710",
         "name": "OSM-662020710",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": "2",
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 662020710,
@@ -35582,9 +35628,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 113.9,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -35648,8 +35694,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -35712,8 +35758,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -35776,8 +35822,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -35840,8 +35886,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -35904,8 +35950,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -35976,8 +36022,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -36184,8 +36230,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -36248,8 +36294,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -36312,8 +36358,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -36568,8 +36614,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -36648,8 +36694,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -36736,8 +36782,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -36828,8 +36874,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -36912,8 +36958,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -37020,8 +37066,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -37084,8 +37130,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -37148,8 +37194,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -37212,8 +37258,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -37356,8 +37402,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -37592,8 +37638,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -37656,8 +37702,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -37876,8 +37922,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -37940,8 +37986,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -38004,8 +38050,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -38068,8 +38114,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -38132,8 +38178,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -38196,8 +38242,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -38233,22 +38279,22 @@
       "properties": {
         "id": "lulea-osm-1011719023",
         "name": "OSM-1011719023",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1077",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/kompanivagen-20-21-23/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1011719023,
@@ -38258,10 +38304,10 @@
         "osm_parking": "surface",
         "osm_operator": "Luleå kommun",
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "kompanivagen-20-21-23",
+        "aimopark_distance_m": 119.7,
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -38578,7 +38624,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "easypark_lookup_failed",
+          "parkster_adb_pending"
         ],
         "last_verified": null,
         "osm_id": 1047060018,
@@ -38587,7 +38635,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.558256&lng=21.918753\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -38657,8 +38706,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -38781,8 +38830,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -39257,8 +39306,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -39321,8 +39370,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -39385,8 +39434,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -39449,8 +39498,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -39513,8 +39562,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -39577,8 +39626,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -39641,8 +39690,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -39705,8 +39754,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -39769,8 +39818,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -39837,8 +39886,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -39905,8 +39954,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -39985,8 +40034,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -40049,8 +40098,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -40113,8 +40162,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -40177,8 +40226,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -40241,8 +40290,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -40317,8 +40366,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -40397,8 +40446,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -40469,8 +40518,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -40533,8 +40582,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -40597,8 +40646,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -40665,8 +40714,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -40729,8 +40778,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -40793,8 +40842,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -40857,8 +40906,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -41002,22 +41051,22 @@
       "properties": {
         "id": "lulea-osm-1193600566",
         "name": "OSM-1193600566",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1193600566,
@@ -41027,9 +41076,9 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 117.0,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -41066,22 +41115,22 @@
       "properties": {
         "id": "lulea-osm-1193600567",
         "name": "OSM-1193600567",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1193600567,
@@ -41091,9 +41140,9 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 132.3,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -41130,22 +41179,22 @@
       "properties": {
         "id": "lulea-osm-1193600569",
         "name": "OSM-1193600569",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1193600569,
@@ -41155,9 +41204,9 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 143.7,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -41225,8 +41274,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -41301,8 +41350,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -41365,8 +41414,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -41489,8 +41538,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -41553,8 +41602,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -41617,8 +41666,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -41681,8 +41730,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -41745,8 +41794,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -41825,8 +41874,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -41890,7 +41939,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "easypark_lookup_failed",
+          "parkster_adb_pending"
         ],
         "last_verified": null,
         "osm_id": 1240283714,
@@ -41899,7 +41950,8 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.586737&lng=22.026899\" com.parkster.android"
       },
       "geometry": {
         "type": "Polygon",
@@ -41961,8 +42013,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -42029,8 +42081,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -42265,8 +42317,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -42345,8 +42397,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -42425,8 +42477,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -42505,8 +42557,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -42657,8 +42709,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -42841,8 +42893,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -42993,8 +43045,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -43189,8 +43241,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -43261,8 +43313,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -43365,8 +43417,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -43429,8 +43481,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -43509,8 +43561,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -43997,8 +44049,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -44046,22 +44098,22 @@
       "properties": {
         "id": "lulea-osm-1288967659",
         "name": "OSM-1288967659",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1162",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Alla dagar 00-24: 1 h - 10 kr",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/midgardsvagen-19/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1288967659,
@@ -44071,9 +44123,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "midgardsvagen-19",
-        "aimopark_distance_m": 144.4,
+        "lulebo_district": "Porsön",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -44134,22 +44186,22 @@
       "properties": {
         "id": "lulea-osm-1288967660",
         "name": "OSM-1288967660",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1162",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Alla dagar 00-24: 1 h - 10 kr",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/midgardsvagen-19/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1288967660,
@@ -44159,9 +44211,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "midgardsvagen-19",
-        "aimopark_distance_m": 98.2,
+        "lulebo_district": "Porsön",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -44525,8 +44577,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -44589,8 +44641,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -44657,8 +44709,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -44821,8 +44873,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -44893,8 +44945,8 @@
         "osm_note": null,
         "lulebo_district": "Avan_Notviken",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -44938,22 +44990,22 @@
       "properties": {
         "id": "lulea-osm-1292066694",
         "name": "OSM-1292066694",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1292066694,
@@ -44963,9 +45015,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 140.2,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -45014,22 +45066,22 @@
       "properties": {
         "id": "lulea-osm-1292066695",
         "name": "OSM-1292066695",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1292066695,
@@ -45039,9 +45091,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 177.0,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -45505,8 +45557,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -45613,8 +45665,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -45697,8 +45749,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -45765,8 +45817,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -45857,8 +45909,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -45945,8 +45997,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -46017,8 +46069,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -46085,8 +46137,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -46157,8 +46209,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -46237,8 +46289,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -46282,22 +46334,22 @@
       "properties": {
         "id": "lulea-osm-1297655853",
         "name": "OSM-1297655853",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1077",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 9,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 9 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/kompanivagen-20-21-23/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1297655853,
@@ -46307,9 +46359,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "kompanivagen-20-21-23",
-        "aimopark_distance_m": 193.9,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -46429,8 +46481,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -46517,8 +46569,8 @@
         "osm_note": "Caravans",
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -46593,8 +46645,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -46673,8 +46725,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -46757,8 +46809,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -46833,8 +46885,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -46897,8 +46949,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -46961,8 +47013,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -47113,8 +47165,8 @@
         "osm_note": null,
         "lulebo_district": "Bjorkskatan",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -47205,8 +47257,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -47313,8 +47365,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -47621,8 +47673,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -47693,8 +47745,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -47761,8 +47813,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -47825,8 +47877,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -47897,8 +47949,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -47969,8 +48021,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -48041,8 +48093,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -48113,8 +48165,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -48177,8 +48229,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -48241,8 +48293,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -48369,8 +48421,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -48689,8 +48741,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -48769,8 +48821,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -48833,8 +48885,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -48917,8 +48969,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -49013,8 +49065,8 @@
         "osm_note": null,
         "lulebo_district": "Porsön",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -49377,8 +49429,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -49441,8 +49493,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -49517,8 +49569,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -49653,8 +49705,8 @@
         "osm_note": null,
         "lulebo_district": "Bergnäset",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -49721,8 +49773,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -49793,8 +49845,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -49869,8 +49921,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -49906,22 +49958,22 @@
       "properties": {
         "id": "lulea-osm-1366272497",
         "name": "OSM-1366272497",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1254",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 10,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1366272497,
@@ -49931,9 +49983,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "tradgardsgatan-13",
-        "aimopark_distance_m": 197.4,
+        "lulebo_district": "Hertson",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -49997,8 +50049,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -50125,8 +50177,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -50437,8 +50489,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -50541,8 +50593,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -50617,8 +50669,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -50861,8 +50913,8 @@
         "osm_note": null,
         "lulebo_district": "Bergnäset",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -50925,8 +50977,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -51053,8 +51105,8 @@
         "osm_note": null,
         "lulebo_district": "Hertson",
         "payment_apps": [
-          "aimo",
-          "parkster"
+          "parkster",
+          "aimo"
         ]
       },
       "geometry": {
@@ -51300,6 +51352,166 @@
             [
               22.286754,
               65.8560248
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-osm-1531456926",
+        "name": "OSM-1531456926",
+        "operator": "lulebo",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1246",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "24/7",
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.65,
+        "flags": [
+          "osm_bootstrap",
+          "lulebo_district_match"
+        ],
+        "last_verified": null,
+        "osm_id": 1531456926,
+        "osm_distance_m": null,
+        "osm_access": "customers",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "lulebo_district": "Hertson",
+        "payment_apps": [
+          "parkster",
+          "aimo"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.2490123,
+              65.5995278
+            ],
+            [
+              22.2490418,
+              65.599489
+            ],
+            [
+              22.2494083,
+              65.59941
+            ],
+            [
+              22.249546,
+              65.5994574
+            ],
+            [
+              22.2496641,
+              65.5995788
+            ],
+            [
+              22.249652,
+              65.5996115
+            ],
+            [
+              22.2492322,
+              65.5997023
+            ],
+            [
+              22.2490123,
+              65.5995278
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-osm-1531456927",
+        "name": "OSM-1531456927",
+        "operator": "lulebo",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": "1246",
+        "spots": null,
+        "price_per_hour": 7,
+        "currency": "SEK",
+        "hours": "24/7",
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.65,
+        "flags": [
+          "osm_bootstrap",
+          "lulebo_district_match"
+        ],
+        "last_verified": null,
+        "osm_id": 1531456927,
+        "osm_distance_m": null,
+        "osm_access": "customers",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "lulebo_district": "Hertson",
+        "payment_apps": [
+          "parkster",
+          "aimo"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.2492993,
+              65.5998602
+            ],
+            [
+              22.2486904,
+              65.6000464
+            ],
+            [
+              22.2482371,
+              65.6001638
+            ],
+            [
+              22.2478616,
+              65.6002879
+            ],
+            [
+              22.2478107,
+              65.600335
+            ],
+            [
+              22.2476484,
+              65.6003888
+            ],
+            [
+              22.2470878,
+              65.6000126
+            ],
+            [
+              22.248783,
+              65.5995527
+            ],
+            [
+              22.2488379,
+              65.5995561
+            ],
+            [
+              22.2492993,
+              65.5998602
             ]
           ]
         ]

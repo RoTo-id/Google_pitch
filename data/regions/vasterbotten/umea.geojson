@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-22T18:41:53.068978+00:00",
+    "generated": "2026-06-23T06:10:36.762363+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västerbotten",
     "city": "umea",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_umea.geojson",
       "zones_imported": 1262,
-      "bootstrap_date": "2026-06-22"
+      "bootstrap_date": "2026-06-23"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -32,7 +32,7 @@
       "after": 707,
       "total": 1262,
       "coverage_pct": 44.0,
-      "run_date": "2026-06-22"
+      "run_date": "2026-06-23"
     }
   },
   "features": [

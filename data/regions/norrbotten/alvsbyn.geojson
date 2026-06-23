@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-22T18:41:52.799084+00:00",
+    "generated": "2026-06-23T06:10:36.550025+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "alvsbyn",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_alvsbyn.geojson",
       "zones_imported": 29,
-      "bootstrap_date": "2026-06-22"
+      "bootstrap_date": "2026-06-23"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -32,7 +32,7 @@
       "after": 18,
       "total": 29,
       "coverage_pct": 37.9,
-      "run_date": "2026-06-22"
+      "run_date": "2026-06-23"
     }
   },
   "features": [
