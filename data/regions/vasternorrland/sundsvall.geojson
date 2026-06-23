@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:05:27.596151+00:00",
+    "generated": "2026-06-23T17:52:22.092447+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "sundsvall",
@@ -41,6 +41,15 @@
       "added": 102,
       "meters_per_px": 1.0,
       "updated_at": "2026-06-23T17:05:27.596159+00:00"
+    },
+    "parkster_review_match": {
+      "radius_m": 120.0,
+      "markers_total": 102,
+      "markers_matched": 50,
+      "markers_unmatched": 52,
+      "features_matched": 41,
+      "updated_at": "2026-06-23T17:52:22.092424+00:00",
+      "status": "needs_review"
     }
   },
   "features": [
@@ -1485,16 +1494,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 39976330,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m30",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 49.8
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4120,16 +4142,29 @@
         "flags": [
           "osm_bootstrap",
           "osm_reclassified",
-          "access_yes_free"
+          "access_yes_free",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 58403701,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m33",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 103.6
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4188,16 +4223,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 60136734,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m36",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 77.7
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -5025,16 +5073,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "fee_confirmed_unknown"
+          "fee_confirmed_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 77869003,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": "Sundsvalls Parkera AB",
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m13",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 78.1
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -5112,16 +5173,29 @@
         "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 79277584,
         "osm_distance_m": null,
         "osm_access": "permissive",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m7",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 36.8
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -17784,16 +17858,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 90506147,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m4",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 75.0
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -17971,16 +18058,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 90519353,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m17",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 25.1
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -18126,16 +18226,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 90581909,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m20",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 101.1
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -18186,16 +18299,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 90581914,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m24",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 35.2
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -20877,16 +21003,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 91103805,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m12",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 69.0
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -22278,16 +22417,39 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 91964296,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": "yes",
         "osm_parking": "multi-storey",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 3,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m5",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 56.7
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m6",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 112.3
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m20",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 29.6
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -23867,16 +24029,34 @@
           "osm_bootstrap",
           "unknown_operator",
           "needs_identification",
-          "multi_storey_parking"
+          "multi_storey_parking",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 92715743,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": null,
         "osm_parking": "multi-storey",
         "osm_operator": "Sundsvalls Parkera AB",
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m12",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 88.2
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m15",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 11.5
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -23947,16 +24127,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "fee_confirmed_unknown"
+          "fee_confirmed_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 92938839,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": "Sundsvalls Parkera AB",
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m1",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 101.7
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -25610,16 +25803,34 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 93356568,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m11",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 97.1
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m17",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 84.5
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -25736,16 +25947,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 93356581,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m14",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 66.4
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -29367,16 +29591,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "fee_confirmed_unknown"
+          "fee_confirmed_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 101682786,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m8",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 26.4
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -29527,16 +29764,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 102618358,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c1-m2",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 112.8
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -29805,16 +30055,29 @@
         "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 104380644,
         "osm_distance_m": null,
         "osm_access": "permissive",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m9",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 85.6
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -30906,16 +31169,34 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 107219441,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m13",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 42.2
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m16",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 68.9
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -31057,16 +31338,39 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "fee_confirmed_unknown"
+          "fee_confirmed_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 107220014,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 3,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m9",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 72.0
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m10",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 45.3
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m22",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 44.2
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -42828,16 +43132,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 125344257,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m3",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 80.3
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -46719,16 +47036,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 126209158,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m7",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 85.4
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -46779,16 +47109,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 126209667,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m8",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 20.5
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -47253,16 +47596,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 126221756,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m14",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 56.6
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -49143,16 +49499,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 127573510,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m12",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 28.9
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -49655,16 +50024,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 127597504,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m28",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 110.9
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -55734,16 +56116,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 186122511,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m15",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 41.4
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -57886,16 +58281,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 187954314,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "lane",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m17",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 22.8
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -64156,16 +64564,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 208480199,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "interval",
         "osm_parking": "surface",
         "osm_operator": "Sundsvalls Parkera AB",
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m2",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 92.0
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -64768,16 +65189,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 208844591,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m13",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 65.4
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -79243,16 +79677,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 598508492,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "Mo-Fr 08:00-16:00",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m10",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 82.8
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -82867,16 +83314,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 747872012,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c1-m3",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 81.0
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -87167,16 +87627,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1082504985,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c1-m1",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 30.3
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -90752,16 +91225,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1284132491,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m27",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 27.3
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -91360,16 +91846,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1284132503,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m26",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 27.4
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -91492,16 +91991,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1284132508,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m24",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 83.1
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -93055,16 +93567,34 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "fee_confirmed_unknown"
+          "fee_confirmed_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1321822642,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m8",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 25.9
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m21",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 69.4
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -94782,16 +95312,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1365085781,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "lane",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m4",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 105.8
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -97247,16 +97790,34 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1456212839,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m10",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 50.7
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m11",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 36.9
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -97598,16 +98159,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1476237569,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m5",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 37.6
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -97710,16 +98284,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1479241899,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m7",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260623T115910.json",
+            "distance_m": 76.5
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",

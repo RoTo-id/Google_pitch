@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:05:27.669559+00:00",
+    "generated": "2026-06-23T17:52:22.166843+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Jämtland",
     "city": "ostersund",
@@ -41,6 +41,15 @@
       "added": 6,
       "meters_per_px": 1.0,
       "updated_at": "2026-06-23T17:05:27.669568+00:00"
+    },
+    "parkster_review_match": {
+      "radius_m": 120.0,
+      "markers_total": 6,
+      "markers_matched": 5,
+      "markers_unmatched": 1,
+      "features_matched": 5,
+      "updated_at": "2026-06-23T17:52:22.166824+00:00",
+      "status": "needs_review"
     }
   },
   "features": [
@@ -7009,16 +7018,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 92708958,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c0-m5",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260623T120129.json",
+            "distance_m": 56.7
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -13504,16 +13526,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 119885185,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c0-m3",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260623T120129.json",
+            "distance_m": 28.9
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -14099,16 +14134,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "fee_confirmed_unknown"
+          "fee_confirmed_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 122572825,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c0-m6",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260623T120129.json",
+            "distance_m": 34.6
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -35661,16 +35709,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1086246796,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c0-m2",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260623T120129.json",
+            "distance_m": 60.3
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -46315,16 +46376,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1512918041,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c0-m4",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260623T120129.json",
+            "distance_m": 11.7
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",

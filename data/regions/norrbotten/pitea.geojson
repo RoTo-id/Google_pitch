@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:05:27.297403+00:00",
+    "generated": "2026-06-23T17:52:19.855272+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "pitea",
@@ -54,6 +54,15 @@
       "added": 30,
       "meters_per_px": 1.0,
       "updated_at": "2026-06-23T17:05:27.297410+00:00"
+    },
+    "parkster_review_match": {
+      "radius_m": 120.0,
+      "markers_total": 30,
+      "markers_matched": 4,
+      "markers_unmatched": 26,
+      "features_matched": 4,
+      "updated_at": "2026-06-23T17:52:19.855262+00:00",
+      "status": "needs_review"
     }
   },
   "features": [
@@ -10312,9 +10321,11 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "kommun_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1312216890,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -10326,6 +10337,14 @@
         "payment_apps": [
           "easypark",
           "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "pitea-parkster-review-grid_r1_c0-m3",
+            "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+            "distance_m": 28.7
+          }
         ]
       },
       "geometry": {
@@ -10444,9 +10463,11 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "kommun_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1312234194,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -10458,6 +10479,14 @@
         "payment_apps": [
           "easypark",
           "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "pitea-parkster-review-grid_r0_c1-m1",
+            "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+            "distance_m": 103.6
+          }
         ]
       },
       "geometry": {
@@ -10580,9 +10609,11 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "kommun_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1312238577,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -10594,6 +10625,14 @@
         "payment_apps": [
           "easypark",
           "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "pitea-parkster-review-grid_r0_c0-m4",
+            "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+            "distance_m": 72.1
+          }
         ]
       },
       "geometry": {
@@ -13773,9 +13812,11 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "kommun_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1478430569,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -13787,6 +13828,14 @@
         "payment_apps": [
           "easypark",
           "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "pitea-parkster-review-grid_r0_c0-m14",
+            "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+            "distance_m": 109.3
+          }
         ]
       },
       "geometry": {

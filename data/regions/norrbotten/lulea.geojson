@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:05:27.253253+00:00",
+    "generated": "2026-06-23T17:52:19.786335+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "lulea",
@@ -73,6 +73,15 @@
       "added": 24,
       "meters_per_px": 1.0,
       "updated_at": "2026-06-23T17:05:27.253260+00:00"
+    },
+    "parkster_review_match": {
+      "radius_m": 120.0,
+      "markers_total": 24,
+      "markers_matched": 14,
+      "markers_unmatched": 10,
+      "features_matched": 10,
+      "updated_at": "2026-06-23T17:52:19.786316+00:00",
+      "status": "needs_review"
     }
   },
   "features": [
@@ -8360,9 +8369,11 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "aimopark_matched",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 62359412,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -8373,7 +8384,16 @@
         "aimopark_name": "magasinsgatan-18-24--skeppsbrogatan-37-43",
         "aimopark_distance_m": 164.9,
         "payment_apps": [
-          "aimo"
+          "aimo",
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m15",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+            "distance_m": 16.8
+          }
         ]
       },
       "geometry": {
@@ -8428,9 +8448,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "lulebo_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 62359413,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -8442,6 +8464,24 @@
         "payment_apps": [
           "parkster",
           "aimo"
+        ],
+        "parkster_evidence_count": 3,
+        "parkster_review_refs": [
+          {
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m17",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+            "distance_m": 83.8
+          },
+          {
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m18",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+            "distance_m": 72.2
+          },
+          {
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m19",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+            "distance_m": 31.7
+          }
         ]
       },
       "geometry": {
@@ -17749,9 +17789,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "lulebo_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 294780178,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -17763,6 +17805,19 @@
         "payment_apps": [
           "parkster",
           "aimo"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m11",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+            "distance_m": 15.6
+          },
+          {
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m12",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+            "distance_m": 33.6
+          }
         ]
       },
       "geometry": {
@@ -21697,9 +21752,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "lulebo_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 313500143,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -21711,6 +21768,14 @@
         "payment_apps": [
           "parkster",
           "aimo"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m8",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+            "distance_m": 11.8
+          }
         ]
       },
       "geometry": {
@@ -21825,9 +21890,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "lulebo_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 313500145,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -21839,6 +21906,14 @@
         "payment_apps": [
           "parkster",
           "aimo"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m5",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+            "distance_m": 28.3
+          }
         ]
       },
       "geometry": {
@@ -21889,9 +21964,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "lulebo_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 313502449,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -21903,6 +21980,14 @@
         "payment_apps": [
           "parkster",
           "aimo"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m4",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+            "distance_m": 53.9
+          }
         ]
       },
       "geometry": {
@@ -30963,9 +31048,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "lulebo_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 383289917,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -30977,6 +31064,14 @@
         "payment_apps": [
           "parkster",
           "aimo"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m10",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+            "distance_m": 37.7
+          }
         ]
       },
       "geometry": {
@@ -31387,9 +31482,11 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "aimopark_matched",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 383628263,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -31400,7 +31497,16 @@
         "aimopark_name": "sandviksg.--varvsg.--timmermansg.--kungsg",
         "aimopark_distance_m": 111.8,
         "payment_apps": [
-          "aimo"
+          "aimo",
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m7",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+            "distance_m": 38.8
+          }
         ]
       },
       "geometry": {
@@ -35626,9 +35732,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "lulebo_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 662020710,
         "osm_distance_m": null,
         "osm_access": "no",
@@ -35640,6 +35748,14 @@
         "payment_apps": [
           "parkster",
           "aimo"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m9",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+            "distance_m": 67.0
+          }
         ]
       },
       "geometry": {
@@ -44801,9 +44917,11 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "aimopark_matched",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1289428370,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -44814,7 +44932,21 @@
         "aimopark_name": "sodra-kungsgatan-3-5--smabatsgatan-1",
         "aimopark_distance_m": 163.1,
         "payment_apps": [
-          "aimo"
+          "aimo",
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "lulea-parkster-review-grid_r0_c1-m4",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+            "distance_m": 114.6
+          },
+          {
+            "marker_id": "lulea-parkster-review-grid_r0_c1-m6",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+            "distance_m": 35.9
+          }
         ]
       },
       "geometry": {

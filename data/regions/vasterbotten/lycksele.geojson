@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:05:27.789943+00:00",
+    "generated": "2026-06-23T17:52:22.256271+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västerbotten",
     "city": "lycksele",
@@ -41,6 +41,15 @@
       "added": 10,
       "meters_per_px": 1.0,
       "updated_at": "2026-06-23T17:05:27.789950+00:00"
+    },
+    "parkster_review_match": {
+      "radius_m": 120.0,
+      "markers_total": 10,
+      "markers_matched": 1,
+      "markers_unmatched": 9,
+      "features_matched": 1,
+      "updated_at": "2026-06-23T17:52:22.256258+00:00",
+      "status": "needs_review"
     }
   },
   "features": [
@@ -3050,16 +3059,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1425553457,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "lycksele-parkster-review-grid_r0_c0-m10",
+            "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
+            "distance_m": 80.0
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",

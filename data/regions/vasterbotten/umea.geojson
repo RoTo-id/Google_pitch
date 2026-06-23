@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:05:27.518134+00:00",
+    "generated": "2026-06-23T17:52:20.770311+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västerbotten",
     "city": "umea",
@@ -41,6 +41,15 @@
       "added": 64,
       "meters_per_px": 1.0,
       "updated_at": "2026-06-23T17:05:27.518142+00:00"
+    },
+    "parkster_review_match": {
+      "radius_m": 120.0,
+      "markers_total": 64,
+      "markers_matched": 28,
+      "markers_unmatched": 36,
+      "features_matched": 26,
+      "updated_at": "2026-06-23T17:52:20.770304+00:00",
+      "status": "needs_review"
     }
   },
   "features": [
@@ -1068,16 +1077,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "fee_confirmed_unknown"
+          "fee_confirmed_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 26170453,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": "UPAB",
-        "osm_note": "sms code 637"
+        "osm_note": "sms code 637",
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m7",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 67.1
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -1271,16 +1293,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 26171701,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m9",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 13.8
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -16558,16 +16593,34 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "fee_confirmed_unknown"
+          "fee_confirmed_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 120303281,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m9",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 114.4
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m15",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 89.3
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -18631,16 +18684,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 123500092,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m14",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 91.8
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -18759,16 +18825,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 123518987,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m23",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 28.1
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -18818,16 +18897,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 123519004,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m21",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 108.4
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -19001,16 +19093,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 123519023,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m22",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 98.5
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -19125,16 +19230,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 123520394,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m18",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 46.0
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -25703,16 +25821,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 190446886,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m35",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 28.8
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -32435,16 +32566,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 301951832,
         "osm_distance_m": null,
         "osm_access": "no",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m13",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 64.3
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -38560,16 +38704,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 408912441,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m6",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 87.0
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -39724,16 +39881,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 416891291,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m11",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 53.7
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -40992,16 +41162,34 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 430494987,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m8",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 59.7
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m10",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 88.2
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -42383,16 +42571,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 464337136,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m20",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 90.6
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -50249,16 +50450,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "fee_confirmed_unknown"
+          "fee_confirmed_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 562225283,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "yes",
         "osm_parking": "multi-storey",
         "osm_operator": "UPAB",
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m8",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 42.7
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -52644,16 +52858,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 627829105,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m2",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 74.3
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -58899,16 +59126,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 725947011,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m15",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 84.1
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -59115,16 +59355,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 728850299,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m10",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 67.2
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -62110,16 +62363,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 825822942,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m10",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 77.2
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -69124,16 +69390,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1123899751,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m7",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 46.0
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -71218,16 +71497,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1140848359,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m3",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 86.7
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -73964,16 +74256,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1238026820,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m4",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 55.1
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -76123,16 +76428,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1317098243,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m19",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 79.9
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -76730,16 +77048,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1322916968,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m26",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 102.2
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -83409,16 +83740,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1358180615,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m12",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 38.0
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -83537,16 +83881,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "fee_confirmed_unknown"
+          "fee_confirmed_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1358425992,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m5",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260623T114848.json",
+            "distance_m": 97.2
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",

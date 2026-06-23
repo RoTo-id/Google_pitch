@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T10:04:42.344243+00:00",
+    "generated": "2026-06-23T17:52:19.804482+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "boden",
@@ -63,6 +63,15 @@
       "before_unknown": 25,
       "after_unknown": 25,
       "run_date": "2026-06-23"
+    },
+    "parkster_review_match": {
+      "radius_m": 120.0,
+      "markers_total": 0,
+      "markers_matched": 0,
+      "markers_unmatched": 0,
+      "features_matched": 0,
+      "updated_at": "2026-06-23T17:52:19.804464+00:00",
+      "status": "needs_review"
     }
   },
   "features": [

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:05:27.718391+00:00",
+    "generated": "2026-06-23T17:52:22.215728+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "ornskoldsvik",
@@ -41,6 +41,15 @@
       "added": 4,
       "meters_per_px": 1.0,
       "updated_at": "2026-06-23T17:05:27.718398+00:00"
+    },
+    "parkster_review_match": {
+      "radius_m": 120.0,
+      "markers_total": 4,
+      "markers_matched": 1,
+      "markers_unmatched": 3,
+      "features_matched": 1,
+      "updated_at": "2026-06-23T17:52:22.215717+00:00",
+      "status": "needs_review"
     }
   },
   "features": [
@@ -3424,16 +3433,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 108628091,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "ornskoldsvik-parkster-review-grid_r0_c0-m7",
+            "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260623T115319.json",
+            "distance_m": 66.9
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:05:27.337003+00:00",
+    "generated": "2026-06-23T17:52:20.070430+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västerbotten",
     "city": "skelleftea",
@@ -55,6 +55,15 @@
       "added": 68,
       "meters_per_px": 1.0,
       "updated_at": "2026-06-23T17:05:27.337013+00:00"
+    },
+    "parkster_review_match": {
+      "radius_m": 120.0,
+      "markers_total": 68,
+      "markers_matched": 26,
+      "markers_unmatched": 42,
+      "features_matched": 18,
+      "updated_at": "2026-06-23T17:52:20.070408+00:00",
+      "status": "needs_review"
     }
   },
   "features": [
@@ -1379,9 +1388,11 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "aimopark_matched",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 88371506,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -1392,7 +1403,16 @@
         "aimopark_name": "stationsgatan-24--sodra-jarnvagsgatan-42",
         "aimopark_distance_m": 125.4,
         "payment_apps": [
-          "aimo"
+          "aimo",
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m10",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 50.5
+          }
         ]
       },
       "geometry": {
@@ -1579,9 +1599,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 91795667,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -1593,6 +1615,19 @@
         "payment_apps": [
           "epark",
           "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c0-m4",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 93.2
+          },
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c0-m6",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 52.0
+          }
         ]
       },
       "geometry": {
@@ -3362,9 +3397,11 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "aimopark_matched",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 123620508,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -3375,7 +3412,21 @@
         "aimopark_name": "norra-jarnvagsgatan-9-11",
         "aimopark_distance_m": 109.3,
         "payment_apps": [
-          "aimo"
+          "aimo",
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m16",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 24.3
+          },
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m17",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 102.4
+          }
         ]
       },
       "geometry": {
@@ -3514,9 +3565,11 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "aimopark_matched",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 123625160,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -3527,7 +3580,16 @@
         "aimopark_name": "sodra-jarnvagsgatan-48-50",
         "aimopark_distance_m": 136.2,
         "payment_apps": [
-          "aimo"
+          "aimo",
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m11",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 67.1
+          }
         ]
       },
       "geometry": {
@@ -5207,9 +5269,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 217524626,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -5221,6 +5285,14 @@
         "payment_apps": [
           "epark",
           "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m13",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 45.4
+          }
         ]
       },
       "geometry": {
@@ -5669,9 +5741,11 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "aimopark_matched",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 255961156,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -5682,7 +5756,16 @@
         "aimopark_name": "torggatan-32",
         "aimopark_distance_m": 87.3,
         "payment_apps": [
-          "aimo"
+          "aimo",
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m15",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 108.0
+          }
         ]
       },
       "geometry": {
@@ -10390,9 +10473,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 356929109,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -10404,6 +10489,14 @@
         "payment_apps": [
           "epark",
           "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r1_c0-m4",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 43.0
+          }
         ]
       },
       "geometry": {
@@ -10590,9 +10683,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 356929112,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -10604,6 +10699,14 @@
         "payment_apps": [
           "epark",
           "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r1_c0-m6",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 72.8
+          }
         ]
       },
       "geometry": {
@@ -11111,16 +11214,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 357254035,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r1_c0-m3",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 61.6
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -13548,9 +13664,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 367588432,
         "osm_distance_m": null,
         "osm_access": "customers",
@@ -13562,6 +13680,14 @@
         "payment_apps": [
           "epark",
           "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m2",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 87.4
+          }
         ]
       },
       "geometry": {
@@ -14501,9 +14627,11 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "aimopark_matched",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 404925248,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -14514,7 +14642,21 @@
         "aimopark_name": "stationsgatan-24--sodra-jarnvagsgatan-42",
         "aimopark_distance_m": 184.0,
         "payment_apps": [
-          "aimo"
+          "aimo",
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c0-m1",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 108.2
+          },
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m5",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 62.1
+          }
         ]
       },
       "geometry": {
@@ -18757,9 +18899,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 975113891,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -18771,6 +18915,19 @@
         "payment_apps": [
           "epark",
           "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r1_c0-m7",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 109.4
+          },
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r1_c0-m9",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 101.5
+          }
         ]
       },
       "geometry": {
@@ -20090,9 +20247,11 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "aimopark_matched",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 997791650,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -20103,7 +20262,21 @@
         "aimopark_name": "sodra-jarnvagsgatan-49-57",
         "aimopark_distance_m": 105.9,
         "payment_apps": [
-          "aimo"
+          "aimo",
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c0-m2",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 51.4
+          },
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m14",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 65.2
+          }
         ]
       },
       "geometry": {
@@ -24366,9 +24539,11 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "aimopark_matched",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1354482605,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -24379,7 +24554,21 @@
         "aimopark_name": "torggatan-32",
         "aimopark_distance_m": 131.8,
         "payment_apps": [
-          "aimo"
+          "aimo",
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m3",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 102.0
+          },
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m8",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 51.8
+          }
         ]
       },
       "geometry": {
@@ -24430,9 +24619,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1354482606,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -24444,6 +24635,14 @@
         "payment_apps": [
           "epark",
           "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m9",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 26.7
+          }
         ]
       },
       "geometry": {
@@ -25622,9 +25821,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1429071929,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -25636,6 +25837,19 @@
         "payment_apps": [
           "epark",
           "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c0-m8",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 49.0
+          },
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m20",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 70.9
+          }
         ]
       },
       "geometry": {
@@ -25814,9 +26028,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1429071935,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -25828,6 +26044,19 @@
         "payment_apps": [
           "epark",
           "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c0-m7",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 82.6
+          },
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c0-m9",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 21.6
+          }
         ]
       },
       "geometry": {
@@ -26219,9 +26448,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-06-23",
         "osm_id": 1429718125,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -26233,6 +26464,14 @@
         "payment_apps": [
           "epark",
           "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m24",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+            "distance_m": 79.4
+          }
         ]
       },
       "geometry": {
