@@ -2,22 +2,22 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:52:19.786335+00:00",
+    "generated": "2026-07-12T22:18:16.315508+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "lulea",
     "municipality": "Luleå kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "lulea-osm-bootstrap",
-    "zone_count": 687,
+    "zone_count": 695,
     "bootstrap": {
       "osm_source": "output\\osm_parking_lulea.geojson",
-      "zones_imported": 663,
-      "bootstrap_date": "2026-06-23"
+      "zones_imported": 665,
+      "bootstrap_date": "2026-07-09"
     },
     "operator_identification": {
-      "before_unknown": 8,
-      "after_unknown": 8,
+      "before_unknown": 9,
+      "after_unknown": 9,
       "total_identified": 0,
       "per_operator": {
         "aimopark": 0,
@@ -29,7 +29,7 @@
       "aimo_matched": 0,
       "lulebo_matched": 0,
       "kommun_matched": 0,
-      "run_date": "2026-06-23"
+      "run_date": "2026-07-12"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -43,44 +43,28 @@
       "note_matched": 0,
       "access_yes_free": 0,
       "fee_confirmed_unknown": 0,
-      "genuinely_unknown": 8,
-      "before": 8,
-      "after": 8,
-      "total": 663,
-      "coverage_pct": 98.8,
-      "run_date": "2026-06-23"
-    },
-    "easypark_lookup": {
-      "matched": 0,
-      "failed": 0,
-      "no_response": 8,
-      "before_unknown": 8,
-      "after_unknown": 8,
-      "run_date": "2026-06-23"
-    },
-    "parkster_coordinate_scan": {
-      "api_matched": 0,
-      "adb_pending": 8,
-      "api_failed": 0,
-      "before_unknown": 8,
-      "after_unknown": 8,
-      "run_date": "2026-06-23"
+      "genuinely_unknown": 9,
+      "before": 9,
+      "after": 9,
+      "total": 665,
+      "coverage_pct": 98.6,
+      "run_date": "2026-07-12"
     },
     "parkster_review_markers": {
-      "source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
+      "source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
       "status": "needs_review",
       "removed_previous": 0,
-      "added": 24,
+      "added": 30,
       "meters_per_px": 1.0,
-      "updated_at": "2026-06-23T17:05:27.253260+00:00"
+      "updated_at": "2026-07-12T22:18:15.437558+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
-      "markers_total": 24,
-      "markers_matched": 14,
-      "markers_unmatched": 10,
+      "markers_total": 30,
+      "markers_matched": 15,
+      "markers_unmatched": 15,
       "features_matched": 10,
-      "updated_at": "2026-06-23T17:52:19.786316+00:00",
+      "updated_at": "2026-07-12T22:18:16.315488+00:00",
       "status": "needs_review"
     }
   },
@@ -2694,7 +2678,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "assistentvagen-8-370--docentvagen",
-        "aimopark_distance_m": 125.0,
+        "aimopark_distance_m": 67.4,
         "payment_apps": [
           "aimo"
         ]
@@ -3800,9 +3784,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 47957546,
@@ -3811,8 +3793,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.685303&lng=22.094825\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5055,14 +5036,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1174",
+        "zone_code": "1134",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 6,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "hours": "Every day 00-24: 1 h - 6 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/vinkelgrand-1-7--krongardsringen-2/",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/krongardsringen-6-32/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -5076,8 +5057,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "vinkelgrand-1-7--krongardsringen-2",
-        "aimopark_distance_m": 122.4,
+        "aimopark_name": "krongardsringen-6-32",
+        "aimopark_distance_m": 69.5,
         "payment_apps": [
           "aimo"
         ]
@@ -5119,14 +5100,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1174",
+        "zone_code": "1134",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 6,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 7 SEK",
+        "hours": "Every day 00-24: 1 h - 6 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/rodkallens-vag-11-15/",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/krongardsringen-6-32/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -5140,8 +5121,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "rodkallens-vag-11-15",
-        "aimopark_distance_m": 127.2,
+        "aimopark_name": "krongardsringen-6-32",
+        "aimopark_distance_m": 99.7,
         "payment_apps": [
           "aimo"
         ]
@@ -5331,35 +5312,32 @@
       "properties": {
         "id": "lulea-osm-48626336",
         "name": "OSM-48626336",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.55,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "osm_reclassified",
+          "access_yes_free"
         ],
         "last_verified": null,
         "osm_id": 48626336,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": "yes",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.544821&lng=22.154999\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8373,7 +8351,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 62359412,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -8387,12 +8365,17 @@
           "aimo",
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
-            "marker_id": "lulea-parkster-review-grid_r0_c0-m15",
-            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-            "distance_m": 16.8
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m17",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+            "distance_m": 32.6
+          },
+          {
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m19",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+            "distance_m": 90.7
           }
         ]
       },
@@ -8452,7 +8435,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 62359413,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -8465,22 +8448,17 @@
           "parkster",
           "aimo"
         ],
-        "parkster_evidence_count": 3,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
-            "marker_id": "lulea-parkster-review-grid_r0_c0-m17",
-            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-            "distance_m": 83.8
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m20",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+            "distance_m": 82.2
           },
           {
-            "marker_id": "lulea-parkster-review-grid_r0_c0-m18",
-            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-            "distance_m": 72.2
-          },
-          {
-            "marker_id": "lulea-parkster-review-grid_r0_c0-m19",
-            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-            "distance_m": 31.7
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m21",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+            "distance_m": 45.4
           }
         ]
       },
@@ -9632,22 +9610,22 @@
       "properties": {
         "id": "lulea-osm-90966427",
         "name": "OSM-90966427",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1196",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/lulea-science-park/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 90966427,
@@ -9657,9 +9635,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "lulea-science-park",
-        "aimopark_distance_m": 172.1,
+        "lulebo_district": "Porsön",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -9742,7 +9720,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "lulea-science-park",
-        "aimopark_distance_m": 117.2,
+        "aimopark_distance_m": 130.4,
         "payment_apps": [
           "aimo"
         ]
@@ -9842,7 +9820,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "lulea-science-park",
-        "aimopark_distance_m": 114.9,
+        "aimopark_distance_m": 191.6,
         "payment_apps": [
           "aimo"
         ]
@@ -9880,22 +9858,22 @@
       "properties": {
         "id": "lulea-osm-90966436",
         "name": "OSM-90966436",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1196",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/lulea-science-park/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 90966436,
@@ -9905,9 +9883,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "lulea-science-park",
-        "aimopark_distance_m": 100.6,
+        "lulebo_district": "Porsön",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -10180,9 +10158,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 119235808,
@@ -10191,8 +10167,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.521411&lng=22.065942\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12096,7 +12071,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "lulea-science-park",
-        "aimopark_distance_m": 73.8,
+        "aimopark_distance_m": 61.4,
         "payment_apps": [
           "aimo"
         ]
@@ -12854,22 +12829,22 @@
       "properties": {
         "id": "lulea-osm-215310976",
         "name": "OSM-215310976",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 215310976,
@@ -12879,9 +12854,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 81.2,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -12918,22 +12893,22 @@
       "properties": {
         "id": "lulea-osm-215310977",
         "name": "OSM-215310977",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 215310977,
@@ -12943,9 +12918,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 146.8,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -13340,9 +13315,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 224643063,
@@ -13351,8 +13324,7 @@
         "osm_fee": "yes",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.856321&lng=22.292428\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -15735,9 +15707,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 253097106,
@@ -15746,8 +15716,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.635482&lng=22.110707\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -17774,26 +17743,26 @@
       "properties": {
         "id": "lulea-osm-294780178",
         "name": "OSM-294780178",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match",
+          "aimopark_matched",
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 294780178,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -17801,22 +17770,23 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 167.5,
         "payment_apps": [
-          "parkster",
-          "aimo"
+          "aimo",
+          "parkster"
         ],
         "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
-            "marker_id": "lulea-parkster-review-grid_r0_c0-m11",
-            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-            "distance_m": 15.6
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m13",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+            "distance_m": 32.3
           },
           {
-            "marker_id": "lulea-parkster-review-grid_r0_c0-m12",
-            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-            "distance_m": 33.6
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m14",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+            "distance_m": 28.4
           }
         ]
       },
@@ -19269,22 +19239,22 @@
       "properties": {
         "id": "lulea-osm-308210349",
         "name": "OSM-308210349",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 308210349,
@@ -19294,9 +19264,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 181.6,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -19509,14 +19479,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1134",
+        "zone_code": "1174",
         "spots": null,
-        "price_per_hour": 6,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 6 SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/krongardsringen-6-32/",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/vinkelgrand-1-7--krongardsringen-2/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -19530,8 +19500,8 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "krongardsringen-6-32",
-        "aimopark_distance_m": 70.1,
+        "aimopark_name": "vinkelgrand-1-7--krongardsringen-2",
+        "aimopark_distance_m": 142.4,
         "payment_apps": [
           "aimo"
         ]
@@ -19573,14 +19543,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1134",
+        "zone_code": "1174",
         "spots": null,
-        "price_per_hour": 6,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 6 SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/krongardsringen-6-32/",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/vinkelgrand-1-7--krongardsringen-2/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -19594,8 +19564,8 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "krongardsringen-6-32",
-        "aimopark_distance_m": 55.2,
+        "aimopark_name": "vinkelgrand-1-7--krongardsringen-2",
+        "aimopark_distance_m": 141.2,
         "payment_apps": [
           "aimo"
         ]
@@ -19637,14 +19607,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1134",
+        "zone_code": "1174",
         "spots": null,
-        "price_per_hour": 6,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 6 SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/krongardsringen-6-32/",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/vinkelgrand-1-7--krongardsringen-2/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -19658,8 +19628,8 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "krongardsringen-6-32",
-        "aimopark_distance_m": 24.8,
+        "aimopark_name": "vinkelgrand-1-7--krongardsringen-2",
+        "aimopark_distance_m": 102.8,
         "payment_apps": [
           "aimo"
         ]
@@ -21756,7 +21726,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 313500143,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -21772,9 +21742,9 @@
         "parkster_evidence_count": 1,
         "parkster_review_refs": [
           {
-            "marker_id": "lulea-parkster-review-grid_r0_c0-m8",
-            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-            "distance_m": 11.8
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m10",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+            "distance_m": 3.1
           }
         ]
       },
@@ -21894,7 +21864,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 313500145,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -21907,12 +21877,17 @@
           "parkster",
           "aimo"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
-            "marker_id": "lulea-parkster-review-grid_r0_c0-m5",
-            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-            "distance_m": 28.3
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m6",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+            "distance_m": 48.5
+          },
+          {
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m7",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+            "distance_m": 14.0
           }
         ]
       },
@@ -21968,7 +21943,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 313502449,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -21984,9 +21959,9 @@
         "parkster_evidence_count": 1,
         "parkster_review_refs": [
           {
-            "marker_id": "lulea-parkster-review-grid_r0_c0-m4",
-            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-            "distance_m": 53.9
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m5",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+            "distance_m": 61.0
           }
         ]
       },
@@ -22811,22 +22786,22 @@
       "properties": {
         "id": "lulea-osm-314612512",
         "name": "OSM-314612512",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 314612512,
@@ -22836,9 +22811,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 150.3,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -24471,14 +24446,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1134",
+        "zone_code": "1174",
         "spots": null,
-        "price_per_hour": 6,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 6 SEK",
+        "hours": "Every day 00-24: 1 h - 7 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/krongardsringen-6-32/",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/vinkelgrand-1-7--krongardsringen-2/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -24492,8 +24467,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "krongardsringen-6-32",
-        "aimopark_distance_m": 79.5,
+        "aimopark_name": "vinkelgrand-1-7--krongardsringen-2",
+        "aimopark_distance_m": 172.9,
         "payment_apps": [
           "aimo"
         ]
@@ -24557,7 +24532,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "krongardsringen-6-32",
-        "aimopark_distance_m": 103.9,
+        "aimopark_distance_m": 192.5,
         "payment_apps": [
           "aimo"
         ]
@@ -24621,7 +24596,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "krongardsringen-6-32",
-        "aimopark_distance_m": 100.2,
+        "aimopark_distance_m": 62.6,
         "payment_apps": [
           "aimo"
         ]
@@ -28734,9 +28709,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 342968535,
@@ -28745,8 +28718,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.646801&lng=21.986727\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -30029,22 +30001,22 @@
       "properties": {
         "id": "lulea-osm-381126706",
         "name": "OSM-381126706",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": "6",
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 381126706,
@@ -30054,9 +30026,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 107.5,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -30301,22 +30273,22 @@
       "properties": {
         "id": "lulea-osm-382322381",
         "name": "OSM-382322381",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 382322381,
@@ -30326,9 +30298,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 154.3,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -30365,22 +30337,22 @@
       "properties": {
         "id": "lulea-osm-382322390",
         "name": "OSM-382322390",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 382322390,
@@ -30390,9 +30362,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 184.8,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -30433,22 +30405,22 @@
       "properties": {
         "id": "lulea-osm-382362255",
         "name": "OSM-382362255",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": "13",
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 382362255,
@@ -30458,9 +30430,9 @@
         "osm_parking": "surface",
         "osm_operator": "Q-Park AB",
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 129.2,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -30497,22 +30469,22 @@
       "properties": {
         "id": "lulea-osm-382362264",
         "name": "OSM-382362264",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": "10",
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 382362264,
@@ -30522,9 +30494,9 @@
         "osm_parking": "surface",
         "osm_operator": "Q-Park AB",
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 115.3,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -30625,22 +30597,22 @@
       "properties": {
         "id": "lulea-osm-382495515",
         "name": "OSM-382495515",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 382495515,
@@ -30650,9 +30622,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 161.1,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -30701,22 +30673,22 @@
       "properties": {
         "id": "lulea-osm-382499816",
         "name": "OSM-382499816",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 382499816,
@@ -30726,9 +30698,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 90.9,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -31052,7 +31024,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 383289917,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -31068,9 +31040,9 @@
         "parkster_evidence_count": 1,
         "parkster_review_refs": [
           {
-            "marker_id": "lulea-parkster-review-grid_r0_c0-m10",
-            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-            "distance_m": 37.7
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m12",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+            "distance_m": 46.4
           }
         ]
       },
@@ -31486,7 +31458,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 383628263,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -31503,9 +31475,9 @@
         "parkster_evidence_count": 1,
         "parkster_review_refs": [
           {
-            "marker_id": "lulea-parkster-review-grid_r0_c0-m7",
-            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-            "distance_m": 38.8
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m9",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+            "distance_m": 21.7
           }
         ]
       },
@@ -31826,22 +31798,22 @@
       "properties": {
         "id": "lulea-osm-383898128",
         "name": "OSM-383898128",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 383898128,
@@ -31851,9 +31823,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 111.6,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -31890,22 +31862,22 @@
       "properties": {
         "id": "lulea-osm-383898129",
         "name": "OSM-383898129",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 383898129,
@@ -31915,9 +31887,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 92.6,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -31954,22 +31926,22 @@
       "properties": {
         "id": "lulea-osm-383898130",
         "name": "OSM-383898130",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 383898130,
@@ -31979,9 +31951,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 70.2,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -32018,22 +31990,22 @@
       "properties": {
         "id": "lulea-osm-383898131",
         "name": "OSM-383898131",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 383898131,
@@ -32043,9 +32015,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 56.1,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -32987,7 +32959,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "munkebergsgatan-36-922",
-        "aimopark_distance_m": 38.5,
+        "aimopark_distance_m": 25.7,
         "payment_apps": [
           "aimo"
         ]
@@ -33075,7 +33047,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "munkebergsgatan-36-922",
-        "aimopark_distance_m": 177.4,
+        "aimopark_distance_m": 164.6,
         "payment_apps": [
           "aimo"
         ]
@@ -33953,22 +33925,22 @@
       "properties": {
         "id": "lulea-osm-543627843",
         "name": "OSM-543627843",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1196",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/lulea-science-park/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 543627843,
@@ -33978,9 +33950,9 @@
         "osm_parking": "surface",
         "osm_operator": "Aimo",
         "osm_note": null,
-        "aimopark_name": "lulea-science-park",
-        "aimopark_distance_m": 147.8,
+        "lulebo_district": "Porsön",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -35427,7 +35399,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "munkebergsgatan-36-922",
-        "aimopark_distance_m": 116.5,
+        "aimopark_distance_m": 129.1,
         "payment_apps": [
           "aimo"
         ]
@@ -35565,22 +35537,22 @@
       "properties": {
         "id": "lulea-osm-662020703",
         "name": "OSM-662020703",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 662020703,
@@ -35590,9 +35562,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 98.3,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -35649,22 +35621,22 @@
       "properties": {
         "id": "lulea-osm-662020709",
         "name": "OSM-662020709",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 662020709,
@@ -35674,9 +35646,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 102.7,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -35717,26 +35689,24 @@
       "properties": {
         "id": "lulea-osm-662020710",
         "name": "OSM-662020710",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": "2",
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match",
-          "parkster_nearby_evidence",
-          "needs_review"
+          "aimopark_matched"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": null,
         "osm_id": 662020710,
         "osm_distance_m": null,
         "osm_access": "no",
@@ -35744,18 +35714,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 113.9,
         "payment_apps": [
-          "parkster",
           "aimo"
-        ],
-        "parkster_evidence_count": 1,
-        "parkster_review_refs": [
-          {
-            "marker_id": "lulea-parkster-review-grid_r0_c0-m9",
-            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-            "distance_m": 67.0
-          }
         ]
       },
       "geometry": {
@@ -38748,9 +38710,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1047060018,
@@ -38759,8 +38719,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.558256&lng=21.918753\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -41175,22 +41134,22 @@
       "properties": {
         "id": "lulea-osm-1193600566",
         "name": "OSM-1193600566",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1193600566,
@@ -41200,9 +41159,9 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 117.0,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -41239,22 +41198,22 @@
       "properties": {
         "id": "lulea-osm-1193600567",
         "name": "OSM-1193600567",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1193600567,
@@ -41264,9 +41223,9 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 132.3,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -41303,22 +41262,22 @@
       "properties": {
         "id": "lulea-osm-1193600569",
         "name": "OSM-1193600569",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "street",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1193600569,
@@ -41328,9 +41287,9 @@
         "osm_parking": "street_side",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 143.7,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -42063,9 +42022,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1240283714,
@@ -42074,8 +42031,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.586737&lng=22.026899\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -44921,7 +44877,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 1289428370,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -44938,14 +44894,14 @@
         "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
-            "marker_id": "lulea-parkster-review-grid_r0_c1-m4",
-            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-            "distance_m": 114.6
+            "marker_id": "lulea-parkster-review-grid_r0_c1-m8",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+            "distance_m": 106.1
           },
           {
-            "marker_id": "lulea-parkster-review-grid_r0_c1-m6",
-            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-            "distance_m": 35.9
+            "marker_id": "lulea-parkster-review-grid_r0_c1-m10",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+            "distance_m": 28.9
           }
         ]
       },
@@ -45130,24 +45086,26 @@
       "properties": {
         "id": "lulea-osm-1292066694",
         "name": "OSM-1292066694",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-12",
         "osm_id": 1292066694,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -45155,10 +45113,19 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 140.2,
         "payment_apps": [
-          "parkster",
-          "aimo"
+          "aimo",
+          "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "lulea-parkster-review-grid_r0_c0-m11",
+            "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+            "distance_m": 75.8
+          }
         ]
       },
       "geometry": {
@@ -45206,22 +45173,22 @@
       "properties": {
         "id": "lulea-osm-1292066695",
         "name": "OSM-1292066695",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1292066695,
@@ -45231,9 +45198,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 177.0,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -45370,14 +45337,14 @@
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1196",
+        "zone_code": "1118",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 12 SEK",
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/lulea-science-park/",
+        "source_url": "https://www.aimopark.se/en/cities/lulea/karhusgrand-1-9/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -45391,8 +45358,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "lulea-science-park",
-        "aimopark_distance_m": 102.3,
+        "aimopark_name": "karhusgrand-1-9",
+        "aimopark_distance_m": 173.0,
         "payment_apps": [
           "aimo"
         ]
@@ -45470,22 +45437,22 @@
       "properties": {
         "id": "lulea-osm-1292955563",
         "name": "OSM-1292955563",
-        "operator": "aimopark",
+        "operator": "lulebo",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1196",
+        "zone_code": "1246",
         "spots": null,
-        "price_per_hour": 12,
+        "price_per_hour": 7,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 12 SEK",
+        "hours": "24/7",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/lulea/lulea-science-park/",
-        "confidence": 0.75,
+        "source_url": null,
+        "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched"
+          "lulebo_district_match"
         ],
         "last_verified": null,
         "osm_id": 1292955563,
@@ -45495,9 +45462,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "lulea-science-park",
-        "aimopark_distance_m": 167.8,
+        "lulebo_district": "Porsön",
         "payment_apps": [
+          "parkster",
           "aimo"
         ]
       },
@@ -50098,22 +50065,22 @@
       "properties": {
         "id": "lulea-osm-1366272497",
         "name": "OSM-1366272497",
-        "operator": "lulebo",
+        "operator": "aimopark",
         "municipality": "Luleå",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1246",
+        "zone_code": "1254",
         "spots": null,
-        "price_per_hour": 7,
+        "price_per_hour": 10,
         "currency": "SEK",
-        "hours": "24/7",
+        "hours": "Mon-Fri (17.00-07.30), Sat-Sun (00-24) 1 h - 10 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/lulea/tradgardsgatan-13/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "lulebo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1366272497,
@@ -50123,9 +50090,9 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "lulebo_district": "Hertson",
+        "aimopark_name": "tradgardsgatan-13",
+        "aimopark_distance_m": 197.4,
         "payment_apps": [
-          "parkster",
           "aimo"
         ]
       },
@@ -51660,6 +51627,154 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "lulea-osm-1533126883",
+        "name": "OSM-1533126883",
+        "operator": "unknown",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1533126883,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.1009571,
+              65.5809168
+            ],
+            [
+              22.1007198,
+              65.5806925
+            ],
+            [
+              22.1005389,
+              65.5807377
+            ],
+            [
+              22.1005039,
+              65.5807928
+            ],
+            [
+              22.1005622,
+              65.5808914
+            ],
+            [
+              22.1006599,
+              65.5809705
+            ],
+            [
+              22.1009571,
+              65.5809168
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-osm-1533126885",
+        "name": "OSM-1533126885",
+        "operator": "unknown",
+        "municipality": "Luleå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": null,
+        "flags": [
+          "osm_bootstrap",
+          "unknown_operator",
+          "genuinely_unknown"
+        ],
+        "last_verified": null,
+        "osm_id": 1533126885,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.1015545,
+              65.5805422
+            ],
+            [
+              22.1016292,
+              65.5806314
+            ],
+            [
+              22.1017702,
+              65.5807521
+            ],
+            [
+              22.1019926,
+              65.5808928
+            ],
+            [
+              22.1020672,
+              65.5809278
+            ],
+            [
+              22.1018374,
+              65.5809696
+            ],
+            [
+              22.101713,
+              65.5809061
+            ],
+            [
+              22.1016043,
+              65.5807947
+            ],
+            [
+              22.1014085,
+              65.5806005
+            ],
+            [
+              22.1015545,
+              65.5805422
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "lulea-parkster-review-grid_r0_c0-m1",
         "name": "Parkster marker (needs review)",
         "operator": "unknown",
@@ -51680,20 +51795,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1047,
-        "screen_y": 1847,
+        "screen_x": 1041,
+        "screen_y": 1853,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.151038,
-          65.5763794
+          22.1509076,
+          65.5763255
         ]
       }
     },
@@ -51720,20 +51835,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 944,
-        "screen_y": 1809,
+        "screen_x": 932,
+        "screen_y": 1820,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1487997,
-          65.5767208
+          22.1485389,
+          65.576622
         ]
       }
     },
@@ -51760,20 +51875,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 758,
-        "screen_y": 1800,
+        "screen_x": 746,
+        "screen_y": 1813,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1447577,
-          65.5768017
+          22.1444969,
+          65.5766849
         ]
       }
     },
@@ -51800,20 +51915,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1039,
-        "screen_y": 1377,
+        "screen_x": 1047,
+        "screen_y": 1745,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1508642,
-          65.5806015
+          22.151038,
+          65.5772957
         ]
       }
     },
@@ -51840,20 +51955,60 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1068,
-        "screen_y": 1253,
+        "screen_x": 1033,
+        "screen_y": 1390,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1514944,
-          65.5817154
+          22.1507338,
+          65.5804847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m6",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1078,
+        "screen_y": 1321,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1517117,
+          65.5811046
         ]
       }
     },
@@ -51880,60 +52035,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 714,
-        "screen_y": 1245,
+        "screen_x": 1062,
+        "screen_y": 1266,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1438015,
-          65.5817873
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "lulea-parkster-review-grid_r0_c0-m8",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Luleå kommun",
-        "region": "Norrbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
-        "capture_label": "grid_r0_c0",
-        "screen_x": 1047,
-        "screen_y": 1195,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          22.151038,
-          65.5822364
+          22.151364,
+          65.5815986
         ]
       }
     },
@@ -51960,20 +52075,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 447,
-        "screen_y": 1061,
+        "screen_x": 702,
+        "screen_y": 1258,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1379993,
-          65.5834402
+          22.1435408,
+          65.5816705
         ]
       }
     },
@@ -52000,20 +52115,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 278,
-        "screen_y": 1020,
+        "screen_x": 1041,
+        "screen_y": 1208,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1343268,
-          65.5838085
+          22.1509076,
+          65.5821197
         ]
       }
     },
@@ -52040,20 +52155,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 307,
-        "screen_y": 1013,
+        "screen_x": 435,
+        "screen_y": 1074,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.134957,
-          65.5838714
+          22.1377385,
+          65.5833234
         ]
       }
     },
@@ -52080,20 +52195,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 313,
-        "screen_y": 975,
+        "screen_x": 266,
+        "screen_y": 1033,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1350873,
-          65.5842127
+          22.134066,
+          65.5836917
         ]
       }
     },
@@ -52120,20 +52235,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 830,
-        "screen_y": 680,
+        "screen_x": 295,
+        "screen_y": 1026,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1463224,
-          65.5868627
+          22.1346962,
+          65.5837546
         ]
       }
     },
@@ -52160,20 +52275,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 662,
-        "screen_y": 626,
+        "screen_x": 301,
+        "screen_y": 988,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1426715,
-          65.5873478
+          22.1348266,
+          65.5840959
         ]
       }
     },
@@ -52200,20 +52315,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1009,
-        "screen_y": 609,
+        "screen_x": 818,
+        "screen_y": 693,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1502122,
-          65.5875005
+          22.1460616,
+          65.586746
         ]
       }
     },
@@ -52240,20 +52355,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 729,
-        "screen_y": 605,
+        "screen_x": 650,
+        "screen_y": 639,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1441275,
-          65.5875365
+          22.1424107,
+          65.587231
         ]
       }
     },
@@ -52280,20 +52395,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1042,
-        "screen_y": 503,
+        "screen_x": 997,
+        "screen_y": 622,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1509294,
-          65.5884527
+          22.1499515,
+          65.5873838
         ]
       }
     },
@@ -52320,20 +52435,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1066,
-        "screen_y": 485,
+        "screen_x": 717,
+        "screen_y": 618,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1514509,
-          65.5886144
+          22.1438667,
+          65.5874197
         ]
       }
     },
@@ -52360,20 +52475,100 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1004,
-        "screen_y": 419,
+        "screen_x": 1036,
+        "screen_y": 516,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1501036,
-          65.5892073
+          22.150799,
+          65.588336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m20",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1060,
+        "screen_y": 498,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1513205,
+          65.5884977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c0-m21",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 992,
+        "screen_y": 432,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1498428,
+          65.5890905
         ]
       }
     },
@@ -52400,20 +52595,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 173,
-        "screen_y": 1624,
+        "screen_x": 918,
+        "screen_y": 1738,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1480043,
-          65.5783827
+          22.1641941,
+          65.5773586
         ]
       }
     },
@@ -52440,20 +52635,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 240,
-        "screen_y": 1604,
+        "screen_x": 652,
+        "screen_y": 1702,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1494603,
-          65.5785623
+          22.1584136,
+          65.577682
         ]
       }
     },
@@ -52480,20 +52675,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 1039,
-        "screen_y": 1580,
+        "screen_x": 333,
+        "screen_y": 1675,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1668235,
-          65.5787779
+          22.1514813,
+          65.5779245
         ]
       }
     },
@@ -52520,20 +52715,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 563,
-        "screen_y": 1501,
+        "screen_x": 165,
+        "screen_y": 1620,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1564795,
-          65.5794876
+          22.1478305,
+          65.5784186
         ]
       }
     },
@@ -52560,20 +52755,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 611,
-        "screen_y": 1484,
+        "screen_x": 512,
+        "screen_y": 1616,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1575226,
-          65.5796403
+          22.1553712,
+          65.5784545
         ]
       }
     },
@@ -52600,20 +52795,180 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260623T111915.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260623T111915\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 515,
-        "screen_y": 1418,
+        "screen_x": 232,
+        "screen_y": 1600,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.1554364,
-          65.5802332
+          22.1492865,
+          65.5785983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c1-m7",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 1035,
+        "screen_y": 1576,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1667366,
+          65.5788139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c1-m8",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 555,
+        "screen_y": 1497,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1563057,
+          65.5795235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c1-m9",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 603,
+        "screen_y": 1480,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1573487,
+          65.5796762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lulea-parkster-review-grid_r0_c1-m10",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Luleå kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lulea_parkster_marker_evidence_20260712T232402.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lulea_parkster_map_20260712T232402\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 507,
+        "screen_y": 1414,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1552626,
+          65.5802691
         ]
       }
     }

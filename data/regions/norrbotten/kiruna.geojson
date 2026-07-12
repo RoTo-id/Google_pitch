@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:52:20.109881+00:00",
+    "generated": "2026-07-12T22:18:16.681788+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "kiruna",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_kiruna.geojson",
       "zones_imported": 302,
-      "bootstrap_date": "2026-06-23"
+      "bootstrap_date": "2026-07-09"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -32,15 +32,15 @@
       "after": 113,
       "total": 302,
       "coverage_pct": 62.6,
-      "run_date": "2026-06-23"
+      "run_date": "2026-07-12"
     },
     "parkster_review_markers": {
-      "source": "output\\phone_scans\\kiruna_parkster_marker_evidence_20260623T115104.json",
+      "source": "output\\phone_scans\\kiruna_parkster_marker_evidence_20260713T000404.json",
       "status": "needs_review",
       "removed_previous": 0,
       "added": 0,
       "meters_per_px": 1.0,
-      "updated_at": "2026-06-23T17:05:27.421935+00:00"
+      "updated_at": "2026-07-12T22:18:15.592076+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -48,7 +48,7 @@
       "markers_matched": 0,
       "markers_unmatched": 0,
       "features_matched": 0,
-      "updated_at": "2026-06-23T17:52:20.109864+00:00",
+      "updated_at": "2026-07-12T22:18:16.681765+00:00",
       "status": "needs_review"
     }
   },
@@ -17846,32 +17846,32 @@
         "coordinates": [
           [
             [
-              20.3093515,
-              67.8484498
+              20.3093863,
+              67.8484485
             ],
             [
-              20.3095119,
-              67.8491255
+              20.309526,
+              67.849125
             ],
             [
-              20.311537,
-              67.8490513
+              20.311502,
+              67.8490526
             ],
             [
-              20.3115235,
-              67.8489886
+              20.3114877,
+              67.848989
             ],
             [
-              20.3114048,
-              67.8484366
+              20.3113689,
+              67.8484367
             ],
             [
-              20.3113913,
-              67.8483739
+              20.3113557,
+              67.8483752
             ],
             [
-              20.3093515,
-              67.8484498
+              20.3093863,
+              67.8484485
             ]
           ]
         ]
@@ -17914,24 +17914,24 @@
         "coordinates": [
           [
             [
-              20.3079548,
-              67.8505567
+              20.3080376,
+              67.8505488
             ],
             [
-              20.3097704,
-              67.8509769
+              20.3097457,
+              67.8509356
             ],
             [
-              20.310285,
-              67.8506585
+              20.3102197,
+              67.8506434
             ],
             [
-              20.3084655,
-              67.8502379
+              20.3085184,
+              67.8502501
             ],
             [
-              20.3079548,
-              67.8505567
+              20.3080376,
+              67.8505488
             ]
           ]
         ]
@@ -17978,12 +17978,12 @@
               67.8509568
             ],
             [
-              20.3104882,
-              67.8507056
+              20.3105242,
+              67.8507139
             ],
             [
-              20.3099735,
-              67.8510239
+              20.3100502,
+              67.8510061
             ],
             [
               20.3111076,

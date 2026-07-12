@@ -2,18 +2,18 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:52:22.192891+00:00",
+    "generated": "2026-07-12T22:18:19.808598+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "harnosand",
     "municipality": "Härnösands kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "harnosand-osm-bootstrap",
-    "zone_count": 239,
+    "zone_count": 240,
     "bootstrap": {
       "osm_source": "output\\osm_parking_harnosand.geojson",
-      "zones_imported": 239,
-      "bootstrap_date": "2026-06-22"
+      "zones_imported": 240,
+      "bootstrap_date": "2026-07-09"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -30,9 +30,9 @@
       "genuinely_unknown": 92,
       "before": 95,
       "after": 95,
-      "total": 239,
-      "coverage_pct": 60.3,
-      "run_date": "2026-06-23"
+      "total": 240,
+      "coverage_pct": 60.4,
+      "run_date": "2026-07-12"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -40,7 +40,7 @@
       "markers_matched": 0,
       "markers_unmatched": 0,
       "features_matched": 0,
-      "updated_at": "2026-06-23T17:52:22.192864+00:00",
+      "updated_at": "2026-07-12T22:18:19.808586+00:00",
       "status": "needs_review"
     }
   },
@@ -15809,6 +15809,109 @@
             [
               17.9686426,
               62.63381
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "harnosand-osm-1535626201",
+        "name": "Fälle Friluftsområde",
+        "operator": "free_parking",
+        "municipality": "Härnösand",
+        "region": "Västernorrland",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.85,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 1535626201,
+        "osm_distance_m": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": "Härnösands Kommun",
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              17.865674,
+              62.5985449
+            ],
+            [
+              17.8656981,
+              62.5983214
+            ],
+            [
+              17.8657303,
+              62.5981881
+            ],
+            [
+              17.8658805,
+              62.5981017
+            ],
+            [
+              17.8661246,
+              62.5980202
+            ],
+            [
+              17.866162,
+              62.598037
+            ],
+            [
+              17.8663204,
+              62.5981079
+            ],
+            [
+              17.866425,
+              62.5981622
+            ],
+            [
+              17.8664572,
+              62.5982708
+            ],
+            [
+              17.8664384,
+              62.5983745
+            ],
+            [
+              17.8662239,
+              62.5984572
+            ],
+            [
+              17.8660576,
+              62.5985646
+            ],
+            [
+              17.8659985,
+              62.5986004
+            ],
+            [
+              17.865874,
+              62.598605
+            ],
+            [
+              17.8657196,
+              62.5985905
+            ],
+            [
+              17.865674,
+              62.5985449
             ]
           ]
         ]

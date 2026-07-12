@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:52:20.122534+00:00",
+    "generated": "2026-07-12T22:18:16.704389+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "gallivare",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_gallivare.geojson",
       "zones_imported": 255,
-      "bootstrap_date": "2026-06-23"
+      "bootstrap_date": "2026-07-09"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -27,20 +27,20 @@
       "note_matched": 0,
       "access_yes_free": 0,
       "fee_confirmed_unknown": 2,
-      "genuinely_unknown": 69,
-      "before": 71,
-      "after": 71,
+      "genuinely_unknown": 67,
+      "before": 69,
+      "after": 69,
       "total": 255,
-      "coverage_pct": 72.2,
-      "run_date": "2026-06-23"
+      "coverage_pct": 72.9,
+      "run_date": "2026-07-12"
     },
     "parkster_review_markers": {
-      "source": "output\\phone_scans\\gallivare_parkster_marker_evidence_20260623T114414.json",
+      "source": "output\\phone_scans\\gallivare_parkster_marker_evidence_20260712T235724.json",
       "status": "needs_review",
       "removed_previous": 0,
       "added": 0,
       "meters_per_px": 1.0,
-      "updated_at": "2026-06-23T17:05:27.461317+00:00"
+      "updated_at": "2026-07-12T22:18:15.628599+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -48,7 +48,7 @@
       "markers_matched": 0,
       "markers_unmatched": 0,
       "features_matched": 0,
-      "updated_at": "2026-06-23T17:52:20.122512+00:00",
+      "updated_at": "2026-07-12T22:18:16.704362+00:00",
       "status": "needs_review"
     }
   },
@@ -5665,29 +5665,28 @@
       "properties": {
         "id": "gallivare-osm-813517208",
         "name": "OSM-813517208",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "osm_reclassified"
         ],
         "last_verified": null,
         "osm_id": 813517208,
         "osm_distance_m": null,
-        "osm_access": "unknown",
-        "osm_fee": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null
@@ -5753,29 +5752,28 @@
       "properties": {
         "id": "gallivare-osm-813517213",
         "name": "OSM-813517213",
-        "operator": "unknown",
+        "operator": "free_parking",
         "municipality": "Gällivare",
         "region": "Norrbotten",
         "type": "outdoor",
         "zone_code": null,
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 0,
         "currency": "SEK",
         "hours": null,
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": null,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "unknown_operator",
-          "genuinely_unknown"
+          "osm_reclassified"
         ],
         "last_verified": null,
         "osm_id": 813517213,
         "osm_distance_m": null,
-        "osm_access": "unknown",
-        "osm_fee": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null

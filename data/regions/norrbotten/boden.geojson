@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:52:19.804482+00:00",
+    "generated": "2026-07-12T22:18:16.334053+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "boden",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_boden.geojson",
       "zones_imported": 153,
-      "bootstrap_date": "2026-06-23"
+      "bootstrap_date": "2026-07-09"
     },
     "operator_identification": {
       "before_unknown": 25,
@@ -27,7 +27,7 @@
       "aimo_matched": 0,
       "lulebo_matched": 0,
       "kommun_matched": 0,
-      "run_date": "2026-06-23"
+      "run_date": "2026-07-12"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -46,23 +46,7 @@
       "after": 25,
       "total": 153,
       "coverage_pct": 83.7,
-      "run_date": "2026-06-23"
-    },
-    "easypark_lookup": {
-      "matched": 0,
-      "failed": 0,
-      "no_response": 25,
-      "before_unknown": 25,
-      "after_unknown": 25,
-      "run_date": "2026-06-23"
-    },
-    "parkster_coordinate_scan": {
-      "api_matched": 0,
-      "adb_pending": 25,
-      "api_failed": 0,
-      "before_unknown": 25,
-      "after_unknown": 25,
-      "run_date": "2026-06-23"
+      "run_date": "2026-07-12"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -70,7 +54,7 @@
       "markers_matched": 0,
       "markers_unmatched": 0,
       "features_matched": 0,
-      "updated_at": "2026-06-23T17:52:19.804464+00:00",
+      "updated_at": "2026-07-12T22:18:16.334036+00:00",
       "status": "needs_review"
     }
   },
@@ -626,9 +610,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 395874328,
@@ -637,8 +619,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.810386&lng=21.697682\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -677,14 +658,14 @@
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1074",
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-6-12--parkgatan-1-3/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-21-23--brogatan-34-36/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -698,7 +679,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "lundagardsgatan-6-12--parkgatan-1-3",
+        "aimopark_name": "lundagardsgatan-21-23--brogatan-34-36",
         "aimopark_distance_m": 185.7,
         "payment_apps": [
           "aimo"
@@ -764,8 +745,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -869,14 +850,14 @@
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1074",
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-6-12--parkgatan-1-3/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-21-23--brogatan-34-36/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -890,7 +871,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "lundagardsgatan-6-12--parkgatan-1-3",
+        "aimopark_name": "lundagardsgatan-21-23--brogatan-34-36",
         "aimopark_distance_m": 106.6,
         "payment_apps": [
           "aimo"
@@ -937,14 +918,14 @@
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1074",
+        "zone_code": "1003",
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": "Every day 00-24: For every started 20 min - 6 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/fargaregatan-8-10--drottninggatan-6/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/kyrkgatan-37-41--fargaregatan/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -958,8 +939,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "fargaregatan-8-10--drottninggatan-6",
-        "aimopark_distance_m": 146.0,
+        "aimopark_name": "kyrkgatan-37-41--fargaregatan",
+        "aimopark_distance_m": 147.9,
         "payment_apps": [
           "aimo"
         ]
@@ -1080,14 +1061,14 @@
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1074",
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-6-12--parkgatan-1-3/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-21-23--brogatan-34-36/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -1101,7 +1082,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "lundagardsgatan-6-12--parkgatan-1-3",
+        "aimopark_name": "lundagardsgatan-21-23--brogatan-34-36",
         "aimopark_distance_m": 63.2,
         "payment_apps": [
           "aimo"
@@ -1335,8 +1316,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -1424,9 +1405,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 655356678,
@@ -1435,8 +1414,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.813576&lng=21.70822\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1495,9 +1473,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 655603935,
@@ -1506,8 +1482,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.806726&lng=21.679389\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1558,9 +1533,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 655654742,
@@ -1569,8 +1542,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.785022&lng=21.642211\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1641,9 +1613,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 833961559,
@@ -1652,8 +1622,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.79245&lng=21.655286\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -1751,8 +1720,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -1815,8 +1784,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -1879,8 +1848,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -1943,8 +1912,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -2248,9 +2217,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 998569938,
@@ -2259,8 +2226,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.802585&lng=21.717201\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -2650,9 +2616,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 999737554,
@@ -2661,8 +2625,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.822977&lng=21.650284\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3159,9 +3122,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1002276423,
@@ -3170,8 +3131,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.804978&lng=21.73594\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3516,9 +3476,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1056599609,
@@ -3527,8 +3485,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.856084&lng=21.699435\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3607,9 +3564,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1056599610,
@@ -3618,8 +3573,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.785339&lng=21.641719\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -3792,22 +3746,22 @@
       "properties": {
         "id": "boden-osm-1076039782",
         "name": "OSM-1076039782",
-        "operator": "bodenbo",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.6,
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-15-a-b/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1076039782,
@@ -3817,9 +3771,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "bodenbo_district": "Sanden",
+        "aimopark_name": "garnisonsgatan-15-a-b",
+        "aimopark_distance_m": 134.1,
         "payment_apps": [
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -3994,14 +3949,14 @@
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1074",
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-6-12--parkgatan-1-3/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-21-23--brogatan-34-36/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -4015,7 +3970,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "lundagardsgatan-6-12--parkgatan-1-3",
+        "aimopark_name": "lundagardsgatan-21-23--brogatan-34-36",
         "aimopark_distance_m": 131.4,
         "payment_apps": [
           "aimo"
@@ -4129,22 +4084,22 @@
       "properties": {
         "id": "boden-osm-1078147653",
         "name": "OSM-1078147653",
-        "operator": "bodenbo",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1074",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 8,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.6,
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-53-57/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1078147653,
@@ -4154,9 +4109,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "bodenbo_district": "Lundagård",
+        "aimopark_name": "garnisonsgatan-53-57",
+        "aimopark_distance_m": 71.8,
         "payment_apps": [
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -4208,14 +4164,14 @@
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "garage",
-        "zone_code": "1074",
+        "zone_code": "1003",
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": null,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": "Every day 00-24: For every started 20 min - 6 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-53-57/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/kyrkgatan-37-41--fargaregatan/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -4229,8 +4185,8 @@
         "osm_parking": "multi-storey",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "garnisonsgatan-53-57",
-        "aimopark_distance_m": 192.5,
+        "aimopark_name": "kyrkgatan-37-41--fargaregatan",
+        "aimopark_distance_m": 164.6,
         "payment_apps": [
           "aimo"
         ]
@@ -4288,14 +4244,14 @@
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1074",
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-53-57/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-15-a-b/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -4309,8 +4265,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "garnisonsgatan-53-57",
-        "aimopark_distance_m": 137.2,
+        "aimopark_name": "garnisonsgatan-15-a-b",
+        "aimopark_distance_m": 155.6,
         "payment_apps": [
           "aimo"
         ]
@@ -4442,8 +4398,8 @@
         "osm_note": null,
         "kommun_district": "Centrum",
         "payment_apps": [
-          "parkster",
-          "easypark"
+          "easypark",
+          "parkster"
         ]
       },
       "geometry": {
@@ -4569,7 +4525,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "brogatan-47--majorsgatan-3-7",
-        "aimopark_distance_m": 97.7,
+        "aimopark_distance_m": 95.2,
         "payment_apps": [
           "aimo"
         ]
@@ -4633,7 +4589,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "brogatan-47--majorsgatan-3-7",
-        "aimopark_distance_m": 110.0,
+        "aimopark_distance_m": 106.9,
         "payment_apps": [
           "aimo"
         ]
@@ -4751,9 +4707,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1078786661,
@@ -4762,8 +4716,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.82138&lng=21.652072\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -4866,22 +4819,22 @@
       "properties": {
         "id": "boden-osm-1082863937",
         "name": "OSM-1082863937",
-        "operator": "bodenbo",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.6,
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-15-a-b/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1082863937,
@@ -4891,9 +4844,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "bodenbo_district": "Sanden",
+        "aimopark_name": "garnisonsgatan-15-a-b",
+        "aimopark_distance_m": 100.4,
         "payment_apps": [
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -4941,22 +4895,22 @@
       "properties": {
         "id": "boden-osm-1082863940",
         "name": "OSM-1082863940",
-        "operator": "bodenbo",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.6,
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-15-a-b/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1082863940,
@@ -4966,9 +4920,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "bodenbo_district": "Sanden",
+        "aimopark_name": "garnisonsgatan-15-a-b",
+        "aimopark_distance_m": 177.7,
         "payment_apps": [
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -5269,14 +5224,14 @@
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": "1074",
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": 8,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": "Every day 00-24: 1 h - 8 SEK",
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-53-57/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-15-a-b/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -5290,8 +5245,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "garnisonsgatan-53-57",
-        "aimopark_distance_m": 117.5,
+        "aimopark_name": "garnisonsgatan-15-a-b",
+        "aimopark_distance_m": 63.2,
         "payment_apps": [
           "aimo"
         ]
@@ -5409,9 +5364,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1083463521,
@@ -5420,8 +5373,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.795227&lng=21.761681\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5472,9 +5424,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1084628611,
@@ -5483,8 +5433,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.797454&lng=21.688133\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -5654,22 +5603,22 @@
       "properties": {
         "id": "boden-osm-1094117311",
         "name": "OSM-1094117311",
-        "operator": "bodenbo",
+        "operator": "aimopark",
         "municipality": "Boden",
         "region": "Norrbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1189",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 9,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 9 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.6,
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-15-a-b/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "bodenbo_district_match"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 1094117311,
@@ -5679,9 +5628,10 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "bodenbo_district": "Sanden",
+        "aimopark_name": "garnisonsgatan-15-a-b",
+        "aimopark_distance_m": 142.2,
         "payment_apps": [
-          "parkster"
+          "aimo"
         ]
       },
       "geometry": {
@@ -5749,9 +5699,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1094461032,
@@ -5760,8 +5708,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.82262&lng=21.654449\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6077,9 +6024,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1108296542,
@@ -6088,8 +6033,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.752507&lng=21.75744\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6180,9 +6124,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1108296548,
@@ -6191,8 +6133,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.751173&lng=21.758276\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6477,7 +6418,7 @@
         "osm_operator": "Lidl",
         "osm_note": null,
         "aimopark_name": "brogatan-47--majorsgatan-3-7",
-        "aimopark_distance_m": 186.5,
+        "aimopark_distance_m": 188.9,
         "payment_apps": [
           "aimo"
         ]
@@ -6641,7 +6582,7 @@
         "osm_operator": "JYSK",
         "osm_note": null,
         "aimopark_name": "brogatan-47--majorsgatan-3-7",
-        "aimopark_distance_m": 178.2,
+        "aimopark_distance_m": 178.1,
         "payment_apps": [
           "aimo"
         ]
@@ -6790,9 +6731,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1272407406,
@@ -6801,8 +6740,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.802861&lng=21.690155\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6853,9 +6791,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1272407407,
@@ -6864,8 +6800,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.802665&lng=21.690069\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6916,9 +6851,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1272407408,
@@ -6927,8 +6860,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.802227&lng=21.690335\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -6979,9 +6911,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1272407409,
@@ -6990,8 +6920,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.80211&lng=21.690333\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7492,9 +7421,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1395929718,
@@ -7503,8 +7430,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.807802&lng=21.699056\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -7619,9 +7545,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1413466253,
@@ -7630,8 +7554,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.792419&lng=21.657278\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8060,7 +7983,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "brogatan-47--majorsgatan-3-7",
-        "aimopark_distance_m": 63.5,
+        "aimopark_distance_m": 62.6,
         "payment_apps": [
           "aimo"
         ]
@@ -8934,7 +8857,7 @@
         "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/drottninggatan-29-31kyrkogardsgatan-4-6/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/ringvagen-27/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -8948,8 +8871,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "drottninggatan-29-31kyrkogardsgatan-4-6",
-        "aimopark_distance_m": 58.5,
+        "aimopark_name": "ringvagen-27",
+        "aimopark_distance_m": 50.9,
         "payment_apps": [
           "aimo"
         ]
@@ -9018,7 +8941,7 @@
         "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/fargaregatan-8-10--drottninggatan-6/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/ringvagen-27/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -9032,8 +8955,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "fargaregatan-8-10--drottninggatan-6",
-        "aimopark_distance_m": 24.7,
+        "aimopark_name": "ringvagen-27",
+        "aimopark_distance_m": 43.1,
         "payment_apps": [
           "aimo"
         ]
@@ -9086,7 +9009,7 @@
         "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/fargaregatan-8-10--drottninggatan-6/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/ringvagen-27/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -9100,8 +9023,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "fargaregatan-8-10--drottninggatan-6",
-        "aimopark_distance_m": 52.6,
+        "aimopark_name": "ringvagen-27",
+        "aimopark_distance_m": 91.2,
         "payment_apps": [
           "aimo"
         ]
@@ -9150,7 +9073,7 @@
         "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/fargaregatan-8-10--drottninggatan-6/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/ringvagen-27/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -9164,8 +9087,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "fargaregatan-8-10--drottninggatan-6",
-        "aimopark_distance_m": 118.5,
+        "aimopark_name": "ringvagen-27",
+        "aimopark_distance_m": 144.9,
         "payment_apps": [
           "aimo"
         ]
@@ -9218,7 +9141,7 @@
         "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/drottningg.-43-47sveav.-3-9sergeantsg",
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-53-57/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -9232,8 +9155,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "drottningg.-43-47sveav.-3-9sergeantsg",
-        "aimopark_distance_m": 193.1,
+        "aimopark_name": "garnisonsgatan-53-57",
+        "aimopark_distance_m": 50.5,
         "payment_apps": [
           "aimo"
         ]
@@ -9286,7 +9209,7 @@
         "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/drottningg.-43-47sveav.-3-9sergeantsg",
+        "source_url": "https://www.aimopark.se/en/cities/boden/garnisonsgatan-53-57/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -9300,8 +9223,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "drottningg.-43-47sveav.-3-9sergeantsg",
-        "aimopark_distance_m": 166.1,
+        "aimopark_name": "garnisonsgatan-53-57",
+        "aimopark_distance_m": 38.6,
         "payment_apps": [
           "aimo"
         ]
@@ -9377,7 +9300,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "brogatan-47--majorsgatan-3-7",
-        "aimopark_distance_m": 148.5,
+        "aimopark_distance_m": 145.2,
         "payment_apps": [
           "aimo"
         ]
@@ -9524,7 +9447,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "brogatan-47--majorsgatan-3-7",
-        "aimopark_distance_m": 46.5,
+        "aimopark_distance_m": 50.1,
         "payment_apps": [
           "aimo"
         ]
@@ -9596,7 +9519,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "brogatan-47--majorsgatan-3-7",
-        "aimopark_distance_m": 47.1,
+        "aimopark_distance_m": 50.8,
         "payment_apps": [
           "aimo"
         ]
@@ -9649,7 +9572,7 @@
         "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/ringvagen-27/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-6-12--parkgatan-1-3/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -9663,8 +9586,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "ringvagen-27",
-        "aimopark_distance_m": 132.9,
+        "aimopark_name": "lundagardsgatan-6-12--parkgatan-1-3",
+        "aimopark_distance_m": 186.2,
         "payment_apps": [
           "aimo"
         ]
@@ -9713,7 +9636,7 @@
         "hours": "Every day 00-24: 1 h - 8 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/boden/ringvagen-27/",
+        "source_url": "https://www.aimopark.se/en/cities/boden/lundagardsgatan-6-12--parkgatan-1-3/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -9727,8 +9650,8 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "ringvagen-27",
-        "aimopark_distance_m": 123.2,
+        "aimopark_name": "lundagardsgatan-6-12--parkgatan-1-3",
+        "aimopark_distance_m": 184.5,
         "payment_apps": [
           "aimo"
         ]
@@ -10626,9 +10549,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1475013633,
@@ -10637,8 +10558,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.805014&lng=21.690142\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -10761,9 +10681,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1510247788,
@@ -10772,8 +10690,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.839222&lng=21.733183\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -10824,9 +10741,7 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown",
-          "easypark_lookup_failed",
-          "parkster_adb_pending"
+          "genuinely_unknown"
         ],
         "last_verified": null,
         "osm_id": 1510247789,
@@ -10835,8 +10750,7 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "parkster_adb_command": "adb shell am start -a android.intent.action.VIEW -d \"parkster://zone?lat=65.838493&lng=21.732896\" com.parkster.android"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",

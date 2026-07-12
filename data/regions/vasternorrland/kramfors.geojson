@@ -2,18 +2,18 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:52:22.237547+00:00",
+    "generated": "2026-07-12T22:18:19.863950+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "kramfors",
     "municipality": "Kramfors kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "kramfors-osm-bootstrap",
-    "zone_count": 178,
+    "zone_count": 180,
     "bootstrap": {
       "osm_source": "output\\osm_parking_kramfors.geojson",
-      "zones_imported": 174,
-      "bootstrap_date": "2026-06-22"
+      "zones_imported": 175,
+      "bootstrap_date": "2026-07-09"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -30,25 +30,25 @@
       "genuinely_unknown": 55,
       "before": 56,
       "after": 56,
-      "total": 174,
-      "coverage_pct": 67.8,
-      "run_date": "2026-06-23"
+      "total": 175,
+      "coverage_pct": 68.0,
+      "run_date": "2026-07-12"
     },
     "parkster_review_markers": {
-      "source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260623T115535.json",
+      "source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
       "status": "needs_review",
       "removed_previous": 0,
-      "added": 4,
+      "added": 5,
       "meters_per_px": 1.0,
-      "updated_at": "2026-06-23T17:05:27.755548+00:00"
+      "updated_at": "2026-07-12T22:18:15.913768+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
-      "markers_total": 4,
+      "markers_total": 5,
       "markers_matched": 0,
-      "markers_unmatched": 4,
+      "markers_unmatched": 5,
       "features_matched": 0,
-      "updated_at": "2026-06-23T17:52:22.237508+00:00",
+      "updated_at": "2026-07-12T22:18:19.863897+00:00",
       "status": "needs_review"
     }
   },
@@ -7993,20 +7993,19 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "osm_reclassified"
         ],
         "last_verified": null,
         "osm_id": 1183726099,
         "osm_distance_m": null,
-        "osm_access": "unknown",
-        "osm_fee": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "source_note": "38.5 km från centrum, ingen avgiftstagg"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -8057,20 +8056,19 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "osm_reclassified"
         ],
         "last_verified": null,
         "osm_id": 1183726100,
         "osm_distance_m": null,
-        "osm_access": "unknown",
-        "osm_fee": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "source_note": "38.5 km från centrum, ingen avgiftstagg"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -11657,20 +11655,19 @@
         "restrictions": null,
         "contact": null,
         "source_url": null,
-        "confidence": 0.45,
+        "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "rural_free_heuristic"
+          "osm_reclassified"
         ],
         "last_verified": null,
         "osm_id": 1463926104,
         "osm_distance_m": null,
-        "osm_access": "unknown",
-        "osm_fee": null,
+        "osm_access": "yes",
+        "osm_fee": "no",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null,
-        "source_note": "38.5 km från centrum, ingen avgiftstagg"
+        "osm_note": null
       },
       "geometry": {
         "type": "Polygon",
@@ -12135,6 +12132,82 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "kramfors-osm-1535688155",
+        "name": "OSM-1535688155",
+        "operator": "free_parking",
+        "municipality": "Kramfors",
+        "region": "Västernorrland",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.45,
+        "flags": [
+          "osm_bootstrap",
+          "rural_free_heuristic"
+        ],
+        "last_verified": null,
+        "osm_id": 1535688155,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": null,
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null,
+        "source_note": "31.4 km från centrum, ingen avgiftstagg"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              18.3945134,
+              62.8639777
+            ],
+            [
+              18.3949493,
+              62.8640157
+            ],
+            [
+              18.3949331,
+              62.8637704
+            ],
+            [
+              18.3947474,
+              62.8637355
+            ],
+            [
+              18.3946271,
+              62.8638506
+            ],
+            [
+              18.3945708,
+              62.8638451
+            ],
+            [
+              18.3945323,
+              62.8638808
+            ],
+            [
+              18.3945906,
+              62.8638948
+            ],
+            [
+              18.3945134,
+              62.8639777
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "kramfors-parkster-review-grid_r0_c0-m1",
         "name": "Parkster marker (needs review)",
         "operator": "unknown",
@@ -12155,20 +12228,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260623T115535.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260623T115535\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260713T000826\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 896,
-        "screen_y": 1764,
+        "screen_x": 895,
+        "screen_y": 1780,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.7927789,
-          62.9329055
+          17.7927592,
+          62.9327618
         ]
       }
     },
@@ -12195,20 +12268,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260623T115535.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260623T115535\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260713T000826\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1049,
-        "screen_y": 1610,
+        "screen_x": 1048,
+        "screen_y": 1627,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.7957993,
-          62.9342889
+          17.7957795,
+          62.9341362
         ]
       }
     },
@@ -12235,12 +12308,12 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260623T115535.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260623T115535\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260713T000826\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
         "screen_x": 1033,
-        "screen_y": 1456,
+        "screen_y": 1473,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
@@ -12248,7 +12321,7 @@
         "type": "Point",
         "coordinates": [
           17.7954834,
-          62.9356723
+          62.9355196
         ]
       }
     },
@@ -12275,20 +12348,60 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260623T115535.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260623T115535\\grid_r1_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260713T000826\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 149,
-        "screen_y": 296,
+        "screen_x": 147,
+        "screen_y": 353,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.7925302,
-          62.9325318
+          17.7924907,
+          62.9320198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kramfors-parkster-review-grid_r1_c1-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Kramfors kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260713T000826\\grid_r1_c1.png",
+        "capture_label": "grid_r1_c1",
+        "screen_x": 217,
+        "screen_y": 14,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7938726,
+          62.935065
         ]
       }
     }

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:52:20.091462+00:00",
+    "generated": "2026-07-12T22:18:16.626868+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "kalix",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_kalix.geojson",
       "zones_imported": 350,
-      "bootstrap_date": "2026-06-23"
+      "bootstrap_date": "2026-07-09"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -32,15 +32,15 @@
       "after": 147,
       "total": 350,
       "coverage_pct": 58.0,
-      "run_date": "2026-06-23"
+      "run_date": "2026-07-12"
     },
     "parkster_review_markers": {
-      "source": "output\\phone_scans\\kalix_parkster_marker_evidence_20260623T113823.json",
+      "source": "output\\phone_scans\\kalix_parkster_marker_evidence_20260712T235143.json",
       "status": "needs_review",
       "removed_previous": 0,
       "added": 2,
       "meters_per_px": 1.0,
-      "updated_at": "2026-06-23T17:05:27.378433+00:00"
+      "updated_at": "2026-07-12T22:18:15.554703+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -48,7 +48,7 @@
       "markers_matched": 0,
       "markers_unmatched": 2,
       "features_matched": 0,
-      "updated_at": "2026-06-23T17:52:20.091440+00:00",
+      "updated_at": "2026-07-12T22:18:16.626842+00:00",
       "status": "needs_review"
     }
   },
@@ -23008,20 +23008,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\kalix_parkster_marker_evidence_20260623T113823.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\kalix_parkster_map_20260623T113823\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\kalix_parkster_marker_evidence_20260712T235143.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kalix_parkster_map_20260712T235143\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 712,
-        "screen_y": 1696,
+        "screen_x": 725,
+        "screen_y": 1708,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.166777,
-          65.8477359
+          23.1670625,
+          65.8476281
         ]
       }
     },
@@ -23048,20 +23048,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\kalix_parkster_marker_evidence_20260623T113823.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\kalix_parkster_map_20260623T113823\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\kalix_parkster_marker_evidence_20260712T235143.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kalix_parkster_map_20260712T235143\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 679,
-        "screen_y": 1686,
+        "screen_x": 692,
+        "screen_y": 1698,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.1660523,
-          65.8478257
+          23.1663378,
+          65.8477179
         ]
       }
     }

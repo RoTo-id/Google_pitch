@@ -2,18 +2,18 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:52:19.855272+00:00",
+    "generated": "2026-07-12T22:18:16.375918+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "pitea",
     "municipality": "Piteå kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "pitea-osm-bootstrap",
-    "zone_count": 238,
+    "zone_count": 225,
     "bootstrap": {
       "osm_source": "output\\osm_parking_pitea.geojson",
-      "zones_imported": 208,
-      "bootstrap_date": "2026-06-22"
+      "zones_imported": 209,
+      "bootstrap_date": "2026-07-09"
     },
     "operator_identification": {
       "before_unknown": 108,
@@ -26,7 +26,7 @@
       "aimo_matched": 0,
       "lulebo_matched": 0,
       "kommun_matched": 0,
-      "run_date": "2026-06-23"
+      "run_date": "2026-07-12"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -43,25 +43,25 @@
       "genuinely_unknown": 98,
       "before": 108,
       "after": 108,
-      "total": 208,
-      "coverage_pct": 48.1,
-      "run_date": "2026-06-23"
+      "total": 209,
+      "coverage_pct": 48.3,
+      "run_date": "2026-07-12"
     },
     "parkster_review_markers": {
-      "source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
+      "source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
       "status": "needs_review",
       "removed_previous": 0,
-      "added": 30,
+      "added": 16,
       "meters_per_px": 1.0,
-      "updated_at": "2026-06-23T17:05:27.297410+00:00"
+      "updated_at": "2026-07-12T22:18:15.477683+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
-      "markers_total": 30,
-      "markers_matched": 4,
-      "markers_unmatched": 26,
-      "features_matched": 4,
-      "updated_at": "2026-06-23T17:52:19.855262+00:00",
+      "markers_total": 16,
+      "markers_matched": 5,
+      "markers_unmatched": 11,
+      "features_matched": 5,
+      "updated_at": "2026-07-12T22:18:16.375885+00:00",
       "status": "needs_review"
     }
   },
@@ -5497,9 +5497,11 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "kommun_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-12",
         "osm_id": 360779486,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -5511,6 +5513,14 @@
         "payment_apps": [
           "easypark",
           "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "pitea-parkster-review-grid_r0_c0-m1",
+            "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+            "distance_m": 63.2
+          }
         ]
       },
       "geometry": {
@@ -5903,12 +5913,14 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "kommun_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-12",
         "osm_id": 383447238,
         "osm_distance_m": null,
-        "osm_access": "unknown",
+        "osm_access": "yes",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
@@ -5917,6 +5929,14 @@
         "payment_apps": [
           "easypark",
           "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "pitea-parkster-review-grid_r0_c0-m2",
+            "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+            "distance_m": 103.4
+          }
         ]
       },
       "geometry": {
@@ -10321,11 +10341,9 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match",
-          "parkster_nearby_evidence",
-          "needs_review"
+          "kommun_district_match"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": null,
         "osm_id": 1312216890,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -10337,14 +10355,6 @@
         "payment_apps": [
           "easypark",
           "parkster"
-        ],
-        "parkster_evidence_count": 1,
-        "parkster_review_refs": [
-          {
-            "marker_id": "pitea-parkster-review-grid_r1_c0-m3",
-            "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-            "distance_m": 28.7
-          }
         ]
       },
       "geometry": {
@@ -10463,11 +10473,9 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match",
-          "parkster_nearby_evidence",
-          "needs_review"
+          "kommun_district_match"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": null,
         "osm_id": 1312234194,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -10479,14 +10487,6 @@
         "payment_apps": [
           "easypark",
           "parkster"
-        ],
-        "parkster_evidence_count": 1,
-        "parkster_review_refs": [
-          {
-            "marker_id": "pitea-parkster-review-grid_r0_c1-m1",
-            "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-            "distance_m": 103.6
-          }
         ]
       },
       "geometry": {
@@ -10609,11 +10609,9 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match",
-          "parkster_nearby_evidence",
-          "needs_review"
+          "kommun_district_match"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": null,
         "osm_id": 1312238577,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -10625,14 +10623,6 @@
         "payment_apps": [
           "easypark",
           "parkster"
-        ],
-        "parkster_evidence_count": 1,
-        "parkster_review_refs": [
-          {
-            "marker_id": "pitea-parkster-review-grid_r0_c0-m4",
-            "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-            "distance_m": 72.1
-          }
         ]
       },
       "geometry": {
@@ -12573,9 +12563,11 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "kommun_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-12",
         "osm_id": 1426075793,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -12587,6 +12579,14 @@
         "payment_apps": [
           "easypark",
           "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "pitea-parkster-review-grid_r0_c0-m3",
+            "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+            "distance_m": 90.0
+          }
         ]
       },
       "geometry": {
@@ -13280,9 +13280,11 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "kommun_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-12",
         "osm_id": 1460576437,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -13294,6 +13296,14 @@
         "payment_apps": [
           "easypark",
           "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "pitea-parkster-review-grid_r0_c0-m6",
+            "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+            "distance_m": 77.9
+          }
         ]
       },
       "geometry": {
@@ -13344,9 +13354,11 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match"
+          "kommun_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-12",
         "osm_id": 1460576438,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -13358,6 +13370,14 @@
         "payment_apps": [
           "easypark",
           "parkster"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "pitea-parkster-review-grid_r0_c0-m5",
+            "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+            "distance_m": 82.1
+          }
         ]
       },
       "geometry": {
@@ -13812,11 +13832,9 @@
         "confidence": 0.62,
         "flags": [
           "osm_bootstrap",
-          "kommun_district_match",
-          "parkster_nearby_evidence",
-          "needs_review"
+          "kommun_district_match"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": null,
         "osm_id": 1478430569,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -13828,14 +13846,6 @@
         "payment_apps": [
           "easypark",
           "parkster"
-        ],
-        "parkster_evidence_count": 1,
-        "parkster_review_refs": [
-          {
-            "marker_id": "pitea-parkster-review-grid_r0_c0-m14",
-            "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-            "distance_m": 109.3
-          }
         ]
       },
       "geometry": {
@@ -14068,6 +14078,73 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "pitea-osm-1534824388",
+        "name": "OSM-1534824388",
+        "operator": "free_parking",
+        "municipality": "Piteå",
+        "region": "Norrbotten",
+        "type": "outdoor",
+        "zone_code": null,
+        "spots": null,
+        "price_per_hour": 0,
+        "currency": "SEK",
+        "hours": null,
+        "restrictions": null,
+        "contact": null,
+        "source_url": null,
+        "confidence": 0.85,
+        "flags": [
+          "osm_bootstrap",
+          "osm_reclassified"
+        ],
+        "last_verified": null,
+        "osm_id": 1534824388,
+        "osm_distance_m": null,
+        "osm_access": "unknown",
+        "osm_fee": "no",
+        "osm_parking": "surface",
+        "osm_operator": null,
+        "osm_note": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              21.2592955,
+              65.3048096
+            ],
+            [
+              21.2594589,
+              65.3046323
+            ],
+            [
+              21.2595438,
+              65.3046433
+            ],
+            [
+              21.2595307,
+              65.3046574
+            ],
+            [
+              21.2594025,
+              65.3047953
+            ],
+            [
+              21.2593766,
+              65.3048231
+            ],
+            [
+              21.2592955,
+              65.3048096
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "pitea-parkster-review-grid_r0_c0-m1",
         "name": "Parkster marker (needs review)",
         "operator": "unknown",
@@ -14088,20 +14165,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260712T234814\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1025,
-        "screen_y": 1835,
+        "screen_x": 68,
+        "screen_y": 1846,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.502534,
-          65.3172677
+          21.4819476,
+          65.3171689
         ]
       }
     },
@@ -14128,20 +14205,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260712T234814\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1043,
-        "screen_y": 1593,
+        "screen_x": 420,
+        "screen_y": 1853,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.5029212,
-          65.3194416
+          21.4895196,
+          65.317106
         ]
       }
     },
@@ -14168,20 +14245,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260712T234814\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 840,
-        "screen_y": 1571,
+        "screen_x": 653,
+        "screen_y": 1825,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.4985544,
-          65.3196392
+          21.4945318,
+          65.3173575
         ]
       }
     },
@@ -14208,20 +14285,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260712T234814\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 511,
-        "screen_y": 1397,
+        "screen_x": 675,
+        "screen_y": 1699,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.4914772,
-          65.3212023
+          21.4950051,
+          65.3184894
         ]
       }
     },
@@ -14248,20 +14325,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260712T234814\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1024,
-        "screen_y": 1390,
+        "screen_x": 573,
+        "screen_y": 1685,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.5025125,
-          65.3212652
+          21.4928109,
+          65.3186152
         ]
       }
     },
@@ -14288,20 +14365,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260712T234814\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 723,
-        "screen_y": 1366,
+        "screen_x": 406,
+        "screen_y": 1675,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.4960376,
-          65.3214808
+          21.4892185,
+          65.318705
         ]
       }
     },
@@ -14328,20 +14405,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260712T234814\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 592,
-        "screen_y": 1134,
+        "screen_x": 661,
+        "screen_y": 1584,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.4932196,
-          65.3235649
+          21.4947039,
+          65.3195225
         ]
       }
     },
@@ -14368,20 +14445,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260712T234814\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 348,
-        "screen_y": 1107,
+        "screen_x": 995,
+        "screen_y": 1446,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.4879708,
-          65.3238074
+          21.5018887,
+          65.3207621
         ]
       }
     },
@@ -14408,20 +14485,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260712T234814\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 444,
-        "screen_y": 1048,
+        "screen_x": 681,
+        "screen_y": 717,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.4900359,
-          65.3243374
+          21.4951341,
+          65.3273108
         ]
       }
     },
@@ -14448,20 +14525,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260712T234814\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 520,
-        "screen_y": 963,
+        "screen_x": 832,
+        "screen_y": 523,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.4916708,
-          65.325101
+          21.4983823,
+          65.3290535
         ]
       }
     },
@@ -14488,20 +14565,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260712T234814\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 62,
-        "screen_y": 879,
+        "screen_x": 676,
+        "screen_y": 522,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.4818186,
-          65.3258556
+          21.4950266,
+          65.3290625
         ]
       }
     },
@@ -14528,300 +14605,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260712T234814\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 413,
-        "screen_y": 877,
+        "screen_x": 323,
+        "screen_y": 485,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.4893691,
-          65.3258735
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "pitea-parkster-review-grid_r0_c0-m13",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Piteå kommun",
-        "region": "Norrbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
-        "capture_label": "grid_r0_c0",
-        "screen_x": 647,
-        "screen_y": 841,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.4944027,
-          65.3261969
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "pitea-parkster-review-grid_r0_c0-m14",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Piteå kommun",
-        "region": "Norrbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
-        "capture_label": "grid_r0_c0",
-        "screen_x": 397,
-        "screen_y": 835,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.4890249,
-          65.3262508
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "pitea-parkster-review-grid_r0_c0-m15",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Piteå kommun",
-        "region": "Norrbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
-        "capture_label": "grid_r0_c0",
-        "screen_x": 668,
-        "screen_y": 708,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.4948545,
-          65.3273917
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "pitea-parkster-review-grid_r0_c0-m16",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Piteå kommun",
-        "region": "Norrbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
-        "capture_label": "grid_r0_c0",
-        "screen_x": 567,
-        "screen_y": 693,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.4926818,
-          65.3275264
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "pitea-parkster-review-grid_r0_c0-m17",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Piteå kommun",
-        "region": "Norrbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
-        "capture_label": "grid_r0_c0",
-        "screen_x": 399,
-        "screen_y": 683,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.4890679,
-          65.3276162
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "pitea-parkster-review-grid_r0_c0-m18",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Piteå kommun",
-        "region": "Norrbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
-        "capture_label": "grid_r0_c0",
-        "screen_x": 655,
-        "screen_y": 593,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.4945748,
-          65.3284247
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "pitea-parkster-review-grid_r0_c0-m19",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Piteå kommun",
-        "region": "Norrbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c0.png",
-        "capture_label": "grid_r0_c0",
-        "screen_x": 988,
-        "screen_y": 455,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.5017381,
-          65.3296644
+          21.487433,
+          65.3293949
         ]
       }
     },
@@ -14848,20 +14645,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260712T234814\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 163,
-        "screen_y": 1830,
+        "screen_x": 186,
+        "screen_y": 1707,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.4997892,
-          65.3173126
+          21.500284,
+          65.3184175
         ]
       }
     },
@@ -14888,20 +14685,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260712T234814\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 171,
-        "screen_y": 1602,
+        "screen_x": 337,
+        "screen_y": 1513,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.4999613,
-          65.3193608
+          21.5035322,
+          65.3201603
         ]
       }
     },
@@ -14928,140 +14725,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260712T234814\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 504,
-        "screen_y": 1456,
+        "screen_x": 181,
+        "screen_y": 1512,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.5071246,
-          65.3206723
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "pitea-parkster-review-grid_r0_c1-m4",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Piteå kommun",
-        "region": "Norrbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c1.png",
-        "capture_label": "grid_r0_c1",
-        "screen_x": 190,
-        "screen_y": 727,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.50037,
-          65.327221
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "pitea-parkster-review-grid_r0_c1-m5",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Piteå kommun",
-        "region": "Norrbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c1.png",
-        "capture_label": "grid_r0_c1",
-        "screen_x": 341,
-        "screen_y": 533,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.5036182,
-          65.3289637
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "pitea-parkster-review-grid_r0_c1-m6",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Piteå kommun",
-        "region": "Norrbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r0_c1.png",
-        "capture_label": "grid_r0_c1",
-        "screen_x": 185,
-        "screen_y": 532,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.5002624,
-          65.3289727
+          21.5001764,
+          65.3201692
         ]
       }
     },
@@ -15088,180 +14765,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r1_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260712T234814.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260712T234814\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 685,
-        "screen_y": 1297,
+        "screen_x": 462,
+        "screen_y": 1555,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.4952202,
-          65.3085397
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "pitea-parkster-review-grid_r1_c0-m2",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Piteå kommun",
-        "region": "Norrbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r1_c0.png",
-        "capture_label": "grid_r1_c0",
-        "screen_x": 680,
-        "screen_y": 1103,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.4951126,
-          65.3102824
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "pitea-parkster-review-grid_r1_c0-m3",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Piteå kommun",
-        "region": "Norrbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r1_c0.png",
-        "capture_label": "grid_r1_c0",
-        "screen_x": 836,
-        "screen_y": 1103,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.4984684,
-          65.3102824
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "pitea-parkster-review-grid_r1_c0-m4",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Piteå kommun",
-        "region": "Norrbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r1_c0.png",
-        "capture_label": "grid_r1_c0",
-        "screen_x": 327,
-        "screen_y": 1066,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.4875191,
-          65.3106148
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "pitea-parkster-review-grid_r1_c0-m6",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Piteå kommun",
-        "region": "Norrbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\pitea_parkster_marker_evidence_20260623T113445.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\pitea_parkster_map_20260623T113445\\grid_r1_c0.png",
-        "capture_label": "grid_r1_c0",
-        "screen_x": 479,
-        "screen_y": 596,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.4907888,
-          65.3148369
+          21.4904231,
+          65.3062221
         ]
       }
     }

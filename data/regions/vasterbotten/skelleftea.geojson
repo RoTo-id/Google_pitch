@@ -2,18 +2,18 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:52:20.070430+00:00",
+    "generated": "2026-07-12T22:18:16.593236+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västerbotten",
     "city": "skelleftea",
     "municipality": "Skellefteå kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "skelleftea-osm-bootstrap",
-    "zone_count": 474,
+    "zone_count": 468,
     "bootstrap": {
       "osm_source": "output\\osm_parking_skelleftea.geojson",
       "zones_imported": 406,
-      "bootstrap_date": "2026-06-23"
+      "bootstrap_date": "2026-07-09"
     },
     "operator_identification": {
       "before_unknown": 67,
@@ -27,7 +27,7 @@
       "aimo_matched": 0,
       "lulebo_matched": 0,
       "kommun_matched": 0,
-      "run_date": "2026-06-23"
+      "run_date": "2026-07-12"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -46,23 +46,23 @@
       "after": 67,
       "total": 406,
       "coverage_pct": 83.5,
-      "run_date": "2026-06-23"
+      "run_date": "2026-07-12"
     },
     "parkster_review_markers": {
-      "source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
+      "source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
       "status": "needs_review",
       "removed_previous": 0,
-      "added": 68,
+      "added": 62,
       "meters_per_px": 1.0,
-      "updated_at": "2026-06-23T17:05:27.337013+00:00"
+      "updated_at": "2026-07-12T22:18:15.513950+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
-      "markers_total": 68,
-      "markers_matched": 26,
-      "markers_unmatched": 42,
-      "features_matched": 18,
-      "updated_at": "2026-06-23T17:52:20.070408+00:00",
+      "markers_total": 62,
+      "markers_matched": 22,
+      "markers_unmatched": 40,
+      "features_matched": 17,
+      "updated_at": "2026-07-12T22:18:16.593214+00:00",
       "status": "needs_review"
     }
   },
@@ -99,8 +99,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -363,8 +363,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -1392,7 +1392,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 88371506,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -1410,8 +1410,8 @@
         "parkster_review_refs": [
           {
             "marker_id": "skelleftea-parkster-review-grid_r0_c1-m10",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 50.5
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 7.4
           }
         ]
       },
@@ -1483,8 +1483,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -1547,8 +1547,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -1584,26 +1584,26 @@
       "properties": {
         "id": "skelleftea-osm-91795667",
         "name": "OSM-91795667",
-        "operator": "skelleftea_parkering",
+        "operator": "aimopark",
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1150",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 17,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: 1 h - 17 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.65,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/sodra-jarnvagsgatan-49-57/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match",
+          "aimopark_matched",
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 91795667,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -1611,22 +1611,23 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "skelleftea_parkering_district": "Centrum",
+        "aimopark_name": "sodra-jarnvagsgatan-49-57",
+        "aimopark_distance_m": 165.5,
         "payment_apps": [
-          "epark",
+          "aimo",
           "parkster"
         ],
         "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "skelleftea-parkster-review-grid_r0_c0-m4",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 93.2
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 106.1
           },
           {
             "marker_id": "skelleftea-parkster-review-grid_r0_c0-m6",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 52.0
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 59.9
           }
         ]
       },
@@ -1702,9 +1703,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-12",
         "osm_id": 91795684,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -1714,8 +1717,16 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r0_c0-m7",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 93.5
+          }
         ]
       },
       "geometry": {
@@ -1798,8 +1809,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -1930,8 +1941,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -2002,8 +2013,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -2074,8 +2085,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -2270,8 +2281,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -2853,8 +2864,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -2997,8 +3008,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -3077,8 +3088,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -3161,8 +3172,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -3249,8 +3260,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -3333,8 +3344,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -3401,7 +3412,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 123620508,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -3418,14 +3429,14 @@
         "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
-            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m16",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 24.3
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m14",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 30.2
           },
           {
-            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m17",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 102.4
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m15",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 66.4
           }
         ]
       },
@@ -3565,11 +3576,9 @@
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "aimopark_matched",
-          "parkster_nearby_evidence",
-          "needs_review"
+          "aimopark_matched"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": null,
         "osm_id": 123625160,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -3580,16 +3589,7 @@
         "aimopark_name": "sodra-jarnvagsgatan-48-50",
         "aimopark_distance_m": 136.2,
         "payment_apps": [
-          "aimo",
-          "parkster"
-        ],
-        "parkster_evidence_count": 1,
-        "parkster_review_refs": [
-          {
-            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m11",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 67.1
-          }
+          "aimo"
         ]
       },
       "geometry": {
@@ -3664,8 +3664,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -4307,7 +4307,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "uppfinnarvagen-4-48",
-        "aimopark_distance_m": 112.9,
+        "aimopark_distance_m": 17.2,
         "payment_apps": [
           "aimo"
         ]
@@ -4403,7 +4403,7 @@
         "osm_operator": null,
         "osm_note": null,
         "aimopark_name": "uppfinnarvagen-4-48",
-        "aimopark_distance_m": 177.0,
+        "aimopark_distance_m": 76.8,
         "payment_apps": [
           "aimo"
         ]
@@ -4477,18 +4477,18 @@
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1012",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 6,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: Free parking",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/uppfinnarvagen-4-48/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "near_aimo_zone"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 203936340,
@@ -4497,7 +4497,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "uppfinnarvagen-4-48",
+        "aimopark_distance_m": 129.9,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4536,18 +4541,18 @@
         "municipality": "Skellefteå",
         "region": "Västerbotten",
         "type": "outdoor",
-        "zone_code": null,
+        "zone_code": "1012",
         "spots": null,
-        "price_per_hour": null,
+        "price_per_hour": 6,
         "currency": "SEK",
-        "hours": null,
+        "hours": "Every day 00-24: Free parking",
         "restrictions": null,
         "contact": null,
-        "source_url": null,
-        "confidence": 0.55,
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/uppfinnarvagen-4-48/",
+        "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
-          "near_aimo_zone"
+          "aimopark_matched"
         ],
         "last_verified": null,
         "osm_id": 203936341,
@@ -4556,7 +4561,12 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "aimopark_name": "uppfinnarvagen-4-48",
+        "aimopark_distance_m": 134.0,
+        "payment_apps": [
+          "aimo"
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -4910,8 +4920,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -5269,11 +5279,9 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match",
-          "parkster_nearby_evidence",
-          "needs_review"
+          "skelleftea_parkering_district_match"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": null,
         "osm_id": 217524626,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -5283,16 +5291,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
-        ],
-        "parkster_evidence_count": 1,
-        "parkster_review_refs": [
-          {
-            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m13",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 45.4
-          }
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -5557,8 +5557,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -5745,7 +5745,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 255961156,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -5762,9 +5762,9 @@
         "parkster_evidence_count": 1,
         "parkster_review_refs": [
           {
-            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m15",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 108.0
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m13",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 68.4
           }
         ]
       },
@@ -7998,8 +7998,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -8246,8 +8246,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -10477,7 +10477,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 356929109,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -10487,15 +10487,15 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ],
         "parkster_evidence_count": 1,
         "parkster_review_refs": [
           {
             "marker_id": "skelleftea-parkster-review-grid_r1_c0-m4",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 43.0
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 38.0
           }
         ]
       },
@@ -10559,8 +10559,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -10627,8 +10627,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -10687,7 +10687,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 356929112,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -10697,15 +10697,15 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ],
         "parkster_evidence_count": 1,
         "parkster_review_refs": [
           {
             "marker_id": "skelleftea-parkster-review-grid_r1_c0-m6",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 72.8
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 72.4
           }
         ]
       },
@@ -10777,8 +10777,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -10841,8 +10841,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -10905,8 +10905,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -10969,8 +10969,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -11033,8 +11033,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -11097,8 +11097,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -11161,8 +11161,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -11218,7 +11218,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 357254035,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -11233,8 +11233,8 @@
         "parkster_review_refs": [
           {
             "marker_id": "skelleftea-parkster-review-grid_r1_c0-m3",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 61.6
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 70.5
           }
         ]
       },
@@ -13612,8 +13612,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -13668,7 +13668,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 367588432,
         "osm_distance_m": null,
         "osm_access": "customers",
@@ -13678,15 +13678,15 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ],
         "parkster_evidence_count": 1,
         "parkster_review_refs": [
           {
             "marker_id": "skelleftea-parkster-review-grid_r0_c1-m2",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 87.4
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 104.8
           }
         ]
       },
@@ -13790,8 +13790,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -13854,8 +13854,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -14116,8 +14116,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -14631,7 +14631,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 404925248,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -14649,13 +14649,13 @@
         "parkster_review_refs": [
           {
             "marker_id": "skelleftea-parkster-review-grid_r0_c0-m1",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 108.2
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 111.7
           },
           {
             "marker_id": "skelleftea-parkster-review-grid_r0_c1-m5",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 62.1
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 104.9
           }
         ]
       },
@@ -15014,8 +15014,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -16842,8 +16842,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -16906,8 +16906,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -16970,8 +16970,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -17034,8 +17034,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -17222,8 +17222,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -17365,8 +17365,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -17634,8 +17634,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -18903,7 +18903,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 975113891,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -18913,20 +18913,20 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ],
         "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
-            "marker_id": "skelleftea-parkster-review-grid_r1_c0-m7",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 109.4
+            "marker_id": "skelleftea-parkster-review-grid_r1_c0-m9",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 57.0
           },
           {
-            "marker_id": "skelleftea-parkster-review-grid_r1_c0-m9",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 101.5
+            "marker_id": "skelleftea-parkster-review-grid_r1_c0-m10",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 109.8
           }
         ]
       },
@@ -18978,9 +18978,11 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match"
+          "skelleftea_parkering_district_match",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-12",
         "osm_id": 975113896,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -18990,8 +18992,16 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
+        ],
+        "parkster_evidence_count": 1,
+        "parkster_review_refs": [
+          {
+            "marker_id": "skelleftea-parkster-review-grid_r1_c0-m13",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 119.5
+          }
         ]
       },
       "geometry": {
@@ -19054,8 +19064,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -19118,8 +19128,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -19557,8 +19567,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -19637,8 +19647,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -20195,8 +20205,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -20243,7 +20253,7 @@
         "hours": "Every day 00-24: 1 h - 17 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/skelleftea/sodra-jarnvagsgatan-49-57/",
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/sodra-jarnvagsgatan-31-39-47/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -20251,7 +20261,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 997791650,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -20259,23 +20269,18 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sodra-jarnvagsgatan-49-57",
+        "aimopark_name": "sodra-jarnvagsgatan-31-39-47",
         "aimopark_distance_m": 105.9,
         "payment_apps": [
           "aimo",
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 1,
         "parkster_review_refs": [
           {
             "marker_id": "skelleftea-parkster-review-grid_r0_c0-m2",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 51.4
-          },
-          {
-            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m14",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 65.2
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 46.3
           }
         ]
       },
@@ -24543,7 +24548,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 1354482605,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -24560,14 +24565,14 @@
         "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
-            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m3",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 102.0
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m8",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 94.1
           },
           {
-            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m8",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 51.8
+            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m11",
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 70.6
           }
         ]
       },
@@ -24623,7 +24628,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 1354482606,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -24633,15 +24638,15 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ],
         "parkster_evidence_count": 1,
         "parkster_review_refs": [
           {
             "marker_id": "skelleftea-parkster-review-grid_r0_c1-m9",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 26.7
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 31.4
           }
         ]
       },
@@ -24689,7 +24694,7 @@
         "hours": "Every day 00-24: 1 h - 17 SEK",
         "restrictions": null,
         "contact": null,
-        "source_url": "https://www.aimopark.se/en/cities/skelleftea/sodra-jarnvagsgatan-49-57/",
+        "source_url": "https://www.aimopark.se/en/cities/skelleftea/sodra-jarnvagsgatan-31-39-47/",
         "confidence": 0.75,
         "flags": [
           "osm_bootstrap",
@@ -24703,7 +24708,7 @@
         "osm_parking": "surface",
         "osm_operator": null,
         "osm_note": null,
-        "aimopark_name": "sodra-jarnvagsgatan-49-57",
+        "aimopark_name": "sodra-jarnvagsgatan-31-39-47",
         "aimopark_distance_m": 162.4,
         "payment_apps": [
           "aimo"
@@ -25637,8 +25642,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -25705,8 +25710,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -25769,8 +25774,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -25825,7 +25830,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 1429071929,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -25835,20 +25840,15 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 1,
         "parkster_review_refs": [
           {
             "marker_id": "skelleftea-parkster-review-grid_r0_c0-m8",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 49.0
-          },
-          {
-            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m20",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 70.9
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 56.0
           }
         ]
       },
@@ -25912,8 +25912,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -25976,8 +25976,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -26032,7 +26032,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 1429071935,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -26042,20 +26042,15 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 1,
         "parkster_review_refs": [
           {
-            "marker_id": "skelleftea-parkster-review-grid_r0_c0-m7",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 82.6
-          },
-          {
             "marker_id": "skelleftea-parkster-review-grid_r0_c0-m9",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 21.6
+            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+            "distance_m": 34.5
           }
         ]
       },
@@ -26316,8 +26311,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -26448,11 +26443,9 @@
         "confidence": 0.65,
         "flags": [
           "osm_bootstrap",
-          "skelleftea_parkering_district_match",
-          "parkster_nearby_evidence",
-          "needs_review"
+          "skelleftea_parkering_district_match"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": null,
         "osm_id": 1429718125,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -26462,16 +26455,8 @@
         "osm_note": null,
         "skelleftea_parkering_district": "Centrum",
         "payment_apps": [
-          "epark",
-          "parkster"
-        ],
-        "parkster_evidence_count": 1,
-        "parkster_review_refs": [
-          {
-            "marker_id": "skelleftea-parkster-review-grid_r0_c1-m24",
-            "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-            "distance_m": 79.4
-          }
+          "parkster",
+          "epark"
         ]
       },
       "geometry": {
@@ -28163,20 +28148,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1032,
-        "screen_y": 1832,
+        "screen_x": 1025,
+        "screen_y": 1837,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9526282,
-          64.7502946
+          20.9524808,
+          64.7502497
         ]
       }
     },
@@ -28203,20 +28188,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 796,
-        "screen_y": 1443,
+        "screen_x": 789,
+        "screen_y": 1454,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9476582,
-          64.7537891
+          20.9475108,
+          64.7536903
         ]
       }
     },
@@ -28243,20 +28228,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 265,
-        "screen_y": 1378,
+        "screen_x": 258,
+        "screen_y": 1389,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9364759,
-          64.754373
+          20.9363285,
+          64.7542742
         ]
       }
     },
@@ -28283,20 +28268,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 633,
-        "screen_y": 1350,
+        "screen_x": 626,
+        "screen_y": 1361,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9442256,
-          64.7546245
+          20.9440782,
+          64.7545257
         ]
       }
     },
@@ -28323,20 +28308,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 431,
-        "screen_y": 1284,
+        "screen_x": 424,
+        "screen_y": 1295,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9399717,
-          64.7552174
+          20.9398243,
+          64.7551186
         ]
       }
     },
@@ -28363,20 +28348,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 640,
-        "screen_y": 1277,
+        "screen_x": 633,
+        "screen_y": 1288,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.944373,
-          64.7552803
+          20.9442256,
+          64.7551815
         ]
       }
     },
@@ -28403,20 +28388,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 347,
-        "screen_y": 1187,
+        "screen_x": 340,
+        "screen_y": 1198,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9382027,
-          64.7560888
+          20.9380553,
+          64.7559899
         ]
       }
     },
@@ -28443,20 +28428,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 748,
-        "screen_y": 1161,
+        "screen_x": 741,
+        "screen_y": 1172,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9466474,
-          64.7563223
+          20.9465,
+          64.7562235
         ]
       }
     },
@@ -28483,20 +28468,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 392,
-        "screen_y": 1144,
+        "screen_x": 385,
+        "screen_y": 1155,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9391504,
-          64.756475
+          20.939003,
+          64.7563762
         ]
       }
     },
@@ -28523,20 +28508,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 958,
-        "screen_y": 860,
+        "screen_x": 951,
+        "screen_y": 871,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9510698,
-          64.7590262
+          20.9509224,
+          64.7589274
         ]
       }
     },
@@ -28563,20 +28548,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 964,
-        "screen_y": 818,
+        "screen_x": 957,
+        "screen_y": 829,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9511962,
-          64.7594035
+          20.9510487,
+          64.7593047
         ]
       }
     },
@@ -28603,20 +28588,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 581,
-        "screen_y": 816,
+        "screen_x": 574,
+        "screen_y": 827,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9431306,
-          64.7594215
+          20.9429831,
+          64.7593227
         ]
       }
     },
@@ -28643,20 +28628,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 743,
-        "screen_y": 807,
+        "screen_x": 736,
+        "screen_y": 818,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9465421,
-          64.7595023
+          20.9463947,
+          64.7594035
         ]
       }
     },
@@ -28683,20 +28668,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 369,
-        "screen_y": 812,
+        "screen_x": 362,
+        "screen_y": 823,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.938666,
-          64.7594574
+          20.9385186,
+          64.7593586
         ]
       }
     },
@@ -28723,20 +28708,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 986,
-        "screen_y": 763,
+        "screen_x": 979,
+        "screen_y": 774,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9516594,
-          64.7598976
+          20.951512,
+          64.7597988
         ]
       }
     },
@@ -28763,20 +28748,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 167,
-        "screen_y": 661,
+        "screen_x": 160,
+        "screen_y": 671,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9344121,
-          64.7608139
+          20.9342647,
+          64.760724
         ]
       }
     },
@@ -28803,20 +28788,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 768,
-        "screen_y": 643,
+        "screen_x": 761,
+        "screen_y": 654,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9470686,
-          64.7609756
+          20.9469212,
+          64.7608768
         ]
       }
     },
@@ -28843,20 +28828,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1015,
-        "screen_y": 597,
+        "screen_x": 1008,
+        "screen_y": 608,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9522702,
-          64.7613888
+          20.9521227,
+          64.76129
         ]
       }
     },
@@ -28883,20 +28868,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 436,
-        "screen_y": 540,
+        "screen_x": 429,
+        "screen_y": 551,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.940077,
-          64.7619008
+          20.9399296,
+          64.761802
         ]
       }
     },
@@ -28923,20 +28908,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 835,
-        "screen_y": 422,
+        "screen_x": 828,
+        "screen_y": 432,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9484795,
-          64.7629608
+          20.9483321,
+          64.762871
         ]
       }
     },
@@ -28963,20 +28948,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 741,
-        "screen_y": 410,
+        "screen_x": 734,
+        "screen_y": 421,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9465,
-          64.7630686
+          20.9463526,
+          64.7629698
         ]
       }
     },
@@ -29003,20 +28988,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 700,
-        "screen_y": 327,
+        "screen_x": 693,
+        "screen_y": 338,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9456366,
-          64.7638142
+          20.9454892,
+          64.7637154
         ]
       }
     },
@@ -29043,20 +29028,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 94,
-        "screen_y": 254,
+        "screen_x": 87,
+        "screen_y": 265,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9328748,
-          64.76447
+          20.9327274,
+          64.7643712
         ]
       }
     },
@@ -29083,20 +29068,60 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 498,
-        "screen_y": 194,
+        "screen_x": 492,
+        "screen_y": 205,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9413827,
-          64.765009
+          20.9412563,
+          64.7649102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "skelleftea-parkster-review-grid_r0_c0-m25",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Skellefteå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 238,
+        "screen_y": 49,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9359073,
+          64.7663115
         ]
       }
     },
@@ -29123,20 +29148,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 475,
-        "screen_y": 1831,
+        "screen_x": 458,
+        "screen_y": 1855,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.956364,
-          64.7503036
+          20.956006,
+          64.750088
         ]
       }
     },
@@ -29163,60 +29188,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 698,
-        "screen_y": 1836,
+        "screen_x": 682,
+        "screen_y": 1860,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9610602,
-          64.7502587
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "skelleftea-parkster-review-grid_r0_c1-m3",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Skellefteå kommun",
-        "region": "Västerbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
-        "capture_label": "grid_r0_c1",
-        "screen_x": 481,
-        "screen_y": 1799,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.9564904,
-          64.7505911
+          20.9607232,
+          64.7500431
         ]
       }
     },
@@ -29243,20 +29228,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 98,
-        "screen_y": 1796,
+        "screen_x": 81,
+        "screen_y": 1832,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9484248,
-          64.750618
+          20.9480668,
+          64.7502946
         ]
       }
     },
@@ -29283,20 +29268,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 260,
-        "screen_y": 1788,
+        "screen_x": 243,
+        "screen_y": 1828,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9518363,
-          64.7506899
+          20.9514783,
+          64.7503306
         ]
       }
     },
@@ -29323,20 +29308,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 1046,
-        "screen_y": 1779,
+        "screen_x": 1038,
+        "screen_y": 1824,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9683887,
-          64.7507708
+          20.9682202,
+          64.7503665
         ]
       }
     },
@@ -29363,20 +29348,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 11,
-        "screen_y": 1745,
+        "screen_x": 2,
+        "screen_y": 1792,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9465927,
-          64.7510762
+          20.9464031,
+          64.750654
         ]
       }
     },
@@ -29403,20 +29388,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 503,
-        "screen_y": 1744,
+        "screen_x": 486,
+        "screen_y": 1791,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9569537,
-          64.7510852
+          20.9565957,
+          64.750663
         ]
       }
     },
@@ -29443,20 +29428,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 586,
-        "screen_y": 1688,
+        "screen_x": 569,
+        "screen_y": 1735,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9587016,
-          64.7515882
+          20.9583436,
+          64.751166
         ]
       }
     },
@@ -29483,20 +29468,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 285,
-        "screen_y": 1623,
+        "screen_x": 268,
+        "screen_y": 1670,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9523628,
-          64.7521721
+          20.9520048,
+          64.7517499
         ]
       }
     },
@@ -29523,20 +29508,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 526,
-        "screen_y": 1585,
+        "screen_x": 509,
+        "screen_y": 1632,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.957438,
-          64.7525135
+          20.95708,
+          64.7520913
         ]
       }
     },
@@ -29563,20 +29548,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 754,
-        "screen_y": 1548,
+        "screen_x": 335,
+        "screen_y": 1449,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9622395,
-          64.7528458
+          20.9534158,
+          64.7537352
         ]
       }
     },
@@ -29603,20 +29588,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 52,
-        "screen_y": 1491,
+        "screen_x": 242,
+        "screen_y": 1438,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9474561,
-          64.7533579
+          20.9514573,
+          64.753834
         ]
       }
     },
@@ -29643,20 +29628,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 352,
-        "screen_y": 1402,
+        "screen_x": 200,
+        "screen_y": 1355,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9537738,
-          64.7541574
+          20.9505728,
+          64.7545796
         ]
       }
     },
@@ -29683,20 +29668,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 258,
-        "screen_y": 1391,
+        "screen_x": 859,
+        "screen_y": 1238,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9517942,
-          64.7542562
+          20.9644507,
+          64.7556306
         ]
       }
     },
@@ -29723,20 +29708,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 217,
-        "screen_y": 1308,
+        "screen_x": 771,
+        "screen_y": 1213,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9509308,
-          64.7550018
+          20.9625975,
+          64.7558552
         ]
       }
     },
@@ -29763,20 +29748,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 876,
-        "screen_y": 1192,
+        "screen_x": 856,
+        "screen_y": 1099,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9648087,
-          64.7560438
+          20.9643875,
+          64.7568793
         ]
       }
     },
@@ -29803,20 +29788,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 787,
-        "screen_y": 1167,
+        "screen_x": 319,
+        "screen_y": 1042,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9629344,
-          64.7562684
+          20.9530788,
+          64.7573913
         ]
       }
     },
@@ -29843,20 +29828,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 32,
-        "screen_y": 1175,
+        "screen_x": 654,
+        "screen_y": 979,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9470349,
-          64.7561966
+          20.9601336,
+          64.7579572
         ]
       }
     },
@@ -29883,20 +29868,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 873,
-        "screen_y": 1052,
+        "screen_x": 849,
+        "screen_y": 780,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9647455,
-          64.7573015
+          20.9642401,
+          64.7597449
         ]
       }
     },
@@ -29923,20 +29908,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 335,
-        "screen_y": 996,
+        "screen_x": 146,
+        "screen_y": 728,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9534158,
-          64.7578045
+          20.9494356,
+          64.760212
         ]
       }
     },
@@ -29963,300 +29948,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 671,
-        "screen_y": 932,
+        "screen_x": 13,
+        "screen_y": 680,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9604916,
-          64.7583794
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "skelleftea-parkster-review-grid_r0_c1-m24",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Skellefteå kommun",
-        "region": "Västerbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
-        "capture_label": "grid_r0_c1",
-        "screen_x": 910,
-        "screen_y": 921,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.9655247,
-          64.7584783
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "skelleftea-parkster-review-grid_r0_c1-m25",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Skellefteå kommun",
-        "region": "Västerbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
-        "capture_label": "grid_r0_c1",
-        "screen_x": 866,
-        "screen_y": 733,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.9645981,
-          64.7601671
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "skelleftea-parkster-review-grid_r0_c1-m26",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Skellefteå kommun",
-        "region": "Västerbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
-        "capture_label": "grid_r0_c1",
-        "screen_x": 163,
-        "screen_y": 681,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.9497936,
-          64.7606342
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "skelleftea-parkster-review-grid_r0_c1-m27",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Skellefteå kommun",
-        "region": "Västerbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
-        "capture_label": "grid_r0_c1",
-        "screen_x": 159,
-        "screen_y": 651,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.9497094,
-          64.7609037
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "skelleftea-parkster-review-grid_r0_c1-m28",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Skellefteå kommun",
-        "region": "Västerbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
-        "capture_label": "grid_r0_c1",
-        "screen_x": 22,
-        "screen_y": 633,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.9468243,
-          64.7610654
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "skelleftea-parkster-review-grid_r0_c1-m29",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Skellefteå kommun",
-        "region": "Västerbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
-        "capture_label": "grid_r0_c1",
-        "screen_x": 622,
-        "screen_y": 601,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.9594597,
-          64.7613529
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "skelleftea-parkster-review-grid_r0_c1-m31",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Skellefteå kommun",
-        "region": "Västerbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r0_c1.png",
-        "capture_label": "grid_r0_c1",
-        "screen_x": 595,
-        "screen_y": 593,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.9588911,
-          64.7614247
+          20.9466348,
+          64.7606432
         ]
       }
     },
@@ -30283,20 +29988,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r1_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 712,
-        "screen_y": 1843,
+        "screen_x": 187,
+        "screen_y": 1833,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9458893,
-          64.7366349
+          20.9348333,
+          64.7367248
         ]
       }
     },
@@ -30323,20 +30028,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r1_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 106,
-        "screen_y": 1792,
+        "screen_x": 78,
+        "screen_y": 1818,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9331275,
-          64.7370931
+          20.9325379,
+          64.7368595
         ]
       }
     },
@@ -30363,20 +30068,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r1_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 511,
-        "screen_y": 1732,
+        "screen_x": 483,
+        "screen_y": 1767,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9416564,
-          64.7376321
+          20.9410668,
+          64.7373176
         ]
       }
     },
@@ -30403,20 +30108,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r1_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 257,
-        "screen_y": 1575,
+        "screen_x": 229,
+        "screen_y": 1610,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9363074,
-          64.7390424
+          20.9357178,
+          64.738728
         ]
       }
     },
@@ -30443,20 +30148,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r1_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 831,
-        "screen_y": 1553,
+        "screen_x": 803,
+        "screen_y": 1588,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9483953,
-          64.73924
+          20.9478057,
+          64.7389256
         ]
       }
     },
@@ -30483,20 +30188,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r1_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 118,
-        "screen_y": 1516,
+        "screen_x": 90,
+        "screen_y": 1551,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9333802,
-          64.7395724
+          20.9327906,
+          64.739258
         ]
       }
     },
@@ -30523,20 +30228,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r1_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 69,
-        "screen_y": 1454,
+        "screen_x": 44,
+        "screen_y": 1489,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9323483,
-          64.7401294
+          20.9318219,
+          64.7398149
         ]
       }
     },
@@ -30563,20 +30268,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r1_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 321,
-        "screen_y": 1366,
+        "screen_x": 293,
+        "screen_y": 1401,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9376552,
-          64.7409199
+          20.9370656,
+          64.7406055
         ]
       }
     },
@@ -30603,20 +30308,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r1_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 223,
-        "screen_y": 1320,
+        "screen_x": 195,
+        "screen_y": 1355,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9355914,
-          64.7413331
+          20.9350018,
+          64.7410187
         ]
       }
     },
@@ -30643,20 +30348,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r1_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 114,
-        "screen_y": 1296,
+        "screen_x": 86,
+        "screen_y": 1330,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.933296,
-          64.7415487
+          20.9327063,
+          64.7412433
         ]
       }
     },
@@ -30683,20 +30388,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r1_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 658,
-        "screen_y": 1238,
+        "screen_x": 630,
+        "screen_y": 1273,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9447521,
-          64.7420697
+          20.9441624,
+          64.7417553
         ]
       }
     },
@@ -30723,20 +30428,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r1_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 655,
-        "screen_y": 1208,
+        "screen_x": 627,
+        "screen_y": 1243,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9446889,
-          64.7423392
+          20.9440993,
+          64.7420248
         ]
       }
     },
@@ -30763,20 +30468,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r1_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 492,
-        "screen_y": 1190,
+        "screen_x": 465,
+        "screen_y": 1225,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9412563,
-          64.7425009
+          20.9406877,
+          64.7421865
         ]
       }
     },
@@ -30803,20 +30508,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r1_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 126,
-        "screen_y": 1175,
+        "screen_x": 98,
+        "screen_y": 1210,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9335487,
-          64.7426356
+          20.9329591,
+          64.7423212
         ]
       }
     },
@@ -30843,20 +30548,60 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260623T114157.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260623T114157\\grid_r1_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 443,
-        "screen_y": 901,
+        "screen_x": 1060,
+        "screen_y": 1193,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9402244,
-          64.745097
+          20.9532178,
+          64.7424739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "skelleftea-parkster-review-grid_r1_c0-m18",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Skellefteå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\skelleftea_parkster_marker_evidence_20260712T235512.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\skelleftea_parkster_map_20260712T235512\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 415,
+        "screen_y": 936,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9396348,
+          64.7447826
         ]
       }
     }

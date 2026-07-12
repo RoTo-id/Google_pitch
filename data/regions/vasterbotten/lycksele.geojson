@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-06-23T17:52:22.256271+00:00",
+    "generated": "2026-07-12T22:18:19.888729+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västerbotten",
     "city": "lycksele",
@@ -13,7 +13,7 @@
     "bootstrap": {
       "osm_source": "output\\osm_parking_lycksele.geojson",
       "zones_imported": 53,
-      "bootstrap_date": "2026-06-22"
+      "bootstrap_date": "2026-07-09"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -32,15 +32,15 @@
       "after": 35,
       "total": 53,
       "coverage_pct": 34.0,
-      "run_date": "2026-06-23"
+      "run_date": "2026-07-12"
     },
     "parkster_review_markers": {
-      "source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
+      "source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260712T235934.json",
       "status": "needs_review",
       "removed_previous": 0,
       "added": 10,
       "meters_per_px": 1.0,
-      "updated_at": "2026-06-23T17:05:27.789950+00:00"
+      "updated_at": "2026-07-12T22:18:15.948156+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -48,7 +48,7 @@
       "markers_matched": 1,
       "markers_unmatched": 9,
       "features_matched": 1,
-      "updated_at": "2026-06-23T17:52:22.256258+00:00",
+      "updated_at": "2026-07-12T22:18:19.888722+00:00",
       "status": "needs_review"
     }
   },
@@ -3063,7 +3063,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-06-23",
+        "last_verified": "2026-07-12",
         "osm_id": 1425553457,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -3078,8 +3078,8 @@
         "parkster_review_refs": [
           {
             "marker_id": "lycksele-parkster-review-grid_r0_c0-m10",
-            "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
-            "distance_m": 80.0
+            "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260712T235934.json",
+            "distance_m": 93.7
           }
         ]
       },
@@ -3772,20 +3772,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260712T235934.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260712T235934\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 326,
-        "screen_y": 1840,
+        "screen_x": 316,
+        "screen_y": 1845,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.6695192,
-          64.5874423
+          18.6693098,
+          64.5873974
         ]
       }
     },
@@ -3812,20 +3812,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260712T235934.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260712T235934\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 542,
-        "screen_y": 1844,
+        "screen_x": 532,
+        "screen_y": 1849,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.6740419,
-          64.5874064
+          18.6738325,
+          64.5873615
         ]
       }
     },
@@ -3852,20 +3852,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260712T235934.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260712T235934\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1029,
-        "screen_y": 1836,
+        "screen_x": 1019,
+        "screen_y": 1841,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.6842388,
-          64.5874783
+          18.6840294,
+          64.5874333
         ]
       }
     },
@@ -3892,20 +3892,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260712T235934.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260712T235934\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 729,
-        "screen_y": 1795,
+        "screen_x": 719,
+        "screen_y": 1805,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.6779573,
-          64.5878466
+          18.6777479,
+          64.5877567
         ]
       }
     },
@@ -3932,20 +3932,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260712T235934.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260712T235934\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 530,
-        "screen_y": 1689,
+        "screen_x": 520,
+        "screen_y": 1699,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.6737906,
-          64.5887988
+          18.6735812,
+          64.5887089
         ]
       }
     },
@@ -3972,20 +3972,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260712T235934.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260712T235934\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 674,
-        "screen_y": 1658,
+        "screen_x": 664,
+        "screen_y": 1668,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.6768057,
-          64.5890773
+          18.6765963,
+          64.5889874
         ]
       }
     },
@@ -4012,20 +4012,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260712T235934.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260712T235934\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 679,
-        "screen_y": 1459,
+        "screen_x": 669,
+        "screen_y": 1469,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.6769104,
-          64.5908649
+          18.676701,
+          64.5907751
         ]
       }
     },
@@ -4052,20 +4052,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260712T235934.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260712T235934\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 537,
-        "screen_y": 1265,
+        "screen_x": 527,
+        "screen_y": 1275,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.6739372,
-          64.5926076
+          18.6737278,
+          64.5925178
         ]
       }
     },
@@ -4092,20 +4092,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260712T235934.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260712T235934\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 380,
-        "screen_y": 1098,
+        "screen_x": 370,
+        "screen_y": 1108,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.6706499,
-          64.5941078
+          18.6704405,
+          64.594018
         ]
       }
     },
@@ -4132,20 +4132,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-06-23",
-        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260623T114633.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260623T114633\\grid_r0_c0.png",
+        "last_verified": "2026-07-12",
+        "evidence_source": "output\\phone_scans\\lycksele_parkster_marker_evidence_20260712T235934.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\lycksele_parkster_map_20260712T235934\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 291,
-        "screen_y": 1018,
+        "screen_x": 281,
+        "screen_y": 1028,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.6687864,
-          64.5948264
+          18.668577,
+          64.5947366
         ]
       }
     }
