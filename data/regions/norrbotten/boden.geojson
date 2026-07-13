@@ -56,6 +56,13 @@
       "features_matched": 0,
       "updated_at": "2026-07-13T04:51:00.940937+00:00",
       "status": "needs_review"
+    },
+    "epark_nearby_merge": {
+      "scan": "boden_epark_nearby_20260713.json",
+      "zones": 0,
+      "matched": 0,
+      "added_review_points": 0,
+      "unresolved": 0
     }
   },
   "features": [

@@ -50,6 +50,13 @@
       "features_matched": 40,
       "updated_at": "2026-07-13T04:51:02.497996+00:00",
       "status": "needs_review"
+    },
+    "epark_nearby_merge": {
+      "scan": "umea_epark_nearby_20260713.json",
+      "zones": 1,
+      "matched": 1,
+      "added_review_points": 0,
+      "unresolved": 0
     }
   },
   "features": [
@@ -94099,10 +94106,12 @@
         "flags": [
           "parkster_marker_estimate",
           "needs_review",
-          "not_verified"
+          "not_verified",
+          "epark_nearby_evidence"
         ],
         "payment_apps": [
-          "parkster"
+          "parkster",
+          "epark"
         ],
         "source_app": "parkster",
         "source_url": null,
@@ -94113,7 +94122,11 @@
         "screen_x": 902,
         "screen_y": 98,
         "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone.",
+        "epark_zone_code": "90194",
+        "epark_name": "Rådhusesplanaden 14-18",
+        "epark_reported_operator": "Securitas Sverige AB",
+        "epark_distance_m": 86.7
       },
       "geometry": {
         "type": "Point",

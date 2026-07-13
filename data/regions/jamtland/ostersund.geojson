@@ -50,6 +50,13 @@
       "features_matched": 29,
       "updated_at": "2026-07-13T04:51:03.972279+00:00",
       "status": "needs_review"
+    },
+    "epark_nearby_merge": {
+      "scan": "ostersund_epark_nearby_20260713.json",
+      "zones": 0,
+      "matched": 0,
+      "added_review_points": 0,
+      "unresolved": 0
     }
   },
   "features": [

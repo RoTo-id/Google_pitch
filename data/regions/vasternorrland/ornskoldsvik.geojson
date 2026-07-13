@@ -50,6 +50,13 @@
       "features_matched": 1,
       "updated_at": "2026-07-13T04:51:04.003796+00:00",
       "status": "needs_review"
+    },
+    "epark_nearby_merge": {
+      "scan": "ornskoldsvik_epark_nearby_20260713.json",
+      "zones": 5,
+      "matched": 0,
+      "added_review_points": 0,
+      "unresolved": 5
     }
   },
   "features": [
