@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-07-12T22:18:16.626868+00:00",
+    "generated": "2026-07-13T04:51:01.174162+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "kalix",
@@ -27,20 +27,20 @@
       "note_matched": 0,
       "access_yes_free": 0,
       "fee_confirmed_unknown": 0,
-      "genuinely_unknown": 147,
-      "before": 147,
-      "after": 147,
-      "total": 350,
-      "coverage_pct": 58.0,
-      "run_date": "2026-07-12"
+      "genuinely_unknown": 149,
+      "before": 149,
+      "after": 149,
+      "total": 352,
+      "coverage_pct": 57.7,
+      "run_date": "2026-07-13"
     },
     "parkster_review_markers": {
       "source": "output\\phone_scans\\kalix_parkster_marker_evidence_20260712T235143.json",
       "status": "needs_review",
-      "removed_previous": 0,
+      "removed_previous": 2,
       "added": 2,
       "meters_per_px": 1.0,
-      "updated_at": "2026-07-12T22:18:15.554703+00:00"
+      "updated_at": "2026-07-13T04:51:00.338992+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -48,7 +48,7 @@
       "markers_matched": 0,
       "markers_unmatched": 2,
       "features_matched": 0,
-      "updated_at": "2026-07-12T22:18:16.626842+00:00",
+      "updated_at": "2026-07-13T04:51:01.174147+00:00",
       "status": "needs_review"
     }
   },
@@ -23008,7 +23008,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\kalix_parkster_marker_evidence_20260712T235143.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\kalix_parkster_map_20260712T235143\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -23048,7 +23048,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\kalix_parkster_marker_evidence_20260712T235143.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\kalix_parkster_map_20260712T235143\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-07-12T22:18:19.791591+00:00",
+    "generated": "2026-07-13T04:51:03.972286+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Jämtland",
     "city": "ostersund",
@@ -22,25 +22,25 @@
       "needs_identification": 1,
       "osm_operator_mapped": 0,
       "lulebo_district": 0,
-      "near_aimo": 1,
+      "near_aimo": 0,
       "rural_free": 0,
       "note_matched": 0,
       "access_yes_free": 0,
       "fee_confirmed_unknown": 11,
-      "genuinely_unknown": 387,
-      "before": 400,
-      "after": 399,
-      "total": 689,
-      "coverage_pct": 42.1,
-      "run_date": "2026-07-12"
+      "genuinely_unknown": 483,
+      "before": 495,
+      "after": 495,
+      "total": 785,
+      "coverage_pct": 36.9,
+      "run_date": "2026-07-13"
     },
     "parkster_review_markers": {
       "source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
       "status": "needs_review",
-      "removed_previous": 0,
+      "removed_previous": 96,
       "added": 96,
       "meters_per_px": 1.0,
-      "updated_at": "2026-07-12T22:18:15.822331+00:00"
+      "updated_at": "2026-07-13T04:51:00.544313+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -48,7 +48,7 @@
       "markers_matched": 35,
       "markers_unmatched": 61,
       "features_matched": 29,
-      "updated_at": "2026-07-12T22:18:19.791583+00:00",
+      "updated_at": "2026-07-13T04:51:03.972279+00:00",
       "status": "needs_review"
     }
   },
@@ -3698,7 +3698,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 87935292,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -3709,7 +3709,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m19",
@@ -3779,7 +3779,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 88419983,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -3790,7 +3790,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r1_c0-m35",
@@ -4458,7 +4458,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 89060460,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -4469,7 +4469,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m6",
@@ -6351,7 +6351,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 91899373,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -6362,7 +6362,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c0-m19",
@@ -6505,7 +6505,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 91899386,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -6516,7 +6516,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m21",
@@ -6577,7 +6577,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 92065991,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -6588,7 +6588,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m2",
@@ -6709,7 +6709,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 92483660,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -6720,7 +6720,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c0-m1",
@@ -7613,7 +7613,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 93115206,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -7624,7 +7624,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r1_c1-m8",
@@ -10002,7 +10002,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 108030631,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -10013,7 +10013,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c0-m7",
@@ -18606,7 +18606,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 125915862,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -18617,7 +18617,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r1_c0-m38",
@@ -22456,7 +22456,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 194644131,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -22467,7 +22467,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m15",
@@ -23878,7 +23878,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 224068776,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -23889,7 +23889,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r1_c0-m34",
@@ -28336,7 +28336,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 249597507,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -28347,7 +28347,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r1_c1-m5",
@@ -28433,7 +28433,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 249597508,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -28444,7 +28444,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r1_c1-m4",
@@ -29078,7 +29078,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 254363158,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -29089,7 +29089,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r1_c0-m18",
@@ -29745,7 +29745,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 328570435,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -29756,7 +29756,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m16",
@@ -29902,7 +29902,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 328577108,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -29913,7 +29913,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m14",
@@ -37797,7 +37797,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 1249683620,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -37808,7 +37808,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c0-m16",
@@ -38849,7 +38849,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 1288977156,
         "osm_distance_m": null,
         "osm_access": "customers",
@@ -38860,7 +38860,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r1_c1-m1",
@@ -39586,7 +39586,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 1330253926,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -39597,7 +39597,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m9",
@@ -39844,7 +39844,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 1330253936,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -39855,7 +39855,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m8",
@@ -40249,7 +40249,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 1330253954,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -40260,7 +40260,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m5",
@@ -40738,7 +40738,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 1330253991,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -40749,7 +40749,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m7",
@@ -41095,7 +41095,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 1330254029,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -41106,7 +41106,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m12",
@@ -41623,7 +41623,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 1393175604,
         "osm_distance_m": null,
         "osm_access": "customers",
@@ -41634,7 +41634,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 3,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c0-m2",
@@ -42017,7 +42017,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 1396515112,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -42028,7 +42028,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m22",
@@ -45781,7 +45781,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 1504591957,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -45792,7 +45792,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r1_c1-m7",
@@ -46386,7 +46386,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 1512636076,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -46397,7 +46397,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m3",
@@ -46467,7 +46467,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "osm_id": 1512636077,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -46478,7 +46478,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 1,
+        "parkster_evidence_count": 2,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m4",
@@ -48553,7 +48553,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -48593,7 +48593,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -48633,7 +48633,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -48673,7 +48673,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -48713,7 +48713,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -48753,7 +48753,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -48793,7 +48793,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -48833,7 +48833,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -48873,7 +48873,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -48913,7 +48913,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -48953,7 +48953,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -48993,7 +48993,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -49033,7 +49033,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -49073,7 +49073,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -49113,7 +49113,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -49153,7 +49153,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -49193,7 +49193,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -49233,7 +49233,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -49273,7 +49273,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -49313,7 +49313,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -49353,7 +49353,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -49393,7 +49393,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -49433,7 +49433,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -49473,7 +49473,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -49513,7 +49513,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -49553,7 +49553,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -49593,7 +49593,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -49633,7 +49633,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -49673,7 +49673,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -49713,7 +49713,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -49753,7 +49753,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -49793,7 +49793,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -49833,7 +49833,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -49873,7 +49873,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -49913,7 +49913,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -49953,7 +49953,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -49993,7 +49993,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -50033,7 +50033,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -50073,7 +50073,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -50113,7 +50113,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -50153,7 +50153,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -50193,7 +50193,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -50233,7 +50233,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -50273,7 +50273,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -50313,7 +50313,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -50353,7 +50353,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -50393,7 +50393,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -50433,7 +50433,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -50473,7 +50473,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -50513,7 +50513,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -50553,7 +50553,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -50593,7 +50593,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -50633,7 +50633,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -50673,7 +50673,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -50713,7 +50713,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -50753,7 +50753,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -50793,7 +50793,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -50833,7 +50833,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -50873,7 +50873,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -50913,7 +50913,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -50953,7 +50953,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -50993,7 +50993,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51033,7 +51033,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51073,7 +51073,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51113,7 +51113,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51153,7 +51153,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51193,7 +51193,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51233,7 +51233,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51273,7 +51273,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51313,7 +51313,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51353,7 +51353,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51393,7 +51393,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51433,7 +51433,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51473,7 +51473,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51513,7 +51513,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51553,7 +51553,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51593,7 +51593,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51633,7 +51633,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51673,7 +51673,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51713,7 +51713,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51753,7 +51753,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51793,7 +51793,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51833,7 +51833,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51873,7 +51873,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51913,7 +51913,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51953,7 +51953,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -51993,7 +51993,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -52033,7 +52033,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -52073,7 +52073,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -52113,7 +52113,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -52153,7 +52153,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -52193,7 +52193,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -52233,7 +52233,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -52273,7 +52273,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -52313,7 +52313,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -52353,7 +52353,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-12",
+        "last_verified": "2026-07-13",
         "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",

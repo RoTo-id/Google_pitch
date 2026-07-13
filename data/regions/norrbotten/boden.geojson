@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-07-12T22:18:16.334053+00:00",
+    "generated": "2026-07-13T04:51:00.940949+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "boden",
@@ -27,7 +27,7 @@
       "aimo_matched": 0,
       "lulebo_matched": 0,
       "kommun_matched": 0,
-      "run_date": "2026-07-12"
+      "run_date": "2026-07-13"
     },
     "osm_reclassification": {
       "private_property": 0,
@@ -46,7 +46,7 @@
       "after": 25,
       "total": 153,
       "coverage_pct": 83.7,
-      "run_date": "2026-07-12"
+      "run_date": "2026-07-13"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -54,7 +54,7 @@
       "markers_matched": 0,
       "markers_unmatched": 0,
       "features_matched": 0,
-      "updated_at": "2026-07-12T22:18:16.334036+00:00",
+      "updated_at": "2026-07-13T04:51:00.940937+00:00",
       "status": "needs_review"
     }
   },
