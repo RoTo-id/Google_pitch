@@ -9,7 +9,7 @@
     "municipality": "Sundsvalls kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "sundsvall-osm-bootstrap",
-    "zone_count": 1467,
+    "zone_count": 1468,
     "bootstrap": {
       "osm_source": "output\\osm_parking_sundsvall.geojson",
       "zones_imported": 1375,
@@ -53,10 +53,10 @@
     },
     "epark_nearby_merge": {
       "scan": "sundsvall_epark_nearby_20260713.json",
-      "zones": 0,
-      "matched": 0,
-      "added_review_points": 0,
-      "unresolved": 0
+      "zones": 10,
+      "matched": 6,
+      "added_review_points": 1,
+      "unresolved": 3
     }
   },
   "features": [
@@ -28265,7 +28265,9 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "epark_nearby_evidence",
+          "needs_review"
         ],
         "last_verified": null,
         "osm_id": 96202894,
@@ -28274,7 +28276,14 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_zone_code": "62075",
+        "epark_name": "Korstavägen 8-12",
+        "epark_reported_operator": "Drakstadens Parkering AB",
+        "epark_distance_m": 23.5
       },
       "geometry": {
         "type": "Polygon",
@@ -39946,7 +39955,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "epark_nearby_evidence",
+          "needs_review"
         ],
         "last_verified": null,
         "osm_id": 124791688,
@@ -39955,7 +39966,14 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_zone_code": "62012",
+        "epark_name": "Tjädervägen",
+        "epark_reported_operator": "Drakstadens Parkering AB",
+        "epark_distance_m": 10.1
       },
       "geometry": {
         "type": "Polygon",
@@ -40010,7 +40028,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "epark_nearby_evidence",
+          "needs_review"
         ],
         "last_verified": null,
         "osm_id": 124807113,
@@ -40019,7 +40039,14 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_zone_code": "62011",
+        "epark_name": "Medborgargatan 63",
+        "epark_reported_operator": "Drakstadens Parkering AB",
+        "epark_distance_m": 59.0
       },
       "geometry": {
         "type": "Polygon",
@@ -65745,7 +65772,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "epark_nearby_evidence",
+          "needs_review"
         ],
         "last_verified": null,
         "osm_id": 213092219,
@@ -65754,7 +65783,14 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_zone_code": "62008",
+        "epark_name": "Medborgargatan 29-31",
+        "epark_reported_operator": "Drakstadens Parkering AB",
+        "epark_distance_m": 4.1
       },
       "geometry": {
         "type": "Polygon",
@@ -68255,7 +68291,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "epark_nearby_evidence",
+          "needs_review"
         ],
         "last_verified": null,
         "osm_id": 226336228,
@@ -68264,7 +68302,14 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_zone_code": "62040",
+        "epark_name": "Medborgargatan 24",
+        "epark_reported_operator": "Drakstadens Parkering AB",
+        "epark_distance_m": 30.1
       },
       "geometry": {
         "type": "Polygon",
@@ -99649,10 +99694,12 @@
         "flags": [
           "parkster_marker_estimate",
           "needs_review",
-          "not_verified"
+          "not_verified",
+          "epark_nearby_evidence"
         ],
         "payment_apps": [
-          "parkster"
+          "parkster",
+          "epark"
         ],
         "source_app": "parkster",
         "source_url": null,
@@ -99663,7 +99710,11 @@
         "screen_x": 1019,
         "screen_y": 1126,
         "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone.",
+        "epark_zone_code": "62035",
+        "epark_name": "Baldersvägen 19-21",
+        "epark_reported_operator": "Drakstadens Parkering AB",
+        "epark_distance_m": 94.0
       },
       "geometry": {
         "type": "Point",
@@ -102550,6 +102601,36 @@
         "coordinates": [
           17.3154937,
           62.3783956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-epark-review-62054",
+        "name": "Tallrotsgatan 3-25",
+        "operator": "unknown",
+        "zone_code": null,
+        "epark_zone_code": "62054",
+        "epark_name": "Tallrotsgatan 3-25",
+        "epark_reported_operator": "Drakstadens Parkering AB",
+        "payment_apps": [
+          "epark"
+        ],
+        "confidence": 0.45,
+        "flags": [
+          "epark_geocoded_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "last_verified": "2026-07-13",
+        "geocode_query": "Tallrotsgatan 3-25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3215297,
+          62.4009762
         ]
       }
     }

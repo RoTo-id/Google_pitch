@@ -53,10 +53,10 @@
     },
     "epark_nearby_merge": {
       "scan": "ostersund_epark_nearby_20260713.json",
-      "zones": 0,
-      "matched": 0,
+      "zones": 7,
+      "matched": 2,
       "added_review_points": 0,
-      "unresolved": 0
+      "unresolved": 5
     }
   },
   "features": [
@@ -4126,7 +4126,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "epark_nearby_evidence",
+          "needs_review"
         ],
         "last_verified": null,
         "osm_id": 88735166,
@@ -4135,7 +4137,14 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_zone_code": "160",
+        "epark_name": "Östersunds Sjukhus",
+        "epark_reported_operator": "Region Jämtland Härjedalen",
+        "epark_distance_m": 86.8
       },
       "geometry": {
         "type": "Polygon",
@@ -26730,7 +26739,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "epark_nearby_evidence",
+          "needs_review"
         ],
         "last_verified": null,
         "osm_id": 246512957,
@@ -26739,7 +26750,14 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_zone_code": "63110",
+        "epark_name": "Montörvägen 20-24",
+        "epark_reported_operator": "Securitas Sverige AB",
+        "epark_distance_m": 98.9
       },
       "geometry": {
         "type": "Polygon",
