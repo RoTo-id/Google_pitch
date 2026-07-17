@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-07-13T04:51:04.003805+00:00",
+    "generated": "2026-07-17T16:59:05.994369+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "ornskoldsvik",
@@ -32,7 +32,7 @@
       "after": 118,
       "total": 211,
       "coverage_pct": 44.1,
-      "run_date": "2026-07-13"
+      "run_date": "2026-07-17"
     },
     "parkster_review_markers": {
       "source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260713T000615.json",
@@ -40,7 +40,7 @@
       "removed_previous": 4,
       "added": 4,
       "meters_per_px": 1.0,
-      "updated_at": "2026-07-13T04:51:00.575782+00:00"
+      "updated_at": "2026-07-17T16:59:02.594056+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -48,7 +48,7 @@
       "markers_matched": 1,
       "markers_unmatched": 3,
       "features_matched": 1,
-      "updated_at": "2026-07-13T04:51:04.003796+00:00",
+      "updated_at": "2026-07-17T16:59:05.994361+00:00",
       "status": "needs_review"
     },
     "epark_nearby_merge": {
@@ -3294,7 +3294,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 108627999,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -3305,7 +3305,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "ornskoldsvik-parkster-review-grid_r0_c0-m7",
@@ -15178,7 +15178,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260713T000615.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ornskoldsvik_parkster_map_20260713T000615\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -15218,7 +15218,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260713T000615.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ornskoldsvik_parkster_map_20260713T000615\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -15258,7 +15258,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260713T000615.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ornskoldsvik_parkster_map_20260713T000615\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -15298,7 +15298,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260713T000615.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\ornskoldsvik_parkster_map_20260713T000615\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",

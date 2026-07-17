@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-07-13T04:51:02.498006+00:00",
+    "generated": "2026-07-17T16:59:04.526257+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västerbotten",
     "city": "umea",
@@ -32,7 +32,7 @@
       "after": 839,
       "total": 1397,
       "coverage_pct": 39.9,
-      "run_date": "2026-07-13"
+      "run_date": "2026-07-17"
     },
     "parkster_review_markers": {
       "source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
@@ -40,7 +40,7 @@
       "removed_previous": 132,
       "added": 132,
       "meters_per_px": 1.0,
-      "updated_at": "2026-07-13T04:51:00.432789+00:00"
+      "updated_at": "2026-07-17T16:59:02.450900+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -48,7 +48,7 @@
       "markers_matched": 53,
       "markers_unmatched": 79,
       "features_matched": 40,
-      "updated_at": "2026-07-13T04:51:02.497996+00:00",
+      "updated_at": "2026-07-17T16:59:04.526249+00:00",
       "status": "needs_review"
     },
     "epark_nearby_merge": {
@@ -18961,7 +18961,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 123519018,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -18972,7 +18972,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m17",
@@ -19034,7 +19034,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 123519023,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -19045,7 +19045,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m15",
@@ -19107,7 +19107,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 123519026,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -19118,7 +19118,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m20",
@@ -19876,7 +19876,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 124068928,
         "osm_distance_m": null,
         "osm_access": "no",
@@ -19887,7 +19887,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m16",
@@ -22035,7 +22035,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 141362820,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -22046,7 +22046,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m43",
@@ -23325,7 +23325,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 151621507,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -23336,7 +23336,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m36",
@@ -25874,7 +25874,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 192666814,
         "osm_distance_m": null,
         "osm_access": "customers",
@@ -25885,7 +25885,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m25",
@@ -25992,7 +25992,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 192666815,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -26003,7 +26003,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m31",
@@ -26125,7 +26125,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 192666817,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -26136,7 +26136,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m28",
@@ -29538,7 +29538,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 205687484,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -29549,7 +29549,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m13",
@@ -33342,7 +33342,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 358278361,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -33353,7 +33353,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c0-m4",
@@ -33526,7 +33526,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 361770137,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -33537,7 +33537,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m31",
@@ -38832,7 +38832,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 410310440,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -38843,7 +38843,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c1-m15",
@@ -42333,7 +42333,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 462360938,
         "osm_distance_m": null,
         "osm_access": "customers",
@@ -42344,7 +42344,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m40",
@@ -44694,7 +44694,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 468563747,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -44705,7 +44705,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c0-m5",
@@ -50497,7 +50497,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 562225283,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -50508,7 +50508,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c1-m29",
@@ -52353,7 +52353,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 612244200,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -52364,7 +52364,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c1-m18",
@@ -52490,7 +52490,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 612537288,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -52501,7 +52501,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m26",
@@ -52936,7 +52936,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 627829105,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -52947,7 +52947,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m50",
@@ -57390,7 +57390,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 701065327,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -57401,7 +57401,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m22",
@@ -62313,7 +62313,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 822483226,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -62324,7 +62324,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m4",
@@ -62445,7 +62445,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 825822942,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -62456,7 +62456,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m7",
@@ -63018,7 +63018,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 846499391,
         "osm_distance_m": null,
         "osm_access": "customers",
@@ -63029,7 +63029,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c1-m8",
@@ -67619,7 +67619,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1049216980,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -67630,7 +67630,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m51",
@@ -74120,7 +74120,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1238026814,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -74131,7 +74131,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c0-m3",
@@ -74361,7 +74361,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1238026820,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -74372,7 +74372,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c0-m2",
@@ -74434,7 +74434,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1238026825,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -74445,7 +74445,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m53",
@@ -76486,7 +76486,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1317098241,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -76497,7 +76497,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c0-m6",
@@ -77166,7 +77166,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1322916968,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -77177,7 +77177,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m28",
@@ -82398,7 +82398,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1354420029,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -82409,7 +82409,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c0-m1",
@@ -82595,7 +82595,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1354420032,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -82606,7 +82606,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m49",
@@ -83744,7 +83744,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1358180607,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -83755,7 +83755,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m1",
@@ -83897,7 +83897,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1358180615,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -83908,7 +83908,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m2",
@@ -84283,7 +84283,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1358680887,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -84294,7 +84294,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m12",
@@ -84660,7 +84660,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1358680893,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -84671,7 +84671,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m10",
@@ -84733,7 +84733,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1358680894,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -84744,7 +84744,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m18",
@@ -84866,7 +84866,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1358680896,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -84877,7 +84877,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m6",
@@ -84944,7 +84944,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1358680897,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -84955,7 +84955,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m17",
@@ -85137,7 +85137,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1358680900,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -85148,7 +85148,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m13",
@@ -85330,7 +85330,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1358680903,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -85341,7 +85341,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m21",
@@ -90073,7 +90073,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -90113,7 +90113,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -90153,7 +90153,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -90193,7 +90193,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -90233,7 +90233,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -90273,7 +90273,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -90313,7 +90313,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -90353,7 +90353,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -90393,7 +90393,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -90433,7 +90433,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -90473,7 +90473,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -90513,7 +90513,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -90553,7 +90553,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -90593,7 +90593,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -90633,7 +90633,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -90673,7 +90673,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -90713,7 +90713,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -90753,7 +90753,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -90793,7 +90793,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -90833,7 +90833,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -90873,7 +90873,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -90913,7 +90913,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -90953,7 +90953,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -90993,7 +90993,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91033,7 +91033,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91073,7 +91073,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91113,7 +91113,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91153,7 +91153,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91193,7 +91193,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91233,7 +91233,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91273,7 +91273,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91313,7 +91313,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91353,7 +91353,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91393,7 +91393,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91433,7 +91433,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91473,7 +91473,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91513,7 +91513,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91553,7 +91553,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91593,7 +91593,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91633,7 +91633,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91673,7 +91673,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91713,7 +91713,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91753,7 +91753,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91793,7 +91793,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91833,7 +91833,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91873,7 +91873,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91913,7 +91913,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91953,7 +91953,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -91993,7 +91993,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -92033,7 +92033,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -92073,7 +92073,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92113,7 +92113,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92153,7 +92153,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92193,7 +92193,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92233,7 +92233,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92273,7 +92273,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92313,7 +92313,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92353,7 +92353,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92393,7 +92393,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92433,7 +92433,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92473,7 +92473,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92513,7 +92513,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92553,7 +92553,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92593,7 +92593,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92633,7 +92633,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92673,7 +92673,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92713,7 +92713,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92753,7 +92753,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92793,7 +92793,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92833,7 +92833,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92873,7 +92873,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92913,7 +92913,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92953,7 +92953,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -92993,7 +92993,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93033,7 +93033,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93073,7 +93073,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93113,7 +93113,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93153,7 +93153,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93193,7 +93193,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93233,7 +93233,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93273,7 +93273,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93313,7 +93313,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93353,7 +93353,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93393,7 +93393,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93433,7 +93433,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93473,7 +93473,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93513,7 +93513,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93553,7 +93553,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93593,7 +93593,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93633,7 +93633,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93673,7 +93673,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93713,7 +93713,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93753,7 +93753,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93793,7 +93793,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93833,7 +93833,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93873,7 +93873,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93913,7 +93913,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93953,7 +93953,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -93993,7 +93993,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -94033,7 +94033,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -94073,7 +94073,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -94106,27 +94106,21 @@
         "flags": [
           "parkster_marker_estimate",
           "needs_review",
-          "not_verified",
-          "epark_nearby_evidence"
+          "not_verified"
         ],
         "payment_apps": [
-          "parkster",
-          "epark"
+          "parkster"
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
         "screen_x": 902,
         "screen_y": 98,
         "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone.",
-        "epark_zone_code": "90194",
-        "epark_name": "Rådhusesplanaden 14-18",
-        "epark_reported_operator": "Securitas Sverige AB",
-        "epark_distance_m": 86.7
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
@@ -94159,7 +94153,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -94199,7 +94193,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94239,7 +94233,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94279,7 +94273,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94319,7 +94313,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94359,7 +94353,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94399,7 +94393,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94439,7 +94433,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94479,7 +94473,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94519,7 +94513,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94559,7 +94553,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94599,7 +94593,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94639,7 +94633,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94679,7 +94673,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94719,7 +94713,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94759,7 +94753,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94799,7 +94793,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94839,7 +94833,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94879,7 +94873,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94919,7 +94913,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94959,7 +94953,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -94999,7 +94993,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -95039,7 +95033,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -95079,7 +95073,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -95119,7 +95113,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -95159,7 +95153,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -95199,7 +95193,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -95239,7 +95233,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -95279,7 +95273,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -95319,7 +95313,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",

@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-07-13T04:51:04.016899+00:00",
+    "generated": "2026-07-17T16:59:06.017899+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "kramfors",
@@ -32,7 +32,7 @@
       "after": 61,
       "total": 180,
       "coverage_pct": 66.1,
-      "run_date": "2026-07-13"
+      "run_date": "2026-07-17"
     },
     "parkster_review_markers": {
       "source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
@@ -40,7 +40,7 @@
       "removed_previous": 5,
       "added": 5,
       "meters_per_px": 1.0,
-      "updated_at": "2026-07-13T04:51:00.592613+00:00"
+      "updated_at": "2026-07-17T16:59:02.613399+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -48,7 +48,7 @@
       "markers_matched": 0,
       "markers_unmatched": 5,
       "features_matched": 0,
-      "updated_at": "2026-07-13T04:51:04.016884+00:00",
+      "updated_at": "2026-07-17T16:59:06.017880+00:00",
       "status": "needs_review"
     },
     "epark_nearby_merge": {
@@ -12235,7 +12235,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260713T000826\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -12275,7 +12275,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260713T000826\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -12315,7 +12315,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260713T000826\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -12355,7 +12355,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260713T000826\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -12395,7 +12395,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260713T000826\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",

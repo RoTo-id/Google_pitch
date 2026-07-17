@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-07-13T04:51:01.174162+00:00",
+    "generated": "2026-07-17T16:59:03.197991+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "kalix",
@@ -32,7 +32,7 @@
       "after": 149,
       "total": 352,
       "coverage_pct": 57.7,
-      "run_date": "2026-07-13"
+      "run_date": "2026-07-17"
     },
     "parkster_review_markers": {
       "source": "output\\phone_scans\\kalix_parkster_marker_evidence_20260712T235143.json",
@@ -40,7 +40,7 @@
       "removed_previous": 2,
       "added": 2,
       "meters_per_px": 1.0,
-      "updated_at": "2026-07-13T04:51:00.338992+00:00"
+      "updated_at": "2026-07-17T16:59:02.367073+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -48,7 +48,7 @@
       "markers_matched": 0,
       "markers_unmatched": 2,
       "features_matched": 0,
-      "updated_at": "2026-07-13T04:51:01.174147+00:00",
+      "updated_at": "2026-07-17T16:59:03.197973+00:00",
       "status": "needs_review"
     },
     "epark_nearby_merge": {
@@ -23015,7 +23015,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\kalix_parkster_marker_evidence_20260712T235143.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\kalix_parkster_map_20260712T235143\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -23055,7 +23055,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\kalix_parkster_marker_evidence_20260712T235143.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\kalix_parkster_map_20260712T235143\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",

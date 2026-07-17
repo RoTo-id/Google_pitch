@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-07-13T04:51:01.196007+00:00",
+    "generated": "2026-07-17T16:59:03.214796+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "haparanda",
@@ -32,7 +32,7 @@
       "after": 35,
       "total": 56,
       "coverage_pct": 37.5,
-      "run_date": "2026-07-13"
+      "run_date": "2026-07-17"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -40,7 +40,7 @@
       "markers_matched": 0,
       "markers_unmatched": 0,
       "features_matched": 0,
-      "updated_at": "2026-07-13T04:51:01.195992+00:00",
+      "updated_at": "2026-07-17T16:59:03.214780+00:00",
       "status": "needs_review"
     },
     "epark_nearby_merge": {

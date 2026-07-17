@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-07-13T04:51:01.210243+00:00",
+    "generated": "2026-07-17T16:59:03.226567+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "alvsbyn",
@@ -32,7 +32,7 @@
       "after": 18,
       "total": 29,
       "coverage_pct": 37.9,
-      "run_date": "2026-07-13"
+      "run_date": "2026-07-17"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -40,7 +40,7 @@
       "markers_matched": 0,
       "markers_unmatched": 0,
       "features_matched": 0,
-      "updated_at": "2026-07-13T04:51:01.210227+00:00",
+      "updated_at": "2026-07-17T16:59:03.226552+00:00",
       "status": "needs_review"
     },
     "epark_nearby_merge": {

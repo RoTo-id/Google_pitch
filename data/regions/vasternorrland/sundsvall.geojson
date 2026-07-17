@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-07-13T04:51:03.478640+00:00",
+    "generated": "2026-07-17T16:59:05.483490+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "sundsvall",
@@ -27,12 +27,12 @@
       "note_matched": 0,
       "access_yes_free": 0,
       "fee_confirmed_unknown": 23,
-      "genuinely_unknown": 986,
-      "before": 1020,
-      "after": 1020,
-      "total": 1467,
-      "coverage_pct": 30.5,
-      "run_date": "2026-07-13"
+      "genuinely_unknown": 987,
+      "before": 1021,
+      "after": 1021,
+      "total": 1468,
+      "coverage_pct": 30.4,
+      "run_date": "2026-07-17"
     },
     "parkster_review_markers": {
       "source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
@@ -40,7 +40,7 @@
       "removed_previous": 92,
       "added": 92,
       "meters_per_px": 1.0,
-      "updated_at": "2026-07-13T04:51:00.494716+00:00"
+      "updated_at": "2026-07-17T16:59:02.507243+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -48,7 +48,7 @@
       "markers_matched": 52,
       "markers_unmatched": 40,
       "features_matched": 43,
-      "updated_at": "2026-07-13T04:51:03.478632+00:00",
+      "updated_at": "2026-07-17T16:59:05.483482+00:00",
       "status": "needs_review"
     },
     "epark_nearby_merge": {
@@ -1505,7 +1505,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 39976330,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -1516,7 +1516,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m32",
@@ -4158,7 +4158,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 58403701,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -4169,7 +4169,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m31",
@@ -5076,7 +5076,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 77869003,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -5087,7 +5087,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m11",
@@ -17925,7 +17925,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 90519310,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -17936,7 +17936,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 6,
+        "parkster_evidence_count": 12,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m4",
@@ -18063,7 +18063,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 90519353,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -18074,7 +18074,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m7",
@@ -18171,7 +18171,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 90519364,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -18182,7 +18182,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m10",
@@ -18244,7 +18244,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 90581909,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -18255,7 +18255,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m28",
@@ -18322,7 +18322,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 90581914,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -18333,7 +18333,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m30",
@@ -21026,7 +21026,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 91103805,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -21037,7 +21037,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r1_c0-m11",
@@ -22440,7 +22440,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 91964296,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -22451,7 +22451,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m8",
@@ -24122,7 +24122,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 92938839,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -24133,7 +24133,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m3",
@@ -25798,7 +25798,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 93356568,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -25809,7 +25809,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m16",
@@ -25878,7 +25878,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 93356575,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -25889,7 +25889,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m21",
@@ -26426,7 +26426,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 93422146,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -26437,7 +26437,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m42",
@@ -26571,7 +26571,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 93422160,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -26582,7 +26582,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m43",
@@ -27393,7 +27393,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 94404289,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -27404,7 +27404,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m26",
@@ -28283,7 +28283,7 @@
         "epark_zone_code": "62075",
         "epark_name": "Korstavägen 8-12",
         "epark_reported_operator": "Drakstadens Parkering AB",
-        "epark_distance_m": 23.5
+        "epark_distance_m": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -29629,7 +29629,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 101682786,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -29640,7 +29640,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m6",
@@ -29866,7 +29866,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 102788347,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -29877,7 +29877,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r1_c0-m4",
@@ -30224,7 +30224,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 105021185,
         "osm_distance_m": null,
         "osm_access": "permissive",
@@ -30235,7 +30235,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m35",
@@ -31212,7 +31212,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 107219441,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -31223,7 +31223,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m17",
@@ -31301,7 +31301,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 107219585,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -31312,7 +31312,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m15",
@@ -31394,7 +31394,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 107220014,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -31405,7 +31405,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m14",
@@ -39973,7 +39973,7 @@
         "epark_zone_code": "62012",
         "epark_name": "Tjädervägen",
         "epark_reported_operator": "Drakstadens Parkering AB",
-        "epark_distance_m": 10.1
+        "epark_distance_m": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -40046,7 +40046,7 @@
         "epark_zone_code": "62011",
         "epark_name": "Medborgargatan 63",
         "epark_reported_operator": "Drakstadens Parkering AB",
-        "epark_distance_m": 59.0
+        "epark_distance_m": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -43196,7 +43196,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 125344257,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -43207,7 +43207,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m6",
@@ -47040,7 +47040,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 126130040,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -47051,7 +47051,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r1_c1-m5",
@@ -47233,7 +47233,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 126210369,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -47244,7 +47244,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r1_c0-m9",
@@ -47306,7 +47306,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 126210370,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -47317,7 +47317,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r1_c0-m8",
@@ -47733,7 +47733,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 126221758,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -47744,7 +47744,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r1_c0-m10",
@@ -47838,7 +47838,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 126271772,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -47849,7 +47849,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r1_c0-m6",
@@ -48310,7 +48310,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 126442115,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -48321,7 +48321,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r1_c0-m7",
@@ -49408,7 +49408,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 127552423,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -49419,7 +49419,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m22",
@@ -49691,7 +49691,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 127573512,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -49702,7 +49702,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m20",
@@ -54762,7 +54762,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 170607782,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -54773,7 +54773,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m13",
@@ -64654,7 +64654,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 208480199,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -64665,7 +64665,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m3",
@@ -65790,7 +65790,7 @@
         "epark_zone_code": "62008",
         "epark_name": "Medborgargatan 29-31",
         "epark_reported_operator": "Drakstadens Parkering AB",
-        "epark_distance_m": 4.1
+        "epark_distance_m": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -68309,7 +68309,7 @@
         "epark_zone_code": "62040",
         "epark_name": "Medborgargatan 24",
         "epark_reported_operator": "Drakstadens Parkering AB",
-        "epark_distance_m": 30.1
+        "epark_distance_m": 0.0
       },
       "geometry": {
         "type": "Polygon",
@@ -79772,7 +79772,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 598508492,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -79783,7 +79783,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m12",
@@ -83469,7 +83469,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 747872013,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -83480,7 +83480,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r1_c0-m1",
@@ -87455,7 +87455,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1062735170,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -87466,7 +87466,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m7",
@@ -87735,7 +87735,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1082504985,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -87746,7 +87746,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r1_c1-m1",
@@ -87816,7 +87816,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1082660657,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -87827,7 +87827,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m4",
@@ -93653,7 +93653,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1321822642,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -93664,7 +93664,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m11",
@@ -94419,7 +94419,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1348565457,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -94430,7 +94430,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m5",
@@ -94777,7 +94777,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1348565466,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -94788,7 +94788,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m2",
@@ -97070,7 +97070,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1445791641,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -97081,7 +97081,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m1",
@@ -97215,7 +97215,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "osm_id": 1445791642,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -97226,7 +97226,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 2,
+        "parkster_evidence_count": 4,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m10",
@@ -98921,6 +98921,36 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "sundsvall-epark-review-62054",
+        "name": "Tallrotsgatan 3-25",
+        "operator": "unknown",
+        "zone_code": null,
+        "epark_zone_code": "62054",
+        "epark_name": "Tallrotsgatan 3-25",
+        "epark_reported_operator": "Drakstadens Parkering AB",
+        "payment_apps": [
+          "epark"
+        ],
+        "confidence": 0.45,
+        "flags": [
+          "epark_geocoded_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "last_verified": "2026-07-17",
+        "geocode_query": "Tallrotsgatan 3-25"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3215297,
+          62.4009762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "sundsvall-parkster-review-grid_r0_c0-m1",
         "name": "Parkster marker (needs review)",
         "operator": "unknown",
@@ -98941,7 +98971,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -98981,7 +99011,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99021,7 +99051,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99061,7 +99091,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99101,7 +99131,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99141,7 +99171,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99181,7 +99211,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99221,7 +99251,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99261,7 +99291,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99301,7 +99331,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99341,7 +99371,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99381,7 +99411,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99421,7 +99451,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99461,7 +99491,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99501,7 +99531,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99541,7 +99571,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99581,7 +99611,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99621,7 +99651,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99661,7 +99691,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99694,27 +99724,21 @@
         "flags": [
           "parkster_marker_estimate",
           "needs_review",
-          "not_verified",
-          "epark_nearby_evidence"
+          "not_verified"
         ],
         "payment_apps": [
-          "parkster",
-          "epark"
+          "parkster"
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
         "screen_x": 1019,
         "screen_y": 1126,
         "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone.",
-        "epark_zone_code": "62035",
-        "epark_name": "Baldersvägen 19-21",
-        "epark_reported_operator": "Drakstadens Parkering AB",
-        "epark_distance_m": 94.0
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
@@ -99747,7 +99771,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99787,7 +99811,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99827,7 +99851,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99867,7 +99891,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99907,7 +99931,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99947,7 +99971,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -99987,7 +100011,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -100027,7 +100051,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -100067,7 +100091,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -100107,7 +100131,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -100147,7 +100171,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -100187,7 +100211,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -100227,7 +100251,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -100267,7 +100291,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -100307,7 +100331,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -100347,7 +100371,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -100387,7 +100411,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -100427,7 +100451,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -100467,7 +100491,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -100507,7 +100531,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -100547,7 +100571,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -100587,7 +100611,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -100627,7 +100651,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
@@ -100667,7 +100691,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -100707,7 +100731,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -100747,7 +100771,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -100787,7 +100811,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -100827,7 +100851,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -100867,7 +100891,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -100907,7 +100931,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -100947,7 +100971,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -100987,7 +101011,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101027,7 +101051,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101067,7 +101091,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101107,7 +101131,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101147,7 +101171,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101187,7 +101211,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101227,7 +101251,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101267,7 +101291,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101307,7 +101331,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101347,7 +101371,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101387,7 +101411,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101427,7 +101451,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101467,7 +101491,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101507,7 +101531,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101547,7 +101571,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101587,7 +101611,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101627,7 +101651,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101667,7 +101691,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101707,7 +101731,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101747,7 +101771,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101787,7 +101811,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101827,7 +101851,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101867,7 +101891,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101907,7 +101931,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101947,7 +101971,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -101987,7 +102011,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
@@ -102027,7 +102051,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -102067,7 +102091,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -102107,7 +102131,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -102147,7 +102171,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -102187,7 +102211,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -102227,7 +102251,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -102267,7 +102291,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -102307,7 +102331,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -102347,7 +102371,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -102387,7 +102411,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -102427,7 +102451,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
@@ -102467,7 +102491,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -102507,7 +102531,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -102547,7 +102571,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -102587,7 +102611,7 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-13",
+        "last_verified": "2026-07-17",
         "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
         "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
@@ -102601,36 +102625,6 @@
         "coordinates": [
           17.3154937,
           62.3783956
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "sundsvall-epark-review-62054",
-        "name": "Tallrotsgatan 3-25",
-        "operator": "unknown",
-        "zone_code": null,
-        "epark_zone_code": "62054",
-        "epark_name": "Tallrotsgatan 3-25",
-        "epark_reported_operator": "Drakstadens Parkering AB",
-        "payment_apps": [
-          "epark"
-        ],
-        "confidence": 0.45,
-        "flags": [
-          "epark_geocoded_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "last_verified": "2026-07-13",
-        "geocode_query": "Tallrotsgatan 3-25"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.3215297,
-          62.4009762
         ]
       }
     }
