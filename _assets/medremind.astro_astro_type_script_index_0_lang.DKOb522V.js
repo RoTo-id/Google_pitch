@@ -1,1 +1,0 @@
-import{i as r,a as e,s as i,h as t}from"./index.DEh07VQu.js";const o=window.matchMedia("(prefers-reduced-motion: reduce)").matches;o||(r(".motion-reveal",a=>{e(a,{opacity:1,y:0},{duration:.5,delay:i(.06),easing:"ease-out"})},{margin:"0px 0px -10% 0px"}),t(".btn-primary, .btn-ghost, article, figure",a=>(e(a,{y:-2},{duration:.18}),()=>e(a,{y:0},{duration:.18}))));
