@@ -2,14 +2,14 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-07-17T16:59:03.263312+00:00",
+    "generated": "2026-07-20T04:27:08.397273+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "gallivare",
     "municipality": "Gällivare kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "gallivare-osm-bootstrap",
-    "zone_count": 255,
+    "zone_count": 256,
     "bootstrap": {
       "osm_source": "output\\osm_parking_gallivare.geojson",
       "zones_imported": 255,
@@ -27,28 +27,28 @@
       "note_matched": 0,
       "access_yes_free": 0,
       "fee_confirmed_unknown": 2,
-      "genuinely_unknown": 67,
-      "before": 69,
-      "after": 69,
-      "total": 255,
-      "coverage_pct": 72.9,
-      "run_date": "2026-07-17"
+      "genuinely_unknown": 68,
+      "before": 70,
+      "after": 70,
+      "total": 256,
+      "coverage_pct": 72.7,
+      "run_date": "2026-07-20"
     },
     "parkster_review_markers": {
-      "source": "output\\phone_scans\\gallivare_parkster_marker_evidence_20260712T235724.json",
+      "source": "output\\phone_scans\\gallivare_parkster_marker_evidence_20260720T005433.json",
       "status": "needs_review",
-      "removed_previous": 0,
-      "added": 0,
+      "removed_previous": 1,
+      "added": 1,
       "meters_per_px": 1.0,
-      "updated_at": "2026-07-17T16:59:02.414155+00:00"
+      "updated_at": "2026-07-20T04:27:07.567772+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
-      "markers_total": 0,
-      "markers_matched": 0,
+      "markers_total": 1,
+      "markers_matched": 1,
       "markers_unmatched": 0,
-      "features_matched": 0,
-      "updated_at": "2026-07-17T16:59:03.263291+00:00",
+      "features_matched": 1,
+      "updated_at": "2026-07-20T04:27:08.397267+00:00",
       "status": "needs_review"
     },
     "epark_nearby_merge": {
@@ -2510,16 +2510,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 354952418,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "gallivare-parkster-review-grid_r0_c0-m1",
+            "evidence_source": "output\\phone_scans\\gallivare_parkster_marker_evidence_20260720T005433.json",
+            "distance_m": 104.1
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -18027,6 +18040,46 @@
               67.0120493
             ]
           ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "gallivare-parkster-review-grid_r0_c0-m1",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Gällivare kommun",
+        "region": "Norrbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\gallivare_parkster_marker_evidence_20260720T005433.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\gallivare_parkster_map_20260720T005433\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 1014,
+        "screen_y": 1835,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.6629579,
+          67.1274872
         ]
       }
     }

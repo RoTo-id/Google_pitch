@@ -2,14 +2,14 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-07-17T16:59:05.483490+00:00",
+    "generated": "2026-07-20T04:27:10.374103+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "sundsvall",
     "municipality": "Sundsvalls kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "sundsvall-osm-bootstrap",
-    "zone_count": 1468,
+    "zone_count": 1477,
     "bootstrap": {
       "osm_source": "output\\osm_parking_sundsvall.geojson",
       "zones_imported": 1375,
@@ -27,32 +27,32 @@
       "note_matched": 0,
       "access_yes_free": 0,
       "fee_confirmed_unknown": 23,
-      "genuinely_unknown": 987,
-      "before": 1021,
-      "after": 1021,
-      "total": 1468,
-      "coverage_pct": 30.4,
-      "run_date": "2026-07-17"
+      "genuinely_unknown": 996,
+      "before": 1030,
+      "after": 1030,
+      "total": 1477,
+      "coverage_pct": 30.3,
+      "run_date": "2026-07-20"
     },
     "parkster_review_markers": {
-      "source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
+      "source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
       "status": "needs_review",
-      "removed_previous": 92,
-      "added": 92,
+      "removed_previous": 101,
+      "added": 101,
       "meters_per_px": 1.0,
-      "updated_at": "2026-07-17T16:59:02.507243+00:00"
+      "updated_at": "2026-07-20T04:27:07.661401+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
-      "markers_total": 92,
-      "markers_matched": 52,
-      "markers_unmatched": 40,
-      "features_matched": 43,
-      "updated_at": "2026-07-17T16:59:05.483482+00:00",
+      "markers_total": 101,
+      "markers_matched": 49,
+      "markers_unmatched": 52,
+      "features_matched": 42,
+      "updated_at": "2026-07-20T04:27:10.374088+00:00",
       "status": "needs_review"
     },
     "epark_nearby_merge": {
-      "scan": "sundsvall_epark_nearby_20260713.json",
+      "scan": "sundsvall_epark_nearby_20260720.json",
       "zones": 10,
       "matched": 6,
       "added_review_points": 1,
@@ -1505,7 +1505,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 39976330,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -1516,7 +1516,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 10,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m32",
@@ -1527,6 +1527,11 @@
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m35",
             "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
             "distance_m": 113.2
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m30",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 55.0
           }
         ]
       },
@@ -4158,7 +4163,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 58403701,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -4169,12 +4174,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m31",
             "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
             "distance_m": 86.2
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m31",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 110.5
           }
         ]
       },
@@ -4235,16 +4245,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 60136734,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m34",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 84.6
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -5076,7 +5099,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 77869003,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -5087,7 +5110,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 12,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m11",
@@ -5098,6 +5121,16 @@
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m15",
             "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
             "distance_m": 65.9
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m9",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 116.9
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m13",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 85.8
           }
         ]
       },
@@ -5177,16 +5210,29 @@
         "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 79277584,
         "osm_distance_m": null,
         "osm_access": "permissive",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m7",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 45.8
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -17849,16 +17895,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 90506147,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m4",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 69.7
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -18063,7 +18122,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 90519353,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -18074,12 +18133,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m7",
             "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
             "distance_m": 31.3
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m17",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 24.9
           }
         ]
       },
@@ -18244,7 +18308,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 90581909,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -18255,7 +18319,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 10,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m28",
@@ -18266,6 +18330,11 @@
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m23",
             "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
             "distance_m": 104.1
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m20",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 99.5
           }
         ]
       },
@@ -18322,7 +18391,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 90581914,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -18333,12 +18402,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m30",
             "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
             "distance_m": 67.0
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m24",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 34.7
           }
         ]
       },
@@ -21026,7 +21100,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 91103805,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -21037,12 +21111,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r1_c0-m11",
             "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
             "distance_m": 7.4
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m12",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 69.4
           }
         ]
       },
@@ -22440,7 +22519,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 91964296,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -22451,12 +22530,22 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m8",
             "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
             "distance_m": 42.9
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m5",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 49.7
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m6",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 118.5
           }
         ]
       },
@@ -24038,16 +24127,34 @@
           "osm_bootstrap",
           "unknown_operator",
           "needs_identification",
-          "multi_storey_parking"
+          "multi_storey_parking",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 92715743,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": null,
         "osm_parking": "multi-storey",
         "osm_operator": "Sundsvalls Parkera AB",
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 4,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m12",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 78.3
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m15",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 18.1
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -24122,7 +24229,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 92938839,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -24133,12 +24240,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m3",
             "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
             "distance_m": 96.9
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m1",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 111.0
           }
         ]
       },
@@ -25798,7 +25910,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 93356568,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -25809,12 +25921,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m16",
             "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
             "distance_m": 71.9
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m11",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 87.9
           }
         ]
       },
@@ -25946,16 +26063,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 93356581,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m14",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 56.7
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -26041,16 +26171,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 93356592,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m17",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 91.4
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -29629,7 +29772,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 101682786,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -29640,7 +29783,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 10,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m6",
@@ -29651,6 +29794,11 @@
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m9",
             "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
             "distance_m": 54.6
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m8",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 21.5
           }
         ]
       },
@@ -29803,16 +29951,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 102618358,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c1-m2",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 107.6
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -30094,16 +30255,29 @@
         "confidence": 0.7,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 104380644,
         "osm_distance_m": null,
         "osm_access": "permissive",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m9",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 85.9
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -31210,9 +31384,10 @@
           "osm_bootstrap",
           "osm_reclassified",
           "parkster_nearby_evidence",
-          "needs_review"
+          "needs_review",
+          "epark_nearby_evidence"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 107219441,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -31221,9 +31396,10 @@
         "osm_operator": null,
         "osm_note": null,
         "payment_apps": [
-          "parkster"
+          "parkster",
+          "epark"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 12,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m17",
@@ -31234,8 +31410,22 @@
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m18",
             "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
             "distance_m": 53.6
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m13",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 35.8
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m16",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 78.0
           }
-        ]
+        ],
+        "epark_zone_code": "62035",
+        "epark_name": "Baldersvägen 19-21",
+        "epark_reported_operator": "Drakstadens Parkering AB",
+        "epark_distance_m": 35.1
       },
       "geometry": {
         "type": "Polygon",
@@ -31301,7 +31491,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 107219585,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -31312,12 +31502,22 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m15",
             "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
             "distance_m": 46.8
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m9",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 72.7
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m10",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 43.2
           }
         ]
       },
@@ -47109,16 +47309,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 126209158,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m7",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 86.7
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -47169,16 +47382,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 126209667,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m8",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 19.5
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -47447,16 +47673,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 126219799,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m13",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 65.5
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -47669,16 +47908,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 126221756,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m14",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 55.3
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -49611,16 +49863,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 127573510,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m12",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 30.4
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -50136,16 +50401,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 127597504,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m26",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 105.9
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -56228,16 +56506,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 186122511,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m15",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 40.0
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -58380,16 +58671,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 187954314,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "lane",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m17",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 22.1
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -64654,7 +64958,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 208480199,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -64665,12 +64969,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m3",
             "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
             "distance_m": 33.7
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m2",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 89.5
           }
         ]
       },
@@ -79772,7 +80081,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 598508492,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -79783,12 +80092,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c1-m12",
             "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
             "distance_m": 110.0
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m10",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 86.8
           }
         ]
       },
@@ -83405,16 +83719,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 747872012,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c1-m3",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 71.3
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -87735,7 +88062,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1082504985,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -87746,12 +88073,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r1_c1-m1",
             "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
             "distance_m": 108.4
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c1-m1",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 27.2
           }
         ]
       },
@@ -91202,16 +91534,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 1283234467,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m25",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 33.1
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -91414,16 +91759,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 1284132495,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m24",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 25.8
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -92086,16 +92444,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 1284132508,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m22",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 76.7
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -93653,7 +94024,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1321822642,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -93664,7 +94035,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 12,
         "parkster_review_refs": [
           {
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m11",
@@ -93675,6 +94046,16 @@
             "marker_id": "sundsvall-parkster-review-grid_r0_c0-m12",
             "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
             "distance_m": 17.8
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m8",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 35.3
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m20",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 58.3
           }
         ]
       },
@@ -95050,16 +95431,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 1358747080,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c0-m3",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 81.1
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -95425,16 +95819,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 1365085781,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "lane",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m4",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 102.3
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -97916,16 +98323,34 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 1456212839,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 4,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m10",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 51.6
+          },
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r1_c0-m11",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 37.9
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -98267,16 +98692,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 1476237569,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m5",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 36.6
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -98379,16 +98817,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 1479241899,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "sundsvall-parkster-review-grid_r0_c1-m7",
+            "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+            "distance_m": 69.8
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -98937,7 +99388,7 @@
           "needs_review",
           "not_verified"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "geocode_query": "Tallrotsgatan 3-25"
       },
       "geometry": {
@@ -98971,20 +99422,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1027,
-        "screen_y": 1843,
+        "screen_x": 1022,
+        "screen_y": 1830,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3093221,
-          62.3901958
+          17.3092252,
+          62.3903126
         ]
       }
     },
@@ -99011,11 +99462,11 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 488,
+        "screen_x": 993,
         "screen_y": 1706,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
@@ -99023,7 +99474,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2988746,
+          17.3086631,
           62.3914265
         ]
       }
@@ -99051,20 +99502,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1047,
-        "screen_y": 1675,
+        "screen_x": 454,
+        "screen_y": 1548,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3097098,
-          62.391705
+          17.2982156,
+          62.3928458
         ]
       }
     },
@@ -99091,20 +99542,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 824,
-        "screen_y": 1596,
+        "screen_x": 1028,
+        "screen_y": 1517,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3053873,
-          62.3924147
+          17.3093415,
+          62.3931243
         ]
       }
     },
@@ -99131,20 +99582,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 659,
-        "screen_y": 1562,
+        "screen_x": 790,
+        "screen_y": 1438,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3021891,
-          62.3927201
+          17.3047283,
+          62.393834
         ]
       }
     },
@@ -99171,20 +99622,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 401,
-        "screen_y": 1501,
+        "screen_x": 625,
+        "screen_y": 1404,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2971883,
-          62.3932681
+          17.3015301,
+          62.3941394
         ]
       }
     },
@@ -99211,20 +99662,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 891,
-        "screen_y": 1489,
+        "screen_x": 367,
+        "screen_y": 1343,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.306686,
-          62.3933759
+          17.2965292,
+          62.3946874
         ]
       }
     },
@@ -99251,20 +99702,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 767,
-        "screen_y": 1462,
+        "screen_x": 857,
+        "screen_y": 1331,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3042825,
-          62.3936184
+          17.306027,
+          62.3947952
         ]
       }
     },
@@ -99291,20 +99742,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 812,
-        "screen_y": 1458,
+        "screen_x": 734,
+        "screen_y": 1304,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3051547,
-          62.3936543
+          17.3036428,
+          62.3950377
         ]
       }
     },
@@ -99331,20 +99782,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 555,
-        "screen_y": 1411,
+        "screen_x": 778,
+        "screen_y": 1300,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3001733,
-          62.3940765
+          17.3044957,
+          62.3950737
         ]
       }
     },
@@ -99371,20 +99822,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 955,
-        "screen_y": 1390,
+        "screen_x": 521,
+        "screen_y": 1253,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3079265,
-          62.3942652
+          17.2995142,
+          62.3954959
         ]
       }
     },
@@ -99411,20 +99862,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 874,
-        "screen_y": 1377,
+        "screen_x": 921,
+        "screen_y": 1232,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3063565,
-          62.394382
+          17.3072675,
+          62.3956845
         ]
       }
     },
@@ -99451,20 +99902,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 235,
-        "screen_y": 1334,
+        "screen_x": 840,
+        "screen_y": 1219,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2939707,
-          62.3947682
+          17.3056975,
+          62.3958013
         ]
       }
     },
@@ -99491,20 +99942,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 715,
-        "screen_y": 1331,
+        "screen_x": 201,
+        "screen_y": 1177,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3032746,
-          62.3947952
+          17.2933117,
+          62.3961786
         ]
       }
     },
@@ -99531,20 +99982,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 815,
-        "screen_y": 1299,
+        "screen_x": 681,
+        "screen_y": 1173,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3052129,
-          62.3950826
+          17.3026155,
+          62.3962145
         ]
       }
     },
@@ -99571,20 +100022,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 454,
-        "screen_y": 1264,
+        "screen_x": 781,
+        "screen_y": 1141,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2982156,
-          62.3953971
+          17.3045539,
+          62.396502
         ]
       }
     },
@@ -99611,20 +100062,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 857,
-        "screen_y": 1237,
+        "screen_x": 420,
+        "screen_y": 1106,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.306027,
-          62.3956396
+          17.2975566,
+          62.3968164
         ]
       }
     },
@@ -99651,20 +100102,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 831,
-        "screen_y": 1169,
+        "screen_x": 823,
+        "screen_y": 1079,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.305523,
-          62.3962504
+          17.3053679,
+          62.3970589
         ]
       }
     },
@@ -99691,20 +100142,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 618,
-        "screen_y": 1121,
+        "screen_x": 797,
+        "screen_y": 1011,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3013944,
-          62.3966816
+          17.304864,
+          62.3976698
         ]
       }
     },
@@ -99731,20 +100182,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1019,
-        "screen_y": 1126,
+        "screen_x": 584,
+        "screen_y": 963,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.309167,
-          62.3966367
+          17.3007354,
+          62.398101
         ]
       }
     },
@@ -99771,20 +100222,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 37,
-        "screen_y": 1091,
+        "screen_x": 985,
+        "screen_y": 968,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2901328,
-          62.3969511
+          17.308508,
+          62.3980561
         ]
       }
     },
@@ -99811,20 +100262,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 325,
-        "screen_y": 1049,
+        "screen_x": 291,
+        "screen_y": 891,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2957152,
-          62.3973284
+          17.2950561,
+          62.3987478
         ]
       }
     },
@@ -99851,20 +100302,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 840,
-        "screen_y": 1038,
+        "screen_x": 806,
+        "screen_y": 880,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3056975,
-          62.3974272
+          17.3050384,
+          62.3988466
         ]
       }
     },
@@ -99891,20 +100342,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 731,
-        "screen_y": 1009,
+        "screen_x": 697,
+        "screen_y": 851,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3035847,
-          62.3976877
+          17.3029257,
+          62.3991071
         ]
       }
     },
@@ -99931,20 +100382,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 514,
-        "screen_y": 999,
+        "screen_x": 480,
+        "screen_y": 841,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2993786,
-          62.3977776
+          17.2987195,
+          62.3991969
         ]
       }
     },
@@ -99971,20 +100422,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 278,
-        "screen_y": 988,
+        "screen_x": 244,
+        "screen_y": 830,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2948042,
-          62.3978764
+          17.2941451,
+          62.3992957
         ]
       }
     },
@@ -100011,20 +100462,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 898,
-        "screen_y": 922,
+        "screen_x": 864,
+        "screen_y": 764,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3068217,
-          62.3984693
+          17.3061627,
+          62.3998886
         ]
       }
     },
@@ -100051,20 +100502,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 557,
-        "screen_y": 911,
+        "screen_x": 523,
+        "screen_y": 753,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.300212,
-          62.3985681
+          17.299553,
+          62.3999874
         ]
       }
     },
@@ -100091,20 +100542,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1053,
-        "screen_y": 881,
+        "screen_x": 1036,
+        "screen_y": 723,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3098261,
-          62.3988376
+          17.3094965,
+          62.4002569
         ]
       }
     },
@@ -100131,20 +100582,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 736,
-        "screen_y": 878,
+        "screen_x": 702,
+        "screen_y": 720,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3036816,
-          62.3988645
+          17.3030226,
+          62.4002839
         ]
       }
     },
@@ -100171,20 +100622,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1001,
-        "screen_y": 806,
+        "screen_x": 967,
+        "screen_y": 648,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3088181,
-          62.3995113
+          17.3081591,
+          62.4009307
         ]
       }
     },
@@ -100211,20 +100662,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 662,
-        "screen_y": 787,
+        "screen_x": 628,
+        "screen_y": 629,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3022473,
-          62.399682
+          17.3015882,
+          62.4011013
         ]
       }
     },
@@ -100251,20 +100702,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 327,
-        "screen_y": 787,
+        "screen_x": 293,
+        "screen_y": 629,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2957539,
-          62.399682
+          17.2950949,
+          62.4011013
         ]
       }
     },
@@ -100291,20 +100742,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 949,
-        "screen_y": 725,
+        "screen_x": 915,
+        "screen_y": 567,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3078102,
-          62.400239
+          17.3071512,
+          62.4016583
         ]
       }
     },
@@ -100331,20 +100782,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 695,
-        "screen_y": 659,
+        "screen_x": 661,
+        "screen_y": 501,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3028869,
-          62.4008318
+          17.3022279,
+          62.4022512
         ]
       }
     },
@@ -100371,20 +100822,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 101,
-        "screen_y": 611,
+        "screen_x": 67,
+        "screen_y": 453,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2913733,
-          62.401263
+          17.2907143,
+          62.4026824
         ]
       }
     },
@@ -100411,20 +100862,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 142,
-        "screen_y": 610,
+        "screen_x": 108,
+        "screen_y": 452,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2921681,
-          62.401272
+          17.291509,
+          62.4026913
         ]
       }
     },
@@ -100451,20 +100902,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 489,
-        "screen_y": 606,
+        "screen_x": 455,
+        "screen_y": 448,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.298894,
-          62.4013079
+          17.298235,
+          62.4027273
         ]
       }
     },
@@ -100491,20 +100942,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 297,
-        "screen_y": 566,
+        "screen_x": 263,
+        "screen_y": 408,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2951724,
-          62.4016673
+          17.2945134,
+          62.4030866
         ]
       }
     },
@@ -100531,20 +100982,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 722,
-        "screen_y": 534,
+        "screen_x": 688,
+        "screen_y": 376,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3034102,
-          62.4019547
+          17.3027512,
+          62.4033741
         ]
       }
     },
@@ -100571,100 +101022,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 516,
-        "screen_y": 483,
+        "screen_x": 482,
+        "screen_y": 325,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.2994173,
-          62.4024129
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "sundsvall-parkster-review-grid_r0_c0-m42",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Sundsvalls kommun",
-        "region": "Västernorrland",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
-        "capture_label": "grid_r0_c0",
-        "screen_x": 1077,
-        "screen_y": 111,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.3102913,
-          62.4057546
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "sundsvall-parkster-review-grid_r0_c0-m43",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Sundsvalls kommun",
-        "region": "Västernorrland",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c0.png",
-        "capture_label": "grid_r0_c0",
-        "screen_x": 1040,
-        "screen_y": 102,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.3095741,
-          62.4058354
+          17.2987583,
+          62.4038322
         ]
       }
     },
@@ -100691,20 +101062,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 603,
-        "screen_y": 1858,
+        "screen_x": 447,
+        "screen_y": 1864,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3153386,
-          62.3900611
+          17.3123148,
+          62.3900072
         ]
       }
     },
@@ -100731,20 +101102,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 266,
-        "screen_y": 1856,
+        "screen_x": 317,
+        "screen_y": 1852,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3088065,
-          62.3900791
+          17.309795,
+          62.390115
         ]
       }
     },
@@ -100771,20 +101142,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 480,
-        "screen_y": 1844,
+        "screen_x": 855,
+        "screen_y": 1852,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3129545,
-          62.3901868
+          17.3202232,
+          62.390115
         ]
       }
     },
@@ -100811,20 +101182,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 784,
-        "screen_y": 1844,
+        "screen_x": 208,
+        "screen_y": 1838,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.318847,
-          62.3901868
+          17.3076823,
+          62.3902407
         ]
       }
     },
@@ -100851,20 +101222,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 365,
-        "screen_y": 1831,
+        "screen_x": 19,
+        "screen_y": 1833,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3107254,
-          62.3903036
+          17.3040189,
+          62.3902857
         ]
       }
     },
@@ -100891,20 +101262,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 532,
-        "screen_y": 1819,
+        "screen_x": 375,
+        "screen_y": 1767,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3139624,
-          62.3904114
+          17.3109193,
+          62.3908785
         ]
       }
     },
@@ -100931,20 +101302,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 193,
-        "screen_y": 1800,
+        "screen_x": 40,
+        "screen_y": 1756,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3073915,
-          62.3905821
+          17.3044259,
+          62.3909774
         ]
       }
     },
@@ -100971,20 +101342,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 970,
-        "screen_y": 1787,
+        "screen_x": 550,
+        "screen_y": 1726,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3224522,
-          62.3906989
+          17.3143113,
+          62.3912469
         ]
       }
     },
@@ -101011,20 +101382,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 480,
-        "screen_y": 1738,
+        "screen_x": 213,
+        "screen_y": 1723,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3129545,
-          62.3911391
+          17.3077792,
+          62.3912738
         ]
       }
     },
@@ -101051,20 +101422,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 645,
-        "screen_y": 1711,
+        "screen_x": 730,
+        "screen_y": 1691,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3161527,
-          62.3913816
+          17.3178003,
+          62.3915613
         ]
       }
     },
@@ -101091,20 +101462,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 226,
-        "screen_y": 1672,
+        "screen_x": 1049,
+        "screen_y": 1661,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3080312,
-          62.3917319
+          17.3239835,
+          62.3918308
         ]
       }
     },
@@ -101131,20 +101502,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 749,
-        "screen_y": 1670,
+        "screen_x": 478,
+        "screen_y": 1651,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3181685,
-          62.3917499
+          17.3129157,
+          62.3919206
         ]
       }
     },
@@ -101171,20 +101542,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 1003,
-        "screen_y": 1635,
+        "screen_x": 139,
+        "screen_y": 1632,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3230919,
-          62.3920643
+          17.3063449,
+          62.3920913
         ]
       }
     },
@@ -101211,20 +101582,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 33,
-        "screen_y": 1620,
+        "screen_x": 916,
+        "screen_y": 1619,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3042902,
-          62.3921991
+          17.3214055,
+          62.392208
         ]
       }
     },
@@ -101251,20 +101622,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 252,
-        "screen_y": 1548,
+        "screen_x": 426,
+        "screen_y": 1570,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3085351,
-          62.3928458
+          17.3119078,
+          62.3926482
         ]
       }
     },
@@ -101291,20 +101662,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 47,
-        "screen_y": 1496,
+        "screen_x": 592,
+        "screen_y": 1543,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3045616,
-          62.393313
+          17.3151254,
+          62.3928908
         ]
       }
     },
@@ -101331,20 +101702,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 1028,
-        "screen_y": 1352,
+        "screen_x": 172,
+        "screen_y": 1504,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3235764,
-          62.3946065
+          17.3069845,
+          62.3932411
         ]
       }
     },
@@ -101371,20 +101742,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 848,
-        "screen_y": 1199,
+        "screen_x": 696,
+        "screen_y": 1502,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3200875,
-          62.395981
+          17.3171412,
+          62.3932591
         ]
       }
     },
@@ -101411,20 +101782,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 1056,
-        "screen_y": 1138,
+        "screen_x": 949,
+        "screen_y": 1467,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3241192,
-          62.3965289
+          17.3220452,
+          62.3935735
         ]
       }
     },
@@ -101451,20 +101822,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 652,
-        "screen_y": 1125,
+        "screen_x": 198,
+        "screen_y": 1380,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3162884,
-          62.3966457
+          17.3074885,
+          62.394355
         ]
       }
     },
@@ -101491,20 +101862,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 578,
-        "screen_y": 1115,
+        "screen_x": 974,
+        "screen_y": 1184,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.314854,
-          62.3967355
+          17.3225297,
+          62.3961157
         ]
       }
     },
@@ -101531,20 +101902,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 1053,
-        "screen_y": 1060,
+        "screen_x": 794,
+        "screen_y": 1031,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.324061,
-          62.3972296
+          17.3190408,
+          62.3974901
         ]
       }
     },
@@ -101571,20 +101942,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 27,
-        "screen_y": 930,
+        "screen_x": 1025,
+        "screen_y": 969,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3041739,
-          62.3983974
+          17.3235183,
+          62.3980471
         ]
       }
     },
@@ -101611,20 +101982,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 282,
-        "screen_y": 854,
+        "screen_x": 599,
+        "screen_y": 956,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3091166,
-          62.3990801
+          17.3152611,
+          62.3981639
         ]
       }
     },
@@ -101651,20 +102022,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 352,
-        "screen_y": 848,
+        "screen_x": 525,
+        "screen_y": 947,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3104735,
-          62.399134
+          17.3138267,
+          62.3982447
         ]
       }
     },
@@ -101691,20 +102062,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 582,
-        "screen_y": 787,
+        "screen_x": 1027,
+        "screen_y": 892,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3149316,
-          62.399682
+          17.323557,
+          62.3987388
         ]
       }
     },
@@ -101731,20 +102102,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 81,
-        "screen_y": 664,
+        "screen_x": 228,
+        "screen_y": 686,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3052206,
-          62.4007869
+          17.3080699,
+          62.4005893
         ]
       }
     },
@@ -101771,20 +102142,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 124,
-        "screen_y": 616,
+        "screen_x": 299,
+        "screen_y": 680,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3060541,
-          62.4012181
+          17.3094461,
+          62.4006432
         ]
       }
     },
@@ -101811,20 +102182,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 490,
-        "screen_y": 581,
+        "screen_x": 528,
+        "screen_y": 619,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3131483,
-          62.4015325
+          17.3138849,
+          62.4011912
         ]
       }
     },
@@ -101851,20 +102222,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 390,
-        "screen_y": 490,
+        "screen_x": 42,
+        "screen_y": 496,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.31121,
-          62.40235
+          17.3044647,
+          62.4022961
         ]
       }
     },
@@ -101891,20 +102262,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 238,
-        "screen_y": 462,
+        "screen_x": 71,
+        "screen_y": 448,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3082638,
-          62.4026015
+          17.3050268,
+          62.4027273
         ]
       }
     },
@@ -101931,20 +102302,60 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 475,
-        "screen_y": 362,
+        "screen_x": 436,
+        "screen_y": 413,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3128576,
-          62.4034998
+          17.3121016,
+          62.4030417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m33",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 337,
+        "screen_y": 322,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3101827,
+          62.4038591
         ]
       }
     },
@@ -101971,20 +102382,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 1017,
-        "screen_y": 159,
+        "screen_x": 185,
+        "screen_y": 293,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3233632,
-          62.4053234
+          17.3072365,
+          62.4041197
         ]
       }
     },
@@ -102011,20 +102422,140 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 609,
-        "screen_y": 109,
+        "screen_x": 421,
+        "screen_y": 194,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3154549,
-          62.4057725
+          17.3118109,
+          62.405009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m37",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 757,
+        "screen_y": 182,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3183236,
+          62.4051168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m38",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 1054,
+        "screen_y": 146,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3240804,
+          62.4054402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r0_c1-m39",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r0_c1.png",
+        "capture_label": "grid_r0_c1",
+        "screen_x": 963,
+        "screen_y": 24,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3223165,
+          62.4065361
         ]
       }
     },
@@ -102051,20 +102582,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 1052,
-        "screen_y": 1661,
+        "screen_x": 367,
+        "screen_y": 1865,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3098067,
-          62.3782699
+          17.2965292,
+          62.3764373
         ]
       }
     },
@@ -102091,20 +102622,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 502,
-        "screen_y": 1476,
+        "screen_x": 493,
+        "screen_y": 1848,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.299146,
-          62.3799317
+          17.2989715,
+          62.37659
         ]
       }
     },
@@ -102131,20 +102662,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 776,
-        "screen_y": 1400,
+        "screen_x": 311,
+        "screen_y": 1826,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3044569,
-          62.3806144
+          17.2954438,
+          62.3767876
         ]
       }
     },
@@ -102171,20 +102702,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 846,
-        "screen_y": 1394,
+        "screen_x": 1065,
+        "screen_y": 1504,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3058138,
-          62.3806683
+          17.3100587,
+          62.3796802
         ]
       }
     },
@@ -102211,20 +102742,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 1054,
-        "screen_y": 1333,
+        "screen_x": 1025,
+        "screen_y": 1494,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3098454,
-          62.3812163
+          17.3092833,
+          62.37977
         ]
       }
     },
@@ -102251,20 +102782,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 575,
-        "screen_y": 1210,
+        "screen_x": 454,
+        "screen_y": 1310,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3005609,
-          62.3823212
+          17.2982156,
+          62.3814229
         ]
       }
     },
@@ -102291,20 +102822,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 618,
-        "screen_y": 1162,
+        "screen_x": 728,
+        "screen_y": 1233,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3013944,
-          62.3827524
+          17.3035265,
+          62.3821146
         ]
       }
     },
@@ -102331,20 +102862,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 984,
-        "screen_y": 1127,
+        "screen_x": 798,
+        "screen_y": 1227,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3084886,
-          62.3830668
+          17.3048834,
+          62.3821685
         ]
       }
     },
@@ -102371,20 +102902,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 884,
-        "screen_y": 1036,
+        "screen_x": 1028,
+        "screen_y": 1166,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3065503,
-          62.3838843
+          17.3093415,
+          62.3827165
         ]
       }
     },
@@ -102411,20 +102942,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 732,
-        "screen_y": 1007,
+        "screen_x": 527,
+        "screen_y": 1043,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3036041,
-          62.3841448
+          17.2996305,
+          62.3838214
         ]
       }
     },
@@ -102451,20 +102982,220 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 969,
-        "screen_y": 908,
+        "screen_x": 570,
+        "screen_y": 995,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3081979,
-          62.3850341
+          17.300464,
+          62.3842526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m12",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 936,
+        "screen_y": 961,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3075582,
+          62.384558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m13",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 836,
+        "screen_y": 869,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3056199,
+          62.3853845
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m14",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 685,
+        "screen_y": 841,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3026931,
+          62.385636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m15",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 921,
+        "screen_y": 742,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3072675,
+          62.3865253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c0-m17",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 1044,
+        "screen_y": 488,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3096516,
+          62.388807
         ]
       }
     },
@@ -102491,20 +103222,60 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 478,
-        "screen_y": 1861,
+        "screen_x": 352,
+        "screen_y": 1838,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3129157,
-          62.3764732
+          17.3104735,
+          62.3766798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c1-m2",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c1.png",
+        "capture_label": "grid_r1_c1",
+        "screen_x": 200,
+        "screen_y": 1824,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3075272,
+          62.3768056
         ]
       }
     },
@@ -102531,60 +103302,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 814,
-        "screen_y": 1859,
+        "screen_x": 437,
+        "screen_y": 1728,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3194284,
-          62.3764912
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "sundsvall-parkster-review-grid_r1_c1-m4",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Sundsvalls kommun",
-        "region": "Västernorrland",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c1.png",
-        "capture_label": "grid_r1_c1",
-        "screen_x": 1020,
-        "screen_y": 1697,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.3234214,
-          62.3779465
+          17.312121,
+          62.377668
         ]
       }
     },
@@ -102611,20 +103342,100 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260713T001158.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260713T001158\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 611,
-        "screen_y": 1647,
+        "screen_x": 773,
+        "screen_y": 1716,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.3154937,
-          62.3783956
+          17.3186337,
+          62.3777758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c1-m6",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c1.png",
+        "capture_label": "grid_r1_c1",
+        "screen_x": 979,
+        "screen_y": 1525,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3226267,
+          62.3794916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "sundsvall-parkster-review-grid_r1_c1-m7",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Sundsvalls kommun",
+        "region": "Västernorrland",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\sundsvall_parkster_marker_evidence_20260720T012035.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\sundsvall_parkster_map_20260720T012035\\grid_r1_c1.png",
+        "capture_label": "grid_r1_c1",
+        "screen_x": 571,
+        "screen_y": 1474,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3147184,
+          62.3799497
         ]
       }
     }

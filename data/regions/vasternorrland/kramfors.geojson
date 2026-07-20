@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-07-17T16:59:06.017899+00:00",
+    "generated": "2026-07-20T04:27:10.846613+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "kramfors",
@@ -32,15 +32,15 @@
       "after": 61,
       "total": 180,
       "coverage_pct": 66.1,
-      "run_date": "2026-07-17"
+      "run_date": "2026-07-20"
     },
     "parkster_review_markers": {
-      "source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
+      "source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260720T011545.json",
       "status": "needs_review",
       "removed_previous": 5,
       "added": 5,
       "meters_per_px": 1.0,
-      "updated_at": "2026-07-17T16:59:02.613399+00:00"
+      "updated_at": "2026-07-20T04:27:07.773413+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -48,7 +48,7 @@
       "markers_matched": 0,
       "markers_unmatched": 5,
       "features_matched": 0,
-      "updated_at": "2026-07-17T16:59:06.017880+00:00",
+      "updated_at": "2026-07-20T04:27:10.846601+00:00",
       "status": "needs_review"
     },
     "epark_nearby_merge": {
@@ -12235,20 +12235,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260713T000826\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260720T011545.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260720T011545\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 895,
-        "screen_y": 1780,
+        "screen_x": 894,
+        "screen_y": 1785,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.7927592,
-          62.9327618
+          17.7927394,
+          62.9327169
         ]
       }
     },
@@ -12275,12 +12275,12 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260713T000826\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260720T011545.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260720T011545\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
         "screen_x": 1048,
-        "screen_y": 1627,
+        "screen_y": 1632,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
@@ -12288,7 +12288,7 @@
         "type": "Point",
         "coordinates": [
           17.7957795,
-          62.9341362
+          62.9340913
         ]
       }
     },
@@ -12315,20 +12315,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260713T000826\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260720T011545.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260720T011545\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1033,
-        "screen_y": 1473,
+        "screen_x": 1032,
+        "screen_y": 1478,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.7954834,
-          62.9355196
+          17.7954637,
+          62.9354747
         ]
       }
     },
@@ -12355,20 +12355,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260713T000826\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260720T011545.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260720T011545\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 147,
-        "screen_y": 353,
+        "screen_x": 135,
+        "screen_y": 358,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.7924907,
-          62.9320198
+          17.7922538,
+          62.9319748
         ]
       }
     },
@@ -12395,20 +12395,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260713T000826.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260713T000826\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\kramfors_parkster_marker_evidence_20260720T011545.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\kramfors_parkster_map_20260720T011545\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 217,
-        "screen_y": 14,
+        "screen_x": 205,
+        "screen_y": 17,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.7938726,
-          62.935065
+          17.7936357,
+          62.9350381
         ]
       }
     }

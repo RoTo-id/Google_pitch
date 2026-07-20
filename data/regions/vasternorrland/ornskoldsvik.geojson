@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-07-17T16:59:05.994369+00:00",
+    "generated": "2026-07-20T04:27:10.829337+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västernorrland",
     "city": "ornskoldsvik",
@@ -32,15 +32,15 @@
       "after": 118,
       "total": 211,
       "coverage_pct": 44.1,
-      "run_date": "2026-07-17"
+      "run_date": "2026-07-20"
     },
     "parkster_review_markers": {
-      "source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260713T000615.json",
+      "source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260720T011144.json",
       "status": "needs_review",
       "removed_previous": 4,
       "added": 4,
       "meters_per_px": 1.0,
-      "updated_at": "2026-07-17T16:59:02.594056+00:00"
+      "updated_at": "2026-07-20T04:27:07.743922+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -48,7 +48,7 @@
       "markers_matched": 1,
       "markers_unmatched": 3,
       "features_matched": 1,
-      "updated_at": "2026-07-17T16:59:05.994361+00:00",
+      "updated_at": "2026-07-20T04:27:10.829331+00:00",
       "status": "needs_review"
     },
     "epark_nearby_merge": {
@@ -3453,16 +3453,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 108628091,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "ornskoldsvik-parkster-review-grid_r0_c0-m7",
+            "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260720T011144.json",
+            "distance_m": 65.3
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -15178,20 +15191,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260713T000615.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ornskoldsvik_parkster_map_20260713T000615\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260720T011144.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ornskoldsvik_parkster_map_20260720T011144\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 595,
-        "screen_y": 1708,
+        "screen_x": 597,
+        "screen_y": 1691,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.7170993,
-          63.2856281
+          18.7171392,
+          63.2857808
         ]
       }
     },
@@ -15218,20 +15231,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260713T000615.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ornskoldsvik_parkster_map_20260713T000615\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260720T011144.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ornskoldsvik_parkster_map_20260720T011144\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 702,
-        "screen_y": 1696,
+        "screen_x": 704,
+        "screen_y": 1679,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.7192378,
-          63.2857359
+          18.7192778,
+          63.2858886
         ]
       }
     },
@@ -15258,20 +15271,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260713T000615.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ornskoldsvik_parkster_map_20260713T000615\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260720T011144.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ornskoldsvik_parkster_map_20260720T011144\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 34,
-        "screen_y": 1590,
+        "screen_x": 35,
+        "screen_y": 1573,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.7058868,
-          63.2866881
+          18.7059068,
+          63.2868408
         ]
       }
     },
@@ -15298,20 +15311,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260713T000615.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ornskoldsvik_parkster_map_20260713T000615\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ornskoldsvik_parkster_marker_evidence_20260720T011144.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ornskoldsvik_parkster_map_20260720T011144\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 854,
-        "screen_y": 1066,
+        "screen_x": 856,
+        "screen_y": 1049,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.7222758,
-          63.2913953
+          18.7223157,
+          63.291548
         ]
       }
     }

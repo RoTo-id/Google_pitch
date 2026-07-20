@@ -2,14 +2,14 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-07-17T16:59:04.526257+00:00",
+    "generated": "2026-07-20T04:27:09.470305+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Västerbotten",
     "city": "umea",
     "municipality": "Umeå kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "umea-osm-bootstrap",
-    "zone_count": 1397,
+    "zone_count": 1398,
     "bootstrap": {
       "osm_source": "output\\osm_parking_umea.geojson",
       "zones_imported": 1265,
@@ -27,28 +27,28 @@
       "note_matched": 0,
       "access_yes_free": 0,
       "fee_confirmed_unknown": 62,
-      "genuinely_unknown": 767,
-      "before": 839,
-      "after": 839,
-      "total": 1397,
+      "genuinely_unknown": 768,
+      "before": 840,
+      "after": 840,
+      "total": 1398,
       "coverage_pct": 39.9,
-      "run_date": "2026-07-17"
+      "run_date": "2026-07-20"
     },
     "parkster_review_markers": {
-      "source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
+      "source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
       "status": "needs_review",
-      "removed_previous": 132,
-      "added": 132,
+      "removed_previous": 133,
+      "added": 133,
       "meters_per_px": 1.0,
-      "updated_at": "2026-07-17T16:59:02.450900+00:00"
+      "updated_at": "2026-07-20T04:27:07.604822+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
-      "markers_total": 132,
-      "markers_matched": 53,
-      "markers_unmatched": 79,
+      "markers_total": 133,
+      "markers_matched": 52,
+      "markers_unmatched": 81,
       "features_matched": 40,
-      "updated_at": "2026-07-17T16:59:04.526249+00:00",
+      "updated_at": "2026-07-20T04:27:09.470289+00:00",
       "status": "needs_review"
     },
     "epark_nearby_merge": {
@@ -18834,16 +18834,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 123519004,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m12",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 80.3
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -18961,7 +18974,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 123519018,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -18972,12 +18985,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m17",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 31.3
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m16",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 9.2
           }
         ]
       },
@@ -19034,7 +19052,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 123519023,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -19045,12 +19063,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m15",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 111.5
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m19",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 54.0
           }
         ]
       },
@@ -19107,7 +19130,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 123519026,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -19118,7 +19141,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 10,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m20",
@@ -19129,6 +19152,11 @@
             "marker_id": "umea-parkster-review-grid_r0_c1-m21",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 27.6
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m20",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 41.8
           }
         ]
       },
@@ -19876,7 +19904,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 124068928,
         "osm_distance_m": null,
         "osm_access": "no",
@@ -19887,7 +19915,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 12,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m16",
@@ -19898,6 +19926,16 @@
             "marker_id": "umea-parkster-review-grid_r0_c1-m19",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 99.0
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m15",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 67.3
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m18",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 88.8
           }
         ]
       },
@@ -21604,16 +21642,29 @@
         "confidence": 0.85,
         "flags": [
           "osm_bootstrap",
-          "osm_reclassified"
+          "osm_reclassified",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 137126058,
         "osm_distance_m": null,
         "osm_access": "private",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m10",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 116.0
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -22035,7 +22086,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 141362820,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -22046,7 +22097,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 12,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m43",
@@ -22057,6 +22108,16 @@
             "marker_id": "umea-parkster-review-grid_r1_c0-m47",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 75.8
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m44",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 78.2
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m48",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 61.9
           }
         ]
       },
@@ -23325,7 +23386,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 151621507,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -23336,12 +23397,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m36",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 16.4
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m37",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 18.0
           }
         ]
       },
@@ -25874,7 +25940,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 192666814,
         "osm_distance_m": null,
         "osm_access": "customers",
@@ -25885,7 +25951,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 12,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m25",
@@ -25896,6 +25962,16 @@
             "marker_id": "umea-parkster-review-grid_r1_c0-m27",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 60.1
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m26",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 104.1
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m28",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 68.6
           }
         ]
       },
@@ -26125,7 +26201,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 192666817,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -26136,12 +26212,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m28",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 117.9
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m32",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 26.8
           }
         ]
       },
@@ -29538,7 +29619,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 205687484,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -29549,7 +29630,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 10,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m13",
@@ -29560,6 +29641,11 @@
             "marker_id": "umea-parkster-review-grid_r0_c1-m14",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 58.5
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m13",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 55.8
           }
         ]
       },
@@ -33342,7 +33428,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 358278361,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -33353,12 +33439,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c0-m4",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 80.0
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m3",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 104.1
           }
         ]
       },
@@ -33526,7 +33617,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 361770137,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -33537,12 +33628,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m31",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 74.3
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m30",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 95.2
           }
         ]
       },
@@ -38832,7 +38928,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 410310440,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -38843,7 +38939,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 12,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c1-m15",
@@ -38854,6 +38950,16 @@
             "marker_id": "umea-parkster-review-grid_r1_c1-m17",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 67.5
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c1-m15",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 93.3
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c1-m17",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 58.2
           }
         ]
       },
@@ -42333,7 +42439,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 462360938,
         "osm_distance_m": null,
         "osm_access": "customers",
@@ -42344,7 +42450,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 12,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m40",
@@ -42355,6 +42461,16 @@
             "marker_id": "umea-parkster-review-grid_r1_c0-m42",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 88.2
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m41",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 60.4
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m43",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 76.7
           }
         ]
       },
@@ -44694,7 +44810,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 468563747,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -44705,12 +44821,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c0-m5",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 77.5
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m4",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 104.6
           }
         ]
       },
@@ -52353,7 +52474,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 612244200,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -52364,7 +52485,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 12,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c1-m18",
@@ -52375,6 +52496,16 @@
             "marker_id": "umea-parkster-review-grid_r1_c1-m19",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 73.9
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c1-m18",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 17.4
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c1-m19",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 73.6
           }
         ]
       },
@@ -52490,7 +52621,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 612537288,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -52501,12 +52632,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m26",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 71.4
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m27",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 58.6
           }
         ]
       },
@@ -52936,7 +53072,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 627829105,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -52947,12 +53083,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m50",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 48.0
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m51",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 49.0
           }
         ]
       },
@@ -57390,7 +57531,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 701065327,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -57401,7 +57542,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 12,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m22",
@@ -57412,6 +57553,16 @@
             "marker_id": "umea-parkster-review-grid_r1_c0-m23",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 18.5
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m23",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 65.2
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m24",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 31.6
           }
         ]
       },
@@ -59218,16 +59369,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 725947011,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m14",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 111.7
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -62313,7 +62477,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 822483226,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -62324,12 +62488,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m4",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 60.7
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m3",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 60.2
           }
         ]
       },
@@ -62445,7 +62614,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 825822942,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -62456,7 +62625,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 12,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m7",
@@ -62467,6 +62636,16 @@
             "marker_id": "umea-parkster-review-grid_r1_c1-m10",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 38.6
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m7",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 99.1
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c1-m10",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 42.7
           }
         ]
       },
@@ -63018,7 +63197,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 846499391,
         "osm_distance_m": null,
         "osm_access": "customers",
@@ -63029,12 +63208,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c1-m8",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 115.5
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c1-m8",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 115.1
           }
         ]
       },
@@ -67619,7 +67803,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1049216980,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -67630,7 +67814,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 12,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m51",
@@ -67641,6 +67825,16 @@
             "marker_id": "umea-parkster-review-grid_r1_c0-m52",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 12.0
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m52",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 101.7
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m53",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 11.0
           }
         ]
       },
@@ -74120,7 +74314,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1238026814,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -74131,12 +74325,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c0-m3",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 57.2
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m2",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 58.9
           }
         ]
       },
@@ -74434,7 +74633,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1238026825,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -74445,12 +74644,22 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m53",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 83.9
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m1",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 64.3
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m54",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 87.7
           }
         ]
       },
@@ -76486,7 +76695,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1317098241,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -76497,12 +76706,22 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c0-m6",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 23.8
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m5",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 49.4
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c0-m6",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 35.6
           }
         ]
       },
@@ -77166,7 +77385,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1322916968,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -77177,12 +77396,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m28",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 89.3
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m27",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 73.7
           }
         ]
       },
@@ -82595,7 +82819,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1354420032,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -82606,12 +82830,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m49",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 63.4
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m50",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 70.6
           }
         ]
       },
@@ -83744,7 +83973,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1358180607,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -83755,12 +83984,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m1",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 40.0
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m1",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 64.4
           }
         ]
       },
@@ -83897,7 +84131,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1358180615,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -83908,7 +84142,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 10,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r0_c1-m2",
@@ -83919,6 +84153,11 @@
             "marker_id": "umea-parkster-review-grid_r0_c1-m3",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 10.8
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r0_c1-m2",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 17.1
           }
         ]
       },
@@ -84283,7 +84522,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1358680887,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -84294,12 +84533,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m12",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 75.6
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m12",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 61.8
           }
         ]
       },
@@ -84660,7 +84904,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1358680893,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -84671,12 +84915,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m10",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 59.2
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m10",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 61.0
           }
         ]
       },
@@ -84733,7 +84982,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1358680894,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -84744,12 +84993,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m18",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 87.2
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m18",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 75.7
           }
         ]
       },
@@ -84866,7 +85120,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1358680896,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -84877,7 +85131,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 10,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m6",
@@ -84888,6 +85142,11 @@
             "marker_id": "umea-parkster-review-grid_r1_c1-m12",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 110.0
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c1-m12",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 113.6
           }
         ]
       },
@@ -84944,7 +85203,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1358680897,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -84955,12 +85214,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m17",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 16.3
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m17",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 25.0
           }
         ]
       },
@@ -85137,7 +85401,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1358680900,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -85148,12 +85412,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m13",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 84.7
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m13",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 98.3
           }
         ]
       },
@@ -85330,7 +85599,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1358680903,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -85341,12 +85610,22 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "umea-parkster-review-grid_r1_c0-m21",
             "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
             "distance_m": 52.6
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m22",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 65.2
+          },
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m31",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 109.3
           }
         ]
       },
@@ -85459,16 +85738,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 1358680905,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "umea-parkster-review-grid_r1_c0-m21",
+            "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+            "distance_m": 40.6
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -90073,20 +90365,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1023,
-        "screen_y": 1837,
+        "screen_x": 464,
+        "screen_y": 1625,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2653582,
-          63.8252497
+          20.2539744,
+          63.8271542
         ]
       }
     },
@@ -90113,20 +90405,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 457,
-        "screen_y": 1593,
+        "screen_x": 353,
+        "screen_y": 1544,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2538319,
-          63.8274416
+          20.2517139,
+          63.8278818
         ]
       }
     },
@@ -90153,20 +90445,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 346,
-        "screen_y": 1511,
+        "screen_x": 740,
+        "screen_y": 1394,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2515714,
-          63.8281782
+          20.259595,
+          63.8292292
         ]
       }
     },
@@ -90193,20 +90485,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 733,
-        "screen_y": 1362,
+        "screen_x": 14,
+        "screen_y": 1053,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2594525,
-          63.8295167
+          20.2448103,
+          63.8322925
         ]
       }
     },
@@ -90233,20 +90525,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 10,
-        "screen_y": 1020,
+        "screen_x": 60,
+        "screen_y": 951,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2447289,
-          63.8325889
+          20.2457471,
+          63.8332088
         ]
       }
     },
@@ -90273,20 +90565,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 53,
-        "screen_y": 918,
+        "screen_x": 3,
+        "screen_y": 935,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2456046,
-          63.8335052
+          20.2445863,
+          63.8333525
         ]
       }
     },
@@ -90313,20 +90605,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 355,
-        "screen_y": 389,
+        "screen_x": 362,
+        "screen_y": 422,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2517547,
-          63.8382573
+          20.2518972,
+          63.8379608
         ]
       }
     },
@@ -90353,20 +90645,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 784,
-        "screen_y": 237,
+        "screen_x": 791,
+        "screen_y": 270,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2604911,
-          63.8396227
+          20.2606336,
+          63.8393263
         ]
       }
     },
@@ -90393,20 +90685,60 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1005,
-        "screen_y": 159,
+        "screen_x": 1012,
+        "screen_y": 192,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2649917,
-          63.8403234
+          20.2651342,
+          63.8400269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r0_c0-m10",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c0.png",
+        "capture_label": "grid_r0_c0",
+        "screen_x": 650,
+        "screen_y": 77,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2577622,
+          63.84106
         ]
       }
     },
@@ -90433,20 +90765,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 817,
-        "screen_y": 1413,
+        "screen_x": 823,
+        "screen_y": 1437,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2761189,
-          63.8290586
+          20.2762411,
+          63.828843
         ]
       }
     },
@@ -90473,20 +90805,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 1056,
-        "screen_y": 1372,
+        "screen_x": 948,
+        "screen_y": 1370,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.280986,
-          63.8294269
+          20.2787866,
+          63.8294448
         ]
       }
     },
@@ -90513,20 +90845,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 942,
-        "screen_y": 1346,
+        "screen_x": 737,
+        "screen_y": 1287,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2786644,
-          63.8296604
+          20.2744897,
+          63.8301904
         ]
       }
     },
@@ -90553,20 +90885,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 731,
-        "screen_y": 1263,
+        "screen_x": 306,
+        "screen_y": 1267,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2743675,
-          63.830406
+          20.2657126,
+          63.8303701
         ]
       }
     },
@@ -90593,20 +90925,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 300,
-        "screen_y": 1243,
+        "screen_x": 826,
+        "screen_y": 1199,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2655904,
-          63.8305857
+          20.2763021,
+          63.830981
         ]
       }
     },
@@ -90633,20 +90965,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 820,
-        "screen_y": 1175,
+        "screen_x": 527,
+        "screen_y": 1189,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.27618,
-          63.8311966
+          20.2702131,
+          63.8310708
         ]
       }
     },
@@ -90673,20 +91005,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 521,
-        "screen_y": 1165,
+        "screen_x": 1016,
+        "screen_y": 1149,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.270091,
-          63.8312864
+          20.2801714,
+          63.8314301
         ]
       }
     },
@@ -90713,20 +91045,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 1010,
-        "screen_y": 1125,
+        "screen_x": 165,
+        "screen_y": 1074,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2800492,
-          63.8316457
+          20.2628412,
+          63.8321038
         ]
       }
     },
@@ -90753,20 +91085,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 159,
-        "screen_y": 1050,
+        "screen_x": 838,
+        "screen_y": 1058,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.262719,
-          63.8323194
+          20.2765465,
+          63.8322476
         ]
       }
     },
@@ -90793,20 +91125,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 832,
-        "screen_y": 1034,
+        "screen_x": 377,
+        "screen_y": 947,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2764243,
-          63.8324632
+          20.2671584,
+          63.8332447
         ]
       }
     },
@@ -90833,20 +91165,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 371,
-        "screen_y": 923,
+        "screen_x": 489,
+        "screen_y": 916,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2670363,
-          63.8334603
+          20.2694393,
+          63.8335232
         ]
       }
     },
@@ -90873,20 +91205,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 483,
-        "screen_y": 892,
+        "screen_x": 129,
+        "screen_y": 783,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2693171,
-          63.8337388
+          20.262108,
+          63.8347179
         ]
       }
     },
@@ -90913,20 +91245,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 123,
-        "screen_y": 759,
+        "screen_x": 102,
+        "screen_y": 772,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2619858,
-          63.8349335
+          20.2615582,
+          63.8348167
         ]
       }
     },
@@ -90953,20 +91285,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 96,
-        "screen_y": 748,
+        "screen_x": 265,
+        "screen_y": 718,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.261436,
-          63.8350323
+          20.2648776,
+          63.8353018
         ]
       }
     },
@@ -90993,20 +91325,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 259,
-        "screen_y": 694,
+        "screen_x": 481,
+        "screen_y": 636,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2647554,
-          63.8355174
+          20.2692764,
+          63.8360384
         ]
       }
     },
@@ -91033,20 +91365,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 475,
-        "screen_y": 612,
+        "screen_x": 75,
+        "screen_y": 638,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2691542,
-          63.836254
+          20.2610083,
+          63.8360205
         ]
       }
     },
@@ -91073,20 +91405,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 69,
-        "screen_y": 614,
+        "screen_x": 396,
+        "screen_y": 628,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2608862,
-          63.8362361
+          20.2675454,
+          63.8361103
         ]
       }
     },
@@ -91113,20 +91445,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 390,
-        "screen_y": 604,
+        "screen_x": 621,
+        "screen_y": 579,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2674232,
-          63.8363259
+          20.2721274,
+          63.8365505
         ]
       }
     },
@@ -91153,20 +91485,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 614,
-        "screen_y": 556,
+        "screen_x": 210,
+        "screen_y": 567,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2719849,
-          63.8367571
+          20.2637576,
+          63.8366583
         ]
       }
     },
@@ -91193,20 +91525,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 203,
-        "screen_y": 543,
+        "screen_x": 183,
+        "screen_y": 556,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.263615,
-          63.8368739
+          20.2632077,
+          63.8367571
         ]
       }
     },
@@ -91233,20 +91565,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 177,
-        "screen_y": 532,
+        "screen_x": 800,
+        "screen_y": 536,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2630855,
-          63.8369727
+          20.2757727,
+          63.8369368
         ]
       }
     },
@@ -91273,20 +91605,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 794,
-        "screen_y": 512,
+        "screen_x": 674,
+        "screen_y": 514,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2756505,
-          63.8371524
+          20.2732067,
+          63.8371344
         ]
       }
     },
@@ -91313,20 +91645,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 668,
-        "screen_y": 490,
+        "screen_x": 766,
+        "screen_y": 500,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2730845,
-          63.83735
+          20.2750803,
+          63.8372602
         ]
       }
     },
@@ -91353,20 +91685,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 759,
-        "screen_y": 476,
+        "screen_x": 354,
+        "screen_y": 479,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2749377,
-          63.8374757
+          20.2666901,
+          63.8374488
         ]
       }
     },
@@ -91393,20 +91725,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 348,
-        "screen_y": 455,
+        "screen_x": 650,
+        "screen_y": 454,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2665679,
-          63.8376644
+          20.272718,
+          63.8376734
         ]
       }
     },
@@ -91433,20 +91765,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 644,
-        "screen_y": 430,
+        "screen_x": 966,
+        "screen_y": 440,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2725958,
-          63.837889
+          20.2791532,
+          63.8377991
         ]
       }
     },
@@ -91473,20 +91805,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 960,
-        "screen_y": 416,
+        "screen_x": 152,
+        "screen_y": 401,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.279031,
-          63.8380147
+          20.2625764,
+          63.8381495
         ]
       }
     },
@@ -91513,20 +91845,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 146,
-        "screen_y": 377,
+        "screen_x": 751,
+        "screen_y": 359,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2624542,
-          63.8383651
+          20.2747748,
+          63.8385268
         ]
       }
     },
@@ -91553,20 +91885,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 745,
-        "screen_y": 335,
+        "screen_x": 34,
+        "screen_y": 350,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2746526,
-          63.8387424
+          20.2601734,
+          63.8386076
         ]
       }
     },
@@ -91593,20 +91925,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 31,
-        "screen_y": 326,
+        "screen_x": 613,
+        "screen_y": 305,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2601123,
-          63.8388232
+          20.2719645,
+          63.8390119
         ]
       }
     },
@@ -91633,11 +91965,11 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 607,
+        "screen_x": 853,
         "screen_y": 281,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
@@ -91645,7 +91977,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2718423,
+          20.276852,
           63.8392275
         ]
       }
@@ -91673,20 +92005,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 847,
-        "screen_y": 257,
+        "screen_x": 407,
+        "screen_y": 277,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2767298,
-          63.839443
+          20.2677694,
+          63.8392634
         ]
       }
     },
@@ -91713,20 +92045,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 401,
-        "screen_y": 253,
+        "screen_x": 150,
+        "screen_y": 264,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2676472,
-          63.839479
+          20.2625357,
+          63.8393802
         ]
       }
     },
@@ -91753,20 +92085,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 144,
-        "screen_y": 240,
+        "screen_x": 790,
+        "screen_y": 255,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2624135,
-          63.8395958
+          20.275569,
+          63.839461
         ]
       }
     },
@@ -91793,20 +92125,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 784,
-        "screen_y": 231,
+        "screen_x": 992,
+        "screen_y": 214,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2754468,
-          63.8396766
+          20.2796827,
+          63.8398293
         ]
       }
     },
@@ -91833,20 +92165,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 986,
-        "screen_y": 190,
+        "screen_x": 683,
+        "screen_y": 180,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2795605,
-          63.8400449
+          20.27339,
+          63.8401347
         ]
       }
     },
@@ -91873,20 +92205,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 677,
-        "screen_y": 157,
+        "screen_x": 113,
+        "screen_y": 113,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2732678,
-          63.8403414
+          20.2617822,
+          63.8407366
         ]
       }
     },
@@ -91913,20 +92245,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 1034,
-        "screen_y": 58,
+        "screen_x": 1037,
+        "screen_y": 82,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.280538,
-          63.8412307
+          20.2805991,
+          63.8410151
         ]
       }
     },
@@ -91953,20 +92285,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 233,
-        "screen_y": 36,
+        "screen_x": 498,
+        "screen_y": 47,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2642259,
-          63.8414283
+          20.2696226,
+          63.8413295
         ]
       }
     },
@@ -91993,20 +92325,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 492,
-        "screen_y": 35,
+        "screen_x": 239,
+        "screen_y": 47,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2695004,
-          63.8414373
+          20.2643481,
+          63.8413295
         ]
       }
     },
@@ -92033,20 +92365,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 803,
-        "screen_y": 31,
+        "screen_x": 810,
+        "screen_y": 43,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2758338,
-          63.8414732
+          20.2759763,
+          63.8413654
         ]
       }
     },
@@ -92073,20 +92405,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 793,
-        "screen_y": 1800,
+        "screen_x": 800,
+        "screen_y": 1812,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2606744,
-          63.8120212
+          20.2608169,
+          63.8119134
         ]
       }
     },
@@ -92113,20 +92445,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 1014,
-        "screen_y": 1722,
+        "screen_x": 1021,
+        "screen_y": 1734,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2651749,
-          63.8127219
+          20.2653175,
+          63.8126141
         ]
       }
     },
@@ -92153,20 +92485,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 652,
-        "screen_y": 1607,
+        "screen_x": 659,
+        "screen_y": 1619,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.257803,
-          63.8137549
+          20.2579455,
+          63.8136471
         ]
       }
     },
@@ -92193,20 +92525,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 466,
-        "screen_y": 1531,
+        "screen_x": 473,
+        "screen_y": 1543,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2540151,
-          63.8144377
+          20.2541577,
+          63.8143299
         ]
       }
     },
@@ -92233,20 +92565,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 407,
-        "screen_y": 1493,
+        "screen_x": 414,
+        "screen_y": 1505,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2528136,
-          63.814779
+          20.2529562,
+          63.8146712
         ]
       }
     },
@@ -92273,20 +92605,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 864,
-        "screen_y": 1479,
+        "screen_x": 871,
+        "screen_y": 1491,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2621202,
-          63.8149048
+          20.2622628,
+          63.814797
         ]
       }
     },
@@ -92313,20 +92645,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 976,
-        "screen_y": 1449,
+        "screen_x": 983,
+        "screen_y": 1461,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2644011,
-          63.8151743
+          20.2645436,
+          63.8150665
         ]
       }
     },
@@ -92353,20 +92685,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 616,
-        "screen_y": 1316,
+        "screen_x": 623,
+        "screen_y": 1328,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2570698,
-          63.816369
+          20.2572124,
+          63.8162612
         ]
       }
     },
@@ -92393,20 +92725,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 589,
-        "screen_y": 1305,
+        "screen_x": 596,
+        "screen_y": 1317,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.25652,
-          63.8164678
+          20.2566625,
+          63.81636
         ]
       }
     },
@@ -92433,20 +92765,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 457,
-        "screen_y": 1266,
+        "screen_x": 464,
+        "screen_y": 1278,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2538319,
-          63.8168182
+          20.2539744,
+          63.8167104
         ]
       }
     },
@@ -92473,20 +92805,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 752,
-        "screen_y": 1251,
+        "screen_x": 759,
+        "screen_y": 1263,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2598394,
-          63.8169529
+          20.259982,
+          63.8168451
         ]
       }
     },
@@ -92513,20 +92845,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 292,
-        "screen_y": 1199,
+        "screen_x": 299,
+        "screen_y": 1211,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2504717,
-          63.8174201
+          20.2506143,
+          63.8173123
         ]
       }
     },
@@ -92553,20 +92885,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 220,
-        "screen_y": 1171,
+        "screen_x": 227,
+        "screen_y": 1183,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2490055,
-          63.8176716
+          20.249148,
+          63.8175638
         ]
       }
     },
@@ -92593,20 +92925,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 968,
-        "screen_y": 1169,
+        "screen_x": 975,
+        "screen_y": 1181,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2642382,
-          63.8176895
+          20.2643807,
+          63.8175817
         ]
       }
     },
@@ -92633,20 +92965,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 562,
-        "screen_y": 1163,
+        "screen_x": 569,
+        "screen_y": 1175,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2559701,
-          63.8177434
+          20.2561127,
+          63.8176356
         ]
       }
     },
@@ -92673,20 +93005,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 883,
-        "screen_y": 1161,
+        "screen_x": 890,
+        "screen_y": 1173,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2625072,
-          63.8177614
+          20.2626497,
+          63.8176536
         ]
       }
     },
@@ -92713,20 +93045,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 126,
-        "screen_y": 1138,
+        "screen_x": 133,
+        "screen_y": 1150,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2470912,
-          63.817968
+          20.2472337,
+          63.8178602
         ]
       }
     },
@@ -92753,20 +93085,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 421,
-        "screen_y": 1112,
+        "screen_x": 428,
+        "screen_y": 1124,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2530987,
-          63.8182016
+          20.2532413,
+          63.8180938
         ]
       }
     },
@@ -92793,20 +93125,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 696,
-        "screen_y": 1099,
+        "screen_x": 703,
+        "screen_y": 1111,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.258699,
-          63.8183184
+          20.2588416,
+          63.8182106
         ]
       }
     },
@@ -92833,20 +93165,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 670,
-        "screen_y": 1089,
+        "screen_x": 677,
+        "screen_y": 1101,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2581695,
-          63.8184082
+          20.2583121,
+          63.8183004
         ]
       }
     },
@@ -92873,20 +93205,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 254,
-        "screen_y": 1050,
+        "screen_x": 3,
+        "screen_y": 1087,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2496979,
-          63.8187585
+          20.2445863,
+          63.8184262
         ]
       }
     },
@@ -92913,20 +93245,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 469,
-        "screen_y": 1041,
+        "screen_x": 261,
+        "screen_y": 1062,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2540762,
-          63.8188394
+          20.2498404,
+          63.8186507
         ]
       }
     },
@@ -92953,20 +93285,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 548,
-        "screen_y": 1031,
+        "screen_x": 476,
+        "screen_y": 1053,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.255685,
-          63.8189292
+          20.2542188,
+          63.8187316
         ]
       }
     },
@@ -92993,20 +93325,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 841,
-        "screen_y": 1012,
+        "screen_x": 555,
+        "screen_y": 1043,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2616519,
-          63.8190999
+          20.2558276,
+          63.8188214
         ]
       }
     },
@@ -93033,20 +93365,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 389,
-        "screen_y": 1003,
+        "screen_x": 848,
+        "screen_y": 1024,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2524471,
-          63.8191807
+          20.2617944,
+          63.8189921
         ]
       }
     },
@@ -93073,20 +93405,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 79,
-        "screen_y": 988,
+        "screen_x": 396,
+        "screen_y": 1015,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.246134,
-          63.8193155
+          20.2525896,
+          63.8190729
         ]
       }
     },
@@ -93113,20 +93445,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 380,
-        "screen_y": 965,
+        "screen_x": 86,
+        "screen_y": 1000,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2522638,
-          63.8195221
+          20.2462766,
+          63.8192077
         ]
       }
     },
@@ -93153,20 +93485,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 639,
-        "screen_y": 933,
+        "screen_x": 387,
+        "screen_y": 977,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2575382,
-          63.8198096
+          20.2524063,
+          63.8194143
         ]
       }
     },
@@ -93193,20 +93525,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 973,
-        "screen_y": 924,
+        "screen_x": 646,
+        "screen_y": 945,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.26434,
-          63.8198904
+          20.2576808,
+          63.8197018
         ]
       }
     },
@@ -93233,20 +93565,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 216,
-        "screen_y": 901,
+        "screen_x": 980,
+        "screen_y": 936,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.248924,
-          63.820097
+          20.2644825,
+          63.8197826
         ]
       }
     },
@@ -93273,20 +93605,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 508,
-        "screen_y": 883,
+        "screen_x": 223,
+        "screen_y": 913,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2548705,
-          63.8202587
+          20.2490665,
+          63.8199892
         ]
       }
     },
@@ -93313,20 +93645,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 1066,
-        "screen_y": 837,
+        "screen_x": 515,
+        "screen_y": 895,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2662339,
-          63.8206719
+          20.255013,
+          63.8201509
         ]
       }
     },
@@ -93353,20 +93685,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 37,
-        "screen_y": 832,
+        "screen_x": 1070,
+        "screen_y": 849,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2452787,
-          63.8207169
+          20.2663154,
+          63.8205641
         ]
       }
     },
@@ -93393,20 +93725,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 894,
-        "screen_y": 802,
+        "screen_x": 41,
+        "screen_y": 844,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2627312,
-          63.8209863
+          20.2453602,
+          63.8206091
         ]
       }
     },
@@ -93433,20 +93765,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 637,
-        "screen_y": 797,
+        "screen_x": 901,
+        "screen_y": 814,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2574975,
-          63.8210313
+          20.2628737,
+          63.8208785
         ]
       }
     },
@@ -93473,20 +93805,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 244,
-        "screen_y": 781,
+        "screen_x": 644,
+        "screen_y": 809,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2494942,
-          63.821175
+          20.25764,
+          63.8209235
         ]
       }
     },
@@ -93513,20 +93845,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 825,
-        "screen_y": 759,
+        "screen_x": 251,
+        "screen_y": 793,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.261326,
-          63.8213726
+          20.2496368,
+          63.8210672
         ]
       }
     },
@@ -93553,20 +93885,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 799,
-        "screen_y": 749,
+        "screen_x": 832,
+        "screen_y": 771,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2607966,
-          63.8214625
+          20.2614686,
+          63.8212648
         ]
       }
     },
@@ -93593,20 +93925,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 981,
-        "screen_y": 706,
+        "screen_x": 806,
+        "screen_y": 761,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2645029,
-          63.8218487
+          20.2609391,
+          63.8213547
         ]
       }
     },
@@ -93633,20 +93965,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 373,
-        "screen_y": 656,
+        "screen_x": 988,
+        "screen_y": 717,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2521212,
-          63.8222979
+          20.2646455,
+          63.8217499
         ]
       }
     },
@@ -93673,20 +94005,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 599,
-        "screen_y": 645,
+        "screen_x": 380,
+        "screen_y": 668,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2567236,
-          63.8223967
+          20.2522638,
+          63.8221901
         ]
       }
     },
@@ -93713,20 +94045,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 243,
-        "screen_y": 638,
+        "screen_x": 606,
+        "screen_y": 657,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2494738,
-          63.8224596
+          20.2568662,
+          63.8222889
         ]
       }
     },
@@ -93753,20 +94085,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 258,
-        "screen_y": 578,
+        "screen_x": 250,
+        "screen_y": 650,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2497793,
-          63.8229986
+          20.2496164,
+          63.8223518
         ]
       }
     },
@@ -93793,20 +94125,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 726,
-        "screen_y": 570,
+        "screen_x": 265,
+        "screen_y": 590,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2593099,
-          63.8230704
+          20.2499219,
+          63.8228908
         ]
       }
     },
@@ -93833,20 +94165,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 540,
-        "screen_y": 548,
+        "screen_x": 733,
+        "screen_y": 582,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2555221,
-          63.8232681
+          20.2594525,
+          63.8229626
         ]
       }
     },
@@ -93873,20 +94205,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 47,
-        "screen_y": 546,
+        "screen_x": 547,
+        "screen_y": 560,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2454824,
-          63.823286
+          20.2556647,
+          63.8231603
         ]
       }
     },
@@ -93913,20 +94245,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 153,
-        "screen_y": 494,
+        "screen_x": 54,
+        "screen_y": 558,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.247641,
-          63.8237531
+          20.2456249,
+          63.8231782
         ]
       }
     },
@@ -93953,20 +94285,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 668,
-        "screen_y": 481,
+        "screen_x": 160,
+        "screen_y": 506,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2581288,
-          63.8238699
+          20.2477836,
+          63.8236453
         ]
       }
     },
@@ -93993,20 +94325,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 1036,
-        "screen_y": 436,
+        "screen_x": 675,
+        "screen_y": 493,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.265623,
-          63.8242742
+          20.2582713,
+          63.8237621
         ]
       }
     },
@@ -94033,20 +94365,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 819,
-        "screen_y": 355,
+        "screen_x": 1039,
+        "screen_y": 448,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2612038,
-          63.8250018
+          20.2656841,
+          63.8241664
         ]
       }
     },
@@ -94073,20 +94405,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 836,
-        "screen_y": 183,
+        "screen_x": 826,
+        "screen_y": 367,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.26155,
-          63.8265469
+          20.2613464,
+          63.824894
         ]
       }
     },
@@ -94113,20 +94445,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 902,
-        "screen_y": 98,
+        "screen_x": 843,
+        "screen_y": 195,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2628941,
-          63.8273105
+          20.2616926,
+          63.8264391
         ]
       }
     },
@@ -94153,20 +94485,60 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 590,
-        "screen_y": 38,
+        "screen_x": 909,
+        "screen_y": 110,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2565404,
-          63.8278494
+          20.2630367,
+          63.8272027
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "umea-parkster-review-grid_r1_c0-m54",
+        "name": "Parkster marker (needs review)",
+        "operator": "unknown",
+        "municipality": "Umeå kommun",
+        "region": "Västerbotten",
+        "type": "app_marker_review",
+        "zone_code": null,
+        "price_per_hour": null,
+        "currency": "SEK",
+        "confidence": 0.25,
+        "flags": [
+          "parkster_marker_estimate",
+          "needs_review",
+          "not_verified"
+        ],
+        "payment_apps": [
+          "parkster"
+        ],
+        "source_app": "parkster",
+        "source_url": null,
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c0.png",
+        "capture_label": "grid_r1_c0",
+        "screen_x": 597,
+        "screen_y": 44,
+        "georef_method": "approximate_screen_grid_v1",
+        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2566829,
+          63.8277955
         ]
       }
     },
@@ -94193,20 +94565,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 38,
-        "screen_y": 1848,
+        "screen_x": 35,
+        "screen_y": 1852,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2602549,
-          63.81159
+          20.2601938,
+          63.8115541
         ]
       }
     },
@@ -94233,20 +94605,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 617,
-        "screen_y": 1814,
+        "screen_x": 612,
+        "screen_y": 1822,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.272046,
-          63.8118954
+          20.2719441,
+          63.8118236
         ]
       }
     },
@@ -94273,20 +94645,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 412,
-        "screen_y": 1786,
+        "screen_x": 407,
+        "screen_y": 1794,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2678712,
-          63.812147
+          20.2677694,
+          63.8120751
         ]
       }
     },
@@ -94313,20 +94685,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 795,
-        "screen_y": 1772,
+        "screen_x": 790,
+        "screen_y": 1780,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2756708,
-          63.8122727
+          20.275569,
+          63.8122009
         ]
       }
     },
@@ -94353,20 +94725,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 997,
-        "screen_y": 1723,
+        "screen_x": 992,
+        "screen_y": 1731,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2797845,
-          63.8127129
+          20.2796827,
+          63.812641
         ]
       }
     },
@@ -94393,20 +94765,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 117,
-        "screen_y": 1622,
+        "screen_x": 112,
+        "screen_y": 1629,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2618637,
-          63.8136202
+          20.2617618,
+          63.8135573
         ]
       }
     },
@@ -94433,20 +94805,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 694,
-        "screen_y": 1616,
+        "screen_x": 689,
+        "screen_y": 1623,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.273614,
-          63.8136741
+          20.2735122,
+          63.8136112
         ]
       }
     },
@@ -94473,20 +94845,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 1039,
-        "screen_y": 1591,
+        "screen_x": 1036,
+        "screen_y": 1599,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2806398,
-          63.8138987
+          20.2805787,
+          63.8138268
         ]
       }
     },
@@ -94513,20 +94885,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 503,
-        "screen_y": 1554,
+        "screen_x": 498,
+        "screen_y": 1562,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2697244,
-          63.814231
+          20.2696226,
+          63.8141592
         ]
       }
     },
@@ -94553,20 +94925,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 244,
-        "screen_y": 1546,
+        "screen_x": 239,
+        "screen_y": 1554,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.26445,
-          63.8143029
+          20.2643481,
+          63.814231
         ]
       }
     },
@@ -94593,20 +94965,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 58,
-        "screen_y": 1525,
+        "screen_x": 53,
+        "screen_y": 1533,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2606621,
-          63.8144916
+          20.2605603,
+          63.8144197
         ]
       }
     },
@@ -94633,20 +95005,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 185,
-        "screen_y": 1458,
+        "screen_x": 180,
+        "screen_y": 1465,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2632484,
-          63.8150934
+          20.2631466,
+          63.8150305
         ]
       }
     },
@@ -94673,20 +95045,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 989,
-        "screen_y": 1427,
+        "screen_x": 984,
+        "screen_y": 1435,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2796216,
-          63.8153719
+          20.2795198,
+          63.8153
         ]
       }
     },
@@ -94713,20 +95085,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 560,
-        "screen_y": 1412,
+        "screen_x": 555,
+        "screen_y": 1420,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2708852,
-          63.8155066
+          20.2707833,
+          63.8154348
         ]
       }
     },
@@ -94753,20 +95125,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 771,
-        "screen_y": 1403,
+        "screen_x": 766,
+        "screen_y": 1411,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2751821,
-          63.8155875
+          20.2750803,
+          63.8155156
         ]
       }
     },
@@ -94793,20 +95165,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 337,
-        "screen_y": 1332,
+        "screen_x": 332,
+        "screen_y": 1340,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2663439,
-          63.8162253
+          20.266242,
+          63.8161534
         ]
       }
     },
@@ -94833,20 +95205,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 895,
-        "screen_y": 1329,
+        "screen_x": 890,
+        "screen_y": 1337,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2777073,
-          63.8162522
+          20.2776055,
+          63.8161804
         ]
       }
     },
@@ -94873,20 +95245,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 730,
-        "screen_y": 1275,
+        "screen_x": 725,
+        "screen_y": 1283,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2743471,
-          63.8167373
+          20.2742453,
+          63.8166655
         ]
       }
     },
@@ -94913,20 +95285,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 649,
-        "screen_y": 1239,
+        "screen_x": 644,
+        "screen_y": 1247,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2726976,
-          63.8170607
+          20.2725958,
+          63.8169889
         ]
       }
     },
@@ -94953,20 +95325,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 844,
-        "screen_y": 1210,
+        "screen_x": 839,
+        "screen_y": 1218,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2766687,
-          63.8173212
+          20.2765669,
+          63.8172494
         ]
       }
     },
@@ -94993,20 +95365,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 953,
-        "screen_y": 1183,
+        "screen_x": 948,
+        "screen_y": 1191,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2788885,
-          63.8175638
+          20.2787866,
+          63.8174919
         ]
       }
     },
@@ -95033,20 +95405,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 354,
-        "screen_y": 1159,
+        "screen_x": 349,
+        "screen_y": 1167,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2666901,
-          63.8177794
+          20.2665882,
+          63.8177075
         ]
       }
     },
@@ -95073,20 +95445,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 419,
-        "screen_y": 1075,
+        "screen_x": 414,
+        "screen_y": 1082,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2680138,
-          63.818534
+          20.2679119,
+          63.8184711
         ]
       }
     },
@@ -95113,20 +95485,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 1013,
-        "screen_y": 1071,
+        "screen_x": 1008,
+        "screen_y": 1079,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2801103,
-          63.8185699
+          20.2800085,
+          63.818498
         ]
       }
     },
@@ -95153,20 +95525,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 864,
-        "screen_y": 1045,
+        "screen_x": 859,
+        "screen_y": 1053,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.277076,
-          63.8188034
+          20.2769742,
+          63.8187316
         ]
       }
     },
@@ -95193,20 +95565,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 108,
-        "screen_y": 996,
+        "screen_x": 103,
+        "screen_y": 1004,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2616804,
-          63.8192436
+          20.2615786,
+          63.8191718
         ]
       }
     },
@@ -95233,20 +95605,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 718,
-        "screen_y": 359,
+        "screen_x": 713,
+        "screen_y": 367,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2741028,
-          63.8249659
+          20.274001,
+          63.824894
         ]
       }
     },
@@ -95273,60 +95645,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260720T010054.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260720T010054\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 994,
-        "screen_y": 128,
+        "screen_x": 989,
+        "screen_y": 136,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.2797234,
-          63.827041
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "umea-parkster-review-grid_r1_c1-m29",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Umeå kommun",
-        "region": "Västerbotten",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\umea_parkster_marker_evidence_20260713T000145.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\umea_parkster_map_20260713T000145\\grid_r1_c1.png",
-        "capture_label": "grid_r1_c1",
-        "screen_x": 651,
-        "screen_y": 35,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.2727383,
-          63.8278764
+          20.2796216,
+          63.8269691
         ]
       }
     }

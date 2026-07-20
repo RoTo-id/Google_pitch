@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-07-17T16:59:03.241989+00:00",
+    "generated": "2026-07-20T04:27:08.379067+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Norrbotten",
     "city": "kiruna",
@@ -27,20 +27,20 @@
       "note_matched": 0,
       "access_yes_free": 0,
       "fee_confirmed_unknown": 1,
-      "genuinely_unknown": 111,
-      "before": 113,
-      "after": 113,
-      "total": 302,
-      "coverage_pct": 62.6,
-      "run_date": "2026-07-17"
+      "genuinely_unknown": 112,
+      "before": 114,
+      "after": 114,
+      "total": 303,
+      "coverage_pct": 62.4,
+      "run_date": "2026-07-20"
     },
     "parkster_review_markers": {
-      "source": "output\\phone_scans\\kiruna_parkster_marker_evidence_20260713T000404.json",
+      "source": "output\\phone_scans\\kiruna_parkster_marker_evidence_20260720T010910.json",
       "status": "needs_review",
       "removed_previous": 0,
       "added": 0,
       "meters_per_px": 1.0,
-      "updated_at": "2026-07-17T16:59:02.391256+00:00"
+      "updated_at": "2026-07-20T04:27:07.545121+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
@@ -48,15 +48,15 @@
       "markers_matched": 0,
       "markers_unmatched": 0,
       "features_matched": 0,
-      "updated_at": "2026-07-17T16:59:03.241971+00:00",
+      "updated_at": "2026-07-20T04:27:08.379052+00:00",
       "status": "needs_review"
     },
     "epark_nearby_merge": {
-      "scan": "kiruna_epark_nearby_20260713.json",
-      "zones": 0,
-      "matched": 0,
+      "scan": "kiruna_epark_nearby_20260720.json",
+      "zones": 3,
+      "matched": 1,
       "added_review_points": 0,
-      "unresolved": 0
+      "unresolved": 2
     }
   },
   "features": [
@@ -18365,7 +18365,9 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "epark_nearby_evidence",
+          "needs_review"
         ],
         "last_verified": null,
         "osm_id": 1423388461,
@@ -18374,7 +18376,14 @@
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "epark"
+        ],
+        "epark_zone_code": "61893",
+        "epark_name": "Aili Kangas Gata 3",
+        "epark_reported_operator": "Securitas Sverige AB",
+        "epark_distance_m": 93.2
       },
       "geometry": {
         "type": "Polygon",

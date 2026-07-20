@@ -2,14 +2,14 @@
   "type": "FeatureCollection",
   "metadata": {
     "version": "2.0.0",
-    "generated": "2026-07-17T16:59:05.946362+00:00",
+    "generated": "2026-07-20T04:27:10.789244+00:00",
     "source": "ParkMap Sverige — OSM Bootstrap",
     "region": "Jämtland",
     "city": "ostersund",
     "municipality": "Östersunds kommun",
     "scrape_type": "osm_bootstrap",
     "agent_run_id": "ostersund-osm-bootstrap",
-    "zone_count": 785,
+    "zone_count": 784,
     "bootstrap": {
       "osm_source": "output\\osm_parking_ostersund.geojson",
       "zones_imported": 689,
@@ -27,32 +27,32 @@
       "note_matched": 0,
       "access_yes_free": 0,
       "fee_confirmed_unknown": 11,
-      "genuinely_unknown": 483,
-      "before": 495,
-      "after": 495,
-      "total": 785,
-      "coverage_pct": 36.9,
-      "run_date": "2026-07-17"
+      "genuinely_unknown": 482,
+      "before": 494,
+      "after": 494,
+      "total": 784,
+      "coverage_pct": 37.0,
+      "run_date": "2026-07-20"
     },
     "parkster_review_markers": {
-      "source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
+      "source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
       "status": "needs_review",
-      "removed_previous": 96,
-      "added": 96,
+      "removed_previous": 95,
+      "added": 95,
       "meters_per_px": 1.0,
-      "updated_at": "2026-07-17T16:59:02.557305+00:00"
+      "updated_at": "2026-07-20T04:27:07.711601+00:00"
     },
     "parkster_review_match": {
       "radius_m": 120.0,
-      "markers_total": 96,
-      "markers_matched": 35,
-      "markers_unmatched": 61,
-      "features_matched": 29,
-      "updated_at": "2026-07-17T16:59:05.946354+00:00",
+      "markers_total": 95,
+      "markers_matched": 32,
+      "markers_unmatched": 63,
+      "features_matched": 27,
+      "updated_at": "2026-07-20T04:27:10.789237+00:00",
       "status": "needs_review"
     },
     "epark_nearby_merge": {
-      "scan": "ostersund_epark_nearby_20260713.json",
+      "scan": "ostersund_epark_nearby_20260720.json",
       "zones": 7,
       "matched": 2,
       "added_review_points": 0,
@@ -3705,7 +3705,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 87935292,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -3716,12 +3716,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m19",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 109.8
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c1-m18",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 105.8
           }
         ]
       },
@@ -3786,7 +3791,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 88419983,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -3797,12 +3802,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r1_c0-m35",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 47.4
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r1_c0-m35",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 41.5
           }
         ]
       },
@@ -4474,7 +4484,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 89060460,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -4485,12 +4495,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m6",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 106.1
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c1-m5",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 110.8
           }
         ]
       },
@@ -6521,7 +6536,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 91899386,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -6532,12 +6547,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m21",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 52.8
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c1-m20",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 51.4
           }
         ]
       },
@@ -6593,7 +6613,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 92065991,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -6604,12 +6624,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m2",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 56.0
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c1-m1",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 49.6
           }
         ]
       },
@@ -6725,7 +6750,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 92483660,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -6736,7 +6761,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 12,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c0-m1",
@@ -6747,6 +6772,16 @@
             "marker_id": "ostersund-parkster-review-grid_r1_c0-m37",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 17.3
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c0-m1",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 31.1
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r1_c0-m37",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 8.7
           }
         ]
       },
@@ -7629,7 +7664,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 93115206,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -7640,12 +7675,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r1_c1-m8",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 60.9
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r1_c1-m8",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 42.4
           }
         ]
       },
@@ -10018,7 +10058,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 108030631,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -10029,12 +10069,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c0-m7",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 114.3
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c0-m7",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 110.7
           }
         ]
       },
@@ -18622,7 +18667,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 125915862,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -18633,12 +18678,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r1_c0-m38",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 37.7
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r1_c0-m38",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 47.8
           }
         ]
       },
@@ -22472,7 +22522,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 194644131,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -22483,12 +22533,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m15",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 26.4
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c1-m14",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 28.7
           }
         ]
       },
@@ -23894,7 +23949,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 224068776,
         "osm_distance_m": null,
         "osm_access": "private",
@@ -23905,12 +23960,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r1_c0-m34",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 30.3
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r1_c0-m34",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 11.7
           }
         ]
       },
@@ -28361,7 +28421,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 249597507,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -28372,12 +28432,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r1_c1-m5",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 36.3
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r1_c1-m5",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 17.5
           }
         ]
       },
@@ -28527,16 +28592,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 249597509,
         "osm_distance_m": null,
         "osm_access": "unknown",
         "osm_fee": null,
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "ostersund-parkster-review-grid_r1_c1-m7",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 46.8
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -29103,7 +29181,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 254363158,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -29114,7 +29192,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 12,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r1_c0-m18",
@@ -29125,6 +29203,16 @@
             "marker_id": "ostersund-parkster-review-grid_r1_c1-m6",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 80.7
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r1_c0-m17",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 114.9
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r1_c1-m6",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 102.6
           }
         ]
       },
@@ -29770,7 +29858,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 328570435,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -29781,12 +29869,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m16",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 54.1
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c1-m15",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 60.7
           }
         ]
       },
@@ -29927,7 +30020,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 328577108,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -29938,12 +30031,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m14",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 31.5
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c1-m13",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 37.6
           }
         ]
       },
@@ -37822,7 +37920,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1249683620,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -37833,12 +37931,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c0-m16",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 55.5
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c0-m16",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 53.0
           }
         ]
       },
@@ -38874,7 +38977,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1288977156,
         "osm_distance_m": null,
         "osm_access": "customers",
@@ -38885,12 +38988,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r1_c1-m1",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 111.9
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r1_c1-m1",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 88.9
           }
         ]
       },
@@ -39611,7 +39719,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1330253926,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -39622,7 +39730,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 8,
+        "parkster_evidence_count": 12,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m9",
@@ -39633,6 +39741,16 @@
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m11",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 31.9
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c1-m8",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 56.6
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c1-m10",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 33.1
           }
         ]
       },
@@ -39869,7 +39987,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1330253936,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -39880,12 +39998,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m8",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 42.9
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c1-m7",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 37.6
           }
         ]
       },
@@ -40274,7 +40397,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1330253954,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -40285,12 +40408,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m5",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 59.6
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c1-m4",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 56.3
           }
         ]
       },
@@ -40763,7 +40891,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1330253991,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -40774,12 +40902,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m7",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 24.2
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c1-m6",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 31.4
           }
         ]
       },
@@ -41120,7 +41253,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1330254029,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -41131,12 +41264,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m12",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 41.1
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c1-m11",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 41.2
           }
         ]
       },
@@ -41648,7 +41786,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1393175604,
         "osm_distance_m": null,
         "osm_access": "customers",
@@ -41659,7 +41797,7 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 12,
+        "parkster_evidence_count": 16,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c0-m2",
@@ -41675,6 +41813,16 @@
             "marker_id": "ostersund-parkster-review-grid_r1_c0-m36",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 64.5
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c0-m2",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 43.3
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r1_c0-m36",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 62.8
           }
         ]
       },
@@ -42042,7 +42190,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1396515112,
         "osm_distance_m": null,
         "osm_access": "unknown",
@@ -42053,12 +42201,17 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 6,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m22",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 114.1
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c1-m21",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 117.1
           }
         ]
       },
@@ -46492,7 +46645,7 @@
           "parkster_nearby_evidence",
           "needs_review"
         ],
-        "last_verified": "2026-07-17",
+        "last_verified": "2026-07-20",
         "osm_id": 1512636077,
         "osm_distance_m": null,
         "osm_access": "yes",
@@ -46503,12 +46656,22 @@
         "payment_apps": [
           "parkster"
         ],
-        "parkster_evidence_count": 4,
+        "parkster_evidence_count": 8,
         "parkster_review_refs": [
           {
             "marker_id": "ostersund-parkster-review-grid_r0_c1-m4",
             "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
             "distance_m": 93.9
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c1-m2",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 58.3
+          },
+          {
+            "marker_id": "ostersund-parkster-review-grid_r0_c1-m3",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 88.8
           }
         ]
       },
@@ -46569,16 +46732,29 @@
         "flags": [
           "osm_bootstrap",
           "unknown_operator",
-          "genuinely_unknown"
+          "genuinely_unknown",
+          "parkster_nearby_evidence",
+          "needs_review"
         ],
-        "last_verified": null,
+        "last_verified": "2026-07-20",
         "osm_id": 1512718581,
         "osm_distance_m": null,
         "osm_access": "yes",
         "osm_fee": "Mo-Fr 09:00-18:00,Sa 09:00-15:00",
         "osm_parking": "surface",
         "osm_operator": null,
-        "osm_note": null
+        "osm_note": null,
+        "payment_apps": [
+          "parkster"
+        ],
+        "parkster_evidence_count": 2,
+        "parkster_review_refs": [
+          {
+            "marker_id": "ostersund-parkster-review-grid_r1_c0-m33",
+            "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+            "distance_m": 19.1
+          }
+        ]
       },
       "geometry": {
         "type": "Polygon",
@@ -48578,20 +48754,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1029,
-        "screen_y": 1845,
+        "screen_x": 1024,
+        "screen_y": 1842,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6384248,
-          63.1771779
+          14.6383252,
+          63.1772048
         ]
       }
     },
@@ -48618,20 +48794,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 813,
-        "screen_y": 1814,
+        "screen_x": 808,
+        "screen_y": 1809,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6341247,
-          63.1774563
+          14.6340251,
+          63.1775013
         ]
       }
     },
@@ -48658,20 +48834,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 427,
-        "screen_y": 1575,
+        "screen_x": 422,
+        "screen_y": 1570,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6264403,
-          63.1796033
+          14.6263407,
+          63.1796482
         ]
       }
     },
@@ -48698,20 +48874,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 303,
-        "screen_y": 1459,
+        "screen_x": 298,
+        "screen_y": 1454,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6239717,
-          63.1806453
+          14.6238722,
+          63.1806903
         ]
       }
     },
@@ -48738,20 +48914,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 432,
-        "screen_y": 1075,
+        "screen_x": 427,
+        "screen_y": 1070,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6265398,
-          63.1840949
+          14.6264403,
+          63.1841398
         ]
       }
     },
@@ -48778,20 +48954,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 488,
-        "screen_y": 808,
+        "screen_x": 483,
+        "screen_y": 803,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6276547,
-          63.1864934
+          14.6275551,
+          63.1865383
         ]
       }
     },
@@ -48818,20 +48994,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 60,
-        "screen_y": 684,
+        "screen_x": 55,
+        "screen_y": 679,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6191341,
-          63.1876073
+          14.6190346,
+          63.1876522
         ]
       }
     },
@@ -48858,20 +49034,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 260,
-        "screen_y": 668,
+        "screen_x": 255,
+        "screen_y": 663,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6231157,
-          63.187751
+          14.6230161,
+          63.1877959
         ]
       }
     },
@@ -48898,20 +49074,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 457,
-        "screen_y": 653,
+        "screen_x": 452,
+        "screen_y": 648,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6270375,
-          63.1878857
+          14.626938,
+          63.1879307
         ]
       }
     },
@@ -48938,20 +49114,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 530,
-        "screen_y": 649,
+        "screen_x": 525,
+        "screen_y": 644,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6284908,
-          63.1879217
+          14.6283912,
+          63.1879666
         ]
       }
     },
@@ -48978,20 +49154,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 675,
-        "screen_y": 638,
+        "screen_x": 670,
+        "screen_y": 633,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6313774,
-          63.1880205
+          14.6312779,
+          63.1880654
         ]
       }
     },
@@ -49018,20 +49194,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 109,
-        "screen_y": 621,
+        "screen_x": 104,
+        "screen_y": 616,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6201096,
-          63.1881732
+          14.6200101,
+          63.1882181
         ]
       }
     },
@@ -49058,20 +49234,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 147,
-        "screen_y": 513,
+        "screen_x": 142,
+        "screen_y": 508,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6208661,
-          63.1891434
+          14.6207666,
+          63.1891883
         ]
       }
     },
@@ -49098,20 +49274,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 351,
-        "screen_y": 501,
+        "screen_x": 346,
+        "screen_y": 496,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6249273,
-          63.1892512
+          14.6248277,
+          63.1892961
         ]
       }
     },
@@ -49138,20 +49314,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 770,
-        "screen_y": 468,
+        "screen_x": 765,
+        "screen_y": 463,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6332687,
-          63.1895476
+          14.6331691,
+          63.1895925
         ]
       }
     },
@@ -49178,20 +49354,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1045,
-        "screen_y": 448,
+        "screen_x": 1042,
+        "screen_y": 443,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6387433,
-          63.1897273
+          14.6386836,
+          63.1897722
         ]
       }
     },
@@ -49218,20 +49394,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 41,
-        "screen_y": 361,
+        "screen_x": 39,
+        "screen_y": 356,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6187559,
-          63.1905088
+          14.618716,
+          63.1905537
         ]
       }
     },
@@ -49258,20 +49434,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 233,
-        "screen_y": 344,
+        "screen_x": 228,
+        "screen_y": 339,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6225782,
-          63.1906615
+          14.6224786,
+          63.1907064
         ]
       }
     },
@@ -49298,20 +49474,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1037,
-        "screen_y": 289,
+        "screen_x": 1035,
+        "screen_y": 284,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.638584,
-          63.1911556
+          14.6385442,
+          63.1912005
         ]
       }
     },
@@ -49338,20 +49514,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 1064,
-        "screen_y": 260,
+        "screen_x": 1061,
+        "screen_y": 255,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6391215,
-          63.1914161
+          14.6390618,
+          63.191461
         ]
       }
     },
@@ -49378,20 +49554,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 531,
-        "screen_y": 159,
+        "screen_x": 526,
+        "screen_y": 154,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6285107,
-          63.1923234
+          14.6284111,
+          63.1923683
         ]
       }
     },
@@ -49418,20 +49594,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c0.png",
         "capture_label": "grid_r0_c0",
-        "screen_x": 212,
-        "screen_y": 86,
+        "screen_x": 207,
+        "screen_y": 81,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6221601,
-          63.1929792
+          14.6220606,
+          63.1930241
         ]
       }
     },
@@ -49458,20 +49634,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 24,
-        "screen_y": 1790,
+        "screen_x": 7,
+        "screen_y": 1642,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6330377,
-          63.1776719
+          14.6326993,
+          63.1790014
         ]
       }
     },
@@ -49498,20 +49674,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 8,
-        "screen_y": 1635,
+        "screen_x": 43,
+        "screen_y": 1639,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6327192,
-          63.1790643
+          14.633416,
+          63.1790284
         ]
       }
     },
@@ -49538,20 +49714,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 45,
-        "screen_y": 1632,
+        "screen_x": 185,
+        "screen_y": 1628,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6334558,
-          63.1790913
+          14.6362429,
+          63.1791272
         ]
       }
     },
@@ -49578,20 +49754,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 188,
-        "screen_y": 1621,
+        "screen_x": 704,
+        "screen_y": 1588,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6363026,
-          63.1791901
+          14.646575,
+          63.1794865
         ]
       }
     },
@@ -49618,20 +49794,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 707,
-        "screen_y": 1581,
+        "screen_x": 279,
+        "screen_y": 1457,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6466347,
-          63.1795494
+          14.6381142,
+          63.1806633
         ]
       }
     },
@@ -49658,20 +49834,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 282,
-        "screen_y": 1450,
+        "screen_x": 566,
+        "screen_y": 1437,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6381739,
-          63.1807262
+          14.6438277,
+          63.180843
         ]
       }
     },
@@ -49698,20 +49874,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 569,
-        "screen_y": 1430,
+        "screen_x": 687,
+        "screen_y": 1353,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6438875,
-          63.1809059
+          14.6462366,
+          63.1815976
         ]
       }
     },
@@ -49738,20 +49914,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 690,
-        "screen_y": 1346,
+        "screen_x": 552,
+        "screen_y": 1278,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6462963,
-          63.1816604
+          14.643549,
+          63.1822713
         ]
       }
     },
@@ -49778,20 +49954,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 555,
-        "screen_y": 1272,
+        "screen_x": 828,
+        "screen_y": 1255,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6436088,
-          63.1823252
+          14.6490436,
+          63.1824779
         ]
       }
     },
@@ -49818,11 +49994,11 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 831,
+        "screen_x": 605,
         "screen_y": 1249,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
@@ -49830,7 +50006,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6491033,
+          14.6446042,
           63.1825318
         ]
       }
@@ -49858,20 +50034,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 608,
-        "screen_y": 1242,
+        "screen_x": 676,
+        "screen_y": 1190,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6446639,
-          63.1825947
+          14.6460176,
+          63.1830618
         ]
       }
     },
@@ -49898,20 +50074,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 679,
-        "screen_y": 1183,
+        "screen_x": 44,
+        "screen_y": 1149,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6460773,
-          63.1831247
+          14.6334359,
+          63.1834301
         ]
       }
     },
@@ -49938,20 +50114,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 45,
-        "screen_y": 1142,
+        "screen_x": 613,
+        "screen_y": 1030,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6334558,
-          63.183493
+          14.6447634,
+          63.1844991
         ]
       }
     },
@@ -49978,20 +50154,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 616,
-        "screen_y": 1023,
+        "screen_x": 223,
+        "screen_y": 945,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6448231,
-          63.184562
+          14.6369994,
+          63.1852627
         ]
       }
     },
@@ -50018,20 +50194,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 226,
-        "screen_y": 938,
+        "screen_x": 657,
+        "screen_y": 924,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6370591,
-          63.1853255
+          14.6456394,
+          63.1854513
         ]
       }
     },
@@ -50058,20 +50234,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 660,
-        "screen_y": 917,
+        "screen_x": 115,
+        "screen_y": 858,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6456991,
-          63.1855142
+          14.6348493,
+          63.1860442
         ]
       }
     },
@@ -50098,20 +50274,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 117,
-        "screen_y": 851,
+        "screen_x": 517,
+        "screen_y": 823,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6348891,
-          63.1861071
+          14.6428523,
+          63.1863586
         ]
       }
     },
@@ -50138,20 +50314,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 520,
-        "screen_y": 816,
+        "screen_x": 210,
+        "screen_y": 758,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.642912,
-          63.1864215
+          14.6367406,
+          63.1869425
         ]
       }
     },
@@ -50178,20 +50354,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 213,
-        "screen_y": 751,
+        "screen_x": 552,
+        "screen_y": 707,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6368003,
-          63.1870054
+          14.643549,
+          63.1874006
         ]
       }
     },
@@ -50218,20 +50394,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 555,
-        "screen_y": 700,
+        "screen_x": 408,
+        "screen_y": 628,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6436088,
-          63.1874635
+          14.6406823,
+          63.1881103
         ]
       }
     },
@@ -50258,20 +50434,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 411,
-        "screen_y": 621,
+        "screen_x": 93,
+        "screen_y": 580,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.640742,
-          63.1881732
+          14.6344114,
+          63.1885415
         ]
       }
     },
@@ -50298,20 +50474,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 96,
-        "screen_y": 573,
+        "screen_x": 28,
+        "screen_y": 497,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6344711,
-          63.1886044
+          14.6331174,
+          63.1892871
         ]
       }
     },
@@ -50338,20 +50514,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 29,
-        "screen_y": 490,
+        "screen_x": 624,
+        "screen_y": 459,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6331373,
-          63.18935
+          14.6449824,
+          63.1896285
         ]
       }
     },
@@ -50378,20 +50554,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 627,
-        "screen_y": 452,
+        "screen_x": 193,
+        "screen_y": 376,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6450421,
-          63.1896913
+          14.6364021,
+          63.1903741
         ]
       }
     },
@@ -50418,20 +50594,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 196,
-        "screen_y": 369,
+        "screen_x": 606,
+        "screen_y": 243,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6364619,
-          63.1904369
+          14.6446241,
+          63.1915688
         ]
       }
     },
@@ -50458,60 +50634,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r0_c1.png",
         "capture_label": "grid_r0_c1",
-        "screen_x": 609,
-        "screen_y": 236,
+        "screen_x": 592,
+        "screen_y": 56,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6446838,
-          63.1916317
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "ostersund-parkster-review-grid_r0_c1-m27",
-        "name": "Parkster marker (needs review)",
-        "operator": "unknown",
-        "municipality": "Östersunds kommun",
-        "region": "Jämtland",
-        "type": "app_marker_review",
-        "zone_code": null,
-        "price_per_hour": null,
-        "currency": "SEK",
-        "confidence": 0.25,
-        "flags": [
-          "parkster_marker_estimate",
-          "needs_review",
-          "not_verified"
-        ],
-        "payment_apps": [
-          "parkster"
-        ],
-        "source_app": "parkster",
-        "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r0_c1.png",
-        "capture_label": "grid_r0_c1",
-        "screen_x": 595,
-        "screen_y": 52,
-        "georef_method": "approximate_screen_grid_v1",
-        "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.6444051,
-          63.1932846
+          14.6443453,
+          63.1932487
         ]
       }
     },
@@ -50538,20 +50674,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 40,
-        "screen_y": 1858,
+        "screen_x": 230,
+        "screen_y": 1859,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.618736,
-          63.1635002
+          14.6225184,
+          63.1634912
         ]
       }
     },
@@ -50578,20 +50714,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 231,
-        "screen_y": 1849,
+        "screen_x": 1036,
+        "screen_y": 1831,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6225383,
-          63.163581
+          14.6385641,
+          63.1637427
         ]
       }
     },
@@ -50618,20 +50754,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 1036,
-        "screen_y": 1822,
+        "screen_x": 1062,
+        "screen_y": 1812,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6385641,
-          63.1638236
+          14.6390817,
+          63.1639134
         ]
       }
     },
@@ -50658,20 +50794,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 1063,
-        "screen_y": 1793,
+        "screen_x": 528,
+        "screen_y": 1711,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6391016,
-          63.1640841
+          14.628451,
+          63.1648207
         ]
       }
     },
@@ -50698,20 +50834,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 529,
-        "screen_y": 1692,
+        "screen_x": 33,
+        "screen_y": 1664,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6284709,
-          63.1649914
+          14.6185966,
+          63.1652429
         ]
       }
     },
@@ -50738,20 +50874,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 33,
-        "screen_y": 1645,
+        "screen_x": 208,
+        "screen_y": 1638,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6185966,
-          63.1654136
+          14.6220805,
+          63.1654765
         ]
       }
     },
@@ -50778,20 +50914,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 209,
-        "screen_y": 1619,
+        "screen_x": 105,
+        "screen_y": 1551,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6221004,
-          63.1656471
+          14.62003,
+          63.166258
         ]
       }
     },
@@ -50818,20 +50954,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 106,
-        "screen_y": 1533,
+        "screen_x": 404,
+        "screen_y": 1532,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6200499,
-          63.1664197
+          14.6259824,
+          63.1664287
         ]
       }
     },
@@ -50858,20 +50994,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 405,
-        "screen_y": 1513,
+        "screen_x": 710,
+        "screen_y": 1508,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6260023,
-          63.1665994
+          14.6320742,
+          63.1666443
         ]
       }
     },
@@ -50898,20 +51034,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 711,
-        "screen_y": 1489,
+        "screen_x": 25,
+        "screen_y": 1465,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6320941,
-          63.1668149
+          14.6184373,
+          63.1670305
         ]
       }
     },
@@ -50938,20 +51074,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 25,
-        "screen_y": 1446,
+        "screen_x": 197,
+        "screen_y": 1449,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6184373,
-          63.1672012
+          14.6218615,
+          63.1671743
         ]
       }
     },
@@ -50978,20 +51114,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 198,
-        "screen_y": 1430,
+        "screen_x": 601,
+        "screen_y": 1420,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6218814,
-          63.167345
+          14.6299042,
+          63.1674348
         ]
       }
     },
@@ -51018,20 +51154,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 602,
-        "screen_y": 1402,
+        "screen_x": 1004,
+        "screen_y": 1386,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6299241,
-          63.1675965
+          14.6379271,
+          63.1677402
         ]
       }
     },
@@ -51058,20 +51194,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 1005,
-        "screen_y": 1367,
+        "screen_x": 122,
+        "screen_y": 1358,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.637947,
-          63.1679109
+          14.6203684,
+          63.1679917
         ]
       }
     },
@@ -51098,20 +51234,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 123,
-        "screen_y": 1339,
+        "screen_x": 697,
+        "screen_y": 1321,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6203883,
-          63.1681624
+          14.6318154,
+          63.1683241
         ]
       }
     },
@@ -51138,20 +51274,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 698,
-        "screen_y": 1302,
+        "screen_x": 17,
+        "screen_y": 1276,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6318353,
-          63.1684948
+          14.6182781,
+          63.1687284
         ]
       }
     },
@@ -51178,20 +51314,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 18,
-        "screen_y": 1257,
+        "screen_x": 1036,
+        "screen_y": 1270,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.618298,
-          63.168899
+          14.6385641,
+          63.1687822
         ]
       }
     },
@@ -51218,20 +51354,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 1036,
-        "screen_y": 1251,
+        "screen_x": 895,
+        "screen_y": 1190,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6385641,
-          63.1689529
+          14.6357571,
+          63.1695009
         ]
       }
     },
@@ -51258,20 +51394,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 896,
-        "screen_y": 1172,
+        "screen_x": 78,
+        "screen_y": 1169,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.635777,
-          63.1696626
+          14.6194925,
+          63.1696895
         ]
       }
     },
@@ -51298,20 +51434,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 79,
-        "screen_y": 1150,
+        "screen_x": 377,
+        "screen_y": 1152,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6195124,
-          63.1698602
+          14.6254449,
+          63.1698423
         ]
       }
     },
@@ -51338,20 +51474,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 378,
-        "screen_y": 1134,
+        "screen_x": 580,
+        "screen_y": 1142,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6254648,
-          63.170004
+          14.6294862,
+          63.1699321
         ]
       }
     },
@@ -51378,20 +51514,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 581,
-        "screen_y": 1123,
+        "screen_x": 11,
+        "screen_y": 1082,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6295061,
-          63.1701028
+          14.6181586,
+          63.1704711
         ]
       }
     },
@@ -51418,20 +51554,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 11,
-        "screen_y": 1063,
+        "screen_x": 496,
+        "screen_y": 1059,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6181586,
-          63.1706418
+          14.6278139,
+          63.1706777
         ]
       }
     },
@@ -51458,20 +51594,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 497,
-        "screen_y": 1040,
+        "screen_x": 39,
+        "screen_y": 980,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6278338,
-          63.1708484
+          14.618716,
+          63.1713874
         ]
       }
     },
@@ -51498,20 +51634,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 39,
-        "screen_y": 961,
+        "screen_x": 92,
+        "screen_y": 960,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.618716,
-          63.171558
+          14.6197712,
+          63.171567
         ]
       }
     },
@@ -51538,20 +51674,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 93,
-        "screen_y": 941,
+        "screen_x": 680,
+        "screen_y": 938,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6197911,
-          63.1717377
+          14.6314769,
+          63.1717646
         ]
       }
     },
@@ -51578,20 +51714,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 681,
-        "screen_y": 920,
+        "screen_x": 1,
+        "screen_y": 891,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6314969,
-          63.1719263
+          14.6179596,
+          63.1721868
         ]
       }
     },
@@ -51618,20 +51754,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 1,
-        "screen_y": 872,
+        "screen_x": 153,
+        "screen_y": 840,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6179596,
-          63.1723575
+          14.6209855,
+          63.172645
         ]
       }
     },
@@ -51658,20 +51794,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 154,
-        "screen_y": 821,
+        "screen_x": 50,
+        "screen_y": 783,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6210054,
-          63.1728157
+          14.618935,
+          63.173157
         ]
       }
     },
@@ -51698,20 +51834,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 51,
-        "screen_y": 764,
+        "screen_x": 217,
+        "screen_y": 766,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6189549,
-          63.1733277
+          14.6222596,
+          63.1733097
         ]
       }
     },
@@ -51738,20 +51874,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 218,
-        "screen_y": 747,
+        "screen_x": 548,
+        "screen_y": 754,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6222795,
-          63.1734804
+          14.6288491,
+          63.1734175
         ]
       }
     },
@@ -51778,20 +51914,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 549,
-        "screen_y": 735,
+        "screen_x": 144,
+        "screen_y": 700,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.628869,
-          63.1735882
+          14.6208064,
+          63.1739026
         ]
       }
     },
@@ -51818,20 +51954,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 145,
-        "screen_y": 681,
+        "screen_x": 1056,
+        "screen_y": 616,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6208263,
-          63.1740733
+          14.6389623,
+          63.1746572
         ]
       }
     },
@@ -51858,20 +51994,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 934,
-        "screen_y": 509,
+        "screen_x": 933,
+        "screen_y": 528,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6365335,
-          63.1756184
+          14.6365136,
+          63.1754477
         ]
       }
     },
@@ -51898,12 +52034,12 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
         "screen_x": 1049,
-        "screen_y": 407,
+        "screen_y": 426,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
@@ -51911,7 +52047,7 @@
         "type": "Point",
         "coordinates": [
           14.6388229,
-          63.1765347
+          63.176364
         ]
       }
     },
@@ -51938,20 +52074,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 899,
-        "screen_y": 321,
+        "screen_x": 898,
+        "screen_y": 340,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6358368,
-          63.1773072
+          14.6358168,
+          63.1771365
         ]
       }
     },
@@ -51978,20 +52114,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 988,
-        "screen_y": 305,
+        "screen_x": 987,
+        "screen_y": 324,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6376086,
-          63.177451
+          14.6375886,
+          63.1772803
         ]
       }
     },
@@ -52018,12 +52154,12 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
         "screen_x": 1042,
-        "screen_y": 210,
+        "screen_y": 229,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
@@ -52031,7 +52167,7 @@
         "type": "Point",
         "coordinates": [
           14.6386836,
-          63.1783043
+          63.1781337
         ]
       }
     },
@@ -52058,20 +52194,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c0.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c0.png",
         "capture_label": "grid_r1_c0",
-        "screen_x": 218,
-        "screen_y": 134,
+        "screen_x": 217,
+        "screen_y": 153,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6222795,
-          63.1789871
+          14.6222596,
+          63.1788164
         ]
       }
     },
@@ -52098,20 +52234,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 608,
-        "screen_y": 1774,
+        "screen_x": 603,
+        "screen_y": 1797,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6446639,
-          63.1642548
+          14.6445643,
+          63.1640481
         ]
       }
     },
@@ -52138,20 +52274,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 63,
-        "screen_y": 1723,
+        "screen_x": 58,
+        "screen_y": 1746,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6338141,
-          63.1647129
+          14.6337146,
+          63.1645063
         ]
       }
     },
@@ -52178,20 +52314,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 594,
-        "screen_y": 1585,
+        "screen_x": 589,
+        "screen_y": 1608,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6443852,
-          63.1659526
+          14.6442856,
+          63.165746
         ]
       }
     },
@@ -52218,20 +52354,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 447,
-        "screen_y": 1497,
+        "screen_x": 442,
+        "screen_y": 1520,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6414587,
-          63.1667431
+          14.6413592,
+          63.1665365
         ]
       }
     },
@@ -52258,20 +52394,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 580,
-        "screen_y": 1394,
+        "screen_x": 575,
+        "screen_y": 1417,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6441065,
-          63.1676683
+          14.6440069,
+          63.1674617
         ]
       }
     },
@@ -52298,20 +52434,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 413,
-        "screen_y": 1309,
+        "screen_x": 408,
+        "screen_y": 1331,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6407819,
-          63.1684319
+          14.6406823,
+          63.1682343
         ]
       }
     },
@@ -52338,20 +52474,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 502,
-        "screen_y": 1292,
+        "screen_x": 497,
+        "screen_y": 1315,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6425536,
-          63.1685846
+          14.6424541,
+          63.168378
         ]
       }
     },
@@ -52378,20 +52514,20 @@
         ],
         "source_app": "parkster",
         "source_url": null,
-        "last_verified": "2026-07-17",
-        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260713T001414.json",
-        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260713T001414\\grid_r1_c1.png",
+        "last_verified": "2026-07-20",
+        "evidence_source": "output\\phone_scans\\ostersund_parkster_marker_evidence_20260720T012754.json",
+        "screenshot_path": "output\\phone_scans\\screenshots\\ostersund_parkster_map_20260720T012754\\grid_r1_c1.png",
         "capture_label": "grid_r1_c1",
-        "screen_x": 566,
-        "screen_y": 1198,
+        "screen_x": 561,
+        "screen_y": 1220,
         "georef_method": "approximate_screen_grid_v1",
         "georef_note": "Approximate point from Parkster screenshot marker; must be reviewed before treating as confirmed parking zone."
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6438277,
-          63.169429
+          14.6437282,
+          63.1692314
         ]
       }
     }
