@@ -16,7 +16,13 @@ PM.state = {
   selected: null,
 };
 
-let map, geoLayer, bboxLayer, userMarker;
+let map, geoLayer, pinLayer, bboxLayer, userMarker;
+
+// Concept 2.0: round P-pins on top of the zone polygons, but only once
+// zoomed in far enough that pins don't just clutter a city-wide view —
+// no new dependency, plain Leaflet L.marker/L.divIcon, colored the same
+// as the polygon beneath it (usageColor).
+const PIN_ZOOM_THRESHOLD = 15;
 
 function initMap() {
   map = L.map('map', { zoomControl: false }).setView([65.583, 22.148], 13);
@@ -36,6 +42,7 @@ function initMap() {
       loadCity(detected).finally(() => { PM.state.autoSwitching = false; });
     }
   });
+  map.on('zoomend', renderPins);
   map.on('click', () => PM.ui.closeCard());
   window.map = map;
   return map;
@@ -120,7 +127,27 @@ function render() {
     },
   }).addTo(map);
 
+  renderPins();
   PM.ui.refreshSidebar();
+}
+
+function renderPins() {
+  if (pinLayer) { map.removeLayer(pinLayer); pinLayer = null; }
+  if (!geoLayer || map.getZoom() < PIN_ZOOM_THRESHOLD) return;
+  pinLayer = L.layerGroup();
+  geoLayer.eachLayer(layer => {
+    const p = layer.feature.properties;
+    const center = layer.getLatLng ? layer.getLatLng() : (layer.getBounds ? layer.getBounds().getCenter() : null);
+    if (!center) return;
+    const icon = L.divIcon({
+      className: '', iconSize: [26, 26], iconAnchor: [13, 13],
+      html: `<div class="pmap-pin" style="background:${PM.classify.usageColor(p)}">P</div>`,
+    });
+    const marker = L.marker(center, { icon });
+    marker.on('click', (e) => { L.DomEvent.stopPropagation(e); PM.ui.openCard(p); });
+    pinLayer.addLayer(marker);
+  });
+  pinLayer.addTo(map);
 }
 
 function styleForZone(feature) {

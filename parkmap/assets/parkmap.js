@@ -49,7 +49,7 @@ function onCityLoaded() {
 function renderMapLegend() {
   const el = document.getElementById('map-legend');
   el.innerHTML = Object.entries(PM.USAGE_LABELS).map(([key, label]) =>
-    `<div class="item"><span class="dot" style="background:${PM.USAGE_COLORS[key]}"></span>${label}</div>`).join('');
+    `<div class="item"><span class="dot" style="background:${PM.USAGE_COLORS[key]}">P</span>${label}</div>`).join('');
 }
 
 /* ---- City switcher (search-in-field pill + full modal) ---- */
