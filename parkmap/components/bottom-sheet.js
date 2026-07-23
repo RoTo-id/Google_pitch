@@ -29,14 +29,21 @@ function renderBottomSheet() {
 
   let bodyHtml;
   if (sheetMode === 'filters') {
+    const unverifiedCount = s.geoData.features.filter(f => PM.classify.isReviewMarker(f.properties)).length;
     bodyHtml = `<div class="sidebar-section-title">Filter</div>` +
       PM.FILTER_DEFS.map(def => {
         const active = s.activeFilters.has(def.key);
         return `<div class="filter-row">
           <label class="filter-row-label"><span class="filter-dot" style="background:${def.color}"></span><span>${def.label}</span></label>
-          <span class="switch"><input type="checkbox" data-mfilter="${def.key}" ${active ? 'checked' : ''}><span class="switch-track"></span></span>
+          <span class="filter-count">${s.geoData.features.filter(f => def.test(f.properties)).length}</span>
+          <label class="switch"><input type="checkbox" data-mfilter="${def.key}" ${active ? 'checked' : ''}><span class="switch-track"></span></label>
         </div>`;
       }).join('') +
+      (unverifiedCount ? `<div class="filter-row filter-row-unverified">
+          <label class="filter-row-label"><span class="filter-dot" style="background:${PM.USAGE_COLORS.unknown};border:1px dashed #475569"></span><span>Visa overifierade</span></label>
+          <span class="filter-count">${unverifiedCount}</span>
+          <label class="switch"><input type="checkbox" id="ms-show-unverified" ${s.showUnverified ? 'checked' : ''}><span class="switch-track"></span></label>
+        </div>` : '') +
       `<button class="btn btn-primary" style="width:100%;justify-content:center;margin-top:14px" data-show-list>Visa ${features.length} parkeringar</button>`;
   } else {
     bodyHtml = `<div class="sheet-list">` + features.slice(0, 40).map((p, i) => sheetItemHtml(p)).join('') + `</div>`;
@@ -56,6 +63,10 @@ function renderBottomSheet() {
       if (inp.checked) s.activeFilters.add(key); else s.activeFilters.delete(key);
       PM.map.render();
     });
+  });
+  document.getElementById('ms-show-unverified')?.addEventListener('change', (e) => {
+    s.showUnverified = e.target.checked;
+    PM.map.render();
   });
   sheet.querySelectorAll('[data-sheet-item]').forEach((el, i) => {
     el.addEventListener('click', () => PM.ui.openCard(features[i]));

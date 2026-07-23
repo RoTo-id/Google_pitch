@@ -24,13 +24,15 @@ function renderSidebar() {
   const oCounts = operatorCounts(allFeatures.filter(f => f.properties.operator !== 'unknown'));
 
   document.getElementById('sb-city-name').textContent = cfg.name;
-  document.getElementById('sb-city-line').textContent = `${cov.known} av ${cov.total} identifierade parkeringar`;
+  document.getElementById('sb-city-line').textContent = `${cov.known} av ${cov.total} identifierade parkeringar` +
+    (cov.unverified ? ` · ${cov.unverified} overifierade` : '');
   document.getElementById('sb-pct').textContent = cov.pct + '%';
   document.getElementById('sb-coverage-fill').style.width = cov.pct + '%';
   document.getElementById('sb-coverage-fill').style.background = PM.map.covColor(cov.pct);
   document.getElementById('sb-pct').style.color = PM.map.covColor(cov.pct);
 
   // Filter toggles
+  const unverifiedCount = allFeatures.filter(f => PM.classify.isReviewMarker(f.properties)).length;
   const filterList = document.getElementById('sb-filters');
   filterList.innerHTML = PM.FILTER_DEFS.map(def => {
     const active = s.activeFilters.has(def.key);
@@ -40,12 +42,22 @@ function renderSidebar() {
         <span>${def.label}</span>
       </label>
       <span class="filter-count">${fCounts[def.key]}</span>
-      <span class="switch">
+      <label class="switch">
         <input type="checkbox" data-filter="${def.key}" ${active ? 'checked' : ''}>
         <span class="switch-track"></span>
-      </span>
+      </label>
     </div>`;
-  }).join('');
+  }).join('') + (unverifiedCount ? `<div class="filter-row filter-row-unverified">
+      <label class="filter-row-label" style="cursor:pointer">
+        <span class="filter-dot" style="background:${PM.USAGE_COLORS.unknown};border:1px dashed #475569"></span>
+        <span>Visa overifierade</span>
+      </label>
+      <span class="filter-count">${unverifiedCount}</span>
+      <label class="switch">
+        <input type="checkbox" id="sb-show-unverified" ${s.showUnverified ? 'checked' : ''}>
+        <span class="switch-track"></span>
+      </label>
+    </div>` : '');
   filterList.querySelectorAll('[data-filter]').forEach(inp => {
     inp.addEventListener('change', () => {
       const key = inp.getAttribute('data-filter');
@@ -53,13 +65,17 @@ function renderSidebar() {
       PM.map.render();
     });
   });
+  document.getElementById('sb-show-unverified')?.addEventListener('change', (e) => {
+    s.showUnverified = e.target.checked;
+    PM.map.render();
+  });
 
   // Operators (secondary filter)
   const opsList = document.getElementById('sb-operators');
   const opEntries = Object.entries(oCounts).sort((a, b) => b[1] - a[1]);
   opsList.innerHTML = opEntries.map(([key, count]) => {
     const info = s.opsData[key] || { name: key, color: '#64748B' };
-    const checked = !s.operatorExclude || !s.operatorExclude.has(key);
+    const checked = !s.operatorExclude.has(key);
     return `<div class="op-row">
       <label>
         <input type="checkbox" data-op="${key}" ${checked ? 'checked' : ''}>
@@ -69,6 +85,13 @@ function renderSidebar() {
       <span class="op-count">${count}</span>
     </div>`;
   }).join('');
+  opsList.querySelectorAll('[data-op]').forEach(inp => {
+    inp.addEventListener('change', () => {
+      const key = inp.getAttribute('data-op');
+      if (inp.checked) s.operatorExclude.delete(key); else s.operatorExclude.add(key);
+      PM.map.render();
+    });
+  });
 
   // Sync quick-action button active states
   document.querySelector('.quickbtn[data-quick="free"]')?.classList.toggle('active', s.activeFilters.has('free'));
@@ -76,7 +99,7 @@ function renderSidebar() {
   document.querySelector('.quickbtn[data-quick="cheap"]')?.classList.toggle('active', s.quickMode === 'cheap');
 
   const resetLink = document.getElementById('sb-reset');
-  resetLink.style.display = s.activeFilters.size > 0 || s.searchTerm ? 'inline-block' : 'none';
+  resetLink.style.display = s.activeFilters.size > 0 || s.operatorExclude.size > 0 || s.showUnverified || s.searchTerm ? 'inline-block' : 'none';
 
   renderResultsList();
 }
@@ -142,6 +165,8 @@ function setQuickMode(mode) {
 
 function resetFilters() {
   PM.state.activeFilters.clear();
+  PM.state.operatorExclude.clear();
+  PM.state.showUnverified = false;
   PM.state.searchTerm = '';
   PM.state.quickMode = null;
   document.getElementById('search-input').value = '';
