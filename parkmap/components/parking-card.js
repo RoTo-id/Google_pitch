@@ -82,7 +82,7 @@ function buildCardHtml(p, opsData) {
     </div>` : '';
 
   return `
-    <div class="pc-name">${p.name || 'Parkering'}</div>
+    <div class="pc-name">${PM.classify.displayName(p, opsData)}</div>
     <div class="pc-operator"><span class="filter-dot" style="background:${opColor}"></span>${opName}</div>
     ${priceHtml}
     ${p.hours ? `<div class="pc-hours">${p.hours}</div>` : ''}

@@ -72,7 +72,7 @@ function sheetItemHtml(p) {
   return `<div class="sheet-item" data-sheet-item="1">
     <div class="sheet-item-pin" style="background:${color}">P</div>
     <div>
-      <div class="sheet-item-name">${p.name || 'Parkering'}</div>
+      <div class="sheet-item-name">${PM.classify.displayName(p, PM.state.opsData)}</div>
       <div class="sheet-item-meta">${priceStr} · ${opName}</div>
     </div>
   </div>`;

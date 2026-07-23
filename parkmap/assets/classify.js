@@ -26,6 +26,43 @@ function isTimeLimited(p) { return !!p.hours && p.hours !== '24/7'; }
 function isGarageType(p) { return p.type === 'garage' || p.type === 'underground'; }
 function isStreetType(p) { return p.type === 'street'; }
 
+/* Human-readable naming (Michael 2026-07-23: raw OSM IDs must never be a
+   heading). ~91% of features carry a placeholder `name` — either the literal
+   OSM-<id> bootstrap string or a generic review-marker label — because most
+   spots were imported from OSM before any real address/name was captured.
+   Priority: real name/address on file → else "Typ · Operatör/Område", built
+   only from fields that already exist in the GeoJSON (type, operator via
+   opsData, municipality/lulebo_district/region). Never the OSM ID itself —
+   that stays a small secondary fact (see parking-card.js `addFact('OSM', …)`). */
+const OSM_PLACEHOLDER_NAME_RE = /^OSM-\d+$/;
+const REVIEW_MARKER_NAME_RE = /marker \(needs review\)$/i;
+
+function isPlaceholderName(name) {
+  return !name || OSM_PLACEHOLDER_NAME_RE.test(name) || REVIEW_MARKER_NAME_RE.test(name);
+}
+
+const TYPE_AREA_LABELS = {
+  garage: 'P-hus',
+  underground: 'P-hus (underjordiskt)',
+  street: 'Gatuparkering',
+  outdoor: 'Parkering',
+  lot: 'Parkeringsplats',
+  app_marker_review: 'Ej verifierad parkering',
+};
+
+function areaLabel(p, opsData) {
+  const knownOperator = p.operator && p.operator !== 'unknown' ? (opsData && opsData[p.operator]) : null;
+  if (knownOperator?.name) return knownOperator.name;
+  return p.lulebo_district || p.municipality || p.region || '';
+}
+
+function displayName(p, opsData) {
+  if (!isPlaceholderName(p.name)) return p.name;
+  const typeLbl = TYPE_AREA_LABELS[p.type] || 'Parkering';
+  const area = areaLabel(p, opsData);
+  return area ? `${typeLbl} · ${area}` : typeLbl;
+}
+
 /* Usage category → drives map marker/polygon color (spec: user-benefit colors) */
 function usageCategory(p) {
   if (isCharging(p)) return 'charging';
@@ -92,4 +129,5 @@ PM.classify = {
   usageCategory, usageColor, isOpenNow,
   priceIsFree, priceIsPaid, isCharging, isResident, isAccessible, isTimeLimited,
   isGarageType, isStreetType,
+  isPlaceholderName, displayName,
 };
