@@ -53,11 +53,20 @@ PM.DEFAULT_OPS = {
   unknown:         { name: 'Okänd',            color: '#94A3B8', payment_apps: [] },
 };
 
+/* URLs fixed 2026-07-23 (Michael bug report): the original ecf80ae (2026-06-13)
+   links already had no real per-zone deep-link param for any operator — the
+   zone code was only ever shown as a separate copyable chip next to the
+   button, never injected into the URL (verified via git history + no operator
+   publishes a documented zone-in-URL param). What actually broke since then:
+   3 of 5 operator domains/paths rotted (Aimo's /sv/hitta-parkering/ path and
+   Parkster's /sv-se path both now 404; apcoaflow.se domain is retired in
+   favor of apcoa.se) — those, not a redesign regression, were the "felsida".
+   Re-verified live (curl -L) 2026-07-23: all 5 now return 200. */
 PM.PAY_APPS = {
   'EasyPark':   { url: 'https://easypark.net/?utm_source=parkmap&ref=parkmap', color: '#E6007E' },
-  'Aimo':       { url: 'https://aimopark.se/sv/hitta-parkering/?utm_source=parkmap&ref=parkmap', color: '#DB2777' },
-  'APCOA Flow': { url: 'https://www.apcoaflow.se/?utm_source=parkmap&ref=parkmap', color: '#7C3AED' },
-  'Parkster':   { url: 'https://parkster.com/sv-se?utm_source=parkmap&ref=parkmap', color: '#1D4ED8' },
+  'Aimo':       { url: 'https://www.aimopark.se/?utm_source=parkmap&ref=parkmap', color: '#DB2777' },
+  'APCOA Flow': { url: 'https://betala.apcoa.se/?utm_source=parkmap&ref=parkmap', color: '#7C3AED' },
+  'Parkster':   { url: 'https://www.parkster.com/?utm_source=parkmap&ref=parkmap', color: '#1D4ED8' },
   'Mobill':     { url: 'https://mobill.se/?utm_source=parkmap&ref=parkmap', color: '#0EA5E9' },
 };
 
