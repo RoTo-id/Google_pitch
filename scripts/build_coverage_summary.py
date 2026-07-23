@@ -21,10 +21,15 @@ def count_city(geojson_path: Path) -> dict:
     with geojson_path.open(encoding="utf-8") as f:
         data = json.load(f)
     features = data.get("features", [])
-    total = len(features)
-    known = sum(1 for f in features if (f.get("properties") or {}).get("operator") != "unknown")
+    # app_marker_review = ovaliderade Parkster-marker-estimat (needs_review /
+    # not_verified) — inte bekräftade parkeringar. Exkluderas ur "total"/"known"
+    # (huvudsiffran) och räknas separat i "unverified" (Michael 2026-07-23).
+    verified = [f for f in features if (f.get("properties") or {}).get("type") != "app_marker_review"]
+    total = len(verified)
+    known = sum(1 for f in verified if (f.get("properties") or {}).get("operator") != "unknown")
+    unverified = len(features) - total
     pct = round((known / total * 100), 1) if total else 0.0
-    return {"total": total, "known": known, "pct": pct}
+    return {"total": total, "known": known, "unverified": unverified, "pct": pct}
 
 
 def main():
@@ -38,6 +43,7 @@ def main():
 
     total_zones = sum(c["total"] for c in cities.values())
     total_known = sum(c["known"] for c in cities.values())
+    total_unverified = sum(c["unverified"] for c in cities.values())
     summary = {
         "generated_at": datetime.datetime.now(datetime.UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "cities": cities,
@@ -45,6 +51,7 @@ def main():
             "city_count": len(cities),
             "zone_total": total_zones,
             "zone_known": total_known,
+            "zone_unverified": total_unverified,
             "pct": round((total_known / total_zones * 100), 1) if total_zones else 0.0,
         },
     }

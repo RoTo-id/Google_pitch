@@ -23,11 +23,12 @@
 <div class="mkt-section">
   <h2>Datatäckning per kommun</h2>
   <p>Siffrorna nedan räknas alltid direkt från de faktiska parkeringsdatasetten (GeoJSON) — aldrig hårdkodade. Täckning = andel parkeringar där vi känner till operatör (inte "okänd"). Datan växer vecka för vecka i takt med att fler zoner klassificeras.</p>
+  <p style="font-size:12.5px;color:var(--muted)">"Overifierade" = Parkster-marker-estimat (ungefärlig position, ej granskad) — ingår inte i Totalt/Kända, visas inte på kartan som standard.</p>
   <p id="cov-updated" style="font-size:12.5px;color:var(--muted)"></p>
   <div style="overflow-x:auto">
     <table class="coverage-table">
-      <thead><tr><th>Stad</th><th>Region</th><th>Täckning</th><th>Kända</th><th>Totalt</th></tr></thead>
-      <tbody id="cov-body"><tr><td colspan="5">Laddar…</td></tr></tbody>
+      <thead><tr><th>Stad</th><th>Region</th><th>Täckning</th><th>Kända</th><th>Totalt</th><th>Overifierade</th></tr></thead>
+      <tbody id="cov-body"><tr><td colspan="6">Laddar…</td></tr></tbody>
     </table>
   </div>
 </div>
@@ -58,9 +59,10 @@ fetch('assets/data/coverage_summary.json').then(r => r.json()).then(d => {
       <td><div style="display:flex;align-items:center;gap:8px"><div class="bar-bg"><div class="bar-fill" style="width:${c.pct}%;background:${color}"></div></div><span class="mono" style="color:${color};font-weight:700">${c.pct}%</span></div></td>
       <td>${c.known}</td>
       <td>${c.total}</td>
+      <td style="color:var(--muted)">${c.unverified || 0}</td>
     </tr>`;
   }).join('');
-}).catch(() => { document.getElementById('cov-body').innerHTML = '<tr><td colspan="5">Kunde inte ladda täckningsdata.</td></tr>'; });
+}).catch(() => { document.getElementById('cov-body').innerHTML = '<tr><td colspan="6">Kunde inte ladda täckningsdata.</td></tr>'; });
 </script>
 </body>
 </html>

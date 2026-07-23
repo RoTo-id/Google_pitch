@@ -25,6 +25,11 @@ function isAccessible(p) { return RE_ACCESSIBLE.test(textBlob(p)); }
 function isTimeLimited(p) { return !!p.hours && p.hours !== '24/7'; }
 function isGarageType(p) { return p.type === 'garage' || p.type === 'underground'; }
 function isStreetType(p) { return p.type === 'street'; }
+/* app_marker_review = ovaliderad positionsgissning (Parkster marker estimate /
+   needs_review / not_verified) — INTE en bekräftad parkering. Michael 2026-07-23:
+   dessa fick inte ligga i vattnet som vanliga "Okänd"-parkeringar. De döljs som
+   default och räknas inte i huvudsiffran; opt-in "Visa overifierade". */
+function isReviewMarker(p) { return p.type === 'app_marker_review'; }
 
 /* Human-readable naming (Michael 2026-07-23: raw OSM IDs must never be a
    heading). ~91% of features carry a placeholder `name` — either the literal
@@ -128,6 +133,6 @@ PM.FILTER_DEFS = [
 PM.classify = {
   usageCategory, usageColor, isOpenNow,
   priceIsFree, priceIsPaid, isCharging, isResident, isAccessible, isTimeLimited,
-  isGarageType, isStreetType,
+  isGarageType, isStreetType, isReviewMarker,
   isPlaceholderName, displayName,
 };

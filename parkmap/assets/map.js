@@ -7,6 +7,8 @@ PM.state = {
   opsData: null,
   coverageSummary: null, // assets/data/coverage_summary.json (generated from real GeoJSON)
   activeFilters: new Set(),
+  operatorExclude: new Set(),
+  showUnverified: false, // opt-in: app_marker_review estimates hidden by default
   searchTerm: '',
   followMap: true,
   autoSwitching: false,
@@ -84,6 +86,10 @@ function visibleFeatures() {
   if (!PM.state.geoData) return [];
   return PM.state.geoData.features.filter(f => {
     const p = f.properties;
+    // Ovaliderade Parkster-marker-estimat är INTE bekräftade parkeringar —
+    // dolda som default, opt-in via PM.state.showUnverified.
+    if (PM.classify.isReviewMarker(p) && !PM.state.showUnverified) return false;
+    if (PM.state.operatorExclude.has(p.operator)) return false;
     // Unknown-operator zones stay visible (spec: grey = "Okänd" is a map color
     // category, not a hidden state) but never match a specific filter chip.
     if (PM.state.activeFilters.size > 0 && p.operator === 'unknown') return false;
@@ -98,8 +104,14 @@ function render() {
   geoLayer = L.geoJSON({ type: 'FeatureCollection', features }, {
     style: styleForZone,
     pointToLayer: (f, latlng) => {
-      const color = PM.classify.usageColor(f.properties);
-      return L.circleMarker(latlng, { radius: 7, color, fillColor: color, fillOpacity: 0.6, weight: 2.5 });
+      const p = f.properties;
+      const color = PM.classify.usageColor(p);
+      const review = PM.classify.isReviewMarker(p);
+      return L.circleMarker(latlng, {
+        radius: 7, color, fillColor: color,
+        fillOpacity: review ? 0.25 : 0.6, weight: review ? 1.5 : 2.5,
+        opacity: review ? 0.6 : 1, dashArray: review ? '3,3' : null,
+      });
     },
     onEachFeature: (f, layer) => {
       layer.on('click', (e) => { L.DomEvent.stopPropagation(e); PM.ui.openCard(f.properties); });
@@ -114,6 +126,10 @@ function render() {
 function styleForZone(feature) {
   const p = feature.properties;
   const color = PM.classify.usageColor(p);
+  const review = PM.classify.isReviewMarker(p);
+  // Overifierade Parkster-marker-estimat: streckad kontur + halvtransparent
+  // (spec: aldrig samma visuella vikt som en bekräftad parkering).
+  if (review) return { fillColor: color, fillOpacity: 0.18, color, weight: 1.5, opacity: 0.55, dashArray: '4,4' };
   return { fillColor: color, fillOpacity: 0.42, color, weight: 2.5, opacity: 0.9 };
 }
 
@@ -162,13 +178,18 @@ function covColor(pct) {
    real-time) when it IS that city; otherwise fall back to the generated summary file. */
 function cityCoverage(key) {
   if (key === PM.state.city && PM.state.geoData) {
-    const total = PM.state.geoData.features.length;
-    const known = PM.state.geoData.features.filter(f => f.properties.operator !== 'unknown').length;
-    return { total, known, pct: total ? +(known / total * 100).toFixed(1) : 0 };
+    // Ovaliderade app_marker_review-estimat räknas inte in i "identifierade
+    // parkeringar" — de hör hemma i sitt eget unverified-antal, inte i totalen.
+    const all = PM.state.geoData.features;
+    const verified = all.filter(f => !PM.classify.isReviewMarker(f.properties));
+    const total = verified.length;
+    const known = verified.filter(f => f.properties.operator !== 'unknown').length;
+    const unverified = all.length - total;
+    return { total, known, pct: total ? +(known / total * 100).toFixed(1) : 0, unverified };
   }
   const s = PM.state.coverageSummary && PM.state.coverageSummary.cities && PM.state.coverageSummary.cities[key];
   if (s) return s;
-  return { total: 0, known: 0, pct: 0 };
+  return { total: 0, known: 0, pct: 0, unverified: 0 };
 }
 
 function locateMe(onDone) {

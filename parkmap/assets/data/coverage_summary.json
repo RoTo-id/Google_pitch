@@ -1,107 +1,124 @@
 {
-  "generated_at": "2026-07-23T15:43:25Z",
+  "generated_at": "2026-07-23T18:28:11Z",
   "cities": {
     "ostersund": {
       "region": "jamtland",
-      "total": 784,
+      "total": 689,
       "known": 290,
-      "pct": 37.0
+      "unverified": 95,
+      "pct": 42.1
     },
     "alvsbyn": {
       "region": "norrbotten",
       "total": 29,
       "known": 11,
+      "unverified": 0,
       "pct": 37.9
     },
     "boden": {
       "region": "norrbotten",
       "total": 153,
       "known": 128,
+      "unverified": 0,
       "pct": 83.7
     },
     "gallivare": {
       "region": "norrbotten",
-      "total": 256,
+      "total": 255,
       "known": 186,
-      "pct": 72.7
+      "unverified": 1,
+      "pct": 72.9
     },
     "haparanda": {
       "region": "norrbotten",
       "total": 56,
       "known": 21,
+      "unverified": 0,
       "pct": 37.5
     },
     "kalix": {
       "region": "norrbotten",
-      "total": 352,
+      "total": 350,
       "known": 203,
-      "pct": 57.7
+      "unverified": 2,
+      "pct": 58.0
     },
     "kiruna": {
       "region": "norrbotten",
       "total": 302,
       "known": 189,
+      "unverified": 0,
       "pct": 62.6
     },
     "lulea": {
       "region": "norrbotten",
-      "total": 693,
+      "total": 665,
       "known": 656,
-      "pct": 94.7
+      "unverified": 28,
+      "pct": 98.6
     },
     "pitea": {
       "region": "norrbotten",
-      "total": 226,
+      "total": 209,
       "known": 101,
-      "pct": 44.7
+      "unverified": 17,
+      "pct": 48.3
     },
     "lycksele": {
       "region": "vasterbotten",
-      "total": 63,
+      "total": 53,
       "known": 18,
-      "pct": 28.6
+      "unverified": 10,
+      "pct": 34.0
     },
     "skelleftea": {
       "region": "vasterbotten",
-      "total": 476,
+      "total": 406,
       "known": 339,
-      "pct": 71.2
+      "unverified": 70,
+      "pct": 83.5
     },
     "umea": {
       "region": "vasterbotten",
-      "total": 1398,
+      "total": 1265,
       "known": 558,
-      "pct": 39.9
+      "unverified": 133,
+      "pct": 44.1
     },
     "harnosand": {
       "region": "vasternorrland",
       "total": 240,
       "known": 145,
+      "unverified": 0,
       "pct": 60.4
     },
     "kramfors": {
       "region": "vasternorrland",
-      "total": 180,
+      "total": 175,
       "known": 119,
-      "pct": 66.1
+      "unverified": 5,
+      "pct": 68.0
     },
     "ornskoldsvik": {
       "region": "vasternorrland",
-      "total": 211,
+      "total": 207,
       "known": 93,
-      "pct": 44.1
+      "unverified": 4,
+      "pct": 44.9
     },
     "sundsvall": {
       "region": "vasternorrland",
-      "total": 1477,
+      "total": 1376,
       "known": 447,
-      "pct": 30.3
+      "unverified": 101,
+      "pct": 32.5
     }
   },
   "totals": {
     "city_count": 16,
-    "zone_total": 6896,
+    "zone_total": 6430,
     "zone_known": 3504,
-    "pct": 50.8
+    "zone_unverified": 466,
+    "pct": 54.5
   }
 }
