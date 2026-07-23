@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-07-23T15:43:25Z",
+  "cities": {
+    "ostersund": {
+      "region": "jamtland",
+      "total": 784,
+      "known": 290,
+      "pct": 37.0
+    },
+    "alvsbyn": {
+      "region": "norrbotten",
+      "total": 29,
+      "known": 11,
+      "pct": 37.9
+    },
+    "boden": {
+      "region": "norrbotten",
+      "total": 153,
+      "known": 128,
+      "pct": 83.7
+    },
+    "gallivare": {
+      "region": "norrbotten",
+      "total": 256,
+      "known": 186,
+      "pct": 72.7
+    },
+    "haparanda": {
+      "region": "norrbotten",
+      "total": 56,
+      "known": 21,
+      "pct": 37.5
+    },
+    "kalix": {
+      "region": "norrbotten",
+      "total": 352,
+      "known": 203,
+      "pct": 57.7
+    },
+    "kiruna": {
+      "region": "norrbotten",
+      "total": 302,
+      "known": 189,
+      "pct": 62.6
+    },
+    "lulea": {
+      "region": "norrbotten",
+      "total": 693,
+      "known": 656,
+      "pct": 94.7
+    },
+    "pitea": {
+      "region": "norrbotten",
+      "total": 226,
+      "known": 101,
+      "pct": 44.7
+    },
+    "lycksele": {
+      "region": "vasterbotten",
+      "total": 63,
+      "known": 18,
+      "pct": 28.6
+    },
+    "skelleftea": {
+      "region": "vasterbotten",
+      "total": 476,
+      "known": 339,
+      "pct": 71.2
+    },
+    "umea": {
+      "region": "vasterbotten",
+      "total": 1398,
+      "known": 558,
+      "pct": 39.9
+    },
+    "harnosand": {
+      "region": "vasternorrland",
+      "total": 240,
+      "known": 145,
+      "pct": 60.4
+    },
+    "kramfors": {
+      "region": "vasternorrland",
+      "total": 180,
+      "known": 119,
+      "pct": 66.1
+    },
+    "ornskoldsvik": {
+      "region": "vasternorrland",
+      "total": 211,
+      "known": 93,
+      "pct": 44.1
+    },
+    "sundsvall": {
+      "region": "vasternorrland",
+      "total": 1477,
+      "known": 447,
+      "pct": 30.3
+    }
+  },
+  "totals": {
+    "city_count": 16,
+    "zone_total": 6896,
+    "zone_known": 3504,
+    "pct": 50.8
+  }
+}

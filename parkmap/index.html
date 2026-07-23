@@ -2,984 +2,177 @@
 <html lang="sv">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#4a9eff">
+<meta name="theme-color" content="#2563EB">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="apple-touch-icon" href="icon-192.png">
-<title>ParkMap Sverige</title>
+<title>ParkMap Sverige — Hitta parkering</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-:root{
-  --bg:#0c0e14;--panel:#14161e;--border:#252838;
-  --text:#e4e6ee;--text2:#9196ab;--muted:#565b72;
-  --accent:#4a9eff;--green:#34d399;
-}
-body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);overflow:hidden;height:100vh}
-a{color:var(--accent);text-decoration:none}
-a:hover{text-decoration:underline}
-
-/* Header */
-.header{position:fixed;top:0;left:0;right:0;height:56px;background:var(--panel);border-bottom:1px solid var(--border);display:flex;align-items:center;padding:0 16px;z-index:1000;gap:12px}
-.logo{display:flex;align-items:center;gap:10px;flex-shrink:0}
-.logo-icon{width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,#4a9eff,#6366f1);display:flex;align-items:center;justify-content:center;font-family:'Space Mono',monospace;font-weight:700;font-size:16px;color:#fff}
-.logo-text{font-weight:700;font-size:15px;letter-spacing:.5px}
-.logo-text span{color:var(--text2);font-weight:400;font-size:12px;margin-left:6px}
-.pilot-badge{background:#6366f1;color:#fff;font-size:10px;font-weight:700;padding:2px 6px;border-radius:4px;letter-spacing:.5px;flex-shrink:0}
-
-.search-box{flex:1;max-width:280px;position:relative}
-.search-box input{width:100%;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:8px 12px;color:var(--text);font-family:inherit;font-size:13px;outline:none}
-.search-box input:focus{border-color:var(--accent)}
-.search-box input::placeholder{color:var(--muted)}
-
-.osm-toggle{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text2);cursor:pointer;flex-shrink:0;white-space:nowrap;user-select:none}
-.osm-toggle input{accent-color:var(--accent);width:14px;height:14px;cursor:pointer}
-.osm-toggle span{line-height:1}
-
-.stats{display:flex;gap:14px;margin-left:auto;flex-shrink:0}
-.stat{text-align:center}
-.stat-val{font-family:'Space Mono',monospace;font-size:14px;font-weight:700;color:var(--accent)}
-.stat-label{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
-
-.back-link{font-size:12px;color:var(--text2);flex-shrink:0;white-space:nowrap}
-
-/* City selector */
-.city-select-wrap{flex-shrink:0}
-.city-select{background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:6px 10px;color:var(--text);font-family:inherit;font-size:13px;outline:none;cursor:pointer;appearance:none;-webkit-appearance:none;padding-right:24px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%239196ab'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 8px center}
-.city-select:hover,.city-select:focus{border-color:var(--accent)}
-
-/* Map */
-#map{position:fixed;top:56px;left:0;right:0;bottom:0}
-.leaflet-control-zoom{border:1px solid var(--border) !important}
-.leaflet-control-zoom a{background:var(--panel) !important;color:var(--text) !important;border-color:var(--border) !important}
-.leaflet-control-zoom a:hover{background:var(--bg) !important}
-.leaflet-control-attribution{background:rgba(12,14,20,.8) !important;color:var(--muted) !important;font-size:10px !important}
-.leaflet-control-attribution a{color:var(--text2) !important}
-.leaflet-control-layers{background:var(--panel) !important;border:1px solid var(--border) !important;border-radius:8px !important;color:var(--text) !important}
-.leaflet-control-layers-toggle{width:32px !important;height:32px !important}
-.leaflet-control-layers label{color:var(--text) !important}
-
-/* Legend */
-.legend{position:fixed;bottom:24px;left:16px;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px;z-index:1000;min-width:200px;max-width:240px;max-height:calc(100vh - 100px);overflow-y:auto}
-.legend-title{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px;font-weight:600}
-.legend-item{display:flex;align-items:center;gap:8px;padding:4px 0;cursor:pointer;font-size:13px;transition:opacity .2s}
-.legend-item.dimmed{opacity:.3}
-.legend-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
-.legend-name{flex:1;color:var(--text)}
-.legend-count{font-family:'Space Mono',monospace;font-size:11px;color:var(--muted)}
-.legend-section{margin-top:12px;padding-top:10px;border-top:1px solid var(--border)}
-.legend-section-title{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;font-weight:600}
-.quality-stat{display:flex;justify-content:space-between;font-size:12px;padding:2px 0;color:var(--text2)}
-.quality-stat span:last-child{font-family:'Space Mono',monospace;color:var(--text)}
-
-/* Coverage bar */
-.coverage-bar{margin-bottom:12px;padding-bottom:12px;border-bottom:1px solid var(--border)}
-
-/* Filter pills */
-.filter-pills{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:10px}
-.filter-pill{font-size:11px;padding:3px 8px;border-radius:12px;border:1px solid var(--border);cursor:pointer;transition:all .15s;background:var(--bg);color:var(--text2);white-space:nowrap}
-.filter-pill:hover{border-color:var(--accent)}
-
-/* Unknown section */
-.unknown-section{margin-top:10px;padding-top:10px;border-top:1px solid var(--border)}
-.unknown-section-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
-.unknown-section-title{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;font-weight:600}
-.unknown-count{font-family:'Space Mono',monospace;font-size:11px;color:#f97316}
-.visa-okanda-btn{font-size:11px;padding:3px 10px;border-radius:6px;border:1px solid #f97316;cursor:pointer;transition:all .15s;background:transparent;color:#f97316;font-family:inherit;white-space:nowrap}
-.visa-okanda-btn.active{background:#f97316;color:#fff}
-.visa-okanda-btn:hover{background:#f9731630}
-
-/* Detail panel */
-.detail-panel{position:fixed;bottom:0;right:16px;width:360px;max-height:calc(100vh - 80px);background:var(--panel);border:1px solid var(--border);border-bottom:none;border-radius:12px 12px 0 0;z-index:1000;transform:translateY(100%);opacity:0;transition:transform .3s ease,opacity .3s ease;overflow-y:auto}
-.detail-panel.open{transform:translateY(0);opacity:1}
-.detail-header{padding:16px;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--panel);display:flex;justify-content:space-between;align-items:flex-start}
-.detail-title{font-size:16px;font-weight:700}
-.detail-operator{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--text2);margin-top:4px}
-.detail-close{background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer;padding:4px 8px;line-height:1}
-.detail-close:hover{color:var(--text)}
-.detail-body{padding:16px}
-.detail-row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--border);font-size:13px}
-.detail-row:last-child{border-bottom:none}
-.detail-label{color:var(--muted)}
-.detail-value{color:var(--text);text-align:right;max-width:60%}
-.detail-tags{display:flex;flex-wrap:wrap;gap:4px;justify-content:flex-end}
-.detail-tag{background:var(--bg);border:1px solid var(--border);border-radius:4px;padding:2px 6px;font-size:11px;color:var(--text2)}
-.pay-block{margin-top:12px;padding-top:10px;border-top:1px solid var(--border)}.pay-label{font-size:12px;color:var(--text2);margin-bottom:6px;text-transform:uppercase;letter-spacing:.5px}.pay-btns{display:flex;flex-direction:column;gap:6px}.pay-btn{display:block;padding:10px 14px;border-radius:8px;color:#fff;font-weight:600;font-size:14px;text-decoration:none;text-align:center;transition:opacity .15s}.pay-btn:hover{opacity:.88}
-.detail-flags{margin-top:8px;padding:8px 0}
-.detail-flag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:4px;margin:2px}
-.confidence-bar{width:60px;height:6px;background:var(--bg);border-radius:3px;overflow:hidden;display:inline-block;vertical-align:middle;margin-left:6px}
-.confidence-fill{height:100%;border-radius:3px;transition:width .3s}
-.zone-flags{display:flex;flex-wrap:wrap;gap:4px;margin-top:10px;padding-top:10px;border-top:1px solid var(--border)}
-.flag-tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:4px}
-.unknown-notice{background:rgba(249,115,22,.08);border:1px solid rgba(249,115,22,.3);border-radius:8px;padding:10px 12px;margin-top:10px;font-size:12px;color:var(--text2);line-height:1.5}
-.unknown-notice a{color:var(--accent)}
-.unknown-notice-badge{display:inline-block;font-size:11px;padding:2px 8px;border-radius:4px;margin-top:6px;font-weight:600}
-
-/* Loading / Error */
-.overlay{position:fixed;top:56px;left:0;right:0;bottom:0;background:rgba(12,14,20,.9);display:flex;align-items:center;justify-content:center;z-index:2000;flex-direction:column;gap:12px}
-.overlay-text{font-size:15px;color:var(--text2)}
-.overlay-spinner{width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin 1s linear infinite}
-@keyframes spin{to{transform:rotate(360deg)}}
-.retry-btn{background:var(--accent);color:#fff;border:none;padding:8px 20px;border-radius:8px;font-family:inherit;font-size:13px;cursor:pointer;margin-top:8px}
-.retry-btn:hover{opacity:.9}
-
-/* Coverage panel */
-.coverage-panel{position:fixed;top:68px;right:12px;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px;z-index:1000;min-width:252px;font-size:12px}
-.coverage-panel-title{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px;font-weight:600;display:flex;justify-content:space-between;align-items:center}
-.cov-row{display:flex;align-items:center;gap:8px;cursor:pointer;border-radius:6px;padding:5px 6px;transition:background .15s}
-.cov-row:hover{background:var(--bg)}
-.cov-row.active{border-left:2px solid var(--accent);padding-left:4px}
-.cov-city{width:78px;color:var(--text);font-weight:500;white-space:nowrap}
-.cov-bar-bg{flex:1;height:6px;background:var(--border);border-radius:3px;overflow:hidden}
-.cov-bar-fill{height:100%;border-radius:3px;transition:width .4s}
-.cov-pct{width:38px;text-align:right;font-family:'Space Mono',monospace;font-size:11px}
-.cov-count{width:60px;text-align:right;color:var(--muted);font-size:11px}
-
-/* Toast */
-.toast{position:fixed;top:68px;left:50%;transform:translateX(-50%);background:var(--panel);border:1px solid var(--accent);border-radius:8px;padding:8px 18px;font-size:13px;color:var(--accent);z-index:3000;opacity:0;transition:opacity .3s;pointer-events:none;white-space:nowrap}
-.toast.show{opacity:1}
-
-/* Mobile */
-@media(max-width:768px){
-  .stats{display:none}
-  .search-box{max-width:160px}
-  .osm-toggle span{display:none}
-  .legend{bottom:12px;left:8px;right:8px;max-width:none}
-  .detail-panel{left:0;right:0;width:auto;max-height:50vh}
-  .back-link{display:none}
-  .coverage-panel{right:8px;left:8px;min-width:0;top:auto;bottom:calc(24px + 180px)}
-}
-</style>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/parkmap.css">
 </head>
 <body>
 
-<div class="header">
-  <div class="logo">
-    <div class="logo-icon">P</div>
-    <div class="logo-text">ParkMap <span>SVERIGE</span></div>
-  </div>
-  <div class="city-select-wrap">
-    <select class="city-select" id="city-select">
-      <optgroup label="Norrbotten">
-        <option value="lulea">Luleå</option>
-        <option value="boden">Boden</option>
-        <option value="pitea">Piteå</option>
-        <option value="kalix">Kalix</option>
-        <option value="haparanda">Haparanda</option>
-        <option value="alvsbyn">Älvsbyn</option>
-        <option value="kiruna">Kiruna</option>
-        <option value="gallivare">Gällivare</option>
-      </optgroup>
-      <optgroup label="Västerbotten">
-        <option value="skelleftea">Skellefteå</option>
-        <option value="umea">Umeå</option>
-        <option value="lycksele">Lycksele</option>
-      </optgroup>
-      <optgroup label="Västernorrland">
-        <option value="sundsvall">Sundsvall</option>
-        <option value="harnosand">Härnösand</option>
-        <option value="ornskoldsvik">Örnsköldsvik</option>
-        <option value="kramfors">Kramfors</option>
-      </optgroup>
-      <optgroup label="Jämtland">
-        <option value="ostersund">Östersund</option>
-      </optgroup>
-    </select>
-  </div>
-  <div class="search-box">
-    <input type="text" id="search" placeholder="Sok zon, gata, operator...">
-  </div>
-  <label class="osm-toggle">
-    <input type="checkbox" id="showUnknown" />
-    <span>Visa alla parkeringar</span>
-  </label>
-  <label class="osm-toggle">
-    <input type="checkbox" id="followMap" checked />
-    <span>Följ karta</span>
-  </label>
-  <div class="stats">
-    <div class="stat"><div class="stat-val" id="stat-zones">-</div><div class="stat-label">Kartlagda</div></div>
-    <div class="stat"><div class="stat-val" id="stat-total">-</div><div class="stat-label">Totalt</div></div>
-    <div class="stat"><div class="stat-val" id="stat-spots">-</div><div class="stat-label">Platser</div></div>
-  </div>
-  <a href="/" class="back-link">&larr; maxineplatform.com</a>
-</div>
+<div class="app-shell">
 
-<div id="map"></div>
-
-<div class="legend" id="legend"></div>
-<div class="coverage-panel" id="coverage-panel"></div>
-<div class="toast" id="toast"></div>
-
-<div class="detail-panel" id="detail">
-  <div class="detail-header">
-    <div>
-      <div class="detail-title" id="detail-title"></div>
-      <div class="detail-operator" id="detail-operator"></div>
+  <!-- Desktop header -->
+  <div class="header">
+    <a href="/" class="brand">
+      <div class="brand-icon">P</div>
+      <div class="brand-text"><div class="brand-name">ParkMap</div><div class="brand-sub">SVERIGE</div></div>
+    </a>
+    <div class="searchbar">
+      <button class="city-pill" id="city-pill">Luleå ▾</button>
+      <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="search-input" placeholder="Sök adress, zon eller område">
     </div>
-    <button class="detail-close" id="detail-close">&times;</button>
+    <button class="btn" id="min-position-btn">◎ Min position</button>
+    <div class="header-actions">
+      <div class="menu-wrap">
+        <button class="btn" id="menu-btn">☰ Meny</button>
+        <div class="menu-dropdown" id="menu-dropdown">
+          <a class="menu-item" id="menu-switch-city">Byt stad</a>
+          <a class="menu-item" href="coverage.html">Datatäckning</a>
+          <a class="menu-item" href="about.html">Hur ParkMap fungerar</a>
+          <a class="menu-item" href="report.html">Rapportera fel</a>
+          <div class="menu-sep"></div>
+          <a class="menu-item" href="about.html">Om ParkMap</a>
+          <a class="menu-item" href="../">Maxine Platform</a>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="detail-body" id="detail-body"></div>
+
+  <!-- Mobile header -->
+  <div class="mobile-topbar">
+    <div class="mobile-topbar-row">
+      <a href="/" class="mobile-brand">
+        <div class="brand-icon">P</div>
+        <div class="brand-name">ParkMap</div>
+      </a>
+      <button class="mobile-city-pill" id="mobile-city-pill"><span id="mobile-city-name">Luleå</span> ▾</button>
+      <button class="mobile-menu-btn" id="mobile-menu-btn">☰</button>
+    </div>
+    <div class="mobile-search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="mobile-search-input" placeholder="Sök adress, zon eller område">
+    </div>
+  </div>
+
+  <div class="body-row">
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <div class="sidebar-inner">
+        <div class="city-status-name" id="sb-city-name">Luleå</div>
+        <div class="city-status-line" id="sb-city-line">– av – identifierade parkeringar</div>
+        <div class="city-status-label">Datatäckning</div>
+        <div class="city-status-pct" id="sb-pct">–%</div>
+        <div class="coverage-track"><div class="coverage-fill" id="sb-coverage-fill" style="width:0%"></div></div>
+
+        <div class="quickrow">
+          <button class="quickbtn primary" data-quick="near">↗ Nära mig</button>
+          <button class="quickbtn" data-quick="free">P Gratis parkering</button>
+          <button class="quickbtn" data-quick="cheap">◎ Billigast</button>
+        </div>
+
+        <div id="sb-results-title" class="sidebar-section-title" style="display:none"></div>
+        <div class="results-list" id="sb-results"></div>
+
+        <div class="sidebar-section-title">Filter</div>
+        <div id="sb-filters"></div>
+        <a class="reset-link" id="sb-reset" style="display:none">Återställ filter</a>
+
+        <div class="sidebar-section-title">Operatörer</div>
+        <div id="sb-operators"></div>
+      </div>
+    </div>
+    <button class="sidebar-toggle" id="sidebar-toggle" title="Fäll ihop panel">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#111827" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+
+    <!-- Map -->
+    <div class="map-col">
+      <div id="map"></div>
+      <div class="map-legend" id="map-legend"></div>
+      <button class="near-me-fab" id="near-me-fab" title="Nära mig">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg>
+      </button>
+
+      <div class="parking-card" id="parking-card">
+        <button class="pc-close" id="pc-close">&times;</button>
+        <div class="pc-body" id="pc-body"></div>
+      </div>
+
+      <!-- Mobile filter chips -->
+      <div class="mobile-chips">
+        <div class="chip free" id="chip-free">＋ Gratis</div>
+        <div class="chip" id="chip-near">↗ Nära mig</div>
+        <div class="chip" id="chip-filter">☰ Filter</div>
+      </div>
+
+      <!-- Mobile bottom sheet -->
+      <div class="bottom-sheet" id="bottom-sheet"></div>
+
+      <div class="overlay" id="loading">
+        <div class="overlay-spinner"></div>
+        <div class="overlay-text">Laddar parkeringsdata...</div>
+      </div>
+      <div class="overlay" id="error" style="display:none">
+        <div class="overlay-text" id="error-msg">Kunde inte ladda data</div>
+        <button class="retry-btn" onclick="PM.map.loadCity(PM.state.city)">Försök igen</button>
+      </div>
+      <div class="toast" id="toast"></div>
+    </div>
+  </div>
+
+  <!-- Status bar -->
+  <div class="status-bar">
+    <span id="status-coverage">Datatäckning –%</span>
+    <span id="status-updated">Senast uppdaterad –</span>
+    <span id="status-city-count">– städer</span>
+    <a href="report.html">⚠ Rapportera fel</a>
+  </div>
 </div>
 
-<div class="overlay" id="loading">
-  <div class="overlay-spinner"></div>
-  <div class="overlay-text">Laddar parkeringsdata...</div>
-</div>
-
-<div class="overlay" id="error" style="display:none">
-  <div class="overlay-text" id="error-msg">Kunde inte ladda data</div>
-  <button class="retry-btn" onclick="loadData(currentCity)">Forsok igen</button>
+<!-- City switcher modal -->
+<div class="city-modal-backdrop" id="city-modal-backdrop">
+  <div class="city-modal">
+    <div class="city-modal-search">
+      <input type="text" id="city-modal-search-input" placeholder="Sök stad">
+    </div>
+    <div class="city-modal-list" id="city-modal-list"></div>
+  </div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="assets/analytics.js"></script>
+<script src="assets/config.js"></script>
+<script src="assets/classify.js"></script>
+<script src="assets/filters.js"></script>
+<script src="components/parking-card.js"></script>
+<script src="components/sidebar.js"></script>
+<script src="components/bottom-sheet.js"></script>
+<script src="assets/map.js"></script>
+<script src="assets/parkmap.js"></script>
 <script>
-const CITIES = {
-  lulea:      { name: 'Luleå',       region: 'norrbotten',  center: [65.583, 22.148], zoom: 13 },
-  boden:      { name: 'Boden',       region: 'norrbotten',  center: [65.825, 21.695], zoom: 13 },
-  pitea:      { name: 'Piteå',       region: 'norrbotten',  center: [65.317, 21.500], zoom: 13 },
-  skelleftea: { name: 'Skellefteå',  region: 'vasterbotten',center: [64.750, 20.950], zoom: 13 },
-  kalix:      { name: 'Kalix',       region: 'norrbotten',  center: [65.853, 23.163], zoom: 13 },
-  haparanda:  { name: 'Haparanda',   region: 'norrbotten',  center: [65.835, 24.136], zoom: 13 },
-  alvsbyn:    { name: 'Älvsbyn',     region: 'norrbotten',  center: [65.677, 21.000], zoom: 14 },
-  kiruna:     { name: 'Kiruna',      region: 'norrbotten',  center: [67.855, 20.225], zoom: 13 },
-  gallivare:  { name: 'Gällivare',   region: 'norrbotten',   center: [67.134, 20.652], zoom: 13 },
-  umea:       { name: 'Umeå',        region: 'vasterbotten', center: [63.825, 20.263], zoom: 13 },
-  sundsvall:  { name: 'Sundsvall',   region: 'vasternorrland', center: [62.390, 17.307], zoom: 13 },
-  ostersund:  { name: 'Östersund',   region: 'jamtland',     center: [63.177, 14.636], zoom: 13 },
-  harnosand:  { name: 'Härnösand',   region: 'vasternorrland', center: [62.634, 17.938], zoom: 14 },
-  ornskoldsvik: { name: 'Örnsköldsvik', region: 'vasternorrland', center: [63.291, 18.716], zoom: 13 },
-  kramfors:   { name: 'Kramfors',     region: 'vasternorrland', center: [62.932, 17.793], zoom: 14 },
-  lycksele:   { name: 'Lycksele',     region: 'vasterbotten',   center: [64.594, 18.674], zoom: 14 },
-};
-
-// Municipality bounding boxes (used for auto-switch + bbox overlays)
-const CITY_BOUNDS = {
-  lulea:      { latMin: 65.54, latMax: 65.64, lngMin: 21.98, lngMax: 22.32 },
-  boden:      { latMin: 65.74, latMax: 65.87, lngMin: 21.62, lngMax: 21.78 },
-  pitea:      { latMin: 65.28, latMax: 65.36, lngMin: 21.40, lngMax: 21.60 },
-  skelleftea: { latMin: 64.71, latMax: 64.80, lngMin: 20.87, lngMax: 21.03 },
-  kalix:      { latMin: 65.82, latMax: 65.89, lngMin: 23.08, lngMax: 23.25 },
-  haparanda:  { latMin: 65.80, latMax: 65.87, lngMin: 24.05, lngMax: 24.22 },
-  alvsbyn:    { latMin: 65.64, latMax: 65.72, lngMin: 20.90, lngMax: 21.10 },
-  kiruna:     { latMin: 67.82, latMax: 67.90, lngMin: 20.12, lngMax: 20.35 },
-  gallivare:  { latMin: 67.10, latMax: 67.18, lngMin: 20.57, lngMax: 20.76 },
-  umea:       { latMin: 63.77, latMax: 63.88, lngMin: 20.17, lngMax: 20.40 },
-  sundsvall:  { latMin: 62.34, latMax: 62.45, lngMin: 17.23, lngMax: 17.40 },
-  ostersund:  { latMin: 63.13, latMax: 63.22, lngMin: 14.55, lngMax: 14.73 },
-  harnosand:  { latMin: 62.60, latMax: 62.66, lngMin: 17.88, lngMax: 18.00 },
-  ornskoldsvik: { latMin: 63.25, latMax: 63.33, lngMin: 18.65, lngMax: 18.80 },
-  kramfors:   { latMin: 62.90, latMax: 62.96, lngMin: 17.75, lngMax: 17.84 },
-  lycksele:   { latMin: 64.57, latMax: 64.62, lngMin: 18.63, lngMax: 18.72 },
-};
-
-// Coverage stats — updated by sync_to_parkmap.py after each pipeline run
-const COVERAGE = {
-  lulea       : { total:  693, known:  656, pct:  94.7 },
-  boden       : { total:  153, known:  128, pct:  83.7 },
-  pitea       : { total:  226, known:  101, pct:  44.7 },
-  skelleftea  : { total:  476, known:  339, pct:  71.2 },
-  kalix       : { total:  352, known:  203, pct:  57.7 },
-  haparanda   : { total:   56, known:   21, pct:  37.5 },
-  alvsbyn     : { total:   29, known:   11, pct:  37.9 },
-  kiruna      : { total:  302, known:  189, pct:  62.6 },
-  gallivare   : { total:  256, known:  186, pct:  72.7 },
-  umea        : { total: 1398, known:  558, pct:  39.9 },
-  sundsvall   : { total: 1477, known:  447, pct:  30.3 },
-  ostersund   : { total:  784, known:  290, pct:  37.0 },
-  harnosand   : { total:  240, known:  145, pct:  60.4 },
-  ornskoldsvik: { total:  211, known:   93, pct:  44.1 },
-  kramfors    : { total:  180, known:  119, pct:  66.1 },
-  lycksele    : { total:   63, known:   18, pct:  28.6 },
-};
-
-// Default operators for cities without an operators.json
-const DEFAULT_OPS = {
-  kommun:          { name: 'Kommunen',         color: '#4a9eff', payment_apps: [] },
-  aimopark:        { name: 'Aimo Park',        color: '#f43f5e', payment_apps: ['EasyPark', 'Aimo'] },
-  apcoa:           { name: 'APCOA',            color: '#a855f7', payment_apps: ['EasyPark', 'APCOA Flow'] },
-  lulebo:          { name: 'Lulebo',           color: '#f59e0b', payment_apps: [] },
-  swedavia:        { name: 'Swedavia',         color: '#6366f1', payment_apps: [] },
-  private_property:{ name: 'Privat',           color: '#6b7280', payment_apps: [] },
-  free_parking:    { name: 'Gratis',           color: '#34d399', payment_apps: [] },
-  unknown:         { name: 'Okänd',            color: '#f97316', payment_apps: [] },
-};
-
-const PAY_APPS = {
-  'EasyPark':     { url: 'https://easypark.net/?utm_source=parkmap&ref=parkmap', color: '#0a8a3f' },
-  'Aimo':         { url: 'https://aimopark.se/sv/hitta-parkering/?utm_source=parkmap&ref=parkmap', color: '#f43f5e' },
-  'APCOA Flow':   { url: 'https://www.apcoaflow.se/?utm_source=parkmap&ref=parkmap', color: '#a855f7' },
-  'Parkster':     { url: 'https://parkster.com/sv-se?utm_source=parkmap&ref=parkmap', color: '#1d4ed8' },
-  'Mobill':       { url: 'https://mobill.se/?utm_source=parkmap&ref=parkmap', color: '#0ea5e9' },
-};
-function payButtonsHtml(op, zoneCode){
-  const apps = (op && op.payment_apps) || [];
-  if(!apps.length) return '';
-  const btns = apps.map(a => {
-    const cfg = PAY_APPS[a]; if(!cfg) return '';
-    const z = zoneCode ? (' · zon ' + zoneCode) : '';
-    return '<a class="pay-btn" href="' + cfg.url + '" target="_blank" rel="noopener" style="background:' + cfg.color + '">Betala med ' + a + z + '</a>';
-  }).join('');
-  return btns ? '<div class="pay-block"><div class="pay-label">Betala parkering</div><div class="pay-btns">' + btns + '</div></div>' : '';
-}
-
-const map = L.map('map', {zoomControl: true}).setView([65.583, 22.148], 13);
-window.map = map; window.L = L;
-
-const baseLight = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
-  subdomains: 'abcd', maxZoom: 19
+document.getElementById('menu-switch-city').addEventListener('click', (e) => {
+  e.preventDefault();
+  document.getElementById('menu-dropdown').classList.remove('open');
+  document.getElementById('city-pill').click();
 });
-const baseDark = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
-  subdomains: 'abcd', maxZoom: 19
-});
-baseLight.addTo(map);
-L.control.layers({"Ljus": baseLight, "Mork": baseDark}, null, {position: 'topright'}).addTo(map);
-
-let geoData = null;
-let opsData = null;
-let geoLayer = null;
-let bboxLayer = null;
-let activeFilters = new Set();
-let searchTerm = '';
-let showUnknown = false;
-let unknownMode = false;  // true = show ONLY unknowns, dim all others
-let currentCity = 'lulea';
-let followMap = true;       // auto-switch city when map pans
-let autoSwitching = false;  // guard against recursive moveend loops
-
-async function loadData(city) {
-  city = city || currentCity;
-  currentCity = city;
-  const cfg = CITIES[city];
-  if (!cfg) return;
-
-  document.getElementById('loading').style.display = 'flex';
-  document.getElementById('error').style.display = 'none';
-  activeFilters.clear();
-  unknownMode = false;
-  showUnknown = false;
-  document.getElementById('showUnknown').checked = false;
-  searchTerm = '';
-  document.getElementById('search').value = '';
-
-  try {
-    const geoRes = await fetch(`../data/regions/${cfg.region}/${city}.geojson`);
-    if (!geoRes.ok) throw new Error('HTTP ' + geoRes.status);
-    geoData = await geoRes.json();
-
-    // Try to load operators file; fall back to defaults if missing
-    try {
-      const opsRes = await fetch(`../data/operators/${city}-operators.json`);
-      opsData = opsRes.ok ? await opsRes.json() : DEFAULT_OPS;
-    } catch(e) {
-      opsData = DEFAULT_OPS;
-    }
-    // Always ensure defaults for any operator not in opsData
-    Object.assign(opsData, Object.fromEntries(
-      Object.entries(DEFAULT_OPS).filter(([k]) => !opsData[k])
-    ));
-
-    map.setView(cfg.center, cfg.zoom);
-    document.title = `ParkMap Sverige - ${cfg.name}`;
-    render();
-    renderBboxOverlays();
-    document.getElementById('loading').style.display = 'none';
-  } catch (e) {
-    document.getElementById('loading').style.display = 'none';
-    document.getElementById('error-msg').textContent = 'Kunde inte ladda data: ' + e.message;
-    document.getElementById('error').style.display = 'flex';
-  }
-}
-
-function render() {
-  if (geoLayer) map.removeLayer(geoLayer);
-
-  // When unknownMode is active, ONLY show unknowns (skip activeFilters logic for known)
-  const features = geoData.features.filter(f => {
-    const p = f.properties;
-    const isUnknown = p.operator === 'unknown';
-
-    if (unknownMode) {
-      // In unknownMode, only show unknown zones
-      return isUnknown;
-    }
-
-    // Hide unknown operators unless toggle is on
-    if (isUnknown && !showUnknown) return false;
-    if (activeFilters.size > 0 && !activeFilters.has(p.operator)) return false;
-    if (searchTerm) {
-      const s = searchTerm.toLowerCase();
-      const haystack = [p.name, p.operator, p.zone_code, p.restrictions].filter(Boolean).join(' ').toLowerCase();
-      if (!haystack.includes(s)) return false;
-    }
-    return true;
-  });
-
-  geoLayer = L.geoJSON({type: 'FeatureCollection', features}, {
-    style: styleForZone,
-    pointToLayer: (f, latlng) => {
-      const op = f.properties.operator;
-      const isUnknown = op === 'unknown';
-      const color = isUnknown ? '#f97316' : (opsData[op]?.color || '#6b7280');
-      const conf = f.properties.confidence || 0.5;
-      return L.circleMarker(latlng, {
-        radius: isUnknown ? 6 : 7,
-        color: color,
-        fillColor: color,
-        fillOpacity: isUnknown ? 0.35 : (conf > 0.7 ? 0.65 : 0.35),
-        weight: isUnknown ? 2 : 2.5,
-        dashArray: isUnknown ? '6, 4' : (conf < 0.7 ? '5, 8' : null)
-      });
-    },
-    onEachFeature: (f, layer) => {
-      layer.on('click', () => showDetail(f.properties));
-      layer.on('mouseover', () => layer.setStyle({fillOpacity: 0.75, weight: 3.5, opacity: 1}));
-      layer.on('mouseout', () => geoLayer.resetStyle(layer));
-    }
-  }).addTo(map);
-
-  updateStats(features);
-  renderLegend();
-  renderCoveragePanel();
-}
-
-function styleForZone(feature) {
-  const props = feature.properties;
-  const opKey = props.operator;
-  const isUnknown = opKey === 'unknown';
-  const color = isUnknown ? '#f97316' : (opsData[opKey]?.color || '#6b7280');
-  const conf = props.confidence || 0.5;
-  const flags = props.flags || [];
-
-  if (isUnknown) {
-    if (unknownMode) {
-      // Prominent orange in unknownMode
-      return {
-        fillColor: '#f97316',
-        fillOpacity: 0.55,
-        color: '#f97316',
-        weight: 3,
-        opacity: 1,
-        dashArray: '6,4',
-      };
-    }
-    // showUnknown but not unknownMode — visually prominent but not dominant
-    return {
-      fillColor: '#f97316',
-      fillOpacity: 0.40,
-      color: '#f97316',
-      weight: 2,
-      opacity: 0.85,
-      dashArray: '6,4',
-    };
-  }
-
-  // Known operator zone
-  const style = {
-    fillColor: color,
-    fillOpacity: conf < 0.7 ? 0.12 : 0.50,
-    color: color,
-    weight: 2.5,
-    opacity: 0.85,
-    dashArray: conf < 0.7 ? '5, 8' : null,
-  };
-
-  if (flags.includes('needs_review')) {
-    style.dashArray = '3, 6';
-    style.weight = 1.5;
-  }
-
-  return style;
-}
-
-function updateStats(features) {
-  const known = geoData.features.filter(f => f.properties.operator !== 'unknown');
-  const total = geoData.features.length;
-
-  document.getElementById('stat-zones').textContent = known.length;
-  document.getElementById('stat-total').textContent = total;
-  const spots = features.reduce((a, f) => a + (f.properties.spots || 0), 0);
-  document.getElementById('stat-spots').textContent = spots || '-';
-}
-
-function renderLegend() {
-  const counts = {};
-  let highConf = 0;
-  let reviewCount = 0;
-
-  geoData.features.forEach(f => {
-    const op = f.properties.operator;
-    counts[op] = (counts[op] || 0) + 1;
-    if ((f.properties.confidence || 0) > 0.7) highConf++;
-    if (f.properties.flags && f.properties.flags.includes('needs_review')) reviewCount++;
-  });
-
-  const knownTotal = geoData.features.filter(f => f.properties.operator !== 'unknown').length;
-  const total = geoData.features.length;
-  const unknownCount = counts['unknown'] || 0;
-  const coveragePct = total > 0 ? (knownTotal / total * 100).toFixed(1) : '0.0';
-
-  const legend = document.getElementById('legend');
-
-  // Build the major operators list for pills (only those with count > 0, skip unknown)
-  const opKeys = Object.entries(opsData)
-    .filter(([key]) => key !== 'unknown' && (counts[key] || 0) > 0)
-    .map(([key, info]) => ({ key, info, count: counts[key] }));
-
-  // --- Build HTML ---
-  let html = '';
-
-  // Coverage bar
-  html += `
-    <div class="coverage-bar">
-      <div style="display:flex;justify-content:space-between;font-size:11px;margin-bottom:4px">
-        <span style="color:var(--muted)">TACKNING</span>
-        <span style="font-family:'Space Mono',monospace;color:var(--green)">${coveragePct}%</span>
-      </div>
-      <div style="height:4px;background:var(--border);border-radius:2px">
-        <div style="height:100%;width:${coveragePct}%;background:var(--green);border-radius:2px"></div>
-      </div>
-    </div>
-  `;
-
-  html += '<div class="legend-title">Operatorer</div>';
-
-  // Filter pills
-  html += '<div class="filter-pills" id="filter-pills">';
-  // "Alla" pill
-  const allaActive = activeFilters.size === 0 && !unknownMode;
-  html += `<span class="filter-pill${allaActive ? ' active' : ''}" data-pill="alla" style="${allaActive ? 'background:var(--accent);color:#fff;border-color:var(--accent)' : ''}">Alla</span>`;
-  // "Okanda" pill
-  const okandaActive = unknownMode;
-  html += `<span class="filter-pill${okandaActive ? ' active' : ''}" data-pill="okanda" style="${okandaActive ? 'background:#f97316;color:#fff;border-color:#f97316' : 'color:#f97316;border-color:#f97316'}">Okanda</span>`;
-  // Per-operator pills
-  opKeys.forEach(({ key, info, count }) => {
-    const isActive = activeFilters.has(key);
-    html += `<span class="filter-pill${isActive ? ' active' : ''}" data-pill="${key}" style="${isActive ? `background:${info.color};color:#fff;border-color:${info.color}` : ''}">${info.name}</span>`;
-  });
-  html += '</div>';
-
-  // Operator list items (known only)
-  legend.innerHTML = html;
-
-  // Add known operator list items as DOM nodes (so we can attach events)
-  const legendEl = document.getElementById('legend');
-
-  opKeys.forEach(({ key, info, count }) => {
-    const dimmed = activeFilters.size > 0 && !activeFilters.has(key);
-    const item = document.createElement('div');
-    item.className = 'legend-item' + (dimmed ? ' dimmed' : '');
-    item.innerHTML = `<div class="legend-dot" style="background:${info.color}"></div><div class="legend-name">${info.name}</div><div class="legend-count">${count}</div>`;
-    item.onclick = () => {
-      unknownMode = false;
-      if (activeFilters.has(key)) activeFilters.delete(key);
-      else activeFilters.add(key);
-      render();
-    };
-    legendEl.appendChild(item);
-  });
-
-  // Unknown zones section
-  if (unknownCount > 0) {
-    const unknownSec = document.createElement('div');
-    unknownSec.className = 'unknown-section';
-    unknownSec.innerHTML = `
-      <div class="unknown-section-header">
-        <div>
-          <span class="unknown-section-title">OKANDA ZONER</span>
-          <span class="unknown-count" style="margin-left:6px">[${unknownCount}]</span>
-        </div>
-      </div>
-    `;
-    const visaBtn = document.createElement('button');
-    visaBtn.className = 'visa-okanda-btn' + (unknownMode ? ' active' : '');
-    visaBtn.textContent = unknownMode ? 'Dold okanda' : 'Visa okanda';
-    visaBtn.onclick = () => {
-      unknownMode = !unknownMode;
-      if (unknownMode) {
-        showUnknown = true;
-        activeFilters.clear();
-        document.getElementById('showUnknown').checked = true;
-      }
-      render();
-    };
-    unknownSec.appendChild(visaBtn);
-    legendEl.appendChild(unknownSec);
-  }
-
-  // Clear filter option (only shown when known operator filters are active)
-  if (activeFilters.size > 0) {
-    const clear = document.createElement('div');
-    clear.className = 'legend-item';
-    clear.style.marginTop = '6px';
-    clear.innerHTML = '<div class="legend-dot" style="background:var(--muted)"></div><div class="legend-name" style="color:var(--accent)">Visa alla</div>';
-    clear.onclick = () => { activeFilters.clear(); unknownMode = false; render(); };
-    legendEl.appendChild(clear);
-  }
-
-  // Data quality section
-  const qualSection = document.createElement('div');
-  qualSection.className = 'legend-section';
-  qualSection.innerHTML = `
-    <div class="legend-section-title">DATAKVALITET</div>
-    <div class="quality-stat">
-      <span>Hog konfidens (&gt;70%)</span>
-      <span>${highConf}</span>
-    </div>
-    <div class="quality-stat">
-      <span>Behover granskning</span>
-      <span>${reviewCount}</span>
-    </div>
-    <div class="quality-stat">
-      <span>OSM-polygoner</span>
-      <span>${geoData.features.filter(f => f.properties.osm_id || (f.properties.flags||[]).includes('osm_imported')).length}</span>
-    </div>
-  `;
-  legendEl.appendChild(qualSection);
-
-  // Wire up pill clicks
-  legendEl.querySelectorAll('[data-pill]').forEach(pill => {
-    pill.addEventListener('click', () => {
-      const key = pill.dataset.pill;
-      if (key === 'alla') {
-        activeFilters.clear();
-        unknownMode = false;
-        showUnknown = false;
-        document.getElementById('showUnknown').checked = false;
-      } else if (key === 'okanda') {
-        unknownMode = !unknownMode;
-        if (unknownMode) {
-          showUnknown = true;
-          activeFilters.clear();
-          document.getElementById('showUnknown').checked = true;
-        }
-      } else {
-        unknownMode = false;
-        if (activeFilters.has(key)) activeFilters.delete(key);
-        else activeFilters.add(key);
-      }
-      render();
-    });
-  });
-}
-
-function showDetail(p) {
-  const panel = document.getElementById('detail');
-  const op = opsData[p.operator];
-  const opName = op?.name || p.operator;
-  const opColor = (p.operator === 'unknown') ? '#f97316' : (op?.color || '#888');
-  const isUnknown = p.operator === 'unknown';
-
-  document.getElementById('detail-title').textContent = p.name || 'Zon';
-  document.getElementById('detail-operator').innerHTML =
-    `<div class="legend-dot" style="background:${opColor}"></div> ${opName}`;
-  document.getElementById('detail-operator').insertAdjacentHTML('afterend', payButtonsHtml(op, p.zone_code));
-
-  const rows = [];
-  const add = (label, value) => { if (value != null && value !== '') rows.push(`<div class="detail-row"><div class="detail-label">${label}</div><div class="detail-value">${value}</div></div>`); };
-
-  add('Typ', typeLabel(p.type));
-  add('Platser', p.spots);
-  add('Pris/timme', p.price_per_hour != null ? p.price_per_hour + ' ' + (p.currency || 'SEK') : null);
-  add('Zonkod', p.zone_code);
-  add('Oppettider', p.hours);
-  add('Restriktioner', p.restrictions);
-  add('Kontakt', p.contact);
-
-  if (p.source_url) {
-    try {
-      add('Kalla', `<a href="${p.source_url}" target="_blank" rel="noopener">${new URL(p.source_url).hostname}</a>`);
-    } catch(e) {
-      add('Kalla', `<a href="${p.source_url}" target="_blank" rel="noopener">Lank</a>`);
-    }
-  }
-
-  // OSM metadata
-  if (p.osm_id) {
-    const osmType = p.osm_type || 'way';
-    add('OSM ID', `<a href="https://www.openstreetmap.org/${osmType}/${p.osm_id}" target="_blank" rel="noopener">${p.osm_id}</a>`);
-  }
-  if (p.osm_operator) {
-    add('OSM operator', p.osm_operator);
-  }
-  if (p.osm_fee) {
-    add('Avgift (OSM)', p.osm_fee);
-  }
-  if (p.osm_surface) {
-    add('Yta', p.osm_surface);
-  }
-
-  // Coordinates for unknown zones
-  if (isUnknown && p.lat != null && p.lon != null) {
-    add('Koordinater', `${parseFloat(p.lat).toFixed(5)}, ${parseFloat(p.lon).toFixed(5)}`);
-  }
-
-  // Payment apps
-  if (op?.payment_apps?.length) {
-    const tags = op.payment_apps.map(a => `<span class="detail-tag">${a}</span>`).join('');
-    add('Betalning', `<div class="detail-tags">${tags}</div>`);
-  }
-
-  // Confidence bar
-  if (p.confidence != null) {
-    const pct = Math.round(p.confidence * 100);
-    const barColor = pct > 70 ? '#34d399' : pct > 40 ? '#fbbf24' : '#f87171';
-    add('Konfidens', `${pct}% <div class="confidence-bar"><div class="confidence-fill" style="width:${pct}%;background:${barColor}"></div></div>`);
-  }
-
-  add('Verifierad', p.last_verified);
-
-  // Flags with color coding
-  let flagsHtml = '';
-  const flags = p.flags || [];
-  if (flags.length > 0) {
-    flagsHtml = '<div class="zone-flags">';
-    const flagColors = {
-      'needs_review': '#fbbf24',
-      'in_water_area': '#f87171',
-      'price_changed': '#a855f7',
-      'new_zone': '#34d399',
-      'low_confidence': '#f97316',
-      'outside_city_bounds': '#f87171',
-      'too_small': '#f97316',
-      'too_large': '#f97316',
-      'missing_coordinates': '#ef4444',
-      'owner_changed': '#a855f7',
-      'zone_removed': '#ef4444',
-      'scrape_error': '#ef4444',
-      'unknown_operator': '#6b7280',
-      'osm_imported': '#4a9eff',
-      'osm_upgraded': '#34d399',
-      'no_osm_match': '#fbbf24',
-    };
-    flags.forEach(flag => {
-      const color = flagColors[flag] || '#6b7280';
-      flagsHtml += `<span class="flag-tag" style="background:${color}20; color:${color}; border:1px solid ${color}40">${flag.replace(/_/g, ' ')}</span>`;
-    });
-    flagsHtml += '</div>';
-  }
-
-  // Unknown operator notice
-  let noticeHtml = '';
-  if (isUnknown) {
-    // Special classification badges
-    let badgesHtml = '';
-    if (p.fee_confirmed_unknown) {
-      badgesHtml += `<div class="unknown-notice-badge" style="background:rgba(249,115,22,.15);color:#f97316;border:1px solid rgba(249,115,22,.4)">Bekraftad betalparkering &mdash; operator okand</div>`;
-    }
-    if (p.rural_free_heuristic) {
-      badgesHtml += `<div class="unknown-notice-badge" style="background:rgba(52,211,153,.1);color:#34d399;border:1px solid rgba(52,211,153,.3)">Landsbygdsparkering (klassificerad automatiskt)</div>`;
-    }
-
-    // OSM link in notice (if not already shown above as a row)
-    let osmNoticeLink = '';
-    if (p.osm_id) {
-      const osmType = p.osm_type || 'way';
-      osmNoticeLink = ` &mdash; <a href="https://www.openstreetmap.org/${osmType}/${p.osm_id}" target="_blank" rel="noopener">OSM ${p.osm_id}</a>`;
-    }
-
-    // Coords in notice (if not already shown above)
-    let coordsLine = '';
-    if (p.lat != null && p.lon != null) {
-      coordsLine = `<br><span style="color:var(--muted);font-size:11px">${parseFloat(p.lat).toFixed(5)}, ${parseFloat(p.lon).toFixed(5)}</span>`;
-    }
-
-    noticeHtml = `<div class="unknown-notice">
-      <strong>Okand operator</strong>${osmNoticeLink} &mdash; Denna parkering hittades via OpenStreetMap men vi vet inte vem som driver den.${coordsLine}
-      ${badgesHtml ? '<div style="margin-top:6px">' + badgesHtml + '</div>' : ''}
-      <div style="margin-top:8px">Vet du? <a href="mailto:parkmap@maxineplatform.com?subject=Operator for ${encodeURIComponent(p.name || p.id)}&body=Parkering: ${encodeURIComponent(p.name || p.id)}%0AOperator: ">Tipsa oss!</a></div>
-    </div>`;
-  }
-
-  const reportHtml = '<div style="margin-top:14px;padding-top:10px;border-top:1px solid var(--border)"><a href="#" onclick="reportZoneError(' + JSON.stringify(p.name||'') + ');return false" style="font-size:12px;color:var(--text2);text-decoration:underline">⚠ Rapportera fel i denna zon</a></div>';
-  document.getElementById('detail-body').innerHTML = rows.join('') + flagsHtml + noticeHtml + reportHtml;
-  panel.classList.add('open');
-}
-
-function typeLabel(t) {
-  const labels = {garage:'Garage',outdoor:'Utomhus',underground:'Underjordisk',street:'Gatuparkering',lot:'Parkeringsplats'};
-  return labels[t] || t;
-}
-
-// -- Toast notification -----------------------------------------------
-function showToast(msg) {
-  const el = document.getElementById('toast');
-  el.textContent = msg;
-  el.classList.add('show');
-  clearTimeout(el._timer);
-  el._timer = setTimeout(() => el.classList.remove('show'), 2200);
-}
-
-// -- Coverage summary panel -------------------------------------------
-function covColor(pct) {
-  return pct >= 90 ? '#34d399' : pct >= 70 ? '#fbbf24' : pct >= 50 ? '#f97316' : '#f87171';
-}
-
-function renderCoveragePanel() {
-  const panel = document.getElementById('coverage-panel');
-  let html = `<div class="coverage-panel-title">
-    <span>TÄCKNING PER KOMMUN</span>
-  </div>`;
-  for (const [key, cfg] of Object.entries(CITIES)) {
-    const c = COVERAGE[key];
-    const color = covColor(c.pct);
-    const isActive = key === currentCity;
-    html += `<div class="cov-row${isActive ? ' active' : ''}" onclick="switchCity('${key}')">
-      <div class="cov-city">${cfg.name}</div>
-      <div class="cov-bar-bg"><div class="cov-bar-fill" style="width:${c.pct}%;background:${color}"></div></div>
-      <div class="cov-pct" style="color:${color}">${c.pct}%</div>
-      <div class="cov-count">${c.total}&nbsp;zoner</div>
-    </div>`;
-  }
-  panel.innerHTML = html;
-}
-
-// Helper: switch city from panel click or bbox click (updates dropdown + loads)
-function switchCity(key) {
-  if (key === currentCity) return;
-  document.getElementById('detail').classList.remove('open');
-  document.getElementById('city-select').value = key;
-  loadData(key);
-}
-
-// -- Municipality bbox overlays (visible when zoomed out) -------------
-function renderBboxOverlays() {
-  if (bboxLayer) { map.removeLayer(bboxLayer); bboxLayer = null; }
-  if (map.getZoom() >= 11) return;  // only show when zoomed out
-
-  bboxLayer = L.layerGroup();
-  for (const [key, bb] of Object.entries(CITY_BOUNDS)) {
-    const c = COVERAGE[key];
-    const color = covColor(c.pct);
-    const isActive = key === currentCity;
-    const bounds = [[bb.latMin, bb.lngMin], [bb.latMax, bb.lngMax]];
-
-    const rect = L.rectangle(bounds, {
-      color: color,
-      weight: isActive ? 2.5 : 1.5,
-      fillColor: color,
-      fillOpacity: isActive ? 0.18 : 0.10,
-      dashArray: isActive ? null : '5,5',
-    });
-
-    const centerLat = (bb.latMin + bb.latMax) / 2;
-    const centerLng = (bb.lngMin + bb.lngMax) / 2;
-    const label = L.marker([centerLat, centerLng], {
-      icon: L.divIcon({
-        className: '',
-        html: `<div style="
-          background:${color}dd;color:#0c0e14;
-          padding:3px 10px;border-radius:5px;
-          font-size:12px;font-weight:700;
-          white-space:nowrap;text-align:center;
-          font-family:'DM Sans',sans-serif;
-          box-shadow:0 2px 6px rgba(0,0,0,.4)
-        ">${CITIES[key].name}<br><span style="font-size:11px;font-weight:400">${c.pct}% · ${c.total} zoner</span></div>`,
-        iconSize: [100, 38],
-        iconAnchor: [50, 19],
-      }),
-      interactive: true,
-    });
-
-    rect.on('click', () => switchCity(key));
-    label.on('click', () => switchCity(key));
-    bboxLayer.addLayer(rect);
-    bboxLayer.addLayer(label);
-  }
-  bboxLayer.addTo(map);
-}
-
-// -- Auto-switch: detect municipality from map center -----------------
-function detectCityFromCenter() {
-  const c = map.getCenter();
-  for (const [key, bb] of Object.entries(CITY_BOUNDS)) {
-    if (c.lat >= bb.latMin && c.lat <= bb.latMax &&
-        c.lng >= bb.lngMin && c.lng <= bb.lngMax) return key;
-  }
-  return null;
-}
-
-map.on('moveend', () => {
-  renderBboxOverlays();  // refresh bbox highlight on every move
-  if (!followMap || autoSwitching) return;
-  const detected = detectCityFromCenter();
-  if (detected && detected !== currentCity) {
-    autoSwitching = true;
-    document.getElementById('city-select').value = detected;
-    showToast(`Visar ${CITIES[detected].name}`);
-    loadData(detected).finally(() => { autoSwitching = false; });
-  }
-});
-
-document.getElementById('followMap').addEventListener('change', e => {
-  followMap = e.target.checked;
-});
-
-document.getElementById('detail-close').onclick = () => {
-  document.getElementById('detail').classList.remove('open');
-};
-
-document.getElementById('search').addEventListener('input', e => {
-  searchTerm = e.target.value;
-  render();
-});
-
-document.getElementById('showUnknown').addEventListener('change', e => {
-  showUnknown = e.target.checked;
-  if (!showUnknown) unknownMode = false;
-  render();
-});
-
-map.on('click', () => document.getElementById('detail').classList.remove('open'));
-
-document.getElementById('city-select').addEventListener('change', e => {
-  document.getElementById('detail').classList.remove('open');
-  loadData(e.target.value);
-});
-
-// Read city from URL hash if present (e.g. parkmap/#boden)
-const hashCity = location.hash.replace('#', '').toLowerCase();
-if (hashCity && CITIES[hashCity]) {
-  document.getElementById('city-select').value = hashCity;
-  loadData(hashCity);
-} else {
-  loadData('lulea');
-}
-</script>
-<script>
-// PWA service worker
-if ('serviceWorker' in navigator) { navigator.serviceWorker.register('sw.js').catch(()=>{}); }
-// GPS: nära mig — centrera kartan och hitta närmaste zoner
-(function(){
-  const btn = document.createElement('button');
-  btn.id = 'near-me'; btn.title = 'Nara mig'; btn.textContent = '◉ Nara mig';
-  btn.style.cssText = 'position:fixed;right:16px;bottom:20px;z-index:1000;background:#4a9eff;color:#fff;border:none;border-radius:24px;padding:12px 18px;font-weight:600;font-size:14px;box-shadow:0 4px 12px rgba(0,0,0,.3);cursor:pointer';
-  btn.onclick = function(){
-    if(!navigator.geolocation){ alert('GPS stods ej'); return; }
-    btn.textContent = '… Soker'; 
-    navigator.geolocation.getCurrentPosition(function(pos){
-      const lat=pos.coords.latitude, lng=pos.coords.longitude;
-      if(window.map && window.map.setView){ window.map.setView([lat,lng], 16); 
-        if(window.L){ L.circleMarker([lat,lng],{radius:8,color:'#4a9eff',fillColor:'#4a9eff',fillOpacity:.9}).addTo(window.map).bindPopup('Du ar har'); } }
-      btn.textContent = '◉ Nara mig';
-    }, function(){ btn.textContent='◉ Nara mig'; alert('Kunde inte hamta position'); }, {enableHighAccuracy:true, timeout:10000});
-  };
-  document.body.appendChild(btn);
-})();
-// Rapportera fel-knapp i detaljpanelen (crowdsourcad datafarskhet)
-window.reportZoneError = function(zoneName){
-  const subject = encodeURIComponent('Parkmap felrapport: ' + (zoneName||'zon'));
-  const body = encodeURIComponent('Zon: ' + (zoneName||'') + '
-Vad ar fel (pris/tider/zon/operator/borttagen)?
-
-Din beskrivning: ');
-  window.open('mailto:noreply@maxineplatform.com?subject=' + subject + '&body=' + body, '_blank');
+// Keep status bar + sidebar in sync after each city load
+const _origOnCityLoaded = PM.ui.onCityLoaded;
+PM.ui.onCityLoaded = function() {
+  _origOnCityLoaded();
+  const cov = PM.map.cityCoverage(PM.state.city);
+  document.getElementById('status-coverage').textContent = 'Datatäckning ' + cov.pct + '%';
+  document.getElementById('status-city-count').textContent = Object.keys(PM.CITIES).length + ' städer';
+  const summary = PM.state.coverageSummary;
+  document.getElementById('status-updated').textContent = 'Senast uppdaterad ' +
+    (summary?.generated_at ? summary.generated_at.slice(0, 10) : '–');
 };
 </script>
 </body>
